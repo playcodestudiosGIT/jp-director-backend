@@ -7,7 +7,7 @@ cloudinary.config( process.env.CLOUDINARY_URL );
 const { response } = require('express');
 const { subirArchivo } = require('../helpers');
 
-const { Usuario, Producto } = require('../models');
+const { Usuario, Baner } = require('../models');
 
 
 const cargarArchivo = async(req, res = response) => {
@@ -44,8 +44,8 @@ const actualizarImagen = async(req, res = response ) => {
         
         break;
 
-        case 'productos':
-            modelo = await Producto.findById(id);
+        case 'baners':
+            modelo = await Baner.findById(id);
             if ( !modelo ) {
                 return res.status(400).json({
                     msg: `No existe un producto con el id ${ id }`
@@ -69,8 +69,8 @@ const actualizarImagen = async(req, res = response ) => {
     }
 
 
-    const nombre = await subirArchivo( req.files, undefined, coleccion );
-    modelo.img = nombre;
+    const imgUrl = await subirArchivo( req.files, undefined, coleccion );
+    modelo.img = imgUrl;
 
     await modelo.save();
 
@@ -79,9 +79,9 @@ const actualizarImagen = async(req, res = response ) => {
 
 }
 
-
-const actualizarImagenCloudinary = async(req, res = response ) => {
-
+/// USANDO ESte
+const actualizarImagenCloudinary = async (req, res = response) => {
+    
     const { id, coleccion } = req.params;
 
     let modelo;
@@ -97,8 +97,8 @@ const actualizarImagenCloudinary = async(req, res = response ) => {
         
         break;
 
-        case 'productos':
-            modelo = await Producto.findById(id);
+        case 'baners':
+            modelo = await Baner.findById(id);
             if ( !modelo ) {
                 return res.status(400).json({
                     msg: `No existe un producto con el id ${ id }`
@@ -110,7 +110,6 @@ const actualizarImagenCloudinary = async(req, res = response ) => {
         default:
             return res.status(500).json({ msg: 'Se me olvidó validar esto'});
     }
-
 
     // Limpiar imágenes previas
     if ( modelo.img ) {
@@ -127,7 +126,6 @@ const actualizarImagenCloudinary = async(req, res = response ) => {
     modelo.img = secure_url;
 
     await modelo.save();
-
 
     res.json( secure_url );
 
@@ -150,8 +148,8 @@ const mostrarImagen = async(req, res = response ) => {
         
         break;
 
-        case 'productos':
-            modelo = await Producto.findById(id);
+        case 'baners':
+            modelo = await Baners.findById(id);
             if ( !modelo ) {
                 return res.status(400).json({
                     msg: `No existe un producto con el id ${ id }`

@@ -122,12 +122,12 @@ const validarTokenUsuario = async (req, res = response ) => {
     const token = await generarJWT( req.usuario._id );
     
 
-    await usuario.populate({
-        path: 'cursos',
-        populate: {
-            path: 'modulos'
-        }
-    }).execPopulate();
+    // await usuario.populate({
+    //     path: 'cursos',
+    //     populate: {
+    //         path: 'modulos'
+    //     }
+    // }).execPopulate();
     res.json({
         usuario,
         token: token,

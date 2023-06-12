@@ -1,16 +1,22 @@
 const { Schema, model } = require('mongoose');
 
 const BanerSchema = Schema({
-    urlRedirect: {
+
+    nombre: {
         type: String,
-        required: [true, 'La url es requerida'],
+        required: [true, 'El nombre del Baner es requerido']
+    },
+
+    priceId: {
+        type: String,
+        required: [true, 'El id del precio es requerido'],
         unique: false
     },
 
-    urlImage: {
+    img: {
         type: String,
         default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg',
-        unique: false
+        
     },
 
     estado: {
@@ -22,8 +28,7 @@ const BanerSchema = Schema({
 
 
 BanerSchema.methods.toJSON = function() {
-    const { __v, _id, estado, ...data } = this.toObject();
-    data.uid = _id
+    const { __v, estado, ...data } = this.toObject();
     return data;
 }
 
