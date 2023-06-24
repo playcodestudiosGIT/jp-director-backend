@@ -10,11 +10,6 @@ const ModuloSchema = Schema({
         type: Boolean,
         default: true,
     },
-    progress: {
-        type: String,
-        default: '',
-
-    },
     coments: {
         type: [Schema.Types.ObjectId],
         ref: 'Coment',
@@ -30,11 +25,21 @@ const ModuloSchema = Schema({
         required: true,
         unique: false
     },
-    descripcion: { type: String, default: '' },
-    disponible: { type: Boolean, defult: true },
-    img: { type: String, default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg' },
-    video: { type: String, default: 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4' },
-    descarga: { type: String, default: '' },
+    descripcion: {
+        type: String, default: ''
+    },
+    disponible: {
+        type: Boolean, defult: true
+    },
+    img: {
+        type: String, default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg'
+    },
+    video: {
+        type: String, default: 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4'
+    },
+    descarga: {
+        type: String, default: ''
+    },
     
 }, { timestamps: true });
 

@@ -1,5 +1,6 @@
 const { response } = require('express');
-const { Modulo, Curso, Coment, Resp } = require('../models');
+const { Modulo, Curso, Coment, Resp, Progress, Usuario } = require('../models');
+const progress = require('../models/progress');
 
 
 const obtenerModulos = async (req, res = response) => {
@@ -55,7 +56,13 @@ const crearModulo = async (req, res = response) => {
 
     cursoDB.modulos.push(modulo._id);
 
-    await Curso.findByIdAndUpdate(curso, cursoDB, { new: true });
+    await Curso.findByIdAndUpdate(curso, cursoDB, { new: true }); 
+
+    await Usuario.updateMany({}, {$push: {progress: {
+        moduloId: modulo._id,
+        marker: 0,
+        isComplete: false
+    }}})
 
     res.status(201).json(modulo);
 
@@ -160,6 +167,62 @@ const obtenerRespuesta = async (req, res = response) => {
     });
 }
 
+const crearProgress = async (req, res = response) => {
+
+    const { moduloId, ...body } = req.body;
+    const owner = req.usuario.id;
+    const prog = await Progress.findOne({ owner: owner, moduloId: moduloId });
+
+    if (prog) {
+        print(prog);
+        console.log('existe progreso');
+        const data = {
+            ...body,
+            owner: owner,
+            moduloId: moduloId
+        };
+
+        const np = await Progress.findByIdAndUpdate(prog._id, data, { new: true })
+        return res.status(201).json(np);
+        };
+    
+    const data = {
+        ...body,
+        owner: owner,
+        moduloId: moduloId
+    };
+    const newprog = new Progress(data);
+    newprog.save();
+    
+    const user = await Usuario.findById(owner);
+    
+    user.progress.push(newprog);
+
+
+    const nu = await Usuario.findByIdAndUpdate(user._id, user, {new: true})
+
+
+    res.status(201).json(newprog);
+
+}
+
+const borrarComentario = async (req, res = response) => {
+    const { id } = req.params
+    const { moduloId } = req.body
+    try {
+        await Coment.findByIdAndUpdate(id, { estado: false }, { new: true });
+        await Modulo.updateMany({ _id: moduloId }, {
+            $pull: {
+            coments: id
+        }})
+       
+        res.json({ msg: 'Comentario borrada' });
+
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
 
 
 
@@ -171,6 +234,10 @@ module.exports = {
     borrarModulo,
     // ---- Comentarios --- //
     crearComentario,
+    //-----------Progresos --------//
+    crearProgress,
+    //-----------Respuesta --------//
+    obtenerRespuesta,
     crearRespuesta,
-    obtenerRespuesta
+    borrarComentario
 }

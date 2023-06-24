@@ -51,9 +51,8 @@ const UsuarioSchema = Schema({
         emun: ['ADMIN_ROLE', 'USER_ROLE']
     },
     estado: {
-        type: String,
-        enum: ['Active', 'Pending', 'Disable'],
-        default: 'Pending'
+        type: Boolean,
+        default: false
     },
     google: {
         type: Boolean,
@@ -66,17 +65,18 @@ const UsuarioSchema = Schema({
     },
 
     cursos: {
-        type: [Schema.Types.ObjectId],
-        ref: 'Curso',
+        type: [String],
         default: [],
         autopopulate: true
         
     },
+    progress: {
+        type: [],
+    },
 },{timestamps: true});
 
+
 UsuarioSchema.plugin(require('mongoose-autopopulate'));
-
-
 
 UsuarioSchema.methods.toJSON = function() {
     const { __v, password, _id, ...usuario  } = this.toObject();

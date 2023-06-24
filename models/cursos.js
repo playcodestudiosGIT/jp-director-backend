@@ -31,6 +31,10 @@ const CursoSchema = Schema({
         type: String,
         default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg',
     },
+    duracion: {
+        type: String,
+        default: '0',
+    },
     usuario: {
         type: String,
         required: true

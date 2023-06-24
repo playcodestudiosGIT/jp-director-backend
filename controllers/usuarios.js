@@ -1,23 +1,16 @@
 const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
-const { sendConfirmationEmail } = require('../helpers/nodemailer');
+const { sendConfirmationEmail, sendEmailGift, } = require('../helpers/nodemailer');
 
-const Usuario = require('../models/usuario');
+const { Usuario, Modulo } = require('../models');
 const { generarJWT } = require('../helpers');
+const progress = require('../models/progress');
 
 const getUsuarioPorId = async (req = request, res = response) => {
 
     const { id } = req.params;
 
     const usuario = await Usuario.findById(id);
-
-    await usuario
-        .populate({
-            path: 'cursos',
-            populate: {
-                path: 'modulos'
-            }
-        }).execPopulate();
 
     res.json(usuario);
 }
@@ -26,7 +19,7 @@ const getUsuarioPorId = async (req = request, res = response) => {
 const usuariosGet = async (req = request, res = response) => {
 
     const { limite = 5, desde = 0 } = req.query;
-    const query = { estado: 'Active' };
+    const query = {};
 
     const [total, usuarios] = await Promise.all([
         Usuario.countDocuments(query),
@@ -54,6 +47,23 @@ const usuariosPost = async (req, res = response) => {
     usuario.password = bcryptjs.hashSync(password, salt);
     //ConfirmCode
     usuario.confirmCode = token
+
+    const modulos = await Modulo.find({});
+
+    const newProgress = [];
+
+    for (var i in modulos) {
+
+        const dataDumy = {
+            moduloId: `${modulos[i]._id}`,
+            marker: 0,
+            isComplete: false
+        }
+        newProgress.push(dataDumy);
+
+    }
+
+    usuario.progress = newProgress;
     // Guardar en BD
     await usuario.save();
 
@@ -62,7 +72,7 @@ const usuariosPost = async (req, res = response) => {
     res.json({
         usuario,
         token,
-        
+
     });
 }
 
@@ -71,11 +81,11 @@ const agregarCurso = async (req, res = response) => {
     const { cursoId } = req.body
     const user = await Usuario.findById(id);
     if (!user) {
-        res.status(200).json({msg: 'no existe usuario'})
+        return res.status(200).json({ msg: 'no existe usuario' })
     }
     if (user.cursos.includes(cursoId)) {
-        res.status(200).json({ msg: 'El curso ya está agregado' });
-        return
+        return res.status(200).json({ msg: 'El curso esta repetido' });
+
     }
     user.cursos.push(cursoId);
 
@@ -86,7 +96,7 @@ const agregarCurso = async (req, res = response) => {
 
 const usuariosPut = async (req, res = response) => {
     const { id } = req.params;
-    const { _id, password, confirmCode, rol, google, ...resto } = req.body;
+    const { _id, password, estado, confirmCode, rol, google, ...resto } = req.body;
     if (password) {
         const salt = bcryptjs.genSaltSync();
         resto.password = bcryptjs.hashSync(password, salt);
@@ -96,15 +106,56 @@ const usuariosPut = async (req, res = response) => {
         if (usuario.rol == 'ADMIN_ROLE') {
             resto.rol = rol;
         }
-        
-        
     }
 
-    
+    if (estado) {
+        resto.estado = estado
+    }
+
+
 
     const usuario = await Usuario.findByIdAndUpdate(id, resto, { new: true });
-    
+
     res.json(usuario);
+}
+
+const usuariosPutProgress = async (req, res = response) => {
+    const { id } = req.params;
+    const { moduloId, marker, isComplete } = req.body;
+    
+    try {
+        const usuario = await Usuario.findById(id);
+
+        const progresses = usuario.progress
+
+    for (var i in progresses) {
+        if (progresses[i].moduloId == moduloId) {
+            if (progresses[i].isComplete) {
+                progresses[i] = {
+                    "moduloId": moduloId,
+                    "marker": parseInt(marker),
+                    "isComplete": false
+                };
+            } else {
+                progresses[i] = {
+                    "moduloId": moduloId,
+                    "marker": parseInt(marker),
+                    "isComplete": true
+                };
+            }
+            
+        }
+    }
+    
+        const user = await Usuario.findByIdAndUpdate(id, { progress: progresses }, { new: true });
+
+
+        res.json(user);
+
+    } catch (error) {
+        console.log(error);
+    }
+
 }
 
 const removerCurso = async (req, res = response) => {
@@ -112,22 +163,21 @@ const removerCurso = async (req, res = response) => {
     const { id } = req.params;
     const { cursoId } = req.body;
 
+    console.log(`cursoId: ${cursoId}`);
+
     const usuario = await Usuario.findById(id);
 
-    cursos = usuario.cursos.filter(curso => curso._id != cursoId);
+    console.log(usuario.cursos);
+    cursos = usuario.cursos.filter(curso => curso != cursoId);
+
+
+    console.log(cursos);
 
     usuario.cursos = cursos;
 
-    await Usuario.findByIdAndUpdate(id, usuario, {new: true})
 
-    // await usuario
-    //     .populate({
-    //         path: 'cursos',
-    //         populate: {
-    //             path: 'modulos'
-    //         }
-    //     }).execPopulate();
-    
+    usuario.save();
+
     res.json(usuario);
 }
 
@@ -148,6 +198,26 @@ const usuariosDelete = async (req, res = response) => {
 }
 
 
+const downloadGift = async (req, res = response) => {
+
+    const { email } = req.body;
+    try {
+
+        sendEmailGift(email);
+        res.status(200).json({
+            msg: `correo enviado a ${email}`
+        })
+    } catch (error) {
+        res.status(400).json({
+            msg: `error ${error}`
+        })
+    }
+
+    console.log(`Correo Regalo Enviado a ${email}`)
+
+}
+
+
 
 
 module.exports = {
@@ -158,5 +228,7 @@ module.exports = {
     usuariosDelete,
     getUsuarioPorId,
     agregarCurso,
-    removerCurso
+    removerCurso,
+    downloadGift,
+    usuariosPutProgress
 }

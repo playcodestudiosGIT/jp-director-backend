@@ -5,7 +5,7 @@ const { check } = require('express-validator');
 const { validarCampos, validarJWT } = require('../middlewares');
 
 
-const { login, googleSignin, validarTokenUsuario, verifyUser } = require('../controllers/auth');
+const { login, googleSignin, validarTokenUsuario, verifyUser, resetPass, sendResetPass } = require('../controllers/auth');
 
 
 const router = Router();
@@ -27,6 +27,10 @@ router.get('/',[
 ], validarTokenUsuario);
 
 router.post('/confirm/:confirmCode', verifyUser);
+
+router.post('/sendresetpass/:email', sendResetPass);
+
+router.post('/resetpass/:token', resetPass);
 
 
 

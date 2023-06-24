@@ -4,6 +4,7 @@ const bcryptjs = require('bcryptjs')
 const Usuario = require('../models/usuario');
 
 const { generarJWT } = require('../helpers/generar-jwt');
+const { sendForgotPassEmail } = require('../helpers/nodemailer');
 const { googleVerify } = require('../helpers/google-verify');
 
 
@@ -119,15 +120,8 @@ const googleSignin = async(req, res = response) => {
 const validarTokenUsuario = async (req, res = response ) => {
     const usuario = req.usuario
     // Generar el JWT
-    const token = await generarJWT( req.usuario._id );
-    
+    const token = await generarJWT(req.usuario._id);
 
-    // await usuario.populate({
-    //     path: 'cursos',
-    //     populate: {
-    //         path: 'modulos'
-    //     }
-    // }).execPopulate();
     res.json({
         usuario,
         token: token,
@@ -141,10 +135,56 @@ const verifyUser = async (req, res = response) => {
     try {
         const usuario = await Usuario.findOne({confirmCode: confirmCode})
         if (!usuario) {
-            console.log('no user')
             return res.status(400).json({ msg: 'No Existe ese usuario' });
         }
-        await Usuario.findOneAndUpdate({ confirmCode: confirmCode }, { estado: 'Active' }, {new: true});
+        await Usuario.findOneAndUpdate({ confirmCode: confirmCode }, { estado: true }, {new: true});
+        res.status(200).json({msg: 'ok'});
+    } catch (error) {
+        res.status(400).json({
+            msg: `error ${error}`
+        })
+    }
+
+
+}
+
+const resetPass = async (req, res = response) => {
+
+    const { newPass } = req.body;
+    const { token } = req.params;
+
+    try {
+        const usuario = await Usuario.findOne({confirmCode: token})
+        if (!usuario) {
+            return res.status(400).json({ msg: 'No Existe ese usuario' });
+        }
+        const salt = bcryptjs.genSaltSync();
+        usuario.password = bcryptjs.hashSync(newPass, salt);
+
+        usuario.save()
+        res.status(200).json({msg: 'ok'});
+    } catch (error) {
+        res.status(400).json({
+            msg: `error ${error}`
+        })
+    }
+
+
+}
+
+const sendResetPass = async (req, res = response) => {
+
+    const { email } = req.params;
+    try {
+        const usuario = await Usuario.findOne({correo: email})
+        if (!usuario) {
+            return res.status(400).json({ msg: 'No Existe ese usuario' });
+        }
+        const token = await generarJWT(usuario._id);
+        usuario.confirmCode = token
+        usuario.save();
+        sendForgotPassEmail( usuario.nombre, email, usuario.confirmCode)
+        
         res.status(200).json({msg: 'ok'});
     } catch (error) {
         res.status(400).json({
@@ -161,5 +201,7 @@ module.exports = {
     login,
     googleSignin,
     validarTokenUsuario,
-    verifyUser
+    verifyUser,
+    resetPass,
+    sendResetPass
 }

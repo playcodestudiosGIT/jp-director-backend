@@ -16,7 +16,11 @@ const BanerSchema = Schema({
     img: {
         type: String,
         default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg',
-        
+    },
+
+    cursoId: {
+        type: String,
+        default: '',
     },
 
     estado: {

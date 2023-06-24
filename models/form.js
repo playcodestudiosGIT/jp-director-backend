@@ -46,6 +46,11 @@ const FormSchema = Schema({
         default: '',
         unique: false
     },
+    tiktokurl: {
+        type: String,
+        default: '',
+        unique: false
+    },
     advertisinglevel: {
         type: String,
         default: '',

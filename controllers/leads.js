@@ -2,6 +2,7 @@ const { response, request } = require('express');
 
 
 const { Lead } = require('../models');
+const { sendEmailGift } = require('../helpers/nodemailer');
 
 
 
@@ -25,17 +26,20 @@ const obtenerLeads = async(req = request, res = response) => {
 
 const crearLead = async (req, res = response) => {
     try {
-        const {email} = req.body;
+        const {email, telf} = req.body;
 
         // Generar la data a guardar
         const data = {
-            email: email
+            email: email,
+            telf: telf
         }
   
         const lead = new Lead(data);
     
         // Guardar DB
         await lead.save();
+
+        sendEmailGift(email);
 
         res.status(201).json(lead);
 
@@ -51,9 +55,9 @@ const crearLead = async (req, res = response) => {
 const actualizarLead = async(req, res = response) => {
 
     const { id } = req.params;
-    const { email } = req.body;
+    const { email, telf } = req.body;
 
-    const lead = await Lead.findByIdAndUpdate( id, {email: email}, {new: true} );
+    const lead = await Lead.findByIdAndUpdate( id, {email: email, telf: telf}, {new: true} );
 
     res.json(lead);
 }

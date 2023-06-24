@@ -17,12 +17,13 @@ const obtenerBaner = async(req = request, res = response) => {
 
 const crearBaner = async (req, res = response) => {
     try {
-        const { priceId, img, nombre   } = req.body;
+        const { cursoId, priceId, img, nombre   } = req.body;
         // Generar la data a guardar
         const data = {
             nombre: nombre,
             priceId: priceId,
-            img: img
+            img: img,
+            cursoId: cursoId
         }
 
         const baner = new Baner(data);
@@ -42,16 +43,14 @@ const crearBaner = async (req, res = response) => {
 const actualizarBaner = async(req, res = response) => {
 
     const { id } = req.params;
-    const { priceId, nombre } = req.body;
-
-    console.log(req.body);
+    const { cursoId, priceId, nombre } = req.body;
 
     const data = {
         nombre: nombre,
-        priceId: priceId
+        priceId: priceId,
+        cursoId: cursoId,
     }
 
-    // console.log(data);
     const baner = await Baner.findByIdAndUpdate(id, data, {new: true});
     
 

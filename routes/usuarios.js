@@ -13,34 +13,46 @@ const {
 const { esRoleValido, emailExiste, existeUsuarioPorId } = require('../helpers/db-validators');
 
 const { usuariosGet,
-        usuariosPut,
-        usuariosPost,
-        usuariosDelete,
-        usuariosPatch,
-        getUsuarioPorId, agregarCurso, removerCurso } = require('../controllers/usuarios');
+    usuariosPut,
+    usuariosPost,
+    usuariosDelete,
+    usuariosPutProgress,
+    usuariosPatch,
+    getUsuarioPorId,
+    agregarCurso,
+    removerCurso,
+    downloadGift } = require('../controllers/usuarios');
 
 const router = Router();
 
 
 router.get('/', usuariosGet);
 
-router.get('/:id',[
+router.get('/:id', [
     validarJWT,
     // esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
-    check('id').custom( existeUsuarioPorId ),
+    check('id').custom(existeUsuarioPorId),
     validarCampos
-], getUsuarioPorId );
+], getUsuarioPorId);
 
 router.put('/:id', [
     validarJWT,
     check('id', 'No es un ID válido').isMongoId(),
-    check('id').custom( existeUsuarioPorId ),
-    check('rol').custom( esRoleValido ), 
+    check('id').custom(existeUsuarioPorId),
+    check('rol').custom(esRoleValido),
     validarCampos
 ], usuariosPut);
 
-router.put('/add/:id',[
+router.put('/prog/:id', [
+    validarJWT,
+    check('id', 'No es un ID válido').isMongoId(),
+    check('id').custom(existeUsuarioPorId),
+    check('rol').custom(esRoleValido),
+    validarCampos
+], usuariosPutProgress);
+
+router.put('/add/:id', [
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
@@ -48,45 +60,47 @@ router.put('/add/:id',[
     validarCampos
 ], agregarCurso);
 
-router.put('/remove/:id',[
+router.put('/remove/:id', [
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
     check('cursoId', 'CursoId no es valido'),
     validarCampos
-],removerCurso );
+], removerCurso);
 
-router.post('/',[
+router.post('/', [
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
     check('correo', 'El correo no es válido').isEmail(),
-    check('correo').custom( emailExiste ),
+    check('correo').custom(emailExiste),
     // check('rol', 'No es un rol válido').isIn(['ADMIN_ROLE','USER_ROLE']),
-    check('rol').custom( esRoleValido ), 
+    check('rol').custom(esRoleValido),
     validarCampos
-], usuariosPost );
+], usuariosPost);
 
-router.delete('/:id',[
+router.delete('/:id', [
     validarJWT,
     // esAdminRole,
-    tieneRole('ADMIN_ROLE', 'VENTAR_ROLE','OTRO_ROLE'),
+    tieneRole('ADMIN_ROLE', 'VENTAR_ROLE', 'OTRO_ROLE'),
     check('id', 'No es un ID válido').isMongoId(),
-    check('id').custom( existeUsuarioPorId ),
+    check('id').custom(existeUsuarioPorId),
     validarCampos
-],usuariosDelete );
+], usuariosDelete);
 
-// TODO: Aquí
-router.get('/:id',[
+
+router.get('/:id', [
     validarJWT,
     // esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
-    check('id').custom( existeUsuarioPorId ),
+    check('id').custom(existeUsuarioPorId),
     validarCampos
-], getUsuarioPorId );
+], getUsuarioPorId);
 
 
 
-router.patch('/', usuariosPatch );
+router.post('/sendgift', downloadGift);
+
+router.patch('/', usuariosPatch);
 
 
 

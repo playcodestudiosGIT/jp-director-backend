@@ -20,11 +20,11 @@ const router = Router();
 //  Obtener todas las categorias - publico
 router.get('/', obtenerCursos);
 
-router.get('/user/:id', [
-    check('id', 'No es un id de Mongo válido').isMongoId(),
-    check('id').custom(existeUsuarioPorId),
-    validarCampos
-], obtenerCursosUserId);
+// router.get('/user/:id', [
+//     check('id', 'No es un id de Mongo válido').isMongoId(),
+//     check('id').custom(existeUsuarioPorId),
+//     validarCampos
+// ], obtenerCursosUserId);
 
 // Obtener una categoria por id - publico
 router.get('/:id', [

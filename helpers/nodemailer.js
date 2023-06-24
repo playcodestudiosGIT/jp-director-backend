@@ -37,8 +37,52 @@ const sendConfirmationEmail = ( nombre, correo, confirmCode ) => {
 
 }
 
+const sendForgotPassEmail = ( nombre, correo, token ) => {
+
+  return new Promise( async (resolve, reject) => {
+
+    const info = await transport.sendMail({
+      form: user,
+      to: correo,
+      subject: 'Resetea tu clave',
+      html:`<h1>Cambio de clave</h1>
+      <p>Hola ${nombre}. Podras cambiar tu clave en el siguiente enlace.</p>
+      <a target="_self" href=https://jpdirector.herokuapp.com/#/auth/newpass/${token}>Cambia tu contraseña</a>
+      </div>`,
+
+    }).catch(err => console.log(err));
+    
+    console.log(info.messageId);
+  });
+
+}
+
+
+const sendEmailGift = ( correo ) => {
+
+  return new Promise( async (resolve, reject) => {
+      
+      console.log('sendGiftEmail');
+    const info = await transport.sendMail({
+      form: user,
+      to: correo,
+      subject: 'Descarga tu regalo',
+      html:`<h1>Ya puedes descargar tu regalo</h1>
+      <p>Podras descargar tu regalo en el siguiente enlace.</p>
+      <a target="_self" href=https://drive.google.com/uc?export=download&id=1X3-E_xPYIMWY3iDwHQeWz3tkYyWU3A3I>Descargar</a>
+      </div>`,
+
+    }).catch(err => console.log(err));
+    
+    console.log(info.messageId);
+  });
+
+}
+
 
 
 module.exports = {
-  sendConfirmationEmail
+  sendConfirmationEmail,
+  sendForgotPassEmail,
+  sendEmailGift
 }

@@ -24,7 +24,7 @@ const buscarUsuarios = async( termino = '', res = response ) => {
     const regex = new RegExp( termino, 'i' );
     const usuarios = await Usuario.find({
         $or: [{ nombre: regex }, { correo: regex }],
-        $and: [{ estado: 'Active' }]
+        $and: [{ estado: true }]
     });
 
     res.json({

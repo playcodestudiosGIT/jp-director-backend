@@ -10,27 +10,29 @@ const { crearModulo,
     borrarModulo, 
     crearComentario,
     crearRespuesta,
-    obtenerRespuesta} = require('../controllers/modulo');
+    obtenerRespuesta,
+    crearProgress,
+    borrarComentario} = require('../controllers/modulo');
 
 const { existeCursoPorId, existeModuloPorId } = require('../helpers/db-validators');
 
 const router = Router();
 
 /**
- * {{url}}/api/categorias
+ * {{url}}/api/modulos
  */
 
-//  Obtener todas las categorias - publico
+//  Obtener todas las moduilos - publico
 router.get('/', obtenerModulos);
 
-// Obtener una categoria por id - publico
+// Obtener una modulo por id - publico
 router.get('/:id', [
     // check('id', 'No es un id de Mongo válido').isMongoId(),
     // check('id').custom(existeModuloPorId),
     validarCampos,
 ], obtenerModulo);
 
-// Crear categoria - privado - cualquier persona con un token válido
+// Crear modulo - privado - cualquier persona con un token válido
 router.post('/', [
     validarJWT,
     // check('nombre', 'El nombre es obligatorio').not().isEmpty(),
@@ -57,7 +59,7 @@ router.delete('/:id', [
 ], borrarModulo);
 
 
-// -------------- COMENTARIOS ///// //
+// -------------- COMENTARIOS ------------ //
 
 router.post('/coments/add', [
     validarJWT,
@@ -76,6 +78,22 @@ router.post('/resp/add/:id', [
 ], crearRespuesta);
 
 router.get('/resp/all', obtenerRespuesta);
+
+
+
+// ---------PROGRESO------- //
+
+// Crear progreso
+router.post('/progress', [
+    validarJWT,
+    // check('nombre', 'El nombre es obligatorio').not().isEmpty(),
+    // check('categoria', 'No es un id de Mongo').isMongoId(),
+    // check('curso').custom(existeCursoPorId),
+    validarCampos
+], crearProgress);
+
+
+router.delete('/coments/:id', borrarComentario);
 
 
 module.exports = router;

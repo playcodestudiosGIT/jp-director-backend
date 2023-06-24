@@ -6,6 +6,10 @@ const LeadSchema = Schema({
         required: [true, 'el email es requerida'],
         unique: false
     },
+    telf: {
+        type: String,
+        default: '-'
+    },
     estado: {
         type: Boolean,
         default: true

@@ -1,21 +1,24 @@
 const { Schema, model } = require('mongoose');
 
 const ProgressSchema = Schema({
-    modulo: {
-        type: Schema.Types.ObjectId,
-        ref: 'Modulo',
-        require: [true, 'el modulo es obligatorio']
-    },
-    Comment: {
+
+    moduloId: {
         type: String,
-        required: [true, 'El comentario es obligatorio']
+        require: [true, 'el ID del modulo es obligatorio']
+    },
+    marker: {
+        type: Number,
+        default: 0
+    },
+    isComplete: {
+        type: Boolean,
+        default: false
     }
 }, { timestamps: true });
 
 
 ProgressSchema.methods.toJSON = function() {
-    const { __v, _id, ...data } = this.toObject();
-    data.uid = _id
+    const { __v, ...data } = this.toObject();
     return data;
 }
 
