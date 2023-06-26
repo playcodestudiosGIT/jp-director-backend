@@ -7,9 +7,8 @@ const {  } = require('../middlewares');
 
 const { createSession } = require('../controllers/pay');
 
-const endpointSecret = "whsec_be823010cad2fad02c9b84517900e445f3e48b343995b3f16fc62fdb1e145c2d";
+const endpointSecret = "whsec_LKykDs58SF3hmTCZvMyoJHL5jxQPyNUp";
 const stripe = require('stripe')(process.env.SECRET_KEY);
-
 // /api/pay/ 
 
 
@@ -24,7 +23,9 @@ router.post('/create-session', createSession);
 // router.post('/check-cancel', secreStripeHook);
 
 router.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, response) => {
-    const sig = request.headers['whsec_pVZFofWMNJM9NywwEwrSu3QyUtdGMA9Q'];
+    console.log('webhook');
+    
+    const sig = request.headers['stripe-signature'];
   
     let event;
   
@@ -37,9 +38,15 @@ router.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, re
   
     // Handle the event
     switch (event.type) {
-      case 'payment_intent.succeeded':
-        const paymentIntentSucceeded = event.data.object;
-        // Then define and call a function to handle the event payment_intent.succeeded
+      case 'checkout.session.async_payment_failed':
+            const checkoutSessionAsyncPaymentFailed = event.data.object;
+            console.log(checkoutSessionAsyncPaymentFailed);
+        // Then define and call a function to handle the event checkout.session.async_payment_failed
+        break;
+      case 'checkout.session.async_payment_succeeded':
+            const checkoutSessionAsyncPaymentSucceeded = event.data.object;
+            console.log(checkoutSessionAsyncPaymentSucceeded);
+        // Then define and call a function to handle the event checkout.session.async_payment_succeeded
         break;
       // ... handle other event types
       default:
