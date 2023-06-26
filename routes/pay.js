@@ -7,7 +7,7 @@ const {  } = require('../middlewares');
 
 const { createSession } = require('../controllers/pay');
 
-const endpointSecret = "whsec_LKykDs58SF3hmTCZvMyoJHL5jxQPyNUp";
+const endpointSecret = "whsec_xU3gzkqhK13n4Yfjx7zbnFeaK1pK7Q3v";
 const stripe = require('stripe')(process.env.SECRET_KEY);
 // /api/pay/ 
 

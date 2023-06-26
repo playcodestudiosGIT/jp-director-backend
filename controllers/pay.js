@@ -12,7 +12,6 @@ const createSession = async (req, res = response) => {
     try {
         console.log('create try')
         const { priceId } = req.body;
-        console.log(priceId);
         const session = await stripe.checkout.sessions.create({
             line_items: [
                 {
