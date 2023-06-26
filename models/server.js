@@ -15,7 +15,7 @@ class Server {
             usuarios:   '/api/usuarios',
             cursos: '/api/cursos',
             forms: '/api/forms',
-            // stripe: '/api/stripe',
+            pay: '/api/pay',
             // buscar:     '/api/buscar',
             modulos:  '/api/modulos',
             uploads:    '/api/uploads',
@@ -66,7 +66,7 @@ class Server {
         this.app.use( this.paths.cursos, require('../routes/cursos'));
         this.app.use( this.paths.modulos, require('../routes/modulos'));
         this.app.use( this.paths.forms, require('../routes/forms'));
-        // this.app.use( this.paths.stripe, require('../routes/stripe'));
+        this.app.use( this.paths.pay, require('../routes/pay'));
         // this.app.use( this.paths.buscar, require('../routes/buscar'));
         this.app.use( this.paths.uploads, require('../routes/uploads'));
         this.app.use( this.paths.baners, require('../routes/baners'));
