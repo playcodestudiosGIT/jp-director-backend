@@ -65,18 +65,10 @@ const getSession = async (req, res = response) => {
         const session = await stripe.checkout.sessions.retrieve(
             sessionId);
         
-            switch (session['payment_status']) {
-                  case 'paid':
-                    await Usuario.findByIdAndUpdate({ _id: userId }, {
-                        $push: {cursos: cursoId}
-                    })
-                    // Then define and call a function to handle the event payment_intent.succeeded
-                    break;
-                  // ... handle other event types
-                  default:
-                    console.log(`Unhandled event type ${session['payment_status']}`);
-                }
-        res.status(200).json();
+            console.log(session['payment_status'])
+        res.status(200).json({
+            paymentStatus :  session["payment_status"],
+        });
     } catch (error) {
         res.status(400).json({
 
