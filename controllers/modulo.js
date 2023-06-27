@@ -174,8 +174,6 @@ const crearProgress = async (req, res = response) => {
     const prog = await Progress.findOne({ owner: owner, moduloId: moduloId });
 
     if (prog) {
-        print(prog);
-        console.log('existe progreso');
         const data = {
             ...body,
             owner: owner,

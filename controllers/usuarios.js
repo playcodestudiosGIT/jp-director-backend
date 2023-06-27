@@ -163,15 +163,9 @@ const removerCurso = async (req, res = response) => {
     const { id } = req.params;
     const { cursoId } = req.body;
 
-    console.log(`cursoId: ${cursoId}`);
-
     const usuario = await Usuario.findById(id);
 
-    console.log(usuario.cursos);
-    cursos = usuario.cursos.filter(curso => curso != cursoId);
-
-
-    console.log(cursos);
+    let cursos = usuario.cursos.filter(curso => curso != cursoId);
 
     usuario.cursos = cursos;
 

@@ -33,7 +33,6 @@ const obtenerFormulario = async (req, res = response) => {
 }
 
 const crearFormulario = async (req, res = response) => {
-    console.log(req.body['instagramurl']);
     try {
 
         const data = req.body;

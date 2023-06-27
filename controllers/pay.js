@@ -65,8 +65,6 @@ const getSession = async (req, res = response) => {
     try {
         const session = await stripe.checkout.sessions.retrieve(
             sessionId);
-        
-            console.log(session['payment_status'])
         res.status(200).json({
             paymentStatus :  session["payment_status"],
         });
