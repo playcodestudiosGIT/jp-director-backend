@@ -42,6 +42,8 @@ const createSession = async (req, res = response) => {
         });
         console.log(session);
 
+        const usuario = await Usuario.findOne({ correo: userEmail }, { sessionId: session.id }, { new: true });
+        console.log(usuario);
         res.status(200).json(
             {   
                 ok: true,
@@ -60,7 +62,7 @@ const createSession = async (req, res = response) => {
 
 
 const getSession = async (req, res = response) => {
-    const { sessionId, cursoId, userId } = req.body;
+    const { sessionId } = req.body;
     try {
         const session = await stripe.checkout.sessions.retrieve(
             sessionId);

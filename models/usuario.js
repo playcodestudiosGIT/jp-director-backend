@@ -64,6 +64,11 @@ const UsuarioSchema = Schema({
         unique: true
     },
 
+    sessionId: {
+        type: String,
+        default: ''
+    },
+
     cursos: {
         type: [String],
         default: [],
