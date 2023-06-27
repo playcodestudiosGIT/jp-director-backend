@@ -40,10 +40,9 @@ const createSession = async (req, res = response) => {
             success_url: `${process.env.DOMAIN}/#/checkout/checksession?cursoId=${cursoId}`,
             cancel_url: `${process.env.DOMAIN}/#/?canceled=true`,
         });
-        console.log(session);
 
-        const usuario = await Usuario.findOne({ correo: userEmail }, { sessionId: session.id }, { new: true });
-        console.log(usuario);
+        await Usuario.findOneAndUpdate({ correo: userEmail }, { sessionId: session.id }, { new: true });
+        
         res.status(200).json(
             {   
                 ok: true,
