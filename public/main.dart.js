@@ -31118,7 +31118,7 @@ case 2:return A.r(o,r)}})
 return A.u($async$a8W,r)},
 aP5(){var s,r=$.vs().at$
 r===$&&A.b()
-r.cx$="https://jpdirector.herokuapp.com/api"
+r.cx$="https://jpdirector-d69b948c5617.herokuapp.com/api"
 s=J.bd($.xg.b2().a,"token")
 r.sL9(0,A.al(["x-token",s==null?"":s],t.N,t.z))},
 lp(a){return A.b6c(a)},
