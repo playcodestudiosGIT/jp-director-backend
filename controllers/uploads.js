@@ -26,6 +26,22 @@ const cargarArchivo = async(req, res = response) => {
 
 }
 
+const cargarCertificado = async(req, res = response) => {
+
+
+    try {
+        
+        // txt, md
+        // const nombre = await subirArchivo( req.files, ['txt','md'], 'textos' );
+        const nombre = await subirArchivo( req.files, undefined, 'certificados' );
+        res.json({ nombre });
+
+    } catch (msg) {
+        res.status(400).json({ msg });
+    }
+
+}
+
 
 const actualizarImagen = async(req, res = response ) => {
 
@@ -183,5 +199,6 @@ module.exports = {
     cargarArchivo,
     actualizarImagen,
     mostrarImagen,
-    actualizarImagenCloudinary
+    actualizarImagenCloudinary,
+    cargarCertificado
 }

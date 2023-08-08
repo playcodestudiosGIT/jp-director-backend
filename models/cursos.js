@@ -6,9 +6,9 @@ const CursoSchema = Schema({
         required: [true, 'El nombre es obligatorio'],
         unique: false
     },
-    subtitle: {
+    precio: {
         type: String,
-        default: 'subtitle',
+        default: '0 usd',
         unique: false
     },
     descripcion: {
@@ -31,6 +31,10 @@ const CursoSchema = Schema({
         type: String,
         default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg',
     },
+    baner: {
+        type: String,
+        default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg',
+    },
     duracion: {
         type: String,
         default: '0',
@@ -38,7 +42,8 @@ const CursoSchema = Schema({
     usuario: {
         type: String,
         required: true
-    }
+    },
+    
 }, { timestamps: true });
 
 CursoSchema.plugin(require('mongoose-autopopulate'));

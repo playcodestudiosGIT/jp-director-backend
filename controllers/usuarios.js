@@ -1,9 +1,9 @@
 const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
-const { sendConfirmationEmail, sendEmailGift, } = require('../helpers/nodemailer');
+const { sendConfirmationEmail, sendEmailGift, } = require('../helpers/brevo_services');
 
 const { Usuario, Modulo } = require('../models');
-const { generarJWT } = require('../helpers');
+const { generarJWT, sendEmailBrevo, createContactBrevo } = require('../helpers');
 const progress = require('../models/progress');
 
 const getUsuarioPorId = async (req = request, res = response) => {
@@ -38,8 +38,8 @@ const usuariosGet = async (req = request, res = response) => {
 
 const usuariosPost = async (req, res = response) => {
 
-    const { nombre, correo, password, rol, ...resto } = req.body;
-    const usuario = new Usuario({ nombre, correo, password, rol, ...resto });
+    const { nombre, apellido, correo, password, rol, ...resto } = req.body;
+    const usuario = new Usuario({ nombre, apellido, correo, password, rol, ...resto });
     // Generar el JWT
     const token = await generarJWT(usuario.id);
     // Encriptar la contraseña
@@ -66,9 +66,9 @@ const usuariosPost = async (req, res = response) => {
     usuario.progress = newProgress;
     // Guardar en BD
     await usuario.save();
-
-    sendConfirmationEmail(nombre, correo, token);
-
+    
+    sendEmailBrevo(nombre, apellido, correo, 1, `https://jpdirector.herokuapp.com/#/auth/verify/${token}`);
+    createContactBrevo(nombre, apellido, correo, '', [2] )
     res.json({
         usuario,
         token,

@@ -4,7 +4,7 @@ const bcryptjs = require('bcryptjs')
 const Usuario = require('../models/usuario');
 
 const { generarJWT } = require('../helpers/generar-jwt');
-const { sendForgotPassEmail } = require('../helpers/nodemailer');
+const { sendEmailBrevo } = require('../helpers/brevo_services');
 const { googleVerify } = require('../helpers/google-verify');
 
 
@@ -175,15 +175,20 @@ const resetPass = async (req, res = response) => {
 const sendResetPass = async (req, res = response) => {
 
     const { email } = req.params;
+    console.log(email);
     try {
-        const usuario = await Usuario.findOne({correo: email})
+        const usuario = await Usuario.findOne({ correo: email });
         if (!usuario) {
             return res.status(400).json({ msg: 'No Existe ese usuario' });
         }
         const token = await generarJWT(usuario._id);
         usuario.confirmCode = token
         usuario.save();
-        sendForgotPassEmail( usuario.nombre, email, usuario.confirmCode)
+        console.log(usuario.nombre);
+        console.log(usuario.apellido);
+        console.log(email);
+        sendEmailBrevo(usuario.nombre, usuario.apellido, email, 4, `http://localhost:61856/#/auth/newpass/${usuario.confirmCode}`)
+      
         
         res.status(200).json({msg: 'ok'});
     } catch (error) {
