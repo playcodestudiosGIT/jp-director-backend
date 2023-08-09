@@ -31195,7 +31195,7 @@ case 2:return A.r(o,r)}})
 return A.u($async$a9d,r)},
 aPH(){var s,r=$.vy().at$
 r===$&&A.b()
-r.cx$="http://localhost:8080/api"
+r.cx$="https://www.jpdirector.net/api"
 s=J.bd($.xj.b_().a,"token")
 r.sLe(0,A.am(["x-token",s==null?"":s],t.N,t.z))},
 lt(a){return A.b6R(a)},
