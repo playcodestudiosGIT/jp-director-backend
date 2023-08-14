@@ -2,7 +2,7 @@ const { response, request } = require('express');
 
 
 const { Lead } = require('../models');
-const { sendEmailBrevo, createContactBrevo } = require('../helpers/brevo_services');
+const { sendEmailBrevo, createContactBrevo, agregarContactoALista } = require('../helpers/brevo_services');
 
 
 
@@ -39,11 +39,13 @@ const crearLead = async (req, res = response) => {
         // Guardar DB
         await lead.save();
 
-        sendEmailBrevo('noname', 'nosurname', email, 5, `https://drive.google.com/uc?export=download&id=1X3-E_xPYIMWY3iDwHQeWz3tkYyWU3A3I`);
-        createContactBrevo(email, 'nosurname', email, telf, [3]);
+        await sendEmailBrevo('noname', 'nosurname', email, 5, `https://drive.google.com/uc?id=1X3-E_xPYIMWY3iDwHQeWz3tkYyWU3A3I&export=download`);
+        
+        await createContactBrevo('noname', 'nosurname', email, telf, [2]);
 
+        await agregarContactoALista(email, 3);
 
-        res.status(201).json(lead);
+        return res.status(201).json(lead);
 
     } catch (error) {
         res.status(400).json({
