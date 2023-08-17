@@ -37,7 +37,10 @@ const ModuloSchema = Schema({
     video: {
         type: String, default: 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4'
     },
-    descarga: {
+    idDriveFolder: {
+        type: String, default: ''
+    },
+    idDriveZip: {
         type: String, default: ''
     },
     

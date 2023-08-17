@@ -1,10 +1,10 @@
 const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
-const { sendConfirmationEmail, sendEmailGift, agregarContactoALista} = require('../helpers/brevo_services');
+const { sendEmailGift, agregarContactoALista } = require('../helpers/brevo_services');
 
 const { Usuario, Modulo } = require('../models');
 const { generarJWT, sendEmailBrevo, createContactBrevo } = require('../helpers');
-const progress = require('../models/progress');
+
 
 const getUsuarioPorId = async (req = request, res = response) => {
 
@@ -67,7 +67,7 @@ const usuariosPost = async (req, res = response) => {
     // Guardar en BD
     await usuario.save();
     
-    sendEmailBrevo(nombre, apellido, correo, 1, `https://jpdirector.herokuapp.com/#/auth/verify/${token}`);
+    sendEmailBrevo(nombre, apellido, correo, 1, `${process.env.DOMAIN}/#/auth/verify/${token}`);
     await createContactBrevo(nombre, apellido, correo, '', [2]);
     await agregarContactoALista(correo, 4);
     res.json({
