@@ -1,5 +1,5 @@
 const { response } = require('express');
-const { Curso, Usuario } = require('../models');
+const { Curso, Usuario, Certificado } = require('../models');
 
 
 const obtenerCursos = async (req, res = response) => {
@@ -57,6 +57,14 @@ const borrarCurso = async (req, res = response) => {
     });
 }
 
+const obtenerCertificado = async (req, res = response) => {
+    const { id } = req.params;
+    const cert = await Certificado.findById(id);
+    res.json({
+        cert
+    });
+}
+
 
 
 
@@ -66,5 +74,6 @@ module.exports = {
     obtenerCurso,
     actualizarCurso,
     borrarCurso,
+    obtenerCertificado
     // obtenerCursosUserId
 }

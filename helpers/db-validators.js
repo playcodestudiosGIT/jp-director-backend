@@ -1,5 +1,5 @@
 
-const { Usuario, Curso, Modulo, Form, Role } = require('../models');
+const { Usuario, Curso, Modulo, Form, Role, Certificado } = require('../models');
 
 const esRoleValido = async(rol = 'USER_ROLE') => {
     const existeRol = await Role.findOne({ rol: rol });
@@ -33,6 +33,14 @@ const existeCursoPorId = async( id ) => {
     // Verificar si el correo existe
     const existeCurso = await Curso.findById(id);
     if ( !existeCurso ) {
+        throw new Error(`El curso no existe ${ id }`);
+    }
+}
+const existeCertPorId = async( id ) => {
+
+    // Verificar si el correo existe
+    const existeCert = await Certificado.findById(id);
+    if ( !existeCert ) {
         throw new Error(`El curso no existe ${ id }`);
     }
 }
@@ -80,6 +88,7 @@ module.exports = {
     existeUsuarioPorId,
     existeCursoPorId,
     existeModuloPorId,
-    coleccionesPermitidas
+    coleccionesPermitidas,
+    existeCertPorId
 }
 

@@ -17,7 +17,6 @@ const { usuariosGet,
     usuariosPost,
     usuariosDelete,
     usuariosPutProgress,
-    usuariosPatch,
     getUsuarioPorId,
     agregarCurso,
     removerCurso,
@@ -100,7 +99,7 @@ router.get('/:id', [
 
 router.post('/sendgift', downloadGift);
 
-router.patch('/', usuariosPatch);
+// router.patch('/', usuariosPatch);
 
 
 

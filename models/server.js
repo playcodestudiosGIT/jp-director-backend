@@ -19,7 +19,6 @@ class Server {
             // buscar:     '/api/buscar',
             modulos:  '/api/modulos',
             uploads:    '/api/uploads',
-            baners:    '/api/baners',
             leads:    '/api/leads',
         }
 
@@ -69,7 +68,6 @@ class Server {
         this.app.use( this.paths.pay, require('../routes/pay'));
         // this.app.use( this.paths.buscar, require('../routes/buscar'));
         this.app.use( this.paths.uploads, require('../routes/uploads'));
-        this.app.use( this.paths.baners, require('../routes/baners'));
         this.app.use( this.paths.leads, require('../routes/leads'));
         
     }

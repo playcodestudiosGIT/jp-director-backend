@@ -78,6 +78,9 @@ const UsuarioSchema = Schema({
     progress: {
         type: [],
     },
+    certificados: {
+        type: [],
+    },
 },{timestamps: true});
 
 

@@ -8,9 +8,9 @@ const Server = require('./server');
 const Usuario = require('./usuario');
 const Progress = require('./progress');
 const Coment = require('./coment');
-const Baner = require('./baner');
 const Lead = require('./leads');
 const Resp = require('./resp');
+const Certificado = require('./certificado');
 
 
 
@@ -23,8 +23,8 @@ module.exports = {
     Server,
     Usuario,
     Progress,
-    Baner,
     Coment,
-    Resp
+    Resp,
+    Certificado
 }
 
