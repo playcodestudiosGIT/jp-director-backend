@@ -32335,7 +32335,7 @@ aW9(){var s=$.aQD
 return s},
 aUi(){var s,r=$.At().KH$
 r===$&&A.b()
-r.rD$="http://localhost:8080/api"
+r.rD$="https://www.jpdirector.net/api"
 s=J.be($.DS.bS().a,"token")
 r.sZ5(0,A.at(["x-token",s==null?"":s],t.N,t.z))},
 n4(a){return A.bc0(a)},
