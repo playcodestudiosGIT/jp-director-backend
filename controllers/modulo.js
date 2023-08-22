@@ -217,7 +217,7 @@ const borrarComentario = async (req, res = response) => {
         res.json({ msg: 'Comentario borrada' });
 
         } catch (error) {
-            console.log(error);
+            res.json({ msg: error  });
         }
     }
 

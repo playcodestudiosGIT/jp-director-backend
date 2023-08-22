@@ -175,7 +175,7 @@ const resetPass = async (req, res = response) => {
 const sendResetPass = async (req, res = response) => {
 
     const { email } = req.params;
-    console.log(email);
+ 
     try {
         const usuario = await Usuario.findOne({ correo: email });
         if (!usuario) {
@@ -184,9 +184,6 @@ const sendResetPass = async (req, res = response) => {
         const token = await generarJWT(usuario._id);
         usuario.confirmCode = token
         usuario.save();
-        console.log(usuario.nombre);
-        console.log(usuario.apellido);
-        console.log(email);
         sendEmailBrevo(usuario.nombre, usuario.apellido, email, 4, `http://localhost:61856/#/auth/newpass/${usuario.confirmCode}`)
       
         

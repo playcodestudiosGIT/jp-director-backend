@@ -138,7 +138,7 @@ const actualizarImagenCloudinary = async (req, res = response) => {
 
 const genPdfCert = async (req, res = response) => {
 
-    const { userId, cursoId } = req.params
+    const { userId, cursoId } = req.body
 
     const usuario = await Usuario.findById(userId);
     const curso = await Curso.findById(cursoId);
@@ -232,7 +232,6 @@ const genPdfCert = async (req, res = response) => {
         }
         await pdf.create(content, options).toFile(`./uploads/certificados/${idCert}.pdf`, async function (err) {
             if (err) {
-                console.log(err);
                 throw Error(err);
             } else {
 
@@ -250,7 +249,7 @@ const genPdfCert = async (req, res = response) => {
         });
 
     } catch (error) {
-        console.log(error);
+        throw error
     }
 };
 

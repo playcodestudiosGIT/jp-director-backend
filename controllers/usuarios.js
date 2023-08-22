@@ -154,7 +154,7 @@ const usuariosPutProgress = async (req, res = response) => {
         res.json(user);
 
     } catch (error) {
-        console.log(error);
+        throw error
     }
 
 }
@@ -208,7 +208,6 @@ const downloadGift = async (req, res = response) => {
         })
     }
 
-    console.log(`Correo Regalo Enviado a ${email}`)
 
 }
 

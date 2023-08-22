@@ -10,7 +10,7 @@ const router = Router();
 
 
 router.post('/', validarArchivoSubir, cargarArchivo);
-router.post( '/certificados/gen/:userId/:cursoId', genPdfCert );
+router.post( '/certificados/gen', genPdfCert );
 
 router.put('/:coleccion/:id', [
     validarArchivoSubir,
@@ -18,13 +18,6 @@ router.put('/:coleccion/:id', [
     check('coleccion').custom(c => coleccionesPermitidas(c, ['usuarios', 'baners'])),
     validarCampos
 ], actualizarImagenCloudinary)
-// ], actualizarImagen )
-
-// router.get('/:coleccion/:id', [
-//     check('id', 'El id debe de ser de mongo').isMongoId(),
-//     check('coleccion').custom(c => coleccionesPermitidas(c, ['usuarios', 'baners'])),
-//     validarCampos
-// ], mostrarImagen)
 
 
 

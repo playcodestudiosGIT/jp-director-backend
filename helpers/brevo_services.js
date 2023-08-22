@@ -38,7 +38,6 @@ const sendEmailBrevo = async (nombre, apellido, correo, templateId, urlAction)  
   };
 
   await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
-    console.log('Brevo: Email enviado. Email ID: ' + JSON.stringify(data));
   }, function (error) {
     console.error(error);
   });
@@ -71,9 +70,9 @@ const createContactBrevo = async (nombre, apellido, correo, telefono, listIds) =
   }
 
   await apiInstance.createContact(createContact).then(function (data) {
-    return console.log('Brevo: Usuario creado: ' + correo);
+    return 
   }, function (error) {
-    return console.log("Brevo: Contacto en Todo existe. ");
+    throw error
   });
 
 }
@@ -93,9 +92,9 @@ const agregarContactoALista = async (correo, listIds) => {
   contactEmails.emails = [correo];
 
   await apiInstance.addContactToList(listId, contactEmails).then(function (data) {
-    return console.log('Brevo: Contacto agregado a lista '+listId+ ' usuario: '+ correo);
+    return;
   }, function (error) {
-    return console.error("Brevo: Contacto en Lista existe. ");
+    throw error;
   });
 
 }
