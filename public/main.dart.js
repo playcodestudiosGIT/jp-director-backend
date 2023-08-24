@@ -32322,7 +32322,7 @@ aW7(){var s=$.aQB
 return s},
 aUh(){var s,r=$.Ar().KF$
 r===$&&A.b()
-r.rD$="http://localhost:8080/api"
+r.rD$="https://www.jpdirector.net/api"
 s=J.be($.DQ.bS().a,"token")
 r.sZ5(0,A.at(["x-token",s==null?"":s],t.N,t.z))},
 n4(a){return A.bbY(a)},
