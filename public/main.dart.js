@@ -32333,7 +32333,7 @@ aW2(){var s=$.aQv
 return s},
 aUb(){var s,r=$.Ar().KF$
 r===$&&A.b()
-r.rE$="http://localhost:8080/api"
+r.rE$="https://www.jpdirector.net/api"
 s=J.bh($.DQ.bV().a,"token")
 r.sZ1(0,A.as(["x-token",s==null?"":s],t.N,t.z))},
 n4(a){return A.bbQ(a)},
