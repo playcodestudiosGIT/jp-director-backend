@@ -86,6 +86,7 @@ const borrarModulo = async (req, res = response) => {
 
     const { id } = req.params;
     const moduloBorrado = await Modulo.findByIdAndUpdate(id, { estado: false }, { new: true });
+    await Curso.findByIdAndUpdate(moduloBorrado.curso, { $pull: { "modulos": moduloBorrado._id } }, { new: true });
 
     res.json(moduloBorrado);
 }

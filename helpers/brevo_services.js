@@ -39,7 +39,7 @@ const sendEmailBrevo = async (nombre, apellido, correo, templateId, urlAction)  
 
   await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
   }, function (error) {
-    console.error(error);
+    console.log(`error ${error}`)
   });
 
 }
@@ -72,7 +72,8 @@ const createContactBrevo = async (nombre, apellido, correo, telefono, listIds) =
   await apiInstance.createContact(createContact).then(function (data) {
     return 
   }, function (error) {
-    throw error
+    const safa = JSON.parse(error["response"]["res"]["text"])
+    console.log('Crear contacto: ' + correo + ' ' +  safa["message"]);
   });
 
 }
@@ -94,7 +95,8 @@ const agregarContactoALista = async (correo, listIds) => {
   await apiInstance.addContactToList(listId, contactEmails).then(function (data) {
     return;
   }, function (error) {
-    throw error;
+    const safa = JSON.parse(error["response"]["res"]["text"])
+    console.log('Listar: ' + correo + ' ' + safa["message"]);
   });
 
 }

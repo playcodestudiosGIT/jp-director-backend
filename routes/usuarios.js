@@ -38,9 +38,7 @@ router.get('/:id', [
 router.put('/:id', [
     validarJWT,
     check('id', 'No es un ID válido').isMongoId(),
-    check('id').custom(existeUsuarioPorId),
-    check('rol').custom(esRoleValido),
-    validarCampos
+    // validarCampos
 ], usuariosPut);
 
 router.put('/prog/:id', [
