@@ -184,7 +184,7 @@ const sendResetPass = async (req, res = response) => {
         const token = await generarJWT(usuario._id);
         usuario.confirmCode = token
         usuario.save();
-        sendEmailBrevo(usuario.nombre, usuario.apellido, email, 4, `http://localhost:61856/#/auth/newpass/${usuario.confirmCode}`)
+        sendEmailBrevo(usuario.nombre, usuario.apellido, email, 4, `https://www.jpdirector.net/#/auth/newpass/${usuario.confirmCode}`)
       
         
         res.status(200).json({msg: 'ok'});
