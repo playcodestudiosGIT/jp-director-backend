@@ -36,8 +36,8 @@ router.get('/:id', [
 router.post('/', [
     validarJWT,
     // check('nombre', 'El nombre es obligatorio').not().isEmpty(),
-    // check('categoria', 'No es un id de Mongo').isMongoId(),
-    // check('curso').custom(existeCursoPorId),
+    // check('curso', 'El Curso es obligatorio').isEmpty(),
+    check('curso').custom(existeCursoPorId),
     validarCampos
 ], crearModulo);
 

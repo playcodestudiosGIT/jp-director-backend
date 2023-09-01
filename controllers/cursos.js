@@ -1,5 +1,5 @@
 const { response } = require('express');
-const { Curso, Usuario, Certificado } = require('../models');
+const { Curso, Certificado, Testimonio } = require('../models');
 
 
 const obtenerCursos = async (req, res = response) => {
@@ -65,6 +65,59 @@ const obtenerCertificado = async (req, res = response) => {
     });
 }
 
+const obtenerTestimonio = async (req, res = response) => {
+    const { id } = req.params;
+    const testimonio = await Testimonio.findById(id);
+    res.json({
+        testimonio
+    });
+}
+
+
+const agregarTestimonio = async (req, res = response) => {
+    const { id } = req.params;
+    const { nombre, img, testimonio, estado } = req.body;
+
+    const data = {
+        nombre,
+        img,
+        testimonio,
+        estado,
+        cursoId: id
+    }
+
+    var testimonioId = ''
+
+    try {
+        const testimonio = new Testimonio(data);
+        await testimonio.save().then(testimonio => testimonioId = testimonio.id);
+
+        await Curso.findByIdAndUpdate(id, {$push: { "testimonios": testimonioId }}, {new: true});
+        res.status(201).json(testimonio);
+    } catch (error) {
+        res.status(400).json({
+            msg: 'Error al crear testimonio.'
+        })
+    }
+}
+
+const borrarTestimonio = async (req, res = response) => {
+    const { id } = req.params;
+    const testimonio = await Testimonio.findByIdAndUpdate(id, { estado: false }, { new: true });
+    await Curso.findByIdAndUpdate(testimonio.cursoId, { $pull: { "testimonios": id } });
+    
+    res.json({
+        msg: 'Testiomonio Borrado',
+    });
+}
+
+const actualizarTestimonio = async (req, res = response) => {
+    const { id } = req.params;
+    const { estado, ...data } = req.body;
+    const testimonio = await Testimonio.findByIdAndUpdate(id, data, { new: true });
+    res.json(testimonio);
+}
+
 
 
 
@@ -74,6 +127,10 @@ module.exports = {
     obtenerCurso,
     actualizarCurso,
     borrarCurso,
-    obtenerCertificado
+    obtenerCertificado,
+    agregarTestimonio,
+    borrarTestimonio,
+    actualizarTestimonio,
+    obtenerTestimonio
     // obtenerCursosUserId
 }

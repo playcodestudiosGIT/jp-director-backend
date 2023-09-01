@@ -232,7 +232,7 @@ const genPdfCert = async (req, res = response) => {
         }
         await pdf.create(content, options).toFile(`./uploads/certificados/${idCert}.pdf`, async function (err) {
             if (err) {
-                throw Error(err);
+                console.log(err);
             } else {
 
                 const { secure_url } = await cloudinary.uploader.upload(`./uploads/certificados/${idCert}.pdf`, {folder: 'certificados'});

@@ -11,6 +11,7 @@ const Coment = require('./coment');
 const Lead = require('./leads');
 const Resp = require('./resp');
 const Certificado = require('./certificado');
+const Testimonio = require('./testimonio')
 
 
 
@@ -25,6 +26,7 @@ module.exports = {
     Progress,
     Coment,
     Resp,
-    Certificado
+    Certificado,
+    Testimonio
 }
 

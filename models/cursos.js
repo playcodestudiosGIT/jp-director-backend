@@ -24,8 +24,17 @@ const CursoSchema = Schema({
     modulos: {
         type: [Schema.Types.ObjectId],
         ref: 'Modulo',
-        autopopulate: true
-        
+        autopopulate: true 
+    },
+    totalEstudiantes: {
+        type: String,
+        default: '0'
+    },
+    testimonios: {
+        type: [Schema.Types.ObjectId],
+        ref: 'Testimonio',
+        autopopulate: true,
+        default: []
     },
     img: {
         type: String,

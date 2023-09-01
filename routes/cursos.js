@@ -7,10 +7,14 @@ const { crearCurso,
     obtenerCursos,
     obtenerCurso,
     obtenerCursosUserId,
+    borrarTestimonio,
+    agregarTestimonio,
     obtenerCertificado,
     actualizarCurso,
+    actualizarTestimonio,
+    obtenerTestimonio,
     borrarCurso } = require('../controllers/cursos');
-const { existeCursoPorId, existeUsuarioPorId, existeCertPorId } = require('../helpers/db-validators');
+const { existeCursoPorId, existeUsuarioPorId, existeCertPorId, existeTestimonioById } = require('../helpers/db-validators');
 
 const router = Router();
 
@@ -25,6 +29,12 @@ router.get('/cert/:id', [
     validarCampos,
     check('id').custom(existeCertPorId),
 ], obtenerCertificado);
+
+router.get('/testimonio/:id', [
+    check('id', 'No es un id de Mongo válido').isMongoId(),
+    validarCampos,
+    check('id').custom(existeTestimonioById),
+], obtenerTestimonio);
 
 router.get('/:id', [
     check('id', 'No es un id de Mongo válido').isMongoId(),
@@ -42,12 +52,23 @@ router.post('/', [
     validarCampos
 ], crearCurso);
 
+router.post('/add/testimonio/:id', [
+    validarJWT,
+    validarCampos
+], agregarTestimonio);
+
 router.put('/:id', [
     validarJWT,
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('id').custom(existeCursoPorId),
     validarCampos
 ], actualizarCurso);
+
+router.put('/testimonio/:id', [
+    validarJWT,
+    check('id').custom(existeTestimonioById),
+    validarCampos
+], actualizarTestimonio);
 
 
 router.delete('/:id', [
@@ -56,6 +77,12 @@ router.delete('/:id', [
     check('id').custom(existeCursoPorId),
     validarCampos,
 ], borrarCurso);
+
+router.delete('/testimonio/:id', [
+    validarJWT,
+    check('id', 'No es un id de Mongo válido').isMongoId(),
+    validarCampos,
+], borrarTestimonio);
 
 
 
