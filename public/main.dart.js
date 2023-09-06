@@ -32466,7 +32466,7 @@ aXh(){var s=$.aRK
 return s},
 aVn(){var s,r=$.AF().KQ$
 r===$&&A.b()
-r.rH$="http://localhost:8080/api"
+r.rH$="https://www.jpdirector.net/api"
 s=J.bj($.E3.bV().a,"token")
 r.sZd(0,A.am(["x-token",s==null?"":s],t.N,t.z))},
 n8(a){return A.bd2(a)},
