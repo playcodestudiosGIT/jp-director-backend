@@ -1,9 +1,8 @@
 const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
-const { sendEmailGift, agregarContactoALista } = require('../helpers/brevo_services');
 
 const { Usuario, Modulo } = require('../models');
-const { generarJWT, sendEmailBrevo, createContactBrevo } = require('../helpers');
+const { generarJWT, sendEmailBrevo, createContactBrevo, agregarContactoALista, sendSupEmail, sendOneEmail } = require('../helpers');
 
 
 const getUsuarioPorId = async (req = request, res = response) => {
@@ -66,7 +65,7 @@ const usuariosPost = async (req, res = response) => {
     usuario.progress = newProgress;
     // Guardar en BD
     await usuario.save();
-    
+
     sendEmailBrevo(nombre, apellido, correo, 1, `${process.env.DOMAIN}/#/auth/verify/${token}`);
     await createContactBrevo(nombre, apellido, correo, '', [2]);
     await agregarContactoALista(correo, 4);
@@ -123,31 +122,31 @@ const usuariosPut = async (req, res = response) => {
 const usuariosPutProgress = async (req, res = response) => {
     const { id } = req.params;
     const { moduloId, marker, isComplete } = req.body;
-    
+
     try {
         const usuario = await Usuario.findById(id);
 
         const progresses = usuario.progress
 
-    for (var i in progresses) {
-        if (progresses[i].moduloId == moduloId) {
-            if (progresses[i].isComplete) {
-                progresses[i] = {
-                    "moduloId": moduloId,
-                    "marker": parseInt(marker),
-                    "isComplete": false
-                };
-            } else {
-                progresses[i] = {
-                    "moduloId": moduloId,
-                    "marker": parseInt(marker),
-                    "isComplete": true
-                };
+        for (var i in progresses) {
+            if (progresses[i].moduloId == moduloId) {
+                if (progresses[i].isComplete) {
+                    progresses[i] = {
+                        "moduloId": moduloId,
+                        "marker": parseInt(marker),
+                        "isComplete": false
+                    };
+                } else {
+                    progresses[i] = {
+                        "moduloId": moduloId,
+                        "marker": parseInt(marker),
+                        "isComplete": true
+                    };
+                }
+
             }
-            
         }
-    }
-    
+
         const user = await Usuario.findByIdAndUpdate(id, { progress: progresses }, { new: true });
 
 
@@ -192,22 +191,28 @@ const usuariosDelete = async (req, res = response) => {
     res.json(usuario);
 }
 
+const sendSupportEmail = async (req, res = respose) => {
+    const { nombre, apellido, correo, mensaje } = req.body;
 
-const downloadGift = async (req, res = response) => {
-
-    const { email } = req.body;
     try {
 
-        sendEmailGift(email);
-        res.status(200).json({
-            msg: `correo enviado a ${email}`
-        })
+        await sendSupEmail(nombre, apellido, correo, mensaje);
+        return res.status(201).json({ "msg": "correo enviado a soporte" });
     } catch (error) {
-        res.status(400).json({
-            msg: `error ${error}`
-        })
+        console.log(error);
     }
 
+}
+const sendIndividualEmail = async (req, res = respose) => {
+    const { nombre, apellido, correo, mensaje } = req.body;
+
+    try {
+
+        await sendOneEmail(nombre, apellido, correo, mensaje);
+        return res.status(201).json({ "msg": `correo enviado a: ${correo}` });
+    } catch (error) {
+        console.log(error);
+    }
 
 }
 
@@ -223,6 +228,7 @@ module.exports = {
     getUsuarioPorId,
     agregarCurso,
     removerCurso,
-    downloadGift,
-    usuariosPutProgress
+    usuariosPutProgress,
+    sendSupportEmail,
+    sendIndividualEmail
 }

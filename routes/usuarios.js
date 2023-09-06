@@ -20,7 +20,7 @@ const { usuariosGet,
     getUsuarioPorId,
     agregarCurso,
     removerCurso,
-    downloadGift } = require('../controllers/usuarios');
+    sendSupportEmail, sendIndividualEmail } = require('../controllers/usuarios');
 
 const router = Router();
 
@@ -37,12 +37,14 @@ router.get('/:id', [
 
 router.put('/:id', [
     validarJWT,
+    esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // validarCampos
 ], usuariosPut);
 
 router.put('/prog/:id', [
     validarJWT,
+    esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     check('id').custom(existeUsuarioPorId),
     check('rol').custom(esRoleValido),
@@ -50,6 +52,8 @@ router.put('/prog/:id', [
 ], usuariosPutProgress);
 
 router.put('/add/:id', [
+    validarJWT,
+    esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
@@ -58,6 +62,8 @@ router.put('/add/:id', [
 ], agregarCurso);
 
 router.put('/remove/:id', [
+    validarJWT,
+    esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
@@ -66,6 +72,8 @@ router.put('/remove/:id', [
 ], removerCurso);
 
 router.post('/', [
+    validarJWT,
+    esAdminRole,
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
     check('correo', 'El correo no es válido').isEmail(),
@@ -76,7 +84,9 @@ router.post('/', [
 ], usuariosPost);
 
 router.delete('/:id', [
+    
     validarJWT,
+    esAdminRole,
     // esAdminRole,
     tieneRole('ADMIN_ROLE', 'VENTAR_ROLE', 'OTRO_ROLE'),
     check('id', 'No es un ID válido').isMongoId(),
@@ -93,9 +103,11 @@ router.get('/:id', [
     validarCampos
 ], getUsuarioPorId);
 
-
-
-router.post('/sendgift', downloadGift);
+router.post('/support', sendSupportEmail);
+router.post('/contact-email', [
+    validarJWT,
+    esAdminRole
+], sendIndividualEmail);
 
 // router.patch('/', usuariosPatch);
 

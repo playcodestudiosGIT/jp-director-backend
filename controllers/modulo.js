@@ -24,9 +24,15 @@ const obtenerModulos = async (req, res = response) => {
 }
 
 const obtenerModulo = async (req, res = response) => {
+    
 
     const { id } = req.params;
     const modulo = await Modulo.findById(id)
+
+    if (!modulo.estado) {
+        console
+        res.json({ msg: 'Modulo ya fue borrado' });
+    }
 
     res.json(modulo);
 }
@@ -86,9 +92,13 @@ const borrarModulo = async (req, res = response) => {
 
     const { id } = req.params;
     const moduloBorrado = await Modulo.findByIdAndUpdate(id, { estado: false }, { new: true });
-    await Curso.findByIdAndUpdate(moduloBorrado.cursoId, { $pull: { "modulos": moduloBorrado._id } }, { new: true });
+    const haycurso = await Curso.findByIdAndUpdate(moduloBorrado.cursoId, { $pull: { "modulos": moduloBorrado._id } }, { new: true });
+    if (haycurso) {
 
-    res.json(moduloBorrado);
+        res.json(moduloBorrado);
+    } else {
+        res.json({msg: 'El curso del modulo fue borrado'})
+    }
 }
 
 

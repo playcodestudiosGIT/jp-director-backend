@@ -43,6 +43,74 @@ const sendEmailBrevo = async (nombre, apellido, correo, templateId, urlAction)  
   });
 
 }
+const sendSupEmail = async (nombre, apellido, correo, mensaje)  => {
+  const defaultClient = SibApiV3Sdk.ApiClient.instance;
+  const apiKey = defaultClient.authentications['api-key'];
+  const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+  var sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
+  apiKey.apiKey = process.env.BREVO_API;
+
+  sendSmtpEmail = {
+    to: [{
+      email: 'playcodestudios@gmail.com',
+      name: 'Centro de Ayuda y Soporte'
+    }],
+    templateId: 7,
+    params: {
+      name: nombre,
+      surname: apellido,
+      correo: correo,
+      mensaje12: mensaje
+    },
+    
+
+    headers: {
+      'api-key': process.env.BREVO_API,
+      'Content-Type': 'application/json;', // This is important for sending attachments with
+      'Accept': 'application/json;'
+    }
+  };
+
+  await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
+  }, function (error) {
+    console.log(`error ${error}`)
+  });
+
+}
+const sendOneEmail = async (nombre, apellido, correo, mensaje)  => {
+  const defaultClient = SibApiV3Sdk.ApiClient.instance;
+  const apiKey = defaultClient.authentications['api-key'];
+  const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+  var sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
+  apiKey.apiKey = process.env.BREVO_API;
+
+  sendSmtpEmail = {
+    to: [{
+      email: correo,
+      name: `${nombre} ${apellido}`
+    }],
+    templateId: 8,
+    params: {
+      name: nombre,
+      surname: apellido,
+      correo: correo,
+      mensaje12: mensaje
+    },
+    
+
+    headers: {
+      'api-key': process.env.BREVO_API,
+      'Content-Type': 'application/json;', // This is important for sending attachments with
+      'Accept': 'application/json;'
+    }
+  };
+
+  await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
+  }, function (error) {
+    console.log(`error ${error}`)
+  });
+
+}
 
 
 
@@ -104,5 +172,7 @@ const agregarContactoALista = async (correo, listIds) => {
 module.exports = {
   sendEmailBrevo,
   createContactBrevo,
-  agregarContactoALista
+  agregarContactoALista,
+  sendSupEmail,
+  sendOneEmail
 }
