@@ -73,7 +73,7 @@ router.put('/remove/:id', [
 
 router.post('/', [
     validarJWT,
-    esAdminRole,
+    // esAdminRole,
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
     check('correo', 'El correo no es válido').isEmail(),
