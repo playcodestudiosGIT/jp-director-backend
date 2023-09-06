@@ -52,7 +52,7 @@ const sendSupEmail = async (nombre, apellido, correo, mensaje)  => {
 
   sendSmtpEmail = {
     to: [{
-      email: 'playcodestudios@gmail.com',
+      email: procces.env.SUPPORT_EMAIL,
       name: 'Centro de Ayuda y Soporte'
     }],
     templateId: 7,
