@@ -52,7 +52,7 @@ const sendSupEmail = async (nombre, apellido, correo, mensaje)  => {
 
   sendSmtpEmail = {
     to: [{
-      email: procces.env.SUPPORT_EMAIL,
+      email: process.env.SUPPORT_EMAIL,
       name: 'Centro de Ayuda y Soporte'
     }],
     templateId: 7,

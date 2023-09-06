@@ -123,7 +123,7 @@ const actualizarImagenCloudinary = async (req, res = response) => {
 
     //subir cloudinary
     const { tempFilePath } = req.files.archivo
-    const { secure_url } = await cloudinary.uploader.upload(tempFilePath, {folder: 'avatars'});
+    const { secure_url } = await cloudinary.uploader.upload(tempFilePath, { folder: 'avatars' });
     modelo.img = secure_url;
 
     await modelo.save();
@@ -154,76 +154,76 @@ const genPdfCert = async (req, res = response) => {
 
     await cert.save().then(cert => idCert = cert.id);
 
-    
+
 
     const content = `<!DOCTYPE html>
-<html>
+                        <html>
 
-<head>
-<meta charset="utf-8">
-<title>Certificado</title>
-    <style>
-        div.cert {
-            margin-left: auto;
-            margin-right: auto;
-            width: 1200px;
-            height: 910px;
-            background-image: url('${curso.urlImgCert}');
-            background-repeat: no-repeat;
-            background-size: cover;
-            font-family: 'Roboto';
-            
-            color: #3B5996;
-        }
-        h1.nombre {
-            text-align: center;
-            width: 1200px;
-            margin-top: 195px;
-            position: absolute;
-            font-size: 55px;
-            font-weight: 800;
-        }
-        h3.fecha {
-            width: 1200px;
-            text-align: center;
-            position: absolute;
-            font-size: 20px;
-            color: white;
-            font-weight: 400;
-            margin-top: 750px;
-        }
-        h3.url {
-            width: 1200px;
-            text-align: center;
-            position: absolute;
-            font-size: 18px;
-            color: white;
-            font-weight: 400;
-            margin-top: 813px;
-        }
-        h3.id {
-            width: 1180px;
-            text-align: right;
-            position: absolute;
-            font-size: 14px;
-            color: #ffffff;
-            font-weight: 400;
-            margin-top: 880px;
-            opacity: 0.4;
-        }
-    </style>
-</head>
+                        <head>
+                        <meta charset="utf-8">
+                        <title>Certificado</title>
+                            <style>
+                                div.cert {
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    width: 1200px;
+                                    height: 910px;
+                                    background-image: url('${curso.urlImgCert}');
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    font-family: 'Roboto';
+                                    
+                                    color: #3B5996;
+                                }
+                                h1.nombre {
+                                    text-align: center;
+                                    width: 1200px;
+                                    margin-top: 195px;
+                                    position: absolute;
+                                    font-size: 55px;
+                                    font-weight: 800;
+                                }
+                                h3.fecha {
+                                    width: 1200px;
+                                    text-align: center;
+                                    position: absolute;
+                                    font-size: 20px;
+                                    color: white;
+                                    font-weight: 400;
+                                    margin-top: 750px;
+                                }
+                                h3.url {
+                                    width: 1200px;
+                                    text-align: center;
+                                    position: absolute;
+                                    font-size: 18px;
+                                    color: white;
+                                    font-weight: 400;
+                                    margin-top: 813px;
+                                }
+                                h3.id {
+                                    width: 1180px;
+                                    text-align: right;
+                                    position: absolute;
+                                    font-size: 14px;
+                                    color: #ffffff;
+                                    font-weight: 400;
+                                    margin-top: 880px;
+                                    opacity: 0.4;
+                                }
+                            </style>
+                        </head>
 
-<body>
-    <div class="cert">
-        <h1 class="nombre"> ${usuario.nombre} ${usuario.apellido} </h1> 
-        <h3 class="fecha"> Aprobado el: ${currentdate.getDate()}/${currentdate.getMonth() + 1}/${currentdate.getFullYear()} </h3>
-        <h3 class="url"> https://jpdirector.net/#/certificados/${idCert} </h3>
-        <h3 class="id"> ID: ${idCert} </h3>
-    </div>
-</body>
+                        <body>
+                            <div class="cert">
+                                <h1 class="nombre"> ${usuario.nombre} ${usuario.apellido} </h1> 
+                                <h3 class="fecha"> Aprobado el: ${currentdate.getDate()}/${currentdate.getMonth() + 1}/${currentdate.getFullYear()} </h3>
+                                <h3 class="url"> https://jpdirector.net/#/certificados/${idCert} </h3>
+                                <h3 class="id"> ID: ${idCert} </h3>
+                            </div>
+                        </body>
 
-</html>`;
+                        </html>`;
 
     try {
         var options = {
@@ -235,9 +235,9 @@ const genPdfCert = async (req, res = response) => {
                 console.log(err);
             } else {
 
-                const { secure_url } = await cloudinary.uploader.upload(`./uploads/certificados/${idCert}.pdf`, {folder: 'certificados'});
+                const { secure_url } = await cloudinary.uploader.upload(`./uploads/certificados/${idCert}.pdf`, { folder: 'certificados' });
                 const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: secure_url }, { new: true });
-                await Usuario.findByIdAndUpdate(userId, {$push: {certificados: cert} }, { new: true });
+                await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
                 fs.unlink(`./uploads/certificados/${idCert}.pdf`, function (err) {
                     if (err) throw err;
                 });
@@ -250,7 +250,6 @@ const genPdfCert = async (req, res = response) => {
 
     } catch (error) {
         console.log(error)
-        throw error
     }
 };
 
