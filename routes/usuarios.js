@@ -25,7 +25,7 @@ const { usuariosGet,
 const router = Router();
 
 
-router.get('/', usuariosGet);
+router.get('/',[validarJWT], usuariosGet);
 
 router.get('/:id', [
     validarJWT,
@@ -37,7 +37,7 @@ router.get('/:id', [
 
 router.put('/:id', [
     validarJWT,
-    esAdminRole,
+    // esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // validarCampos
 ], usuariosPut);
@@ -63,7 +63,7 @@ router.put('/add/:id', [
 
 router.put('/remove/:id', [
     validarJWT,
-    esAdminRole,
+    // esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
@@ -72,7 +72,7 @@ router.put('/remove/:id', [
 ], removerCurso);
 
 router.post('/', [
-    validarJWT,
+    // validarJWT,
     // esAdminRole,
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),

@@ -141,7 +141,7 @@ const createContactBrevo = async (nombre, apellido, correo, telefono, listIds) =
     return 
   }, function (error) {
     const safa = JSON.parse(error["response"]["res"]["text"])
-    console.log('Crear contacto: ' + correo + ' ' +  safa["message"]);
+    // console.log('Crear contacto: ' + correo + ' ' +  safa["message"]);
   });
 
 }
@@ -164,7 +164,7 @@ const agregarContactoALista = async (correo, listIds) => {
     return;
   }, function (error) {
     const safa = JSON.parse(error["response"]["res"]["text"])
-    console.log('Listar: ' + correo + ' ' + safa["message"]);
+    // console.log('Listar: ' + correo + ' ' + safa["message"]);
   });
 
 }
