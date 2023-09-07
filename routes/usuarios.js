@@ -44,7 +44,7 @@ router.put('/:id', [
 
 router.put('/prog/:id', [
     validarJWT,
-    esAdminRole,
+
     check('id', 'No es un ID válido').isMongoId(),
     check('id').custom(existeUsuarioPorId),
     check('rol').custom(esRoleValido),
@@ -53,7 +53,6 @@ router.put('/prog/:id', [
 
 router.put('/add/:id', [
     validarJWT,
-    esAdminRole,
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeUsuarioPorId ),
     // check('rol').custom(esRoleValido),
