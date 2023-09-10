@@ -141,10 +141,12 @@ const actualizarImagenCloudinary = async (req, res = response) => {
 
 const genPdfCert = async (req, res = response) => {
 
+
     const { userId, cursoId } = req.body
 
     const usuario = await Usuario.findById(userId);
     const curso = await Curso.findById(cursoId);
+
 
     var currentdate = new Date();
 
@@ -158,7 +160,6 @@ const genPdfCert = async (req, res = response) => {
     await cert.save().then(cert => idCert = cert.id);
 
 
-
     const content = `<!DOCTYPE html>
                         <html>
 
@@ -169,8 +170,8 @@ const genPdfCert = async (req, res = response) => {
                                 div.cert {
                                     margin-left: auto;
                                     margin-right: auto;
-                                    width: 1200px;
-                                    height: 910px;
+                                    width: 1180px;
+                                    height: 880px;
                                     background-image: url('${curso.urlImgCert}');
                                     background-repeat: no-repeat;
                                     background-size: cover;
@@ -231,8 +232,9 @@ const genPdfCert = async (req, res = response) => {
     try {
 
         var options = {
-            height: "700px",        // allowed units: mm, cm, in, px
-            width: "900px",
+            width: "1200px",
+            height: "900px",        // allowed units: mm, cm, in, px
+            printBackground: true
         }
 
         cloudinary.config({
@@ -242,33 +244,25 @@ const genPdfCert = async (req, res = response) => {
             api_secret: process.env.CLOUDINARY_APISECRET
         });
 
-    
 
-        await html_to_pdf.generatePdf({ content }, options).then(async pdfBuffer =>  {
+        const buffer = await html_to_pdf.generatePdf({ content }, options).then(async pdfBuffer => pdfBuffer);
+        streamifier.createReadStream(buffer).pipe(cloudinary.uploader.upload_stream(
+            {
+                folder: "certificados"
+            },
+            async (error, result) => {
+                const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: result.secure_url }, { new: true });
+                await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
+                return res.json({
+                    message: 'Certificado generado correctamente',
+                    cert
+                });
+            }
+        ));
 
-            let url = '';
-        
-            streamifier.createReadStream(pdfBuffer).pipe(cloudinary.uploader.upload_stream(
-                {
-                    folder: "certificados"
-                },
-                function (error, result) {
-
-                    if(error){console.log(error);}else{url = result.secure_url}
-                    
-                }
-            ));
-            const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: url }, { new: true });
-            await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
-            return res.json({
-                        message: 'Certificado generado correctamente',
-                        cert
-                    });
-        });
-        
-} catch (error) {
-    console.log(error)
-}
+    } catch (error) {
+        console.log(error)
+    }
 };
 
 module.exports = {
