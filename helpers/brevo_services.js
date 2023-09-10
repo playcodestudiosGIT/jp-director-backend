@@ -164,7 +164,7 @@ const agregarContactoALista = async (correo, listIds) => {
     return;
   }, function (error) {
     const safa = JSON.parse(error["response"]["res"]["text"])
-    // console.log('Listar: ' + correo + ' ' + safa["message"]);
+    console.log(safa)
   });
 
 }
