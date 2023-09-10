@@ -1,14 +1,17 @@
+const { response, request } = require('express');
 const path = require('path');
 const fs = require('fs');
-const pdf = require('html-pdf');
+var html_to_pdf = require('html-pdf-node');
+let streamifier = require('streamifier');
+
 
 const cloudinary = require('cloudinary').v2
 cloudinary.config(process.env.CLOUDINARY_URL);
 
-const { response } = require('express');
 const { subirArchivo } = require('../helpers');
 
 const { Usuario, Baner, Curso, Certificado } = require('../models');
+
 
 
 const cargarArchivo = async (req, res = response) => {
@@ -226,32 +229,46 @@ const genPdfCert = async (req, res = response) => {
                         </html>`;
 
     try {
+
         var options = {
             height: "700px",        // allowed units: mm, cm, in, px
             width: "900px",
         }
-        await pdf.create(content, options).toFile(`./uploads/certificados/${idCert}.pdf`, async function (err) {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log('obteniendo secure url');
-                // const { secure_url } = await cloudinary.uploader.upload_stream(`./uploads/certificados/${idCert}.pdf`, { folder: 'certificados', resource_type: "auto" });
-                // const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: secure_url }, { new: true });
-                // await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
-                // fs.unlink(`./uploads/certificados/${idCert}.pdf`, function (err) {
-                //     if (err) throw err;
-                // }
-                // );
-                return res.json({
-                    message: 'Certificado generado correctamente',
-                    cert
-                });
-            }
+
+        cloudinary.config({
+            new_config: true,
+            cloud_name: process.env.CLOUDINARY_CLOUDNAME,
+            api_key: process.env.CLOUDINARY_APIKEY,
+            api_secret: process.env.CLOUDINARY_APISECRET
         });
 
-    } catch (error) {
-        console.log(error)
-    }
+    
+
+        await html_to_pdf.generatePdf({ content }, options).then(async pdfBuffer =>  {
+
+            let url = '';
+        
+            streamifier.createReadStream(pdfBuffer).pipe(cloudinary.uploader.upload_stream(
+                {
+                    folder: "certificados"
+                },
+                function (error, result) {
+
+                    if(error){console.log(error);}else{url = result.secure_url}
+                    
+                }
+            ));
+            const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: url }, { new: true });
+            await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
+            return res.json({
+                        message: 'Certificado generado correctamente',
+                        cert
+                    });
+        });
+        
+} catch (error) {
+    console.log(error)
+}
 };
 
 module.exports = {
