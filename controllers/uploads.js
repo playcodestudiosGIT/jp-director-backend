@@ -235,7 +235,7 @@ const genPdfCert = async (req, res = response) => {
                 console.log(err);
             } else {
 
-                const { secure_url } = await cloudinary.uploader.upload(`./uploads/certificados/${idCert}.pdf`, { folder: 'certificados' });
+                const { secure_url } = await cloudinary.uploader.upload(`./uploads/certificados/${idCert}.pdf`, { folder: 'certificados', resource_type: "raw" });
                 const cert = await Certificado.findByIdAndUpdate(idCert, { urlPdf: secure_url }, { new: true });
                 await Usuario.findByIdAndUpdate(userId, { $push: { certificados: cert } }, { new: true });
                 fs.unlink(`./uploads/certificados/${idCert}.pdf`, function (err) {
