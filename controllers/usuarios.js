@@ -17,7 +17,7 @@ const getUsuarioPorId = async (req = request, res = response) => {
 
 const usuariosGet = async (req = request, res = response) => {
 
-    const { limite = 5, desde = 0 } = req.query;
+    const { limite = 0, desde = 0 } = req.query;
     const query = {};
 
     const [total, usuarios] = await Promise.all([

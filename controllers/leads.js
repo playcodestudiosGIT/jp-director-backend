@@ -39,7 +39,7 @@ const crearLead = async (req, res = response) => {
         // Guardar DB
         await lead.save();
 
-        await sendEmailBrevo('noname', 'nosurname', email, 5, `https://drive.google.com/uc?id=1X3-E_xPYIMWY3iDwHQeWz3tkYyWU3A3I&export=download`, { EMAIL: email });
+        await sendEmailBrevo('noname', 'nosurname', email, 5, `https://drive.google.com/uc?id=${process.env.IDGUIAREGALO}&export=download`, { EMAIL: email });
 
         await createContactBrevo('noname', 'nosurname', email, telf, [2]);
 
