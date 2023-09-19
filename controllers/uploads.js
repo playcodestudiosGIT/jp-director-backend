@@ -194,7 +194,7 @@ const genPdfCert = async (req, res = response) => {
                                     font-size: 20px;
                                     color: white;
                                     font-weight: 400;
-                                    margin-top: 750px;
+                                    margin-top: 700px;
                                 }
                                 h3.url {
                                     width: 1200px;
@@ -203,7 +203,7 @@ const genPdfCert = async (req, res = response) => {
                                     font-size: 18px;
                                     color: white;
                                     font-weight: 400;
-                                    margin-top: 813px;
+                                    margin-top: 780px;
                                 }
                                 h3.id {
                                     width: 1180px;
@@ -212,7 +212,7 @@ const genPdfCert = async (req, res = response) => {
                                     font-size: 14px;
                                     color: #ffffff;
                                     font-weight: 400;
-                                    margin-top: 880px;
+                                    margin-top: 830px;
                                     opacity: 0.4;
                                 }
                             </style>
