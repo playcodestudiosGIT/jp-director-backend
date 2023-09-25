@@ -1,6 +1,6 @@
 
 
-const Curso = require('./cursos');
+const Curso = require('./curso');
 const Modulo = require('./modulo');
 const Role = require('./role');
 const Form = require('./form');

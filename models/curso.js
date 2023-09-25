@@ -52,6 +52,10 @@ const CursoSchema = Schema({
         type: Boolean,
         default: true
     },
+    preorder: {
+        type: Boolean,
+        default: false
+    },
     duracion: {
         type: String,
         default: '0',
