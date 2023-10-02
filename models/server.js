@@ -16,10 +16,10 @@ class Server {
             cursos: '/api/cursos',
             forms: '/api/forms',
             pay: '/api/pay',
-            // buscar:     '/api/buscar',
             modulos:  '/api/modulos',
             uploads:    '/api/uploads',
             leads:    '/api/leads',
+            events:     '/api/events',
         }
 
 
@@ -66,9 +66,9 @@ class Server {
         this.app.use( this.paths.modulos, require('../routes/modulos'));
         this.app.use( this.paths.forms, require('../routes/forms'));
         this.app.use( this.paths.pay, require('../routes/pay'));
-        // this.app.use( this.paths.buscar, require('../routes/buscar'));
         this.app.use( this.paths.uploads, require('../routes/uploads'));
         this.app.use( this.paths.leads, require('../routes/leads'));
+        this.app.use( this.paths.events, require('../routes/events'));
         
     }
 
