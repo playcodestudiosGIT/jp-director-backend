@@ -73,7 +73,7 @@ const sendSupEmail = async (nombre, apellido, correo, mensaje)  => {
 
   await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
   }, function (error) {
-    console.log(`error ${error}`)
+    // console.log(`error ${error}`)
   });
 
 }
@@ -107,7 +107,7 @@ const sendOneEmail = async (nombre, apellido, correo, mensaje)  => {
 
   await apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
   }, function (error) {
-    console.log(`error ${error}`)
+    // console.log(`error ${error}`)
   });
 
 }
@@ -164,7 +164,7 @@ const agregarContactoALista = async (correo, listIds) => {
     return;
   }, function (error) {
     const safa = JSON.parse(error["response"]["res"]["text"])
-    console.log(safa)
+    // console.log(safa)
   });
 
 }
