@@ -38,7 +38,7 @@ const createSession = async (req, res = response) => {
             mode: 'payment',
             customer_email: userEmail,
             success_url: `${process.env.DOMAIN}/#/checkout/checksession?cursoId=${cursoId}`,
-            cancel_url: `${process.env.DOMAIN}/#/?canceled=true`,
+            cancel_url: `${process.env.DOMAIN}/#/cursos`,
         });
 
         await Usuario.findOneAndUpdate({ correo: userEmail }, { sessionId: session.id }, { new: true });
