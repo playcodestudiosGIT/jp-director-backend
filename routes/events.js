@@ -27,6 +27,7 @@ router.post('/registro',[
 
 
 router.post('/click',[
+    check('title', 'La Fuente es obligatorio').not().isEmpty(),
     check('source', 'La Fuente es obligatorio').not().isEmpty(),
     check('description', 'La descripcion es obligatorio').not().isEmpty(),
     validarCampos

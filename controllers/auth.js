@@ -5,46 +5,46 @@ const Usuario = require('../models/usuario');
 
 const { generarJWT } = require('../helpers/generar-jwt');
 const { sendEmailBrevo } = require('../helpers/brevo_services');
-const { googleVerify } = require('../helpers/google-verify');
+const { googleVerify, clickEvent, serverEvent } = require('../helpers');
+const { body } = require('express-validator');
 
 
-const login = async(req, res = response) => {
+const login = async (req, res = response) => {
 
     const { correo, password } = req.body;
-
     try {
-      
+
         // Verificar si el email existe
         const usuario = await Usuario.findOne({ correo })
-        .populate({
-            path : 'cursos',
-            populate : {
-              path : 'modulos'
-            }
-          })
+            .populate({
+                path: 'cursos',
+                populate: {
+                    path: 'modulos'
+                }
+            })
 
-        if ( !usuario ) {
+        if (!usuario) {
             return res.status(400).json({
                 msg: 'Usuario / Password no son correctos - correo'
             });
         }
 
         // SI el usuario está pendiente
-        if ( !usuario.estado == 'Pending') {
+        if (!usuario.estado == 'Pending') {
             return res.status(400).json({
                 msg: 'Usuario por confirmar, revise su correo'
             });
         }
         // SI el usuario está inactivo
-        if ( !usuario.estado == 'Disable') {
+        if (!usuario.estado == 'Disable') {
             return res.status(400).json({
                 msg: 'Usuario desactivado, contácte con soporte'
             });
         }
 
         // Verificar la contraseña
-        const validPassword = bcryptjs.compareSync( password, usuario.password );
-        if ( !validPassword ) {
+        const validPassword = bcryptjs.compareSync(password, usuario.password);
+        if (!validPassword) {
             return res.status(400).json({
                 msg: 'Usuario / Password no son correctos - password'
             });
@@ -52,6 +52,24 @@ const login = async(req, res = response) => {
 
         // Generar el JWT
         const token = await generarJWT(usuario.id);
+
+        // Crear Evento Meta Pixel
+        try {
+            await serverEvent(
+                'Login Action',
+                usuario.nombre,
+                usuario.apellido,
+                usuario.email,
+                usuario.id,
+                req.connection.remoteAddress,
+                req.headers['user-agent'],
+            );
+            // if (s) console.log(s)
+        } catch (error) {}
+
+
+
+
         res.json({
             usuario,
             token
@@ -62,21 +80,21 @@ const login = async(req, res = response) => {
         res.status(500).json({
             msg: 'Hable con el administrador'
         });
-    }   
+    }
 
 }
 
 
-const googleSignin = async(req, res = response) => {
+const googleSignin = async (req, res = response) => {
 
     const { id_token } = req.body;
-    
+
     try {
-        const { correo, nombre, img } = await googleVerify( id_token );
+        const { correo, nombre, img } = await googleVerify(id_token);
 
         let usuario = await Usuario.findOne({ correo });
 
-        if ( !usuario ) {
+        if (!usuario) {
             // Tengo que crearlo
             const data = {
                 nombre,
@@ -86,25 +104,25 @@ const googleSignin = async(req, res = response) => {
                 google: true
             };
 
-            usuario = new Usuario( data );
+            usuario = new Usuario(data);
             await usuario.save();
         }
 
         // Si el usuario en DB
-        if ( !usuario.estado ) {
+        if (!usuario.estado) {
             return res.status(401).json({
                 msg: 'Hable con el administrador, usuario bloqueado'
             });
         }
 
         // Generar el JWT
-        const token = await generarJWT( usuario.id );
-        
+        const token = await generarJWT(usuario.id);
+
         res.json({
             usuario,
             token
         });
-        
+
     } catch (error) {
 
         res.status(400).json({
@@ -117,7 +135,7 @@ const googleSignin = async(req, res = response) => {
 
 }
 
-const validarTokenUsuario = async (req, res = response ) => {
+const validarTokenUsuario = async (req, res = response) => {
     const usuario = req.usuario
     // Generar el JWT
     const token = await generarJWT(req.usuario._id);
@@ -133,12 +151,12 @@ const verifyUser = async (req, res = response) => {
 
     const { confirmCode } = req.params;
     try {
-        const usuario = await Usuario.findOne({confirmCode: confirmCode})
+        const usuario = await Usuario.findOne({ confirmCode: confirmCode })
         if (!usuario) {
             return res.status(400).json({ msg: 'No Existe ese usuario' });
         }
-        await Usuario.findOneAndUpdate({ confirmCode: confirmCode }, { estado: true }, {new: true});
-        res.status(200).json({msg: 'ok'});
+        await Usuario.findOneAndUpdate({ confirmCode: confirmCode }, { estado: true }, { new: true });
+        res.status(200).json({ msg: 'ok' });
     } catch (error) {
         res.status(400).json({
             msg: `error ${error}`
@@ -154,7 +172,7 @@ const resetPass = async (req, res = response) => {
     const { token } = req.params;
 
     try {
-        const usuario = await Usuario.findOne({confirmCode: token})
+        const usuario = await Usuario.findOne({ confirmCode: token })
         if (!usuario) {
             return res.status(400).json({ msg: 'No Existe ese usuario' });
         }
@@ -162,7 +180,7 @@ const resetPass = async (req, res = response) => {
         usuario.password = bcryptjs.hashSync(newPass, salt);
 
         usuario.save()
-        res.status(200).json({msg: 'ok'});
+        res.status(200).json({ msg: 'ok' });
     } catch (error) {
         res.status(400).json({
             msg: `error ${error}`
@@ -175,7 +193,7 @@ const resetPass = async (req, res = response) => {
 const sendResetPass = async (req, res = response) => {
 
     const { email } = req.params;
- 
+
     try {
         const usuario = await Usuario.findOne({ correo: email });
         if (!usuario) {
@@ -185,9 +203,9 @@ const sendResetPass = async (req, res = response) => {
         usuario.confirmCode = token
         usuario.save();
         sendEmailBrevo(usuario.nombre, usuario.apellido, email, 4, `https://www.jpdirector.net/#/auth/newpass/${usuario.confirmCode}`)
-      
-        
-        res.status(200).json({msg: 'ok'});
+
+
+        res.status(200).json({ msg: 'ok' });
     } catch (error) {
         res.status(400).json({
             msg: `error ${error}`
