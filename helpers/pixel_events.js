@@ -1,19 +1,25 @@
+
 const bizSdk = require('facebook-nodejs-business-sdk');
-const { response, request } = require('express');
+const { response } = require('express');
+const axios = require('axios');
+const util = require('util')
+
+
 
 'use strict';
-    const Content = bizSdk.Content;
-    const CustomData = bizSdk.CustomData;
-    const DeliveryCategory = bizSdk.DeliveryCategory;
-    const EventRequest = bizSdk.EventRequest;
-    const UserData = bizSdk.UserData;
-    const ServerEvent = bizSdk.ServerEvent;
+const Content = bizSdk.Content;
+const CustomData = bizSdk.CustomData;
+const DeliveryCategory = bizSdk.DeliveryCategory;
+const EventRequest = bizSdk.EventRequest;
+const UserData = bizSdk.UserData;
+const ServerEvent = bizSdk.ServerEvent;
 
-    const access_token = process.env.META_ACCES_TOKEN;
-    const pixel_id = process.env.PIXEL_ID;
-    const api = bizSdk.FacebookAdsApi.init(access_token);
+const access_token = process.env.META_ACCES_TOKEN;
 
-    let current_timestamp = Math.floor(new Date() / 1000);
+const api = bizSdk.FacebookAdsApi.init(access_token);
+const pixel_id = process.env.PIXEL_ID;
+
+let current_timestamp = Math.floor(new Date() / 1000);
 
 
 const regaloEvent = async (req, res = response) => {
@@ -31,7 +37,6 @@ const regaloEvent = async (req, res = response) => {
 
     const content = (new Content())
         .setId('RegaloDescarga')
-        .description('Descarga Guia de regalo')
 
     const customData = (new CustomData())
         .setContents([content])
@@ -57,7 +62,7 @@ const regaloEvent = async (req, res = response) => {
         err => {
             // console.error('Error: ', err);
             res.json({
-                
+
                 msg: "Algo salió mal",
                 err: e
             })
@@ -87,11 +92,11 @@ const registroEvent = async (req, res = response) => {
 
     const customData = (new CustomData())
         .setContents([content])
-        // .setCurrency('usd')
-        // .setValue(0.0);
+    // .setCurrency('usd')
+    // .setValue(0.0);
 
     const serverEvent = (new ServerEvent())
-        
+
         .setEventName('RegistroEvent')
         .setEventTime(current_timestamp)
         .setUserData(userData)
@@ -105,7 +110,7 @@ const registroEvent = async (req, res = response) => {
 
     eventRequest.execute().then(
         response => {
-            // console.log('Response: ', response);
+            console.log('Response: ', response);
             res.json({
                 msg: "Evento creado"
             })
@@ -113,7 +118,7 @@ const registroEvent = async (req, res = response) => {
         err => {
             console.error('Error: ', err);
             res.json({
-                
+
                 msg: "Algo salió mal",
                 // err: err
             })
@@ -123,7 +128,7 @@ const registroEvent = async (req, res = response) => {
 
 }
 
-const serverEvent = async ( action, firstname, lastname, email, description, remoteAddress, userAgent, res = response) => {
+const serverEvent = async (action, firstname, lastname, email, description, remoteAddress, userAgent, res = response) => {
     const userData = (new UserData())
         .setFirstName(firstname)
         .setLastName(lastname)
@@ -144,12 +149,12 @@ const serverEvent = async ( action, firstname, lastname, email, description, rem
 
     const customData = (new CustomData())
         .setContents([content])
-        
-        // .setCurrency('usd')
-        // .setValue(0.0);
+
+    // .setCurrency('usd')
+    // .setValue(0.0);
 
     const serverEvent = (new ServerEvent())
-        
+
         .setEventName('ServerEvents')
         .setEventTime(current_timestamp)
         .setUserData(userData)
@@ -162,7 +167,7 @@ const serverEvent = async ( action, firstname, lastname, email, description, rem
         .setEvents(eventsData);
 
     eventRequest.execute()
-    
+
     // .then(
     //     response => {
     //         console.log('Evento Creado ');
@@ -174,11 +179,11 @@ const serverEvent = async ( action, firstname, lastname, email, description, rem
 }
 
 const clickEvent = async (req, res = response) => {
-
-    const {title, source, description, email = 'noemail@jpdirector.net'  } = req.body;
-
+    bizSdk.FacebookAdsApi.init(access_token);
+    const { title, source, description, email = 'noemail@jpdirector.net', phone = '' } = req.body;
     const userData = (new UserData())
         .setEmail(email)
+        .setPhone(phone)
         // It is recommended to send Client IP and User Agent for Conversions API Events.
         .setClientIpAddress(req.connection.remoteAddress)
         .setClientUserAgent(req.headers['user-agent'])
@@ -189,16 +194,16 @@ const clickEvent = async (req, res = response) => {
         .setId('ClickEvents')
         .setCategory('Event')
         .setTitle(title)
-        .setDescription(description)
+        .setDescription(description);
 
     const customData = (new CustomData())
         .setContents([content])
-        
-        // .setCurrency('usd')
-        // .setValue(0.0);
+
+    // .setCurrency('usd')
+    // .setValue(0.0);
 
     const serverEvent = (new ServerEvent())
-        
+
         .setEventName('ClickEvents')
         .setEventTime(current_timestamp)
         .setUserData(userData)
@@ -210,32 +215,83 @@ const clickEvent = async (req, res = response) => {
     const eventRequest = (new EventRequest(access_token, pixel_id))
         .setEvents(eventsData);
 
-    eventRequest.execute().then(
-        response => {
-            // console.log('Response: ', response);
-            res.json({
-                msg: "Evento creado"
-            })
-        },
-        err => {
-            console.error('Error: ', err);
-            res.json({
-                
-                msg: "Algo salió mal",
-                // err: err
-            })
-        }
-    );
+    eventRequest.execute()
+        .then(
+            response => {
+                // console.log('Response: ', response);
+                res.json({
+                    msg: "Evento creado"
+                })
+            },
+            err => {
+                console.error('Error: ', err);
+                res.json({
+
+                    msg: "Algo salió mal",
+                    // err: err
+                })
+            }
+        );
 
 
 }
+
+const ttkClickEvent = async (req, res = response) => {
+    const { source, hashId, hashPhone, hashEmail, description, title  } = req.body;
+
+    const instance = axios.create({
+        baseURL: 'https://business-api.tiktok.com/open_api/v1.3/pixel/',
+        timeout: 1000,
+        headers: {'Access-Token': process.env.TIKTOK_TOKEN}
+      });
+
+    const data = {
+        "pixel_code": process.env.TIKTOK_PIXEL_ID,
+        "event": "ClickEvent",
+        "context": {
+        //   "ad": {
+        //     "callback": "<tiktok_click_id>"
+        //   },
+          "page": {
+            "url": source
+          },
+          "user": {
+            "external_id": hashId,
+            "phone_number": hashPhone,
+            "email": hashEmail
+          },
+          "user_agent": req.headers['user-agent'],
+          "ip": req.connection.remoteAddress
+        },
+        "properties": {
+          "contents": [{
+            "content_id": title,
+            "content_type": description, 
+            "content_name": title
+          }]
+        },
+      }
+
+    try {
+        await instance.post('track/', data);
+        res.json({
+            msg: "Evento creado"
+        });
+    } catch (error) {
+        res.json({
+            msg: "Algo salió mal"
+        });
+    }
+}
+
 
 
 module.exports = {
     clickEvent,
     regaloEvent,
     registroEvent,
-    serverEvent
+    serverEvent,
+    ttkClickEvent
 }
 
 

@@ -5,7 +5,8 @@ const generarJWT   = require('./generar-jwt');
 const googleVerify = require('./google-verify');
 const subirArchivo = require('./subir-archivo');
 const brevoServices = require('./brevo_services');
-const metaEvents = require('./fb_pixel_events');
+const pixelEvents = require('./pixel_events');
+
 
 
 module.exports = {
@@ -14,5 +15,5 @@ module.exports = {
     ...googleVerify,
     ...subirArchivo,
     ...brevoServices,
-    ...metaEvents
+    ...pixelEvents,
 }
