@@ -18,7 +18,7 @@ const getUsuarioPorId = async (req = request, res = response) => {
 const usuariosGet = async (req = request, res = response) => {
 
     const { limite = 0, desde = 0 } = req.query;
-    const query = {};
+    const query = {estado: "true"};
 
     const [total, usuarios] = await Promise.all([
         Usuario.countDocuments(query),

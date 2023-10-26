@@ -7,7 +7,10 @@ const {
     regaloEvent,
     registroEvent,
     clickEvent,
-    ttkClickEvent
+    ttkClickEvent,
+    ttkRegisterEvent,
+    ttkRegaloEvent,
+    ttkServerEvent
  } = require('../helpers');
 
 
@@ -34,13 +37,32 @@ router.post('/meta-click', [
     validarCampos
 ], clickEvent);
 
-router.post('/ttk-click-event', [
+router.post('/ttk-click', [
     check('title', 'La Fuente es obligatorio').not().isEmpty(),
     check('source', 'La Fuente es obligatorio').not().isEmpty(),
     check('description', 'La descripcion es obligatorio').not().isEmpty(),
     validarCampos
 ], ttkClickEvent);
 
+router.post('/ttk-registro', [
+    check('title', 'La Fuente es obligatorio').not().isEmpty(),
+    check('source', 'La Fuente es obligatorio').not().isEmpty(),
+    check('description', 'La descripcion es obligatorio').not().isEmpty(),
+    validarCampos
+], ttkRegisterEvent);
+
+router.post('/ttk-regalo', [
+    check('email', 'El correo es obligatorio').isEmail(),
+    check('phone', 'El Teléfono es obligatorio').not().isEmpty(),
+    validarCampos
+], ttkRegaloEvent);
+
+router.post('/ttk-login', [
+    check('title', 'La Fuente es obligatorio').not().isEmpty(),
+    check('source', 'La Fuente es obligatorio').not().isEmpty(),
+    check('description', 'La descripcion es obligatorio').not().isEmpty(),
+    validarCampos
+], ttkServerEvent);
 
 
 

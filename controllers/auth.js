@@ -5,8 +5,10 @@ const Usuario = require('../models/usuario');
 
 const { generarJWT } = require('../helpers/generar-jwt');
 const { sendEmailBrevo } = require('../helpers/brevo_services');
-const { googleVerify, clickEvent, serverEvent } = require('../helpers');
+const { googleVerify, serverEvent, ttkServerEvent } = require('../helpers');
 const { body } = require('express-validator');
+
+var crypto = require('crypto');
 
 
 const login = async (req, res = response) => {
@@ -65,7 +67,7 @@ const login = async (req, res = response) => {
                 req.headers['user-agent'],
             );
             // if (s) console.log(s)
-        } catch (error) {}
+        } catch (error) { console.log(error) }
 
 
 
@@ -225,3 +227,4 @@ module.exports = {
     resetPass,
     sendResetPass
 }
+

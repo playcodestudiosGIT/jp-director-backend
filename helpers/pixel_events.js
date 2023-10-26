@@ -2,7 +2,7 @@
 const bizSdk = require('facebook-nodejs-business-sdk');
 const { response } = require('express');
 const axios = require('axios');
-const util = require('util')
+
 
 
 
@@ -110,7 +110,7 @@ const registroEvent = async (req, res = response) => {
 
     eventRequest.execute().then(
         response => {
-            console.log('Response: ', response);
+            // console.log('Response: ', response);
             res.json({
                 msg: "Evento creado"
             })
@@ -238,16 +238,22 @@ const clickEvent = async (req, res = response) => {
 
 const ttkClickEvent = async (req, res = response) => {
     const { source, hashId, hashPhone, hashEmail, description, title  } = req.body;
-
     const instance = axios.create({
         baseURL: 'https://business-api.tiktok.com/open_api/v1.3/pixel/',
         timeout: 1000,
         headers: {'Access-Token': process.env.TIKTOK_TOKEN}
       });
 
+      var event = 'ClickEvent';
+
+      if(hashEmail != 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'){
+
+        event = 'ClickUserEvent'
+      }
+
     const data = {
         "pixel_code": process.env.TIKTOK_PIXEL_ID,
-        "event": "ClickEvent",
+        "event": event,
         "context": {
         //   "ad": {
         //     "callback": "<tiktok_click_id>"
@@ -266,9 +272,145 @@ const ttkClickEvent = async (req, res = response) => {
         "properties": {
           "contents": [{
             "content_id": title,
-            "content_type": description, 
-            "content_name": title
-          }]
+            "content_type": title
+          }],
+          "description": description
+        },
+      }
+
+    try {
+        await instance.post('track/', data);
+        res.json({
+            msg: "Evento creado"
+        });
+    } catch (error) {
+        res.json({
+            msg: "Algo salió mal"
+        });
+    }
+}
+const ttkRegisterEvent = async (req, res = response) => {
+    const { source, hashId, hashPhone, hashEmail, description, title  } = req.body;
+    const instance = axios.create({
+        baseURL: 'https://business-api.tiktok.com/open_api/v1.3/pixel/',
+        timeout: 1000,
+        headers: {'Access-Token': process.env.TIKTOK_TOKEN}
+      });
+
+      var event = 'CompleteRegistration';
+
+    const data = {
+        "pixel_code": process.env.TIKTOK_PIXEL_ID,
+        "event": event,
+        "context": {
+        //   "ad": {
+        //     "callback": "<tiktok_click_id>"
+        //   },
+          "page": {
+            "url": source
+          },
+          "user": {
+            "external_id": hashId,
+            "phone_number": hashPhone,
+            "email": hashEmail
+          },
+          "user_agent": req.headers['user-agent'],
+          "ip": req.connection.remoteAddress
+        },
+        "properties": {
+          "contents": [{
+            "content_id": title,
+            "content_type": title,
+            
+          }],
+          "description": description, 
+        },
+      }
+
+    try {
+        await instance.post('track/', data);
+        res.json({
+            msg: "Evento creado"
+        });
+    } catch (error) {
+        res.json({
+            msg: "Algo salió mal"
+        });
+    }
+}
+const ttkRegaloEvent = async (req, res = response) => {
+    const { source, hashId, hashPhone, hashEmail, description, title  } = req.body;
+    const instance = axios.create({
+        baseURL: 'https://business-api.tiktok.com/open_api/v1.3/pixel/',
+        timeout: 1000,
+        headers: {'Access-Token': process.env.TIKTOK_TOKEN}
+      });
+
+      var event = 'Download';
+
+    const data = {
+        "pixel_code": process.env.TIKTOK_PIXEL_ID,
+        "event": event,
+        "context": {
+          "page": {
+            "url": source
+          },
+          "user": {
+            "external_id": hashId,
+            "phone_number": hashPhone,
+            "email": hashEmail
+          },
+          "user_agent": req.headers['user-agent'],
+          "ip": req.connection.remoteAddress
+        },
+        "properties": {
+          "contents": [{
+            "content_id": title,
+            "content_type": title
+          }],
+          "description": description,
+        },
+      }
+
+    try {
+        await instance.post('track/', data);
+        res.json({
+            msg: "Evento creado"
+        });
+    } catch (error) {
+        res.json({
+            msg: "Algo salió mal"
+        });
+    }
+}
+const ttkServerEvent = async (req, res = response) => {
+    const { source, hashId, hashEmail, description, title  } = req.body;
+    const instance = axios.create({
+        baseURL: 'https://business-api.tiktok.com/open_api/v1.3/pixel/',
+        timeout: 1000,
+        headers: {'Access-Token': process.env.TIKTOK_TOKEN}
+      });
+
+      data = {
+        "pixel_code": process.env.TIKTOK_PIXEL_ID,
+        "event": "ServerEvent",
+        "context": {
+          "page": {
+            "url": source
+          },
+          "user": {
+            "external_id": hashId, 
+            "email": hashEmail,
+          },
+          "user_agent": req.headers['user-agent'],
+          "ip": req.connection.remoteAddress
+        },
+        "properties": {
+          "contents": [{
+            "content_id": title,
+            "content_type": title
+          }],
+          "description": description
         },
       }
 
@@ -284,14 +426,13 @@ const ttkClickEvent = async (req, res = response) => {
     }
 }
 
-
-
 module.exports = {
     clickEvent,
     regaloEvent,
     registroEvent,
     serverEvent,
-    ttkClickEvent
+    ttkClickEvent,
+    ttkRegisterEvent,
+    ttkRegaloEvent,
+    ttkServerEvent
 }
-
-
