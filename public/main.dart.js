@@ -107259,7 +107259,7 @@ r.height="100%"
 r=s.style
 r.toString
 B.tl.anQ(r,B.tl.H_(r,"overflow-y"),"hidden","")
-s.srcdoc='<!-- Principio del widget integrado de Calendly -->\n                      <div class="calendly-inline-widget" data-url="https://calendly.com/jp-director/asesoria-1-1?background_color=00041c&text_color=ffffff&primary_color=15e0fb" style="height:100vh; overflow:hidden;"></div>\n                      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>\n                  \n                      <!-- Final del widget integrado de Calendly -->'
+s.srcdoc='<!-- Principio del widget integrado de Calendly -->\n                      <div class="calendly-inline-widget" data-url="https://calendly.com/jpdirector/1hour?background_color=00041c&text_color=ffffff&primary_color=15e0fb" style="height:100vh; overflow:hidden;"></div>\n                      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>\n                  \n                      <!-- Final del widget integrado de Calendly -->'
 r=s.style
 r.border="none"
 return s},
