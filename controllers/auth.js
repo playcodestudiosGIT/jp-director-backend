@@ -132,9 +132,6 @@ const googleSignin = async (req, res = response) => {
         })
 
     }
-
-
-
 }
 
 const validarTokenUsuario = async (req, res = response) => {
