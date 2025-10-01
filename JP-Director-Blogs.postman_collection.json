@@ -1,0 +1,387 @@
+{
+	"info": {
+		"_postman_id": "7a5c3d8f-2c3a-4e8a-8b7a-9d2c15f0e3a1",
+		"name": "JP-Director-Blogs",
+		"description": "Colección para probar los endpoints de blogs de JP Director",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12345678"
+	},
+	"item": [
+		{
+			"name": "Autenticación",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"correo\": \"test@test.com\",\n    \"password\": \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						},
+						"description": "Inicio de sesión para obtener un token JWT"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Blogs",
+			"item": [
+				{
+					"name": "Obtener todos los blogs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/blogs?limite=10&desde=0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs"
+							],
+							"query": [
+								{
+									"key": "limite",
+									"value": "10"
+								},
+								{
+									"key": "desde",
+									"value": "0"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Obtiene todos los blogs con paginación"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener blogs publicados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/blogs/published?page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs",
+								"published"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						},
+						"description": "Obtiene blogs publicados (estado=true y fecha de publicación <= hoy)"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar blogs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/blogs/search?q=cine&page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "cine"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						},
+						"description": "Busca blogs por contenido"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener blog por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/blogs/{{blog_id}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs",
+								"{{blog_id}}"
+							]
+						},
+						"description": "Obtiene un blog específico por su ID"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear blog",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"if (jsonData.blog && jsonData.blog._id) {",
+									"    pm.environment.set(\"blog_id\", jsonData.blog._id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tituloEs\": \"Técnicas Avanzadas de Dirección de Actores\",\n    \"tituloEn\": \"Advanced Actor Directing Techniques\",\n    \"contenidoEs\": \"La dirección de actores es un arte que requiere una comprensión profunda de las emociones humanas. En este artículo, exploraremos las técnicas más efectivas para conseguir actuaciones naturales y convincentes.\",\n    \"contenidoEn\": \"Actor directing is an art that requires a deep understanding of human emotions. In this article, we will explore the most effective techniques for achieving natural and convincing performances.\",\n    \"fechaPublicacion\": \"2025-09-30\",\n    \"publicado\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/blogs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs"
+							]
+						},
+						"description": "Crea un nuevo blog (requiere token de admin)"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar blog",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"publicado\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/blogs/{{blog_id}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs",
+								"{{blog_id}}"
+							]
+						},
+						"description": "Actualiza un blog existente (requiere token de admin)"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar blog",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/blogs/{{blog_id}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs",
+								"{{blog_id}}"
+							]
+						},
+						"description": "Elimina un blog (cambiar estado a false) - Requiere token de admin"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear blog sin acentos",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"if (jsonData.blog && jsonData.blog._id) {",
+									"    pm.environment.set(\"blog_id\", jsonData.blog._id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tituloEs\": \"Tecnicas Avanzadas de Direccion de Actores\",\n    \"tituloEn\": \"Advanced Actor Directing Techniques\",\n    \"contenidoEs\": \"La direccion de actores es un arte que requiere una comprension profunda de las emociones humanas. En este articulo, exploraremos las tecnicas mas efectivas para conseguir actuaciones naturales y convincentes.\",\n    \"contenidoEn\": \"Actor directing is an art that requires a deep understanding of human emotions. In this article, we will explore the most effective techniques for achieving natural and convincing performances.\",\n    \"fechaPublicacion\": \"2025-09-30\",\n    \"estado\": true,\n    \"tags\": [\"direccion\", \"actuacion\", \"cine\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/blogs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"blogs"
+							]
+						},
+						"description": "Crea un nuevo blog sin usar acentos ni caracteres especiales (para pruebas)"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "blog_id",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

@@ -20,6 +20,7 @@ class Server {
             uploads:    '/api/uploads',
             leads:    '/api/leads',
             events:     '/api/events',
+            blogs:     '/api/blogs',
         }
 
 
@@ -69,6 +70,7 @@ class Server {
         this.app.use( this.paths.uploads, require('../routes/uploads'));
         this.app.use( this.paths.leads, require('../routes/leads'));
         this.app.use( this.paths.events, require('../routes/events'));
+        this.app.use( this.paths.blogs, require('../routes/blogs'));
         
     }
 

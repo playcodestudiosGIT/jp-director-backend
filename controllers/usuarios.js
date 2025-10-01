@@ -36,44 +36,57 @@ const usuariosGet = async (req = request, res = response) => {
 }
 
 const usuariosPost = async (req, res = response) => {
+    try {
+        const { nombre, apellido, correo, password, rol, ...resto } = req.body;
+        const usuario = new Usuario({ nombre, apellido, correo, password, rol, ...resto });
+        // Generar el JWT
+        const token = await generarJWT(usuario.id);
+        // Encriptar la contraseña
+        const salt = bcryptjs.genSaltSync();
+        usuario.password = bcryptjs.hashSync(password, salt);
+        //ConfirmCode
+        usuario.confirmCode = token
 
-    const { nombre, apellido, correo, password, rol, ...resto } = req.body;
-    const usuario = new Usuario({ nombre, apellido, correo, password, rol, ...resto });
-    // Generar el JWT
-    const token = await generarJWT(usuario.id);
-    // Encriptar la contraseña
-    const salt = bcryptjs.genSaltSync();
-    usuario.password = bcryptjs.hashSync(password, salt);
-    //ConfirmCode
-    usuario.confirmCode = token
+        const modulos = await Modulo.find({});
 
-    const modulos = await Modulo.find({});
+        const newProgress = [];
 
-    const newProgress = [];
-
-    for (var i in modulos) {
-
-        const dataDumy = {
-            moduloId: `${modulos[i]._id}`,
-            marker: 0,
-            isComplete: false
+        for (var i in modulos) {
+            const dataDumy = {
+                moduloId: `${modulos[i]._id}`,
+                marker: 0,
+                isComplete: false
+            }
+            newProgress.push(dataDumy);
         }
-        newProgress.push(dataDumy);
 
+        usuario.progress = newProgress;
+        
+        // Guardar en BD
+        await usuario.save();
+
+        // Enviar emails y crear contacto solo si el guardado fue exitoso
+        await sendEmailBrevo(nombre, apellido, correo, 1, `${process.env.DOMAIN}/#/auth/verify/${token}`);
+        await createContactBrevo(nombre, apellido, correo, '', [2]);
+        await agregarContactoALista(correo, 4);
+        
+        res.json({
+            usuario,
+            token
+        });
+    } catch (error) {
+        // Manejar error de duplicado
+        if (error.code === 11000) {
+            return res.status(400).json({
+                msg: `El correo ${error.keyValue.correo} ya está registrado`
+            });
+        }
+        // Manejar otros errores
+        console.error('Error en registro:', error);
+        res.status(500).json({
+            msg: 'Error en el servidor al registrar usuario'
+        });
     }
-
-    usuario.progress = newProgress;
-    // Guardar en BD
-    await usuario.save();
-
-    sendEmailBrevo(nombre, apellido, correo, 1, `${process.env.DOMAIN}/#/auth/verify/${token}`);
-    await createContactBrevo(nombre, apellido, correo, '', [2]);
-    await agregarContactoALista(correo, 4);
-    res.json({
-        usuario,
-        token,
-
-    });
 }
 
 const agregarCurso = async (req, res = response) => {

@@ -11,11 +11,13 @@ const Coment = require('./coment');
 const Lead = require('./leads');
 const Resp = require('./resp');
 const Certificado = require('./certificado');
-const Testimonio = require('./testimonio')
+const Testimonio = require('./testimonio');
+const Blog = require('./blog');
 
 
 
 module.exports = {
+    Blog,
     Lead,
     Form,
     Curso,

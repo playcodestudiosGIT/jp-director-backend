@@ -1,5 +1,5 @@
 
-const { Usuario, Curso, Modulo, Form, Role, Certificado, Testimonio } = require('../models');
+const { Usuario, Curso, Modulo, Form, Role, Certificado, Testimonio, Blog } = require('../models');
 
 const esRoleValido = async(rol = 'USER_ROLE') => {
     const existeRol = await Role.findOne({ rol: rol });
@@ -91,6 +91,13 @@ const coleccionesPermitidas = ( coleccion = '', colecciones = []) => {
 }
 
 
+const existeBlogPorId = async( id ) => {
+    const existeBlog = await Blog.findById(id);
+    if ( !existeBlog ) {
+        throw new Error(`El blog con id ${id} no existe`);
+    }
+}
+
 module.exports = {
     existeFormularioPorId,
     esRoleValido,
@@ -100,6 +107,7 @@ module.exports = {
     existeModuloPorId,
     coleccionesPermitidas,
     existeCertPorId,
-    existeTestimonioById
+    existeTestimonioById,
+    existeBlogPorId
 }
 
