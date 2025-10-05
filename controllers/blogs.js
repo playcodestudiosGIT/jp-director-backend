@@ -1,9 +1,10 @@
 const { response } = require('express');
 const Blog = require('../models/blog');
+const { logger } = require('../helpers');
 
 // Obtener todos los blogs (con paginación)
 const obtenerBlogs = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs - Obteniendo blogs con parámetros:`, req.query);
+    logger.apiRequest('GET', '/api/blogs', req.query);
     try {
         const { limite = 10, desde = 0, estado, publicado } = req.query;
         const query = { estado: true }; // Por defecto, solo muestra blogs no eliminados
@@ -32,7 +33,7 @@ const obtenerBlogs = async (req, res = response) => {
             blogs
         });
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al obtener blogs'
         });
@@ -41,7 +42,7 @@ const obtenerBlogs = async (req, res = response) => {
 
 // Obtener blogs publicados
 const obtenerBlogsPublicados = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs/publicados - Obteniendo blogs publicados con parámetros:`, req.query);
+    logger.apiRequest('GET', '/api/blogs/publicados', req.query);
     try {
         const { page = 1, limit = 10 } = req.query;
         const skip = (Number(page) - 1) * Number(limit);
@@ -68,7 +69,7 @@ const obtenerBlogsPublicados = async (req, res = response) => {
             blogs
         });
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al obtener blogs publicados'
         });
@@ -77,7 +78,7 @@ const obtenerBlogsPublicados = async (req, res = response) => {
 
 // Obtener blog por id
 const obtenerBlog = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id - Obteniendo blog con ID: ${req.params.id}`);
+    logger.apiRequest('GET', `/api/blogs/${req.params.id}`, { id: req.params.id });
     try {
         const { id } = req.params;
         
@@ -111,7 +112,7 @@ const obtenerBlog = async (req, res = response) => {
 
         res.json(blog);
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al obtener el blog'
         });
@@ -120,7 +121,7 @@ const obtenerBlog = async (req, res = response) => {
 
 // Buscar blogs
 const buscarBlogs = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs/buscar - Buscando blogs con términos:`, req.query);
+    logger.apiRequest('GET', '/api/blogs/buscar', req.query);
     try {
         const { q = '', page = 1, limit = 10 } = req.query;
         const regex = new RegExp(q, 'i');
@@ -153,7 +154,7 @@ const buscarBlogs = async (req, res = response) => {
             blogs
         });
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error en la búsqueda'
         });
@@ -162,7 +163,7 @@ const buscarBlogs = async (req, res = response) => {
 
 // Crear blog
 const crearBlog = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] POST /api/blogs - Creando nuevo blog`, { titulo: req.body.tituloEs });
+    logger.apiRequest('POST', '/api/blogs', { titulo: req.body.tituloEs });
     try {
         const { estado, usuario, ...body } = req.body;
 
@@ -176,7 +177,7 @@ const crearBlog = async (req, res = response) => {
 
         res.status(201).json(blog);
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al crear el blog'
         });
@@ -185,7 +186,7 @@ const crearBlog = async (req, res = response) => {
 
 // Actualizar blog
 const actualizarBlog = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] PUT /api/blogs/:id - Actualizando blog con ID: ${req.params.id}`, { campos: Object.keys(req.body) });
+    logger.apiRequest('PUT', `/api/blogs/${req.params.id}`, { id: req.params.id, campos: Object.keys(req.body) });
     try {
         const { id } = req.params;
         const { usuario, ...data } = req.body;
@@ -218,7 +219,7 @@ const actualizarBlog = async (req, res = response) => {
 
         res.json(blogExistente);
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al actualizar el blog'
         });
@@ -227,14 +228,14 @@ const actualizarBlog = async (req, res = response) => {
 
 // Eliminar blog
 const borrarBlog = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] DELETE /api/blogs/:id - Eliminando blog con ID: ${req.params.id}`);
+    logger.apiRequest('DELETE', `/api/blogs/${req.params.id}`, { id: req.params.id });
     try {
         const { id } = req.params;
         const blog = await Blog.findByIdAndUpdate(id, { estado: false }, { new: true });
 
         res.json(blog);
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al eliminar el blog'
         });
@@ -243,7 +244,7 @@ const borrarBlog = async (req, res = response) => {
 
 // Obtener blogs disponibles para relacionar (excluye el blog actual)
 const obtenerBlogsDisponibles = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id/disponibles - Obteniendo blogs disponibles para relacionar, excluyendo ID: ${req.params.id}`);
+    logger.apiRequest('GET', `/api/blogs/disponibles/${req.params.blogId}`, { blogId: req.params.blogId });
     try {
         const { blogId } = req.params;
         
@@ -258,7 +259,7 @@ const obtenerBlogsDisponibles = async (req, res = response) => {
             blogs
         });
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al obtener blogs disponibles para relacionar'
         });
@@ -267,7 +268,7 @@ const obtenerBlogsDisponibles = async (req, res = response) => {
 
 // Actualizar artículos relacionados de un blog
 const actualizarRelacionados = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] PUT /api/blogs/:id/relacionados - Actualizando artículos relacionados para blog con ID: ${req.params.id}`, { relacionados: req.body.relacionados });
+    logger.apiRequest('PUT', `/api/blogs/${req.params.id}/relacionados`, { id: req.params.id, relacionados: req.body.relacionados });
     try {
         const { id } = req.params;
         const { relacionados } = req.body;
@@ -310,7 +311,7 @@ const actualizarRelacionados = async (req, res = response) => {
         
         res.json(blog);
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al actualizar los artículos relacionados'
         });
@@ -319,7 +320,7 @@ const actualizarRelacionados = async (req, res = response) => {
 
 // Obtener artículos relacionados de un blog
 const obtenerRelacionados = async (req, res = response) => {
-    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id/relacionados - Obteniendo artículos relacionados para blog con ID: ${req.params.id}`);
+    logger.apiRequest('GET', `/api/blogs/${req.params.id}/relacionados`, { id: req.params.id });
     try {
         const { id } = req.params;
         
@@ -343,7 +344,7 @@ const obtenerRelacionados = async (req, res = response) => {
             relacionados
         });
     } catch (error) {
-        console.log(error);
+        logger.apiError(req.method, req.originalUrl, error);
         res.status(500).json({
             msg: 'Error al obtener los artículos relacionados'
         });

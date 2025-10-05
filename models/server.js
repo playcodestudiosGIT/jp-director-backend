@@ -47,6 +47,10 @@ class Server {
         // Lectura y parseo del body
         this.app.use( express.json() );
 
+        // Logger de solicitudes HTTP
+        const { requestLogger } = require('../middlewares/logger.middleware');
+        this.app.use( requestLogger );
+
         // Directorio Público
         this.app.use( express.static('public') );
 

@@ -1,0 +1,6 @@
+{"level":"info","message":"GET /api/blogs","params":{},"service":"jp-director-api","timestamp":"2025-10-05T19:36:32.564Z"}
+{"level":"info","message":"GET /api/blogs/68e0b2256162e51ac79531e7","params":{"id":"68e0b2256162e51ac79531e7"},"service":"jp-director-api","timestamp":"2025-10-05T19:36:34.695Z"}
+{"level":"info","message":"GET /api/blogs/68e0b2256162e51ac79531e7/relacionados","params":{"id":"68e0b2256162e51ac79531e7"},"service":"jp-director-api","timestamp":"2025-10-05T19:36:35.192Z"}
+{"level":"info","message":"GET /api/blogs/disponibles/68e0b2256162e51ac79531e7","params":{"blogId":"68e0b2256162e51ac79531e7"},"service":"jp-director-api","timestamp":"2025-10-05T19:36:35.515Z"}
+{"level":"info","message":"GET /api/blogs/disponibles/68e0b2256162e51ac79531e7","params":{"blogId":"68e0b2256162e51ac79531e7"},"service":"jp-director-api","timestamp":"2025-10-05T19:36:38.407Z"}
+{"level":"info","message":"GET /api/blogs","params":{},"service":"jp-director-api","timestamp":"2025-10-05T19:36:41.629Z"}

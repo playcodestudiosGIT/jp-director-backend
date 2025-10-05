@@ -6,8 +6,7 @@ const googleVerify = require('./google-verify');
 const subirArchivo = require('./subir-archivo');
 const brevoServices = require('./brevo_services');
 const pixelEvents = require('./pixel_events');
-
-
+const logger = require('./logger');
 
 module.exports = {
     ...dbValidators,
@@ -16,4 +15,5 @@ module.exports = {
     ...subirArchivo,
     ...brevoServices,
     ...pixelEvents,
+    logger
 }

@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.4.0",
     "express-validator": "^7.0.1",
+    "express-winston": "^4.2.0",
     "facebook-nodejs-business-sdk": "^18.0.1",
     "facebook-standard-events": "^1.0.1",
     "google-auth-library": "^6.1.6",
@@ -36,7 +37,9 @@
     "streamifier": "^0.1.1",
     "stripe": "^12.10.0",
     "tiktok-pixel": "^2.0.3",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",

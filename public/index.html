@@ -26,7 +26,6 @@
   <meta name="copyright" content="Playcodestudios © 2023 - all rights reserved" />
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
   <meta name="keywords"
     content="cursos, publicidad, online, facebook ads, instagram ads, tiktok ads, ads, quieroads, tiktokads, meta, meta ads, aumenta tus ventas, mejor curso de publicidad online, publicidad online, aprende ads, aprende publicidad online, quiero, ads, aprender" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#00041C">
@@ -43,7 +42,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2221936156";
+    const serviceWorkerVersion = "952712469";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -68,13 +67,8 @@
   </noscript>
 
   <script>
-    // Esperar a que el documento esté completamente cargado antes de acceder al body
-    document.addEventListener('DOMContentLoaded', function() {
-      if (document.body) {
-        document.body.addEventListener('contextmenu', (event) => {
-          event.preventDefault();
-        });
-      }
+    document.body.addEventListener('contextmenu', (event) => {
+      event.preventDefault();
     });
   </script>
 
@@ -89,11 +83,11 @@
           {
             content_id: 'asfasfasknuuansfuasndu',
           }],
-        content_type: 'product',  // Cambiado a un tipo válido: "product", "product_group", "destination", "hotel", "flight" o "vehicle"
+        content_type: 'content-view',
       });
     }(window, document, 'ttq');
   </script>
-  <!-- Eliminamos la carga compleja de script.js ya que está causando problemas -->
+  <script type="text/javascript" src="script.js"></script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0GQXZR2Z4"></script>
 <script>
@@ -103,9 +97,6 @@
 
   gtag('config', 'G-N0GQXZR2Z4');
 </script>
-  
-<!-- Carga correcta del archivo scripts.js -->
-<script type="text/javascript" src="scripts.js"></script>
 
   
 </head>
@@ -124,14 +115,14 @@
   <!-- End Google Tag Manager (noscript) -->
   
   <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
+    window.addEventListener('load', function (ev) {
+
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }

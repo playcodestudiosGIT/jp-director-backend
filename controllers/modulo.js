@@ -1,4 +1,5 @@
 const { response } = require('express');
+const { logger } = require('../helpers');
 const { Modulo, Curso, Coment, Resp, Progress, Usuario } = require('../models');
 const progress = require('../models/progress');
 

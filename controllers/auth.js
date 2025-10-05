@@ -5,7 +5,7 @@ const Usuario = require('../models/usuario');
 
 const { generarJWT } = require('../helpers/generar-jwt');
 const { sendEmailBrevo } = require('../helpers/brevo_services');
-const { googleVerify, serverEvent, ttkServerEvent } = require('../helpers');
+const { googleVerify, serverEvent, ttkServerEvent, logger } = require('../helpers');
 const { body } = require('express-validator');
 
 var crypto = require('crypto');
@@ -66,24 +66,21 @@ const login = async (req, res = response) => {
                 req.connection.remoteAddress,
                 req.headers['user-agent'],
             );
-            // if (s) console.log(s)
-        } catch (error) { console.log(error) }
-
-
-
+        } catch (error) {
+            logger.error('Error al registrar evento de login', { error });
+            // Continuamos con el flujo normal, ya que esto no debería bloquear el login
+        }
 
         res.json({
             usuario,
             token
-        })
-
+        });
     } catch (error) {
-
+        logger.error('Error en login', { error });
         res.status(500).json({
             msg: 'Hable con el administrador'
         });
     }
-
 }
 
 

@@ -1,3 +1,4 @@
+const { logger } = require('../helpers');
 const { response, request } = require('express');
 const path = require('path');
 const fs = require('fs');
@@ -281,9 +282,12 @@ const genPdfCert = async (req, res = response) => {
         ));
 
     } catch (error) {
-        console.log(error)
+        logger.error('Error al generar certificado', { error });
+        res.status(500).json({
+            msg: 'Error al generar el certificado. Hable con el administrador.'
+        });
     }
-};
+}
 
 module.exports = {
     cargarArchivo,

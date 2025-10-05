@@ -1,4 +1,5 @@
 const { response } = require('express');
+const { logger } = require('../helpers');
 
 
 const { Usuario, Curso } = require('../models');

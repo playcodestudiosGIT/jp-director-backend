@@ -1,3 +1,4 @@
+const { logger } = require('../helpers');
 const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
 
@@ -212,7 +213,7 @@ const sendSupportEmail = async (req, res = respose) => {
         await sendSupEmail(nombre, apellido, correo, mensaje);
         return res.status(201).json({ "msg": "correo enviado a soporte" });
     } catch (error) {
-        console.log(error);
+        logger.info('Operation', { url: req.originalUrl, method: req.method });
     }
 
 }
@@ -224,7 +225,7 @@ const sendIndividualEmail = async (req, res = respose) => {
         await sendOneEmail(nombre, apellido, correo, mensaje);
         return res.status(201).json({ "msg": `correo enviado a: ${correo}` });
     } catch (error) {
-        console.log(error);
+        logger.info('Operation', { url: req.originalUrl, method: req.method });
     }
 
 }
