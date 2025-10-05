@@ -9,7 +9,10 @@ const {
     buscarBlogs,
     crearBlog,
     actualizarBlog,
-    borrarBlog
+    borrarBlog,
+    obtenerBlogsDisponibles,
+    actualizarRelacionados,
+    obtenerRelacionados
 } = require('../controllers/blogs');
 
 const router = Router();
@@ -55,5 +58,26 @@ router.delete('/:id', [
     check('id').custom(existeBlogPorId),
     validarCampos
 ], borrarBlog);
+
+// Rutas para artículos relacionados
+router.get('/disponibles/:blogId', [
+    validarJWT,
+    check('blogId', 'No es un ID válido').isMongoId(),
+    validarCampos
+], obtenerBlogsDisponibles);
+
+router.put('/:id/relacionados', [
+    validarJWT,
+    esAdminRole,
+    check('id', 'No es un ID válido').isMongoId(),
+    check('id').custom(existeBlogPorId),
+    validarCampos
+], actualizarRelacionados);
+
+router.get('/:id/relacionados', [
+    check('id', 'No es un ID válido').isMongoId(),
+    check('id').custom(existeBlogPorId),
+    validarCampos
+], obtenerRelacionados);
 
 module.exports = router;

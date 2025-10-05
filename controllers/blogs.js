@@ -3,6 +3,7 @@ const Blog = require('../models/blog');
 
 // Obtener todos los blogs (con paginación)
 const obtenerBlogs = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs - Obteniendo blogs con parámetros:`, req.query);
     try {
         const { limite = 10, desde = 0, estado, publicado } = req.query;
         const query = { estado: true }; // Por defecto, solo muestra blogs no eliminados
@@ -40,6 +41,7 @@ const obtenerBlogs = async (req, res = response) => {
 
 // Obtener blogs publicados
 const obtenerBlogsPublicados = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs/publicados - Obteniendo blogs publicados con parámetros:`, req.query);
     try {
         const { page = 1, limit = 10 } = req.query;
         const skip = (Number(page) - 1) * Number(limit);
@@ -75,6 +77,7 @@ const obtenerBlogsPublicados = async (req, res = response) => {
 
 // Obtener blog por id
 const obtenerBlog = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id - Obteniendo blog con ID: ${req.params.id}`);
     try {
         const { id } = req.params;
         
@@ -85,15 +88,25 @@ const obtenerBlog = async (req, res = response) => {
             });
         }
 
-        // Buscar el blog y populate el usuario
+        // Buscar el blog y populate el usuario y los relacionados
         const blog = await Blog.findById(id)
-            .populate('usuario', 'nombre');
+            .populate('usuario', 'nombre')
+            .populate({
+                path: 'relacionados',
+                select: 'tituloEs tituloEn img fechaPublicacion',
+                match: { estado: true, publicado: true }
+            });
 
         // Verificar si el blog existe
         if (!blog || blog.estado === false) {
             return res.status(404).json({
                 msg: `No existe un blog con el ID ${id}`
             });
+        }
+        
+        // Filtrar cualquier relacionado que pueda ser null debido al match
+        if (blog.relacionados) {
+            blog.relacionados = blog.relacionados.filter(r => r !== null);
         }
 
         res.json(blog);
@@ -107,6 +120,7 @@ const obtenerBlog = async (req, res = response) => {
 
 // Buscar blogs
 const buscarBlogs = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs/buscar - Buscando blogs con términos:`, req.query);
     try {
         const { q = '', page = 1, limit = 10 } = req.query;
         const regex = new RegExp(q, 'i');
@@ -148,6 +162,7 @@ const buscarBlogs = async (req, res = response) => {
 
 // Crear blog
 const crearBlog = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] POST /api/blogs - Creando nuevo blog`, { titulo: req.body.tituloEs });
     try {
         const { estado, usuario, ...body } = req.body;
 
@@ -170,6 +185,7 @@ const crearBlog = async (req, res = response) => {
 
 // Actualizar blog
 const actualizarBlog = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] PUT /api/blogs/:id - Actualizando blog con ID: ${req.params.id}`, { campos: Object.keys(req.body) });
     try {
         const { id } = req.params;
         const { usuario, ...data } = req.body;
@@ -189,8 +205,10 @@ const actualizarBlog = async (req, res = response) => {
         if (data.estado !== undefined) blogExistente.estado = data.estado;
         if (data.contenidoEs) blogExistente.contenidoEs = data.contenidoEs;
         if (data.contenidoEn) blogExistente.contenidoEn = data.contenidoEn;
-        if (data.imagen) blogExistente.imagen = data.imagen;
+        if (data.imagen) blogExistente.img = data.imagen;
+        if (data.img) blogExistente.img = data.img;
         if (data.fechaPublicacion) blogExistente.fechaPublicacion = data.fechaPublicacion;
+        if (data.relacionados) blogExistente.relacionados = data.relacionados;
         
         // El usuario que actualiza queda registrado
         blogExistente.usuario = req.usuario._id;
@@ -209,6 +227,7 @@ const actualizarBlog = async (req, res = response) => {
 
 // Eliminar blog
 const borrarBlog = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] DELETE /api/blogs/:id - Eliminando blog con ID: ${req.params.id}`);
     try {
         const { id } = req.params;
         const blog = await Blog.findByIdAndUpdate(id, { estado: false }, { new: true });
@@ -222,6 +241,115 @@ const borrarBlog = async (req, res = response) => {
     }
 }
 
+// Obtener blogs disponibles para relacionar (excluye el blog actual)
+const obtenerBlogsDisponibles = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id/disponibles - Obteniendo blogs disponibles para relacionar, excluyendo ID: ${req.params.id}`);
+    try {
+        const { blogId } = req.params;
+        
+        // Excluir el blog actual y mostrar solo blogs activos y publicados
+        const blogs = await Blog.find({ 
+            _id: { $ne: blogId },
+            estado: true,
+            publicado: true
+        }).select('tituloEs tituloEn img fechaPublicacion');
+        
+        res.json({
+            blogs
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Error al obtener blogs disponibles para relacionar'
+        });
+    }
+};
+
+// Actualizar artículos relacionados de un blog
+const actualizarRelacionados = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] PUT /api/blogs/:id/relacionados - Actualizando artículos relacionados para blog con ID: ${req.params.id}`, { relacionados: req.body.relacionados });
+    try {
+        const { id } = req.params;
+        const { relacionados } = req.body;
+        
+        // Validar que los IDs son válidos
+        if (relacionados && Array.isArray(relacionados)) {
+            // Verificar que cada ID en relacionados es válido y existe
+            for (const relacionadoId of relacionados) {
+                if (!relacionadoId.match(/^[0-9a-fA-F]{24}$/)) {
+                    return res.status(400).json({
+                        msg: `ID no válido: ${relacionadoId}`
+                    });
+                }
+                
+                const relacionadoExiste = await Blog.exists({ 
+                    _id: relacionadoId,
+                    estado: true
+                });
+                
+                if (!relacionadoExiste) {
+                    return res.status(404).json({
+                        msg: `No existe un blog con el ID ${relacionadoId}`
+                    });
+                }
+            }
+        }
+        
+        // Actualizar los relacionados
+        const blog = await Blog.findByIdAndUpdate(
+            id, 
+            { relacionados: relacionados || [] }, 
+            { new: true }
+        ).populate('relacionados', 'tituloEs tituloEn img');
+        
+        if (!blog) {
+            return res.status(404).json({
+                msg: `No existe un blog con el ID ${id}`
+            });
+        }
+        
+        res.json(blog);
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Error al actualizar los artículos relacionados'
+        });
+    }
+};
+
+// Obtener artículos relacionados de un blog
+const obtenerRelacionados = async (req, res = response) => {
+    console.log(`[${new Date().toISOString()}] GET /api/blogs/:id/relacionados - Obteniendo artículos relacionados para blog con ID: ${req.params.id}`);
+    try {
+        const { id } = req.params;
+        
+        const blog = await Blog.findById(id)
+            .populate({
+                path: 'relacionados',
+                select: 'tituloEs tituloEn img fechaPublicacion',
+                match: { estado: true, publicado: true }
+            });
+        
+        if (!blog) {
+            return res.status(404).json({
+                msg: `No existe un blog con el ID ${id}`
+            });
+        }
+        
+        // Filtrar cualquier relacionado que pueda ser null debido al match
+        const relacionados = blog.relacionados.filter(r => r !== null);
+        
+        res.json({
+            relacionados
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Error al obtener los artículos relacionados'
+        });
+    }
+};
+
 module.exports = {
     obtenerBlogs,
     obtenerBlogsPublicados,
@@ -229,5 +357,8 @@ module.exports = {
     buscarBlogs,
     crearBlog,
     actualizarBlog,
-    borrarBlog
+    borrarBlog,
+    obtenerBlogsDisponibles,
+    actualizarRelacionados,
+    obtenerRelacionados
 }

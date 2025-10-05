@@ -10,7 +10,7 @@ cloudinary.config(process.env.CLOUDINARY_URL);
 
 const { subirArchivo } = require('../helpers');
 
-const { Usuario, Baner, Curso, Certificado } = require('../models');
+const { Usuario, Baner, Curso, Certificado, Blog } = require('../models');
 
 
 
@@ -110,6 +110,16 @@ const actualizarImagenCloudinary = async (req, res = response) => {
             }
 
             break;
+            
+        case 'blogs':
+            modelo = await Blog.findById(id);
+            if (!modelo) {
+                return res.status(400).json({
+                    msg: `No existe un blog con el id ${id}`
+                });
+            }
+
+            break;
 
         default:
             return res.status(500).json({ msg: 'Se me olvidó validar esto' });
@@ -125,8 +135,18 @@ const actualizarImagenCloudinary = async (req, res = response) => {
 
 
     //subir cloudinary
-    const { tempFilePath } = req.files.archivo
-    const { secure_url } = await cloudinary.uploader.upload(tempFilePath, { folder: 'avatars' });
+    const { tempFilePath } = req.files.archivo;
+    
+    // Determinar la carpeta según la colección
+    let folder = 'avatars'; // Por defecto
+    
+    if (coleccion === 'blogs') {
+        folder = 'blogs';
+    } else if (coleccion === 'baners') {
+        folder = 'baners';
+    }
+    
+    const { secure_url } = await cloudinary.uploader.upload(tempFilePath, { folder });
     modelo.img = secure_url;
 
     await modelo.save();

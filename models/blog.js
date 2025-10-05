@@ -17,7 +17,7 @@ const BlogSchema = Schema({
         type: String,
         required: [true, 'El contenido en inglés es obligatorio']
     },
-    imagen: {
+    img: {
         type: String,
         default: 'https://res.cloudinary.com/dqhj9cim6/image/upload/v1685068240/system/no-image_yvvpny.jpg'
     },
@@ -37,7 +37,11 @@ const BlogSchema = Schema({
         type: Schema.Types.ObjectId,
         ref: 'Usuario',
         required: true
-    }
+    },
+    relacionados: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Blog'
+    }]
 }, {
     timestamps: true // Esto añade automáticamente createdAt y updatedAt
 });

@@ -85,7 +85,7 @@ const coleccionesPermitidas = ( coleccion = '', colecciones = []) => {
 
     const incluida = colecciones.includes( coleccion );
     if ( !incluida ) {
-        console.log(`La colección ${ coleccion } no es permitida, ${ colecciones }`);
+        throw new Error(`La colección ${ coleccion } no es permitida, colecciones permitidas: ${ colecciones.join(', ') }`);
     }
     return true;
 }

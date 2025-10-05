@@ -15,7 +15,7 @@ router.post( '/certificados/gen', genPdfCert );
 router.put('/:coleccion/:id', [
     validarArchivoSubir,
     check('id', 'El id debe de ser de mongo').isMongoId(),
-    check('coleccion').custom(c => coleccionesPermitidas(c, ['usuarios', 'baners'])),
+    check('coleccion').custom(c => coleccionesPermitidas(c, ['usuarios', 'baners', 'blogs'])),
     validarCampos
 ], actualizarImagenCloudinary)
 
