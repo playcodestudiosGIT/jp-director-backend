@@ -23237,7 +23237,7 @@ while(true)switch(s){case 0:q=t.H
 s=a!==B.ri?2:4
 break
 case 2:s=5
-return A.o(B.bv.dj("SystemChrome.setEnabledSystemUIMode",a.M(),q),$async$Ku)
+return A.o(B.bv.dj("SystemChrome.setEnabledSystemUIMode",a.N(),q),$async$Ku)
 case 5:s=3
 break
 case 4:s=6
@@ -23271,7 +23271,7 @@ aHr:function aHr(){},
 Kw(a){var s=0,r=A.u(t.H)
 var $async$Kw=A.p(function(b,c){if(b===1)return A.q(c,r)
 while(true)switch(s){case 0:s=2
-return A.o(B.bv.dj("SystemSound.play",a.M(),t.H),$async$Kw)
+return A.o(B.bv.dj("SystemSound.play",a.N(),t.H),$async$Kw)
 case 2:return A.r(null,r)}})
 return A.t($async$Kw,r)},
 a2T:function a2T(a,b){this.a=a
@@ -32152,10 +32152,10 @@ b69:function b69(){},
 b6a:function b6a(){},
 b4N:function b4N(){},
 beC(a){var s=u.y,r="SERVICES"
-return A.ag(["aPesarDeLoAnterior",A.d(u.hd),"acciones",A.d("ACTIONS"),"acepto2puntos",A.d("Agree:"),"actInfo",A.d("Update Information"),"actInfoBtn",A.d("UPDATE INFORMATION"),"actRapidez",A.d("Technology Updates and Speed"),"actRapidezResp",A.d(u.ck),"actRrssBtn",A.d("UPDATE SOCIAL MEDIA"),"activo",A.d("ACTIVE"),"actualizacionTyC",A.d("Last updated March 7, 2023"),"actualizado2024",A.d("Updated 2025"),"actualizarBtn",A.d("UPDATE"),"adminCursos",A.d("Course Management"),"adminForms",A.d("Form Management"),"adminLeads",A.d("Lead Management"),"adminUsuarios",A.d("User Management"),"advisoryBefore",A.d("Advertising Before?"),"advisoryLvl",A.d("Advertising Level"),"agendarBtn",A.d("Schedule"),"agendarLlamadaBtn",A.d("Schedule a Call"),"agregarBtn",A.d("ADD"),"agregarUnComentario",A.d("Add a Comment"),"agregarUnModulo",A.d("Add Module"),"alHacerClickHeLeido",A.d(u.J),"alIniciarSesion",A.d("By logging in, you agree to our "),"anadirCurso",A.d("Add a course to the user"),"apellidoDeUsuario",A.d("User's Last Name"),"apellidoTextFiel",A.d("Surname"),"aprendeTodoAds",A.d("LEARN EVERYTHING ABOUT ADS"),"asesoria11",A.d("1:1 CONSULTING"),"asiMismoInformamos",A.d(u.fa),"avanzado",A.d("Advanced"),"avisoLegal1",A.d("1. LEGAL NOTICE AND TERMS OF USE"),"avisoLegalYTerminos",A.d(u.E),"banerDelCurso",A.d("Course Banner"),"basico",A.d("Basic"),"bienvenidoAlosProg",A.d(u.fk),"blog",A.d("Blog"),"blogError",A.d("Error loading blogs"),"borrar",A.d("Delete"),"borrarDefinitivo",A.d("Permanently delete the user"),"borrarForm",A.d("Delete form"),"borrarFormDef",A.d("Permanently delete the form"),"botonLogin",A.d("LOGIN"),"botonReg",A.d("Register"),"buscasAcelerar",A.d(u._),"cadaCursoCuenta",A.d(u.Y),"cancelarBtn",A.d("CANCEL"),"capturaDeInf1_4_2",A.d("1.4.2 INFORMATION CAPTURE"),"capturaDeInf1_4_2Text",A.d(u.C),"casosEsp",A.d("Specialized Cases"),"casosEspResp",A.d(u.fB),"causasDeDisolucion",A.d("12. CAUSES FOR CONTRACT DISSOLUTION"),"causasDeDisolucionText",A.d(u.ar),"centroSoporte",A.d("Help and Support Center"),"cero",A.d("Zero"),"certificadoBtn",A.d("CERTIFICATE"),"comentar",A.d("COMMENT"),"comentarioAgregado",A.d("Comment added successfully"),"comentarioInvalido",A.d("Invalid Comment"),"comentariosBtn",A.d("COMMENTS"),"comienzaAqui",A.d("Start Here"),"como",A.d("How?"),"comoPuedoBuscarteRRSS",A.d("How can I find you on social media?"),"completPers",A.d("COMPLETELY PERSONALIZED"),"comprarBtn",A.d("BUY"),"conTuNeg",A.d("with YOUR BUSINESS"),"condicionesDeVenta",A.d("10. SALES CONDITIONS"),"condicionesDeVentaText",A.d(u.by),"confCampanas",A.d("Campaign Setup"),"confCampanasResp",A.d(u.bW),"confOnline",A.d("Online Conference"),"confPresenc",A.d("In-Person Conference"),"conferencias",A.d("CONFERENCES"),"configuracionMenuBtn",A.d("SETTINGS"),"conoceloQue",A.d("Get to Know What You'll Learn"),"consigueClientesQueQuieran",A.d(u.gH),"consultEspec",A.d("Consultants or Specialists"),"consultEspecText",A.d(u.cq),"contactoLargeText",A.d(u.cH),"contactoMenuBtn",A.d("Contact"),"continuaMensaje",A.d("continue the message..."),"continuar",A.d("CONTINUE"),"contrasenaTextFiel",A.d("Password"),"contratamePara",A.d(u.el),"correoDeUsuario",A.d("User's Email"),"correoForm",A.d("Email"),"correoTextFiel",A.d("Email"),"correoYaExiste",A.d("Email already exists. Go to Log in."),"crearBtn",A.d("CREATE"),"crearCuenta",A.d("CREATE ACCOUNT"),"credencialesInvalidas",A.d("Invalid credentials"),"cuandoSeRealice",A.d(u.eC),"cuantosAnosNegAct",A.d(u.H),"cuatroy",A.d("+4 Years"),"cuentaConmigo",A.d("Count on Me"),"cursoActualizado",A.d("Course updated successfully"),"cursoAgregado",A.d("Course added"),"cursoBorrado",A.d("Course deleted"),"cursoCreado",A.d("Course created successfully"),"cursoMayus",A.d("COURSES"),"cursoRepetido",A.d("Course already exists"),"cursos",A.d("Courses"),"cursosDisponibles",A.d("Available Courses"),"cursosMenuBtn",A.d("Courses"),"datosDescarga",A.d("Download Data"),"datosSolicitados",A.d(u.dh),"deQueSector",A.d(u.a9),"debePesarMenos",A.d("The image must weigh less than 3 MB"),"debeVerificar",A.d(u.bz),"dequesededicaForm",A.d("What sector or city is your business in?"),"derechoExcl",A.d("6. RIGHT OF EXCLUSION"),"derechoExclText",A.d(u.ap),"derechos",A.d("RIGHTS"),"derechosReservados",A.d("ALL RIGHTS RESERVED"),"descargaRegaloBtn",A.d("DOWNLOAD THIS GIFT"),"descripcionDelCurso",A.d("Course Description"),"descripcionDelModulo",A.d("Module Description"),"descubreComo",A.d("Discover how to boost your business"),"desdeHace4",A.d(u.q),"deseasDejar",A.d(u.k),"deseasQueLaConf",A.d(u.aC),"disenoEstrat",A.d("Strategy Design"),"disenoEstratResp",A.d(u.u),"dondeTeBrindaremos",A.d(u.bT),"dosy",A.d("2 Years"),"duenosNegocios",A.d("Business Owners"),"duenosNegociosText",A.d(u.gQ),"duracion2puntos",A.d("Duration: "),"duracionDeTratamiento",A.d("DURATION OF PROCESSING\n"),"duracionDelCurso",A.d("Course Duration"),"duracionObligatoria",A.d("Course duration is required"),"duranteElPrimerMes",A.d(u.gg),"editar2puntos",A.d("Edit:"),"editarModulo",A.d("Edit module"),"educacionYEstrategia",A.d("Education and\nADS Strategy"),"elAccesoyo",A.d(u.gl),"elEmailNoExiste",A.d("The email does not exist"),"elSitioWebDispone",A.d(u.aJ),"elTratamientoDeSusDatos",A.d(u.h),"elUsuarioTiene",A.d(u.eq),"eliminado",A.d("Deleted"),"eliminarCurso",A.d("Delete Course"),"eliminarModulo",A.d("Delete module"),"ellosVivieronMision",A.d("They Lived the Mission"),"empezamosBtn",A.d("Shall We Begin?"),"emprendedorOFree",A.d("Entrepreneur or Freelancer"),"emprendedorOFreeText",A.d(u.eO),"enElCasoDeLosDatos",A.d(u.e8),"enElTranscurso",A.d(u.gz),"enQueAyudarte",A.d("How can we assist you"),"enQueNivel",A.d(u.L),"enUnaVideollamada",A.d(u.b_),"encargadosDelTratamiento",A.d("DATA PROCESSORS\n"),"enlaceInvalido",A.d("INVALID LINK"),"entiendesQueEsto",A.d(u.eQ),"envianosComentario",A.d(u.K),"enviarBtn",A.d("SEND"),"enviarEmaila",A.d("Send an email to:"),"enviaremosUnEmail",A.d(u.cB),"eresNuevo",A.d("Are you new?"),"errorActualizandoModulo",A.d("Error updating module"),"errorAgregandoComentario",A.d("Error adding comment"),"errorAuth",A.d("There was an issue with your authentication."),"errorBorrandoModulo",A.d("Error deleting module"),"errorCursoActualizado",A.d("Error updating course"),"errorCursoCreado",A.d("Error creating course"),"errorEliminadoCurso",A.d("Error deleting course"),"errorEliminadoLead",A.d("Error deleting lead"),"errorEliminadoUsuario",A.d("Error deleting user"),"errorModuloAgregado",A.d("Error adding module"),"errorTestimonioActualizado",A.d("Error updating testimonial"),"errorTestimonioAgregado",A.d("Error adding testimonial"),"errorTestimonioBorrado",A.d("Error deleting testimonial"),"escribeComentario",A.d("Write your comment"),"escribeTodasTusEspectativas",A.d(u.hb),"estaMision",A.d("This mission is for you"),"estaPolitica",A.d(u.fF),"estado",A.d("STATUS"),"estasAunPaso",A.d(u.n),"estasEnElMomento",A.d(u.ey),"estasPoliticasSeEntenderan",A.d(u.h4),"esteServicioEsta",A.d(u.bi),"estoyListoBtn",A.d("I'm Ready, Let's Begin."),"estudiantes",A.d("students"),"exclusionDeGarant",A.d(u.g),"exclusionDeGarantText",A.d(u.gt),"extensionInvalida",A.d("Invalid Extension"),"fecha",A.d("Date"),"felicidadesCert",A.d(u.b5),"finDeLosComentarios",A.d("End of Comments"),"finalidadWeb1_2",A.d(u.dq),"finalizarBtn",A.d("FINISH"),"formularios",A.d("FORMS"),"formulariosMenuBtn",A.d("Forms"),"generalidades",A.d("7. GENERALITIES"),"generalidadesText",A.d(u.bp),"generandoCert",A.d("Generating Certificate"),"graciasInfo",A.d(u.G),"graciasPorComunicarte",A.d(u.aA),"graciasPorConfirmar",A.d("Thank you for confirming your account"),"graciasPorRegistrarte",A.d(u.dS),"hasHechoPubAntes",A.d("Have you done advertising before?"),"hola",A.d("Hello,"),"idCarpertaModulo",A.d("Module Folder ID"),"idZipModulo",A.d("Module Zip ID"),"imagen",A.d("IMAGE"),"imagenDelCurso",A.d("Course Image"),"imgCambiadaNtf",A.d("Image changed successfully"),"imgCursoCertificado",A.d("Certificate Image"),"imgDeCurso",A.d("COURSE IMAGE"),"infoDeCurso",A.d("COURSE INFORMATION"),"informacionMayus",A.d("INFORMATION"),"ingresaNewPass",A.d("Enter your new password"),"ingresaTuDirEmail",A.d("Enter your email address"),"ingreseApellidoTextFiel",A.d("Enter your surname"),"ingreseCorreoValido",A.d("Enter a valid email"),"ingreseNombreTextField",A.d("Enter your name"),"ingreseSuCorreo",A.d("Enter your email"),"ingreseUnaPassValida",A.d("Enter a valid password"),"inhabResagBloq",A.d("Disabled, Backlogged, or Blocked"),"inhabResagBloqText",A.d(s),"iniciaAqui",A.d("Log in here"),"iniciaSesion",A.d("LOG IN"),"iniciarSesionBtn",A.d("LOG IN"),"inicioMenuBtn",A.d("Home"),"inteligenteInv",A.d("SMART INVESTMENT"),"interesLegitimo",A.d("LEGITIMATE INTEREST\n"),"intermedio",A.d("Intermediate"),"irAlLogin",A.d("Log in"),"irAlLoginBtn",A.d("Go to login"),"jpCompartira",A.d(u.c6),"jpCumpleLaLey",A.d(u.dA),"jpEnTodoMomento",A.d(u.eL),"jpNecesitaElApoyo",A.d(u.aq),"laContraDebe6Caracteres",A.d(u.f),"laContrasenaSeHaReest",A.d(u.cP),"laDenominacionSocial",A.d(u.dO),"laDisolucion",A.d(u.cN),"laExtensionDebe",A.d("The extension must be PNG, JPG, or JPEG"),"laFalsedadText",A.d(u.ci),"laPaginaWebText",A.d(u.fO),"laVentanaDeFormacion",A.d(u.i),"leadActualizadoConExito",A.d("Lead updated successfully"),"leadCreadoConExito",A.d("Lead created successfully"),"leadsMenuBtn",A.d("Leads"),"leyAplicable",A.d("11. APPLICABLE LAW AND JURISDICTION"),"leyAplicableText",A.d(u.bB),"listaDeComentarios",A.d("Comment List"),"listaDeCursos",A.d("Course List"),"listaDescarga",A.d("Download List"),"listaForm",A.d("Form List"),"listaUsuarios",A.d("User List"),"llegasteAlMundo",A.d("You arrived in the right place"),"loadingBlogs",A.d("Loading blogs..."),"logout",A.d("LOG OUT"),"logoutLabel",A.d("LOG OUT"),"losEnlacesATerceros",A.d(u.ga),"masInformacionBtn",A.d("More Information"),"menosde6meses",A.d("Less than 6 months"),"mensajeEnviado",A.d("Message sent successfully"),"mentoria",A.d("MENTORING"),"mentoriaIntensiva",A.d("INTENSIVE MENTORING"),"miCuentaMenuBtn",A.d("My Account"),"miDenominacion",A.d(u.aX),"miraloOjos",A.d("SEE IT WITH YOUR OWN EYES"),"misCursosLabel",A.d("My Courses"),"misCursosMenuBtn",A.d("MY COURSES"),"modificacionCond",A.d(u.ch),"modificacionCondText",A.d(u.a3),"modificaciones",A.d("4. MODIFICATIONS"),"modificacionesText",A.d(u.cl),"moduloActualizado",A.d("Module updated successfully"),"moduloAgregado",A.d("Module added successfully"),"moduloBorrado",A.d("Module deleted successfully"),"modulos",A.d("MODULES"),"modulos2puntos",A.d("Modules: "),"modulosDelCurso",A.d("Course Modules"),"motivacion",A.d("Motivation"),"motivacionResp",A.d(u.h7),"negocio2puntos",A.d("Business :"),"negocioLocFis",A.d("Local or Physical Business"),"negocioLocFisText",A.d(u.dl),"noBlogsFound",A.d("No blogs found"),"noEstoyPreparado",A.d(u.c3),"noSePermiteRepr",A.d(u.a),"noTienesCursos",A.d("You Don't Have Any Courses"),"nombApllYCorr",A.d(u.b),"nombreDeUsuario",A.d("Username"),"nombreDelCurso",A.d("Course Name"),"nombreDelModulo",A.d("Module Name"),"nombreTextField",A.d("Name"),"nombreyapellidoForm",A.d("Name and Surname"),"nuestra",A.d("our "),"nuevoCurso",A.d("New Course"),"nuevoForm",A.d("New Form"),"nuevoLead",A.d("New Lead"),"nuevoModulo",A.d("New module"),"nuevoUsuario",A.d("New User"),"olvideMiPass",A.d("I forgot my password"),"optimizacion",A.d("Optimization"),"optimizacionResp",A.d(u.x),"pagina404",A.d("Page not found 404"),"passDeUsuario",A.d("User's Password"),"passNoCoinciden",A.d("Passwords do not match"),"pendiente",A.d("PENDING"),"podrasDescargar",A.d(u.ds),"politicaDeEnlaces",A.d("5. LINKING POLICY"),"politicaDeEnlacesText",A.d(u.O),"politicaDePrivacidad",A.d("Privacy Policy"),"politicasDeProivacidad",A.d("PRIVACY POLICY"),"politicasRelacionadasConNews",A.d("POLICIES RELATED TO THE NEWSLETTER\n"),"porFavorEspere",A.d("Please wait"),"porQueYo",A.d("Why Me?"),"porQueYoResp",A.d(u.cQ),"precio11",A.d("$300"),"precioDelCurso",A.d("Course Price"),"preguntasfrecuentes",A.d("Frequently Asked Questions"),"preguntasfrecuentes1Resp",A.d(u.dz),"preguntasfrecuentes2Resp",A.d(u.Z),"preguntasfrecuentes3Resp",A.d(u.cM),"preguntasfrecuentesResp",A.d(u.gh),"profesionalesEnMark",A.d(u.c4),"profesionalesEnMarkText",A.d(s),"progreso2puntos",A.d("Progress: "),"propiedadIntelectual",A.d("2. INTELLECTUAL AND INDUSTRIAL PROPERTY:"),"propiedadIntelectualText",A.d(u.ek),"pubOnline",A.d("Online Advertising"),"pubOnlineResp",A.d(u.cO),"publicado2puntos",A.d("Published: "),"publishedBlogs",A.d("Published Blogs"),"puedoGatantizarte",A.d(u.F),"queHablareEvento",A.d(u.B),"queHablaremos",A.d("What Will We Discuss in the Meeting?"),"queHablaremosResp",A.d(u.aZ),"queVeremos3m",A.d(u.W),"queVeremos3mResp",A.d(u.M),"quieresConseguir",A.d("Want to get more clients"),"quieresTener",A.d(u.m),"quieroAds",A.d("I Want Ads"),"quieroMiAsesoriaBtn",A.d("I Want My Consultation"),"quieroYaBtn",A.d("I WANT THIS COURSE NOW"),"readMore",A.d("Read More"),"recibirasInstruccionesPass",A.d(u.eI),"reclamacionesDudas",A.d("9. COMPLAINTS AND QUESTIONS"),"reclamacionesDudasText",A.d(u.p),"recuerdaPrimero",A.d(u.eR),"recuerdame",A.d("Remember me"),"recuperarPass",A.d("RECOVER YOUR PASSWORD"),"redesSociales",A.d("Social Media"),"registrarBtn",A.d("REGISTER"),"registrateAqui",A.d("Sign up here"),"repitaContrasenaTextFiel",A.d("Repeat password"),"requerido",A.d("Required"),"residentesCalifornia",A.d("RESIDENTS OF CALIFORNIA, UNITED STATES\n"),"resolvamosEsto",A.d("Let's Resolve This"),"responder",A.d("Reply"),"respuesta",A.d("Response"),"resultadosMenuBtn",A.d("Results"),"seHaEnviadoUnCorreo",A.d(u.f2),"seamosSinceros",A.d(u.gJ),"seguroBorrar",A.d("Are you sure you want to Delete"),"seguroBorrarComent",A.d(u.bI),"seguroBorrarUsuario",A.d("Are you sure you want to delete the user"),"seguroEliminarCurso",A.d(u.I),"seguroEliminarModulo",A.d(u.d),"seleccioneCurso",A.d("Select a course"),"seleccioneOpcion",A.d("Select an option"),"serElEncargado",A.d("BE THE ONE IN CHARGE"),"servicios",A.d(r),"servicios2puntos",A.d("Services: "),"serviciosMenuBtn",A.d("Services"),"si",A.d("Yes"),"siBorrar",A.d("Yes, Delete"),"siEstoyPreparado",A.d("Yes, I am prepared"),"siTienesAlgunaDuda",A.d(u.g0),"siTienesDudas",A.d(u.dk),"siguemeEnTodas",A.d(u.R),"siguienteBtn",A.d("NEXT"),"sinModulos",A.d("No modules, add a new module"),"siu",A.d("IF"),"sobreMi",A.d("About Me"),"soporte",A.d("Support"),"soyElResp",A.d("I AM RESPONSIBLE FOR YOUR SUCCESS"),"soyJpDir",A.d("I'm JP Director"),"tamanoInvalido",A.d("Invalid Size"),"teExplicamos",A.d(u.bq),"telefonoDeUsuario",A.d("User's Phone"),"telefonoForm",A.d("Phone"),"telfDebeCodArea",A.d(u.bX),"telfSinCaracteres",A.d(u.dc),"telfSoloNumeros",A.d(u.gj),"tenerUnMentor",A.d(u.du),"terminoDeUso",A.d("Terms of use "),"terminosYCondiciones",A.d("TERMS AND CONDITIONS"),"testimonioActualizado",A.d("Testimonial updated successfully"),"testimonioAgregado",A.d("Testimonial added successfully"),"testimonioAnier",A.d('"I studied computer science and a lot of education. After taking the course, I not only recovered my investment but can also run my own advertising. Thanks, JP."'),"testimonioBorrado",A.d("Testimonial deleted successfully"),"testimonioGerman",A.d('"In just 1 month, I managed to have more than 100 potential clients with my advertising campaigns. I recommend this course to anyone who wants to learn."'),"testimonioSaylin",A.d('"I loved it, it\'s very comprehensive and a world of knowledge. For my business, this course marked a before and after."'),"testimonioTania",A.d('"I have ideas and plans to implement for the next 6 months thanks to this course. Anyone who takes it will understand after learning from JP."'),"testimonios",A.d("TESTIMONIALS"),"tiempoSeAcumulaPreg",A.d(u.aN),"tiempoSeAcumulaResp",A.d(u.fU),"todoListoDescarga",A.d(u.gR),"todosLosDerechosRes",A.d("ALL RIGHTS RESERVED \xa9 2023"),"topBotonBlog",A.d("BLOG"),"topBotonContacto",A.d("CONTACT"),"topBotonCursos",A.d("COURSES"),"topBotonResultados",A.d("RESULTS"),"topBotonServicios",A.d(r),"tresy",A.d("3 Years"),"unAdmRespondera",A.d(u.A),"unaVezFinalices",A.d(u.N),"unoAuno",A.d("ONE-ON-ONE"),"uny",A.d("1 Year"),"urlVideoModulo",A.d("Module Video URL"),"usd",A.d("USD"),"usoDelSitioWeb1_4",A.d(u.dp),"usoDelSitioWeb1_4_1",A.d("1.4.1 USE OF THE WEBSITE"),"usuario",A.d("User"),"usuarioActualizado",A.d("User updated successfully"),"usuarioCreado",A.d("User created successfully"),"usuarios1_3",A.d("1.3. USERS:"),"usuariosMenuBtn",A.d("Users"),"ver",A.d("VIEW"),"verCertificadoBtn",A.d("VIEW CERTIFICATE"),"verMas",A.d("See More"),"verMaterialBtn",A.d("VIEW MATERIAL"),"videollamada",A.d("VIDEO CALL"),"xHora",A.d("per hour"),"xdondeComenzar",A.d("Where to Begin?"),"xdondeComenzarResp",A.d(u.bl),"yReconocesQue",A.d("and acknowledge that you have read "),"yaTienesCuenta",A.d("Already have an account?"),"yaTienesEsteCurso",A.d("You Already Have This Course"),"yaTienesTodos",A.d("You Already Have All the Courses")],t.N,t._8)},
+return A.ag(["aPesarDeLoAnterior",A.d(u.hd),"acciones",A.d("ACTIONS"),"acepto2puntos",A.d("Agree:"),"actInfo",A.d("Update Information"),"actInfoBtn",A.d("UPDATE INFORMATION"),"actRapidez",A.d("Technology Updates and Speed"),"actRapidezResp",A.d(u.ck),"actRrssBtn",A.d("UPDATE SOCIAL MEDIA"),"activo",A.d("ACTIVE"),"actualizacionTyC",A.d("Last updated March 7, 2023"),"actualizado2024",A.d("Updated 2025"),"actualizarBtn",A.d("UPDATE"),"adminCursos",A.d("Course Management"),"adminForms",A.d("Form Management"),"adminLeads",A.d("Lead Management"),"adminUsuarios",A.d("User Management"),"advisoryBefore",A.d("Advertising Before?"),"advisoryLvl",A.d("Advertising Level"),"agendarBtn",A.d("Schedule"),"agendarLlamadaBtn",A.d("Schedule a Call"),"agregarBtn",A.d("ADD"),"agregarUnComentario",A.d("Add a Comment"),"agregarUnModulo",A.d("Add Module"),"alHacerClickHeLeido",A.d(u.J),"alIniciarSesion",A.d("By logging in, you agree to our "),"anadirCurso",A.d("Add a course to the user"),"apellidoDeUsuario",A.d("User's Last Name"),"apellidoTextFiel",A.d("Surname"),"aprendeTodoAds",A.d("LEARN EVERYTHING ABOUT ADS"),"asesoria11",A.d("1:1 CONSULTING"),"asiMismoInformamos",A.d(u.fa),"avanzado",A.d("Advanced"),"avisoLegal1",A.d("1. LEGAL NOTICE AND TERMS OF USE"),"avisoLegalYTerminos",A.d(u.E),"banerDelCurso",A.d("Course Banner"),"basico",A.d("Basic"),"bienvenidoAlosProg",A.d(u.fk),"blog",A.d("Blog"),"blogError",A.d("Error loading blogs"),"borrar",A.d("Delete"),"borrarDefinitivo",A.d("Permanently delete the user"),"borrarForm",A.d("Delete form"),"borrarFormDef",A.d("Permanently delete the form"),"botonLogin",A.d("LOGIN"),"botonReg",A.d("Register"),"buscasAcelerar",A.d(u._),"cadaCursoCuenta",A.d(u.Y),"cancelarBtn",A.d("CANCEL"),"capturaDeInf1_4_2",A.d("1.4.2 INFORMATION CAPTURE"),"capturaDeInf1_4_2Text",A.d(u.C),"casosEsp",A.d("Specialized Cases"),"casosEspResp",A.d(u.fB),"causasDeDisolucion",A.d("12. CAUSES FOR CONTRACT DISSOLUTION"),"causasDeDisolucionText",A.d(u.ar),"centroSoporte",A.d("Help and Support Center"),"cero",A.d("Zero"),"certificadoBtn",A.d("CERTIFICATE"),"comentar",A.d("COMMENT"),"comentarioAgregado",A.d("Comment added successfully"),"comentarioInvalido",A.d("Invalid Comment"),"comentariosBtn",A.d("COMMENTS"),"comienzaAqui",A.d("Start Here"),"como",A.d("How?"),"comoPuedoBuscarteRRSS",A.d("How can I find you on social media?"),"completPers",A.d("COMPLETELY PERSONALIZED"),"comprarBtn",A.d("BUY"),"conTuNeg",A.d("with YOUR BUSINESS"),"condicionesDeVenta",A.d("10. SALES CONDITIONS"),"condicionesDeVentaText",A.d(u.by),"confCampanas",A.d("Campaign Setup"),"confCampanasResp",A.d(u.bW),"confOnline",A.d("Online Conference"),"confPresenc",A.d("In-Person Conference"),"conferencias",A.d("CONFERENCES"),"configuracionMenuBtn",A.d("SETTINGS"),"conoceloQue",A.d("Get to Know What You'll Learn"),"consigueClientesQueQuieran",A.d(u.q),"consultEspec",A.d("Consultants or Specialists"),"consultEspecText",A.d(u.cq),"contactoLargeText",A.d(u.cA),"contactoMenuBtn",A.d("Contact"),"continuaMensaje",A.d("continue the message..."),"continuar",A.d("CONTINUE"),"contrasenaTextFiel",A.d("Password"),"contratamePara",A.d(u.el),"correoDeUsuario",A.d("User's Email"),"correoForm",A.d("Email"),"correoTextFiel",A.d("Email"),"correoYaExiste",A.d("Email already exists. Go to Log in."),"crearBtn",A.d("CREATE"),"crearCuenta",A.d("CREATE ACCOUNT"),"credencialesInvalidas",A.d("Invalid credentials"),"cuandoSeRealice",A.d(u.eC),"cuantosAnosNegAct",A.d(u.H),"cuatroy",A.d("+4 Years"),"cuentaConmigo",A.d("Count on Me"),"cursoActualizado",A.d("Course updated successfully"),"cursoAgregado",A.d("Course added"),"cursoBorrado",A.d("Course deleted"),"cursoCreado",A.d("Course created successfully"),"cursoMayus",A.d("COURSES"),"cursoRepetido",A.d("Course already exists"),"cursos",A.d("Courses"),"cursosDisponibles",A.d("Available Courses"),"cursosMenuBtn",A.d("Courses"),"datosDescarga",A.d("Download Data"),"datosSolicitados",A.d(u.dh),"deQueSector",A.d(u.a9),"debePesarMenos",A.d("The image must weigh less than 3 MB"),"debeVerificar",A.d(u.bz),"dequesededicaForm",A.d("What sector or city is your business in?"),"derechoExcl",A.d("6. RIGHT OF EXCLUSION"),"derechoExclText",A.d(u.ap),"derechos",A.d("RIGHTS"),"derechosReservados",A.d("ALL RIGHTS RESERVED"),"descargaRegaloBtn",A.d("DOWNLOAD THIS GIFT"),"descripcionDelCurso",A.d("Course Description"),"descripcionDelModulo",A.d("Module Description"),"descubreComo",A.d("Discover how to boost your business"),"desdeHace4",A.d(u.gz),"deseasDejar",A.d(u.k),"deseasQueLaConf",A.d(u.aC),"disenoEstrat",A.d("Strategy Design"),"disenoEstratResp",A.d(u.u),"dondeTeBrindaremos",A.d(u.bT),"dosy",A.d("2 Years"),"duenosNegocios",A.d("Business Owners"),"duenosNegociosText",A.d(u.gQ),"duracion2puntos",A.d("Duration: "),"duracionDeTratamiento",A.d("DURATION OF PROCESSING\n"),"duracionDelCurso",A.d("Course Duration"),"duracionObligatoria",A.d("Course duration is required"),"duranteElPrimerMes",A.d(u.gg),"editar2puntos",A.d("Edit:"),"editarModulo",A.d("Edit module"),"educacionYEstrategia",A.d("Education and\nADS Strategy"),"elAccesoyo",A.d(u.gl),"elEmailNoExiste",A.d("The email does not exist"),"elSitioWebDispone",A.d(u.aJ),"elTratamientoDeSusDatos",A.d(u.h),"elUsuarioTiene",A.d(u.eq),"eliminado",A.d("Deleted"),"eliminarCurso",A.d("Delete Course"),"eliminarModulo",A.d("Delete module"),"ellosVivieronMision",A.d("They Lived the Mission"),"empezamosBtn",A.d("Shall We Begin?"),"emprendedorOFree",A.d("Entrepreneur or Freelancer"),"emprendedorOFreeText",A.d(u.eO),"enElCasoDeLosDatos",A.d(u.e8),"enElTranscurso",A.d(u.dL),"enQueAyudarte",A.d("How can we assist you"),"enQueNivel",A.d(u.L),"enUnaVideollamada",A.d(u.b_),"encargadosDelTratamiento",A.d("DATA PROCESSORS\n"),"enlaceInvalido",A.d("INVALID LINK"),"entiendesQueEsto",A.d(u.eQ),"envianosComentario",A.d(u.K),"enviarBtn",A.d("SEND"),"enviarEmaila",A.d("Send an email to:"),"enviaremosUnEmail",A.d(u.cB),"eresNuevo",A.d("Are you new?"),"errorActualizandoModulo",A.d("Error updating module"),"errorAgregandoComentario",A.d("Error adding comment"),"errorAuth",A.d("There was an issue with your authentication."),"errorBorrandoModulo",A.d("Error deleting module"),"errorCursoActualizado",A.d("Error updating course"),"errorCursoCreado",A.d("Error creating course"),"errorEliminadoCurso",A.d("Error deleting course"),"errorEliminadoLead",A.d("Error deleting lead"),"errorEliminadoUsuario",A.d("Error deleting user"),"errorModuloAgregado",A.d("Error adding module"),"errorTestimonioActualizado",A.d("Error updating testimonial"),"errorTestimonioAgregado",A.d("Error adding testimonial"),"errorTestimonioBorrado",A.d("Error deleting testimonial"),"escribeComentario",A.d("Write your comment"),"escribeTodasTusEspectativas",A.d(u.hb),"estaMision",A.d("This mission is for you"),"estaPolitica",A.d(u.fF),"estado",A.d("STATUS"),"estasAunPaso",A.d(u.n),"estasEnElMomento",A.d(u.ey),"estasPoliticasSeEntenderan",A.d(u.h4),"esteServicioEsta",A.d(u.bi),"estoyListoBtn",A.d("I'm Ready, Let's Begin."),"estudiantes",A.d("students"),"exclusionDeGarant",A.d(u.g),"exclusionDeGarantText",A.d(u.gt),"extensionInvalida",A.d("Invalid Extension"),"fecha",A.d("Date"),"felicidadesCert",A.d(u.b5),"finDeLosComentarios",A.d("End of Comments"),"finalidadWeb1_2",A.d(u.dq),"finalizarBtn",A.d("FINISH"),"formularios",A.d("FORMS"),"formulariosMenuBtn",A.d("Forms"),"generalidades",A.d("7. GENERALITIES"),"generalidadesText",A.d(u.bp),"generandoCert",A.d("Generating Certificate"),"graciasInfo",A.d(u.G),"graciasPorComunicarte",A.d(u.aA),"graciasPorConfirmar",A.d("Thank you for confirming your account"),"graciasPorRegistrarte",A.d(u.dS),"hasHechoPubAntes",A.d("Have you done advertising before?"),"hola",A.d("Hello,"),"idCarpertaModulo",A.d("Module Folder ID"),"idZipModulo",A.d("Module Zip ID"),"imagen",A.d("IMAGE"),"imagenDelCurso",A.d("Course Image"),"imgCambiadaNtf",A.d("Image changed successfully"),"imgCursoCertificado",A.d("Certificate Image"),"imgDeCurso",A.d("COURSE IMAGE"),"infoDeCurso",A.d("COURSE INFORMATION"),"informacionMayus",A.d("INFORMATION"),"ingresaNewPass",A.d("Enter your new password"),"ingresaTuDirEmail",A.d("Enter your email address"),"ingreseApellidoTextFiel",A.d("Enter your surname"),"ingreseCorreoValido",A.d("Enter a valid email"),"ingreseNombreTextField",A.d("Enter your name"),"ingreseSuCorreo",A.d("Enter your email"),"ingreseUnaPassValida",A.d("Enter a valid password"),"inhabResagBloq",A.d("Disabled, Backlogged, or Blocked"),"inhabResagBloqText",A.d(s),"iniciaAqui",A.d("Log in here"),"iniciaSesion",A.d("LOG IN"),"iniciarSesionBtn",A.d("LOG IN"),"inicioMenuBtn",A.d("Home"),"inteligenteInv",A.d("SMART INVESTMENT"),"interesLegitimo",A.d("LEGITIMATE INTEREST\n"),"intermedio",A.d("Intermediate"),"irAlLogin",A.d("Log in"),"irAlLoginBtn",A.d("Go to login"),"jpCompartira",A.d(u.c6),"jpCumpleLaLey",A.d(u.dA),"jpEnTodoMomento",A.d(u.eL),"jpNecesitaElApoyo",A.d(u.aq),"laContraDebe6Caracteres",A.d(u.f),"laContrasenaSeHaReest",A.d(u.cP),"laDenominacionSocial",A.d(u.dO),"laDisolucion",A.d(u.cN),"laExtensionDebe",A.d("The extension must be PNG, JPG, or JPEG"),"laFalsedadText",A.d(u.ci),"laPaginaWebText",A.d(u.fO),"laVentanaDeFormacion",A.d(u.i),"leadActualizadoConExito",A.d("Lead updated successfully"),"leadCreadoConExito",A.d("Lead created successfully"),"leadsMenuBtn",A.d("Leads"),"leyAplicable",A.d("11. APPLICABLE LAW AND JURISDICTION"),"leyAplicableText",A.d(u.bB),"listaDeComentarios",A.d("Comment List"),"listaDeCursos",A.d("Course List"),"listaDescarga",A.d("Download List"),"listaForm",A.d("Form List"),"listaUsuarios",A.d("User List"),"llegasteAlMundo",A.d("You arrived in the right place"),"loadingBlogs",A.d("Loading blogs..."),"logout",A.d("LOG OUT"),"logoutLabel",A.d("LOG OUT"),"losEnlacesATerceros",A.d(u.ga),"masInformacionBtn",A.d("More Information"),"menosde6meses",A.d("Less than 6 months"),"mensajeEnviado",A.d("Message sent successfully"),"mentoria",A.d("MENTORING"),"mentoriaIntensiva",A.d("INTENSIVE MENTORING"),"miCuentaMenuBtn",A.d("My Account"),"miDenominacion",A.d(u.aX),"miraloOjos",A.d("SEE IT WITH YOUR OWN EYES"),"misCursosLabel",A.d("My Courses"),"misCursosMenuBtn",A.d("MY COURSES"),"modificacionCond",A.d(u.ch),"modificacionCondText",A.d(u.a3),"modificaciones",A.d("4. MODIFICATIONS"),"modificacionesText",A.d(u.cl),"moduloActualizado",A.d("Module updated successfully"),"moduloAgregado",A.d("Module added successfully"),"moduloBorrado",A.d("Module deleted successfully"),"modulos",A.d("MODULES"),"modulos2puntos",A.d("Modules: "),"modulosDelCurso",A.d("Course Modules"),"motivacion",A.d("Motivation"),"motivacionResp",A.d(u.h7),"negocio2puntos",A.d("Business :"),"negocioLocFis",A.d("Local or Physical Business"),"negocioLocFisText",A.d(u.dl),"noBlogsFound",A.d("No blogs found"),"noEstoyPreparado",A.d(u.c3),"noSePermiteRepr",A.d(u.a),"noTienesCursos",A.d("You Don't Have Any Courses"),"nombApllYCorr",A.d(u.b),"nombreDeUsuario",A.d("Username"),"nombreDelCurso",A.d("Course Name"),"nombreDelModulo",A.d("Module Name"),"nombreTextField",A.d("Name"),"nombreyapellidoForm",A.d("Name and Surname"),"nuestra",A.d("our "),"nuevoCurso",A.d("New Course"),"nuevoForm",A.d("New Form"),"nuevoLead",A.d("New Lead"),"nuevoModulo",A.d("New module"),"nuevoUsuario",A.d("New User"),"olvideMiPass",A.d("I forgot my password"),"optimizacion",A.d("Optimization"),"optimizacionResp",A.d(u.x),"pagina404",A.d("Page not found 404"),"passDeUsuario",A.d("User's Password"),"passNoCoinciden",A.d("Passwords do not match"),"pendiente",A.d("PENDING"),"podrasDescargar",A.d(u.ds),"politicaDeEnlaces",A.d("5. LINKING POLICY"),"politicaDeEnlacesText",A.d(u.O),"politicaDePrivacidad",A.d("Privacy Policy"),"politicasDeProivacidad",A.d("PRIVACY POLICY"),"politicasRelacionadasConNews",A.d("POLICIES RELATED TO THE NEWSLETTER\n"),"porFavorEspere",A.d("Please wait"),"porQueYo",A.d("Why Me?"),"porQueYoResp",A.d(u.cQ),"precio11",A.d("$350"),"precioDelCurso",A.d("Course Price"),"preguntasfrecuentes",A.d("Frequently Asked Questions"),"preguntasfrecuentes1Resp",A.d(u.dz),"preguntasfrecuentes2Resp",A.d(u.Z),"preguntasfrecuentes3Resp",A.d(u.cM),"preguntasfrecuentesResp",A.d(u.gh),"profesionalesEnMark",A.d(u.c4),"profesionalesEnMarkText",A.d(s),"progreso2puntos",A.d("Progress: "),"propiedadIntelectual",A.d("2. INTELLECTUAL AND INDUSTRIAL PROPERTY:"),"propiedadIntelectualText",A.d(u.ek),"pubOnline",A.d("Online Advertising"),"pubOnlineResp",A.d(u.cO),"publicado2puntos",A.d("Published: "),"publishedBlogs",A.d("Published Blogs"),"puedoGatantizarte",A.d(u.F),"queHablareEvento",A.d(u.B),"queHablaremos",A.d("What Will We Discuss in the Meeting?"),"queHablaremosResp",A.d(u.aZ),"queVeremos3m",A.d(u.W),"queVeremos3mResp",A.d(u.M),"quieresConseguir",A.d("Want to get more clients"),"quieresTener",A.d(u.m),"quieroAds",A.d("I Want Ads"),"quieroMiAsesoriaBtn",A.d("I Want My Consultation"),"quieroYaBtn",A.d("I WANT THIS COURSE NOW"),"readMore",A.d("Read More"),"recibirasInstruccionesPass",A.d(u.eI),"reclamacionesDudas",A.d("9. COMPLAINTS AND QUESTIONS"),"reclamacionesDudasText",A.d(u.p),"recuerdaPrimero",A.d(u.eR),"recuerdame",A.d("Remember me"),"recuperarPass",A.d("RECOVER YOUR PASSWORD"),"redesSociales",A.d("Social Media"),"registrarBtn",A.d("REGISTER"),"registrateAqui",A.d("Sign up here"),"repitaContrasenaTextFiel",A.d("Repeat password"),"requerido",A.d("Required"),"residentesCalifornia",A.d("RESIDENTS OF CALIFORNIA, UNITED STATES\n"),"resolvamosEsto",A.d("Let's Resolve This"),"responder",A.d("Reply"),"respuesta",A.d("Response"),"resultadosMenuBtn",A.d("Results"),"seHaEnviadoUnCorreo",A.d(u.f2),"seamosSinceros",A.d(u.gJ),"seguroBorrar",A.d("Are you sure you want to Delete"),"seguroBorrarComent",A.d(u.bI),"seguroBorrarUsuario",A.d("Are you sure you want to delete the user"),"seguroEliminarCurso",A.d(u.I),"seguroEliminarModulo",A.d(u.d),"seleccioneCurso",A.d("Select a course"),"seleccioneOpcion",A.d("Select an option"),"serElEncargado",A.d("BE THE ONE IN CHARGE"),"servicios",A.d(r),"servicios2puntos",A.d("Services: "),"serviciosMenuBtn",A.d("Services"),"si",A.d("Yes"),"siBorrar",A.d("Yes, Delete"),"siEstoyPreparado",A.d("Yes, I am prepared"),"siTienesAlgunaDuda",A.d(u.g0),"siTienesDudas",A.d(u.dk),"siguemeEnTodas",A.d(u.R),"siguienteBtn",A.d("NEXT"),"sinModulos",A.d("No modules, add a new module"),"siu",A.d("IF"),"sobreMi",A.d("About Me"),"soporte",A.d("Support"),"soyElResp",A.d("I AM RESPONSIBLE FOR YOUR SUCCESS"),"soyJpDir",A.d("I'm JP Director"),"tamanoInvalido",A.d("Invalid Size"),"teExplicamos",A.d(u.bq),"telefonoDeUsuario",A.d("User's Phone"),"telefonoForm",A.d("Phone"),"telfDebeCodArea",A.d(u.bX),"telfSinCaracteres",A.d(u.dc),"telfSoloNumeros",A.d(u.gj),"tenerUnMentor",A.d(u.du),"terminoDeUso",A.d("Terms of use "),"terminosYCondiciones",A.d("TERMS AND CONDITIONS"),"testimonioActualizado",A.d("Testimonial updated successfully"),"testimonioAgregado",A.d("Testimonial added successfully"),"testimonioAnier",A.d('"I studied computer science and a lot of education. After taking the course, I not only recovered my investment but can also run my own advertising. Thanks, JP."'),"testimonioBorrado",A.d("Testimonial deleted successfully"),"testimonioGerman",A.d('"In just 1 month, I managed to have more than 100 potential clients with my advertising campaigns. I recommend this course to anyone who wants to learn."'),"testimonioSaylin",A.d('"I loved it, it\'s very comprehensive and a world of knowledge. For my business, this course marked a before and after."'),"testimonioTania",A.d('"I have ideas and plans to implement for the next 6 months thanks to this course. Anyone who takes it will understand after learning from JP."'),"testimonios",A.d("TESTIMONIALS"),"tiempoSeAcumulaPreg",A.d(u.aN),"tiempoSeAcumulaResp",A.d(u.fU),"todoListoDescarga",A.d(u.gR),"todosLosDerechosRes",A.d("ALL RIGHTS RESERVED \xa9 2023"),"topBotonBlog",A.d("BLOG"),"topBotonContacto",A.d("CONTACT"),"topBotonCursos",A.d("COURSES"),"topBotonResultados",A.d("RESULTS"),"topBotonServicios",A.d(r),"tresy",A.d("3 Years"),"unAdmRespondera",A.d(u.A),"unaVezFinalices",A.d(u.N),"unoAuno",A.d("ONE-ON-ONE"),"uny",A.d("1 Year"),"urlVideoModulo",A.d("Module Video URL"),"usd",A.d("USD"),"usoDelSitioWeb1_4",A.d(u.dp),"usoDelSitioWeb1_4_1",A.d("1.4.1 USE OF THE WEBSITE"),"usuario",A.d("User"),"usuarioActualizado",A.d("User updated successfully"),"usuarioCreado",A.d("User created successfully"),"usuarios1_3",A.d("1.3. USERS:"),"usuariosMenuBtn",A.d("Users"),"ver",A.d("VIEW"),"verCertificadoBtn",A.d("VIEW CERTIFICATE"),"verMas",A.d("See More"),"verMaterialBtn",A.d("VIEW MATERIAL"),"videollamada",A.d("VIDEO CALL"),"xHora",A.d("per hour"),"xdondeComenzar",A.d("Where to Begin?"),"xdondeComenzarResp",A.d(u.bl),"yReconocesQue",A.d("and acknowledge that you have read "),"yaTienesCuenta",A.d("Already have an account?"),"yaTienesEsteCurso",A.d("You Already Have This Course"),"yaTienesTodos",A.d("You Already Have All the Courses")],t.N,t._8)},
 a_b:function a_b(a){this.a=a},
 beB(a){var s="Correo Electr\xf3nico",r="\xbfDe qu\xe9 sector o ciudad es tu negocio?",q="SERVICIOS"
-return A.ag(["aPesarDeLoAnterior",A.d("A pesar de lo anterior, los usuarios podr\xe1n darse de baja en cualquier momento de los servicios prestados por ON POINT PRODUCTIONS AGENCY LLC o datos aportados por el USUARIO dando cumplimiento a la normativa vigente sobre Protecci\xf3n de Datos. Asimismo, tanto al suscribirse a esta p\xe1gina web, como al realizar alg\xfan comentario o realizar una compra en cualquiera de sus p\xe1ginas y/o entradas, el usuario consiente:"),"acciones",A.d("ACCIONES"),"acepto2puntos",A.d("De acuerdo:"),"actInfo",A.d("Actualizar Informaci\xf3n"),"actInfoBtn",A.d("ACTUALIZAR INFORMACI\xd3N"),"actRapidez",A.d("Actualizaciones y rapidez de la tecnolog\xeda"),"actRapidezResp",A.d("Leyendo esto seguro sali\xf3 una actualizaci\xf3n de alguna herramienta o una nueva funcionalidad es por eso que ese d\xeda hablaremos de lo actual del 2025."),"actRrssBtn",A.d("ACTUALIZAR RRSS"),"activo",A.d("ACTIVO"),"actualizacionTyC",A.d("\xdaltima actualizaci\xf3n 7 de Marzo de 2023"),"actualizado2024",A.d("Actualizado 2025"),"actualizarBtn",A.d("ACTUALIZAR"),"adminCursos",A.d("Administraci\xf3n de Cursos"),"adminForms",A.d("Administraci\xf3n de Formularios"),"adminLeads",A.d("Administraci\xf3n de Leads"),"adminUsuarios",A.d("Administraci\xf3n de Usuarios"),"advisoryBefore",A.d("Publicidad Antes?"),"advisoryLvl",A.d("Nivel de Publicidad"),"agendarBtn",A.d("Agendar"),"agendarLlamadaBtn",A.d("Agendar una llamada"),"agregarBtn",A.d("AGREGAR"),"agregarUnComentario",A.d("Agregar un comentario"),"agregarUnModulo",A.d("Agregar Modulo"),"alHacerClickHeLeido",A.d("Al hacer clic en ENVIAR, confirmas que has le\xeddo y aceptado todas las pol\xedticas y condiciones"),"alIniciarSesion",A.d("Al iniciar sesi\xf3n aceptas nuestros "),"anadirCurso",A.d("A\xf1adele un curso al usuario"),"apellidoDeUsuario",A.d("Apellido de usuario"),"apellidoTextFiel",A.d("Apellido"),"aprendeTodoAds",A.d("APRENDE TODO SOBRE ADS"),"asesoria11",A.d("ASESOR\xcdA 1:1"),"asiMismoInformamos",A.d("Asimismo, informamos que la informaci\xf3n de nuestros usuarios est\xe1 protegida de acuerdo a nuestra POL\xcdTICA DE PRIVACIDAD\nAl activar una suscripci\xf3n, formulario de contacto o comentario, el usuario comprende y acepta que:\nDesde el momento en que efect\xfaa su suscripci\xf3n o accedes a alg\xfan servicio de pago,ON POINT PRODUCTIONS AGENCY LLC tiene acceso\nEn todo caso ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de modificar, en cualquier momento y sin necesidad de previo aviso, la presentaci\xf3n y configuraci\xf3n de la web https://quieroads.com/ como el presente aviso legal."),"avanzado",A.d("Avanzado"),"avisoLegal1",A.d("1. AVISO LEGAL Y T\xc9RMINOS DE USO"),"avisoLegalYTerminos",A.d("Aviso Legal y T\xe9rminos de Uso del Sitio"),"banerDelCurso",A.d("Baner del curso"),"basico",A.d("B\xe1sico"),"bienvenidoAlosProg",A.d("Bienvenido a los programas m\xe1s completos de publicidad digital. Te damos las gracias y un gran abrazo por confiar en nuestras formaciones; estamos emocionados de verte crecer en este nuevo camino de \xe9xito."),"blog",A.d("Blog"),"blogError",A.d("Error al cargar blogs"),"borrar",A.d("Borrar"),"borrarDefinitivo",A.d("Borrar definitivamente el usuario"),"borrarForm",A.d("Borrar formulario"),"borrarFormDef",A.d("Borrar definitivamente el formulario"),"botonLogin",A.d("ENTRAR"),"botonReg",A.d("Registrate"),"buscasAcelerar",A.d("Buscas acelerar tu negocio con publicidad"),"cadaCursoCuenta",A.d("1. Cada curso cuenta con su barra de comentarios - puedes dejarnos todas tus preguntas y nuestro equipo estar\xe1 contest\xe1ndolas"),"cancelarBtn",A.d("CANCELAR"),"capturaDeInf1_4_2",A.d("1.4.2 CAPTURA DE INFORMACI\xd3N"),"capturaDeInf1_4_2Text",A.d("-Formulario de contacto, donde el USUARIO deber\xe1 rellenar el campo de correo electr\xf3nico, asunto y nombre.\n-Formulario de suscripci\xf3n, rellenando el USUARIO los campos necesarios para la suscripci\xf3n a la web con los campos de nombre, email y n\xfamero de tel\xe9fono.\n-Formulario de venta, rellenando el USUARIO los campos necesarios para la venta con los campos de nombre, email, direcci\xf3n, tel\xe9fono y DNI\n-Cookies de rastreo, conforme a las siguientes reglas\n-Navegaci\xf3n y Direcci\xf3n IP: Al navegar por esta web, el usuario facilita de forma autom\xe1tica al servidor de la web informaci\xf3n relativa a tu direcci\xf3n IP, fecha y hora de acceso, el hiperv\xednculo que le ha reenviado a \xe9stas, tu sistema operativo y el navegador utilizado."),"casosEsp",A.d("Casos especializados"),"casosEspResp",A.d("Imaginemos que eres una empresa de Seguros y quieres ejemplos de c\xf3mo hacer publicidad. Pues entonces: manos a la obra, expondr\xe9 temas y casos en los que entiendan y les sirvan para poder implementarlos en su d\xeda a d\xeda."),"causasDeDisolucion",A.d("12. CAUSAS DE DISOLUCI\xd3N DEL CONTRATO"),"causasDeDisolucionText",A.d("La disoluci\xf3n del contrato de servicios puede ocurrir en cualquier momento por cualquiera de las dos partes.\nNo est\xe1s obligado a condiciones de permanencia con ON POINT PRODUCTIONS AGENCY LLC.\nON POINT PRODUCTIONS AGENCY LLC puede terminar o suspender cualquier y todos los Servicios contratados inmediatamente, sin previo aviso o responsabilidad, en caso de que t\xfa no cumplas con las condiciones aqu\xed expuestas.\nA la disoluci\xf3n del contrato, tu derecho a utilizar los Servicios cesar\xe1 inmediatamente.\nSer\xe1n causas de disoluci\xf3n de contrato:"),"centroSoporte",A.d("Centro de Ayuda y Soporte"),"cero",A.d("Cero"),"certificadoBtn",A.d("CERTIFICADO"),"comentar",A.d("COMENTAR"),"comentarioAgregado",A.d("Comentario agregado con exito"),"comentarioInvalido",A.d("Comentario Invalido"),"comentariosBtn",A.d("COMENTARIOS"),"comienzaAqui",A.d("Comienza Aqu\xed"),"como",A.d("\xbfC\xf3mo?"),"comoPuedoBuscarteRRSS",A.d("\xbfC\xf3mo te puedo buscar en redes sociales?"),"completPers",A.d("COMPLETAMENTE PERSONALIZADO"),"comprarBtn",A.d("COMPRAR"),"conTuNeg",A.d("con TU NEGOCIO"),"condicionesDeVenta",A.d("10. CONDICIONES DE VENTA"),"condicionesDeVentaText",A.d("Las presentes condiciones generales tienen por objeto regular expresamente las condiciones aplicables a los procesos de contrataci\xf3n llevados a cabo por los usuarios \u201cCliente\u201d de los cursos online y servicios ofrecidos por parte de ON POINT PRODUCTIONS AGENCY LLC a trav\xe9s de su sitio web.\nEstas condiciones permanecer\xe1n en vigor y ser\xe1n v\xe1lidas durante todo el tiempo que est\xe9n accesible a trav\xe9s del sitio web, todo ello sin perjuicio de que ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho a modificar, sin previo aviso, las condiciones generales as\xed como cualquiera de los textos legales que se encuentren en dicho sitio web. En todo caso, el acceso a la Web tras su modificaci\xf3n, inclusi\xf3n y/o sustituci\xf3n, implica la aceptaci\xf3n de los mismos por parte del usuario.\nEl cliente se encuentra sujeto a las condiciones generales vigentes en cada uno de los momentos de realizar la contrataci\xf3n correspondiente, no siendo posible la contrataci\xf3n de servicio alguno sin la previa aceptaci\xf3n de las presentes condiciones generales de contrataci\xf3n.\nEn la presente web podr\xe1 adquirir productos o servicios reflejados en cada p\xe1gina de ventas.\nPara proceder al pago, el cliente tiene a su disposici\xf3n los siguientes medios:\nVisa/Mastercard/American Express; el usuario deber\xe1 proporcionar el nombre del titular de la tarjeta, el n\xfamero, la fecha de caducidad y el CVV.\nToda la informaci\xf3n ser\xe1 tramitada a trav\xe9s de una pasarela de pagos externa a ON POINT PRODUCTIONS AGENCY LLC ubicada en Stripe.com, pudiendo obtener m\xe1s informaci\xf3n visitando su p\xe1gina web https://stripe.com/privacy - https://www.paypal.com/us/home.\nPara proceder al pago, normalmente ser\xe1s redirigido a un carrito donde se te solicitar\xe1n los datos necesarios a trav\xe9s de plataformas de terceros como pueden ser Stripe o Paypal."),"confCampanas",A.d("\xbfConfiguraci\xf3n de Campa\xf1as?"),"confCampanasResp",A.d("Todo lo t\xe9cnico que se hace dentro de la plataforma para que las campa\xf1as est\xe9n en correcto funcionamiento seg\xfan la estrategia establecida."),"confOnline",A.d("Conferencia Online"),"confPresenc",A.d("Conferencia Presencial"),"conferencias",A.d("CONFERENCIAS"),"configuracionMenuBtn",A.d("CONFIGURACION"),"conoceloQue",A.d("Conoce lo que aprender\xe1s"),"consigueClientesQueQuieran",A.d("Consigue clientes que quieran comprar tu producto o servicio\nutilizando la herramienta por la que llegaste aqui:\nInstagram - Facebook - Tik Tok"),"consultEspec",A.d("Consultores o Especialistas"),"consultEspecText",A.d("Eres m\xe9dico, coach, realtor, abogado o nutricionista y tus servicios son altamente buscados en las redes sociales, por lo que solo falta exponerte de la manera correcta en publicidad."),"contactoLargeText",A.d("Desde hace 5 a\xf1os estoy comprometido en potenciar y educar con estrategias publicitarias efectivas que dan en el punto.\nCon un recorrido de mas de $12.000.000 USD invertidos y un retorno de mas de $160.000.000 USD en campa\xf1as publicitarias en Facebook, Instagram y Tiktok, afirmo que el \xe9xito de los negocios consiste en: \n1. Una excelente estrategia publicitaria.\n2. Analizar y optimizar los datos.\n3. Contar con un profesional con experiencia.\nMi misi\xf3n es ser el encargado o mentor acompa\xf1\xe1ndote al \xe9xito en todo el proceso publicitario."),"contactoMenuBtn",A.d("Contacto"),"continuaMensaje",A.d("continua el mensaje..."),"continuar",A.d("CONTINUAR"),"contrasenaTextFiel",A.d("Contrase\xf1a"),"contratamePara",A.d("Contr\xe1tame para exponer la importancia de publicidad online enfocada en el rubro que desees: Seguros, Abogados, Real Estate, M\xe9dicos, Salones de Belleza, Coaching, Restaurantes y todos los negocios o emprendimientos que necesiten conocer ejemplos reales para hacer publicidad."),"correoDeUsuario",A.d("Correo de usuario"),"correoForm",A.d(s),"correoTextFiel",A.d(s),"correoYaExiste",A.d("Correo ya existe. ir al Log in"),"crearBtn",A.d("CREAR"),"crearCuenta",A.d("CREAR CUENTA"),"credencialesInvalidas",A.d("Credenciales Invalidas"),"cuandoSeRealice",A.d("Cuando se realice un lanzamiento de productos o servicios nuevos, o promociones especiales por tiempo determinado, se recoger\xe1 el nombre y correo electr\xf3nico de los usuarios del sitio web mediante un formulario. Este tratamiento de datos personales se har\xe1 con base en el inter\xe9s leg\xedtimo que posee JPDIRECTOR para aumentar sus ventas, dar a conocer sus productos o servicios y cumplir con la finalidad de enviarle al titular de los datos la informaci\xf3n prometida en el sitio web.\nEste tratamiento ser\xe1 realizado mientras perdure el inter\xe9s leg\xedtimo de JPDIRECTOR. Para aumentar las garant\xedas y respeto a la privacidad, se ofrece la posibilidad de la exclusi\xf3n voluntaria de esta publicidad mediante un m\xe9todo f\xe1cil y de ejecuci\xf3n inmediata, ubicado en la parte inferior de los correos electr\xf3nicos que reciba.\nPara saber si este inter\xe9s es proporcionado y respetuoso con los derechos de los titulares de los datos, se ha realizado una ponderaci\xf3n que puede ser solicitada en cualquier momento escribiendo al correo electr\xf3nico hola@jpdirector.net\n"),"cuantosAnosNegAct",A.d("\xbfCu\xe1ntos a\xf1os tiene tu negocio operativo?"),"cuatroy",A.d("+4 A\xf1os"),"cuentaConmigo",A.d("Cuenta Conmigo"),"cursoActualizado",A.d("Curso Actualizado con exito"),"cursoAgregado",A.d("Curso agregado"),"cursoBorrado",A.d("Curso borrado"),"cursoCreado",A.d("Curso Creado con exito"),"cursoMayus",A.d("CURSOS"),"cursoRepetido",A.d("Curso ya existe"),"cursos",A.d("Cursos"),"cursosDisponibles",A.d("Cursos disponibles"),"cursosMenuBtn",A.d("Cursos"),"datosDescarga",A.d("Datos de descargas"),"datosSolicitados",A.d("Datos solicitados en el sitio web y finalidad del tratamiento.\n"),"deQueSector",A.d(r),"debePesarMenos",A.d("La imagen debe pesar menos de 3 MB"),"debeVerificar",A.d("Debe verificar su cuenta, Revise su correo Electr\xf3nico"),"dequesededicaForm",A.d(r),"derechoExcl",A.d("6. DERECHO DE EXCLUSI\xd3N"),"derechoExclText",A.d("ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho a denegar o retirar el acceso al portal y/o los servicios ofrecidos sin necesidad de preaviso, a instancia propia o de un tercero, a aquellos usuarios que incumplan las presentes Condiciones Generales de Uso."),"derechos",A.d("DERECHOS"),"derechosReservados",A.d("TODOS LOS DERECHOS RESERVADOS"),"descargaRegaloBtn",A.d("DESCARGA ESTE REGALO"),"descripcionDelCurso",A.d("Descripci\xf3n del curso"),"descripcionDelModulo",A.d("Descripci\xf3n del modulo"),"descubreComo",A.d("Descubre c\xf3mo impulsar tu negocio"),"desdeHace4",A.d("Desde hace 5 a\xf1os me dedico a potenciar marcas y negocios con estrategias efectivas en ads que dan en el punto. \n\nEn todo el proceso he manejado una cantidad de mas de $12.000.000 USD en campa\xf1as publicitarias, logrando mas de $160.000.000 USD en ventas por internet. Luego de innumerables pruebas, an\xe1lisis y educaci\xf3n, decid\xed realizar esta experiencia grupal para ense\xf1arle a emprendedores, due\xf1os de negocio o equipos de marketing a entender el motor que es realizar campa\xf1as publicitarias."),"deseasDejar",A.d("Deseas dejar de sentir angustia por resultados que no convierten"),"deseasQueLaConf",A.d("\xbfDeseas que la conferencia sea presencial o prefieres online?"),"disenoEstrat",A.d("Dise\xf1o de Estrategias"),"disenoEstratResp",A.d("Desarrollar\xe9 las estrategias claras y precisas con tiempos definidos poniendo en prioridad a tus distintos clientes ideales con todo el estudio que se necesita para poder impactarlos de manera persuasiva."),"dondeTeBrindaremos",A.d("donde te brindaremos una respuesta en el transcurso de 48 horas"),"dosy",A.d("2 A\xf1os"),"duenosNegocios",A.d("Due\xf1os de Negocios"),"duenosNegociosText",A.d("Ves publicidad todo el tiempo en tu tel\xe9fono y sabes que tu negocio lo necesita para darse a conocer y vender m\xe1s. Esta formaci\xf3n te ayudar\xe1 a entender como hacerlo y su importancia."),"duracion2puntos",A.d("Duraci\xf3n: "),"duracionDeTratamiento",A.d("DURACI\xd3N DEL TRATAMIENTO\n"),"duracionDelCurso",A.d("Duraci\xf3n del curso"),"duracionObligatoria",A.d("La duracion del curso es requerida"),"duranteElPrimerMes",A.d("Durante el primer mes, te ense\xf1ar\xe9 todo lo que s\xe9 y elaboraremos - lanzaremos en conjunto tu plan de publicidad donde aprender\xe1s la forma correcta de crecer tu negocio.\n\nEn el siguiente mes tendremos varias sesiones de an\xe1lisis de resultados con el plan que desarrollamos y progresivamente optimizaremos tu publicidad."),"editar2puntos",A.d("Editar:"),"editarModulo",A.d("Editar modulo"),"educacionYEstrategia",A.d("Educaci\xf3n y\nEstrategia de ADS"),"elAccesoyo",A.d("El acceso y/o uso de este sitio web atribuye la condici\xf3n de USUARIO, que acepta, desde dicho acceso y/o uso, los presentes t\xe9rminos de uso, no obstante, por el mero uso de la p\xe1gina web no significa el inicio de relaci\xf3n laboral/comercial alguna"),"elEmailNoExiste",A.d("El correo no existe"),"elSitioWebDispone",A.d("El sitio web dispone de 4 tipos de formularios:\nDe contacto: el usuario, cliente o participante podr\xe1 encontrar formularios que facilitar\xe1n la comunicaci\xf3n con JPDIRECTOR para plantear dudas, comentarios, solicitar un presupuesto, reservar alguno de los servicios ofrecidos en el sitio web o exigir alg\xfan derecho que tenga. No suministrar los datos personales m\xednimos necesarios imposibilitar\xe1 a JPDIRECTOR responder a la petici\xf3n. Este tratamiento se considerar\xe1 leg\xedtimo por ser parte de una diligencia pre-contractual. El servidor del sitio web y del correo electr\xf3nico de JPDIRECTOR ser\xe1n los encargados del tratamiento.\nDe publicidad: se solicitar\xe1 a los usuarios, compradores o participantes su consentimiento expreso y voluntario para entregar a JPDIRECTOR, los m\xednimos datos necesarios para enviar publicidad e informaci\xf3n comercial relacionada con los servicios y/o productos ofrecidos por JPDIRECTOR, para que se agregue a un fichero automatizado de email marketing gestionado por el encargado del tratamiento que se indica m\xe1s abajo. El tratamiento de los datos personales que se encuentren en esta secci\xf3n se ha hecho con el consentimiento del titular de los datos.\nPara comentarios en el blog: en aras de evitar el spam, mensajes inadecuados, y hacer un correcto seguimiento, se solicitar\xe1 al usuario su nombre, email y sitio web para identificarlo en los comentarios que desee realizar en las entradas del blog. Estos datos ser\xe1n visibles para otros usuarios del sitio web. Si no desea que los datos sean visibles por otras personas, deber\xe1 comunicarse con JPDIRECTOR  al correo electr\xf3nico hola@jpdirector.net. El servidor del sitio web ser\xe1 el encargado del tratamiento y que se realizar\xe1 con el consentimiento del titular de los datos.\nPara procesar la solicitud del servicio: se solicitar\xe1 a los usuarios, clientes o participantes sus datos para que JPDIRECTOR pueda procesar los servicios solicitados por el cliente. Tratamiento leg\xedtimo de datos personales por la relaci\xf3n contractual que existe con el cliente o participante. Los datos ser\xe1n guardados en el servidor del sitio web.\n"),"elTratamientoDeSusDatos",A.d("1. El tratamiento de sus datos personales en el entorno de Wix conforme a sus pol\xedticas de privacidad.\n2. El acceso de ON POINT PRODUCTIONS AGENCY LLC a los datos que, de acuerdo con la infraestructura de Wix, necesite el usuario aportar bien para la suscripci\xf3n a la web bien para cualquier consulta mediante el formulario de contacto."),"elUsuarioTiene",A.d("El usuario tiene los siguientes derechos relacionados con sus datos personales:\nAcceso: el usuario puede dirigirse a JPDIRECTOR para poder saber los datos que se han recopilado de \xe9l.\nRectificaci\xf3n: el usuario puede en cualquier momento rectificar los datos que haya suministrado a JPDIRECTOR\nOposici\xf3n: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar el cese al tratamiento de sus datos personales.\nSupresi\xf3n: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar la eliminaci\xf3n de sus datos personales.\nLimitaci\xf3n al tratamiento: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar que sus datos personales sean tratados de la forma como \xe9l los limite, por ejemplo solicitar que no se modifiquen, que se borren o supriman.\nPortabilidad: siempre que el usuario as\xed lo solicite y pueda realizarse, podr\xe1 solicitar una copia de sus datos personales en un formato estructurado, de uso com\xfan, de lectura mec\xe1nica e interoperable, o solicitar que se transmita a otro responsable del tratamiento, siempre que el tratamiento se legitime en base al consentimiento o en el marco de la ejecuci\xf3n de un contrato.\nNo ser objeto de decisiones individuales automatizadas: en JPDIRECTOR no se realizan perfiles automatizados que puedan afectar significativa o negativamente al usuario. Cualquier decisi\xf3n que se tome con base a un perfil automatizado, es con la \xfanica finalidad de enviar al usuario una informaci\xf3n que haya solicitado de acuerdo con sus h\xe1bitos de navegaci\xf3n y descarga de materiales en el sitio web.\nInformaci\xf3n: el usuario tiene derecho a saber la forma en la cual son tratados sus datos personales.\nPara el ejercicio de cualquiera de estos derechos el usuario puede escribir al correo electr\xf3nico hola@jpdirector.net\n"),"eliminado",A.d("Eliminado"),"eliminarCurso",A.d("Eliminar Curso"),"eliminarModulo",A.d("Eliminar modulo"),"ellosVivieronMision",A.d("Ellos vivieron la misi\xf3n"),"empezamosBtn",A.d("\xbfEmpezamos?"),"emprendedorOFree",A.d("Emprendedor o Freelancer"),"emprendedorOFreeText",A.d("Si eres emprendedor, tienes un negocio o quieres una formaci\xf3n que verdaderamente capacite a tu equipo a lanzar campa\xf1as de manera correcta"),"enElCasoDeLosDatos",A.d("En el caso de los datos personales suministrados para facturaci\xf3n y compra de productos o servicios, ser\xe1n guardados por el tiempo legalmente aplicable.\nEn el caso de los datos personales suministrados para boletines comerciales electr\xf3nicos y comentarios en el blog, ser\xe1 por el tiempo que el titular de los datos desee permanecer en la lista de suscripci\xf3n, por lo que podr\xe1 darse de baja en el momento que as\xed lo desee, de forma autom\xe1tica como se indica en cada bolet\xedn, o escribiendo al soporte@quieroads.com\n"),"enElTranscurso",A.d("En el transcurso de 2 a 3 d\xedas me estar\xe9 comunicando contigo para explicarte los siguientes pasos."),"enQueAyudarte",A.d("En que podemos ayudarte"),"enQueNivel",A.d("\xbfEn qu\xe9 nivel de conocimiento se encuentra tu equipo referente a la publicidad digital?"),"enUnaVideollamada",A.d("En una videollamada de 1 hora conversaremos de:\nCampa\xf1as, Presupuestos, Estrategias, Problemas Actuales, Inhabilitaciones y todo lo que quieras aclarar o aprender."),"encargadosDelTratamiento",A.d("ENCARGADOS DEL TRATAMIENTO\n"),"enlaceInvalido",A.d("ENLACE INVALIDO"),"entiendesQueEsto",A.d("\xbfEntiendes que esto es un proceso en el que debes estar comprometido y tener un modelo de negocio establecido con diferentes requerimientos?"),"envianosComentario",A.d("Envianos tus comentarios, en menos de 48h te brindaremos una respuesta"),"enviarBtn",A.d("ENVIAR"),"enviarEmaila",A.d("Enviar email a:"),"enviaremosUnEmail",A.d("Ingresa tus datos y recibe mi nueva GU\xcdA\nsin costo para ti \u2764\ufe0f"),"eresNuevo",A.d("\xbfEres Nuevo?"),"errorActualizandoModulo",A.d("Error actualizando modulo"),"errorAgregandoComentario",A.d("Error agregado comentario"),"errorAuth",A.d("Ocurri\xf3 problema con tu autenticaci\xf3n"),"errorBorrandoModulo",A.d("Error borrando modulo"),"errorCursoActualizado",A.d("Error actualizando curso"),"errorCursoCreado",A.d("Error creando curso"),"errorEliminadoCurso",A.d("Error eliminado curso"),"errorEliminadoLead",A.d("Error eliminado lead"),"errorEliminadoUsuario",A.d("Error eliminado usuario"),"errorModuloAgregado",A.d("Error agregado modulo"),"errorTestimonioActualizado",A.d("Error actualizando testimonio"),"errorTestimonioAgregado",A.d("Error agregado testimonio"),"errorTestimonioBorrado",A.d("Error borrando testimonio"),"escribeComentario",A.d("Escribe tu comentario"),"escribeTodasTusEspectativas",A.d("Escribe todas tus expectativas y temas que\nquieres que exponga para tu empresa"),"estaMision",A.d("Esta misi\xf3n es para ti"),"estaPolitica",A.d("Esta pol\xedtica de privacidad junto con el aviso legal, pol\xedtica de cookies, de ventas, t\xe9rminos y condiciones, y cualquier otra pol\xedtica a la que se haga referencia, identifica c\xf3mo se recopilan y procesan los datos personales que se reciben en este sitio web.\nLa informaci\xf3n que se encuentra en este sitio web no est\xe1 dirigida a ni\xf1os. Se entender\xe1 por ni\xf1o lo que la ley de la jurisdicci\xf3n donde se encuentre as\xed lo defina, en el caso de Estados Unidos de Am\xe9rica es alguien menor a 13 a\xf1os. Si el usuario cree que alg\xfan ni\xf1o ha proporcionado sus datos personales en este sitio web sin el consentimiento de los padres, deber\xe1 escribir a hola@jpdirector.net\nSi el usuario tiene menos de 13 a\xf1os, deber\xe1 tener la autorizaci\xf3n de sus padres o tutores legales para entregar sus datos personales. JPDIRECTOR no tiene manera de comprobar efectivamente la edad de los usuarios, por lo que queda eximida de cualquier responsabilidad, si el usuario no cumple con lo aqu\xed indicado. En JPDIRECTOR cumplimos con la Ley de Protecci\xf3n de la Privacidad en L\xednea de los Ni\xf1os de 1998 (\u201cCOPPA\u201d).\nDatos identificativos del responsable\nTal y como recoge la normativa vigente, te informamos que:\n"),"estado",A.d("ESTADO"),"estasAunPaso",A.d("\xa1Est\xe1s a un paso del \xe9xito para marcar la diferencia, bienvenido a esta misi\xf3n!"),"estasEnElMomento",A.d("\xbfNecesitas contratar a un especialista que aumente tu flujo de clientes, visitas al negocio y VENTAS?"),"estasPoliticasSeEntenderan",A.d("Estas pol\xedticas se entender\xe1n en todo momento como parte complementaria de los t\xe9rminos y condiciones expuestos en el sitio web, siendo ambos de igual aplicaci\xf3n al momento de una controversia. La pol\xedtica de privacidad y de propiedad intelectual aplicada ser\xe1 la misma que se expone en los t\xe9rminos y condiciones del sitio web.\nSe entender\xe1 como \u201cnewsletter\u201d al bolet\xedn digital que JPDIRECTOR realiza de forma peri\xf3dica y que hace llegar a sus suscriptores a trav\xe9s de un proveedor de servicios de correo electr\xf3nico externo, al cual el usuario se ha suscrito de manera voluntaria.\nJPDIRECTOR no est\xe1 en la obligaci\xf3n de enviar en per\xedodos de tiempo definidos la newsletter, por lo que es totalmente libre de hacerlo cuando lo estime conveniente. El usuario podr\xe1 en todo momento ejercer sus derechos de acceso, rectificaci\xf3n, cancelaci\xf3n u oposici\xf3n siguiendo las instrucciones que encontrar\xe1 en el pie de p\xe1gina de la newsletter.\nEl usuario no deber\xe1 compartir su contenido con terceros, ya que esto violar\xeda los derechos de autor de JPDIRECTOR. El \xfanico canal de distribuci\xf3n posible es el administrado y/o autorizado por JPDIRECTOR.\nJPDIRECTOR no se har\xe1 responsable por el contenido de terceros expuesto en la newsletter, cualquier controversia que surja deber\xe1 ser tratada directamente con la persona o empresa de la cual se hace menci\xf3n.\nTodo el material que se expone en la newsletter est\xe1 protegido por derechos de autor a favor de JPDIRECTOR, y en el caso de pertenecer a terceros, se entender\xe1 que JPDIRECTOR tiene la debida autorizaci\xf3n para utilizarlo como se haya convenido con el autor.\n"),"esteServicioEsta",A.d("Este servicio est\xe1 dise\xf1ado para ti, que est\xe1s buscando a la persona que se encargue de realizar la estrategia y manejo de publicidad de tu marca. Me enfocar\xe9 en el crecimiento, obtenci\xf3n de clientes potenciales de calidad y aumento de las ventas."),"estoyListoBtn",A.d("Estoy listo, comencemos."),"estudiantes",A.d("estudiantes"),"exclusionDeGarant",A.d("3. EXCLUSI\xd3N DE GARANT\xcdAS Y RESPONSABILIDAD"),"exclusionDeGarantText",A.d("ON POINT PRODUCTIONS AGENCY LLC no se hace responsable, en ning\xfan caso, de los da\xf1os y perjuicios de cualquier naturaleza que pudieran ocasionar, a t\xedtulo enunciativo: por errores u omisiones en los contenidos, por falta de disponibilidad del sitio web, \u2013 el cual realizar\xe1 paradas peri\xf3dicas por mantenimientos t\xe9cnicos \u2013 as\xed como por la transmisi\xf3n de virus o programas maliciosos o lesivos en los contenidos, a pesar de haber adoptado todas las medidas tecnol\xf3gicas necesarias para evitarlo."),"extensionInvalida",A.d("Extension Invalida"),"fecha",A.d("Fecha"),"felicidadesCert",A.d("Felicidades, tu certificado esta listo!"),"finDeLosComentarios",A.d("Fin de los comentarios"),"finalidadWeb1_2",A.d("1.2. FINALIDAD DE LA P\xc1GINA WEB.\nLos servicios prestados por el responsable de la p\xe1gina web son los siguientes:"),"finalizarBtn",A.d("FINALIZAR"),"formularios",A.d("FORMULARIOS"),"formulariosMenuBtn",A.d("Formularios"),"generalidades",A.d("7. GENERALIDADES"),"generalidadesText",A.d("ON POINT PRODUCTIONS AGENCY LLC perseguir\xe1 el incumplimiento de las presentes condiciones as\xed como cualquier utilizaci\xf3n indebida de su web ejerciendo todas las acciones civiles y penales que le puedan corresponder en derecho."),"generandoCert",A.d("Generando Certificado"),"graciasInfo",A.d("\xa1Gracias por brindarnos tu informaci\xf3n!"),"graciasPorComunicarte",A.d("Gracias por comunicarte, en menos de 48 horas te brindaremos una respuesta a tu correo electr\xf3nico"),"graciasPorConfirmar",A.d("Gracias por confirmar tu cuenta"),"graciasPorRegistrarte",A.d("Gracias por registrarte, revisa tu correo para verificar tu cuenta"),"hasHechoPubAntes",A.d("\xbfHas hecho publicidad antes?"),"hola",A.d("Hola,"),"idCarpertaModulo",A.d("Id de carpeta"),"idZipModulo",A.d("Id de Zip"),"imagen",A.d("IMAGEN"),"imagenDelCurso",A.d("Imagen del curso"),"imgCambiadaNtf",A.d("Imagen cambiada con exito"),"imgCursoCertificado",A.d("Imagen del certificado"),"imgDeCurso",A.d("IMAGEN DEL CURSO"),"infoDeCurso",A.d("INFORMACI\xd3N DEL CURSO"),"informacionMayus",A.d("INFORMACI\xd3N"),"ingresaNewPass",A.d("Ingresa tu nueva clave"),"ingresaTuDirEmail",A.d("Ingresa tu direcci\xf3n de correo"),"ingreseApellidoTextFiel",A.d("Ingrese su apellido"),"ingreseCorreoValido",A.d("Ingrese un correo valido"),"ingreseNombreTextField",A.d("Ingrese su nombre"),"ingreseSuCorreo",A.d("Ingrese su correo"),"ingreseUnaPassValida",A.d("Ingrese una contrase\xf1a valida"),"inhabResagBloq",A.d("Inhabilitados, Resagados o Bloqueados"),"inhabResagBloqText",A.d("Si est\xe1s estudiando o trabajando en una empresa esto ser\xe1 muy valioso para desarrollarlo dentro de la compa\xf1\xeda u ofrecerlo como uno de tus servicios."),"iniciaAqui",A.d("Inicia sesi\xf3n aqu\xed"),"iniciaSesion",A.d("INICIA SESI\xd3N"),"iniciarSesionBtn",A.d("ENTRAR"),"inicioMenuBtn",A.d("Inicio"),"inteligenteInv",A.d("INTELIGENTE INVERSI\xd3N"),"interesLegitimo",A.d("INTER\xc9S LEG\xcdTIMO\n"),"intermedio",A.d("Intermedio"),"irAlLogin",A.d("Iniciar sesi\xf3n"),"irAlLoginBtn",A.d("Ir al Login"),"jpCompartira",A.d("JPDIRECTOR compartir\xe1 con terceros los datos que posee, solo para cumplir con los servicios contratados por alg\xfan usuario, enviar la newsletter, cumplir con exigencias legales o para la administraci\xf3n del sitio web. A este efecto, se proporcionar\xe1n los debidos acuerdos de confidencialidad entre las partes.\n"),"jpCumpleLaLey",A.d("JPDIRECTOR cumple con la Ley de Privacidad del Consumidor de California de 2018 (\u201cCCPA\u201d). Los residentes en California tienen derecho a solicitar que JPDIRECTOR  revele qu\xe9 informaci\xf3n personal ha recopilado, utilizado, divulgado y vendido durante el per\xedodo de 12 meses anterior a la recepci\xf3n de dicha solicitud. Para ejercer este derecho, as\xed como el de eliminaci\xf3n u oposici\xf3n al tratamiento de sus datos, el usuario deber\xe1 escribir a hola@jpdirector.net\n"),"jpEnTodoMomento",A.d("JPDIRECTOR en todo momento velar\xe1 porque el uso que se le da al sitio web, a los contenidos, y al tratamiento de los datos personales del usuario, se realicen de la forma m\xe1s correcta. Para ello, el usuario siempre podr\xe1 ejercer sus derechos de acceso, rectificaci\xf3n, limitaci\xf3n, cancelaci\xf3n, portabilidad, olvido u oposici\xf3n, todo ello en fiel cumplimiento de las directrices de las leyes que rigen la materia, escribiendo a JPDIRECTOR no vende, no vender\xe1 datos personales de los usuarios a otras empresas ni terceros.\n"),"jpNecesitaElApoyo",A.d("JPDIRECTOR necesita el apoyo de terceros para ofrecer adecuadamente sus servicios y productos, con los cuales celebra los debidos acuerdos de confidencialidad y verifica el cumplimiento de las normativas sobre protecci\xf3n de datos personales.\nLos datos suministrados a estos terceros no podr\xe1n ser utilizados para otros fines no autorizados por el titular de los datos.\nEn cumplimiento de los principios de informaci\xf3n y transparencia, se hace saber que estos terceros son:\nMailchimp: Utilizada para el email marketing y gesti\xf3n de clientes Puedes ver m\xe1s informaci\xf3n sobre pol\xedtica de privacidad en https://mailchimp.com/about/security/\n\u2022Hostgator: Proveedor de Hosting (almacenamiento web). Puede ver su pol\xedtica de privacidad en https://es.wix.com/manage/privacy-security-hub\n\u2022Facebook: Herramienta utilizada como red social y a los fines de conectarse con el titular de los datos. El servicio es prestado por la empresa Facebook Ireland Ltd., sus servidores est\xe1n en Estados Unidos. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. . Puede consultarse su pol\xedtica de provacidad en https://www.facebook.com/business/gdpr. Con esta herramienta tambi\xe9n se maneja la publicidad que se pueda realizar en WhatsApp y/o Instagram, as\xed como el an\xe1lisis de datos y estad\xedsticas para una posible segmentaci\xf3n de la publicidad.\n\u2022Google: sistema de publicidad patrocinada (ADS), Servicio de an\xe1lisis web, para ver las estad\xedsticas del uso del sitio web (Analytics) y sistema de gesti\xf3n de etiquetas (Tag Manager).Estos servicios son prestados por la empresa Google LLC, ubicada en Mountain View, California, Estados Unidos de Am\xe9rica. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://cloud.google.com/security/gdpr/resource-center. Si desea obtener m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede consultar: https://policies.google.com/privacy\n\u2022Instagram: Red social y aplicaci\xf3n para subir fotos y v\xeddeos cuyo propietario es la empresa Facebook Inc., que est\xe1 ubicada en 1601 Willow Road Menlo Park, CA 94025, Estados Unidos de Am\xe9rica. En caso de estar fuera de los Estados Unidos de Am\xe9rica o Canad\xe1, la entidad de control de datos responsable de la informaci\xf3n es Facebook Ireland Ltd., que se encuentra ubicada en 4 Grand Canal Square Grand Canal Harbour, Dubl\xedn 2, Irlanda. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en: https://help.instagram.com/155833707900388\n\u2022Linkedin: Red social orientada a las empresas, a los negocios y el empleo. Puede ser contactada en https://www.linkedin.com/help/linkedin?lang=es  y su pol\xedtica de privacidad puede observarse en https://www.linkedin.com/legal/privacy-policy\n\u2022PayPal (Europe) S.\xe0 r.l. et Cie, S.C.A.: empresa utilizada para gestionar los pagos mediante tarjeta de d\xe9bito y  cr\xe9dito en el sitio web. Ubicada en 22-24 Boulevard Royal L-2449, Luxemburgo. Para m\xe1s informaci\xf3n puede visitar https://www.paypal.com/es/webapps/mpp/ua/privacy-full?locale.x=es_ES\n\u2022Pixel de Facebook: herramienta de an\xe1lisis para publicidad, utilizado para conocer las acciones de los titulares de los datos en este sitio web. Este servicio es proporcionado por Facebook, Inc., que est\xe1 ubicada en 1601 Willow Road Menlo Park, CA 94025, Estados Unidos de Am\xe9rica. En caso de estar fuera de los Estados Unidos de Am\xe9rica o Canad\xe1, la entidad de control de datos responsable de la informaci\xf3n es Facebook Ireland Ltd., que se encuentra ubicada en 4 Grand Canal Square Grand Canal Harbour, Dubl\xedn 2, Irlanda. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en  https://www.facebook.com/privacy/explanation\n\u2022Stripe: herramienta utilizada para gestionar los pagos mediante tarjeta de d\xe9bito y cr\xe9dito en el sitio web. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://es.wix.com/manage/privacy-security-hub.\n\u2022TikTok: Red social y aplicaci\xf3n para subir v\xeddeos cuyo propietario es la empresa TikTok Technology Limited ubicada en 10 Earlsfort Terrace, Dubl\xedn, D02 T380, Irlanda. Para los usuarios del Reino Unido: TikTok Information Technologies UK Limited, WeWork, 125 Kingsway, Londres, WC2B 6NH, Reino Unido. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en: https://www.tiktok.com/legal/privacy-policy?lang=es\n\u2022Twitter: Red social con sede en San Francisco, California, con filiales en San Antonio y Boston en Estados Unidos, prestado por la empresa Twitter, Inc. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://gdpr.twitter.com/. Puede ser contactada en https://help.twitter.com/en/contact-us y su pol\xedtica de privacidad puede observarse en https://twitter.com/es/privacy\n\u2022Vimeo: plataforma creada para la disposici\xf3n de videos. Este servicio est\xe1 a cargo de la empresa Vimeo, Inc., ubicada en Estados Unidos y que ha adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea. Para m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede visitar https://vimeo.com/privacy\n\u2022WhatsApp: Herramienta utilizada para la comunicaci\xf3n con los usuarios, compradores, clientes y participantes a trav\xe9s de la empresa WhatsApp Ireland Limited (para los que se encuentran ubicados en Europa), puede contactarse a trav\xe9s del enlace https://www.whatsapp.com/contact/?subject=messenger y su pol\xedtica de privacidad puede observarse en https://www.whatsapp.com/legal?eea=1#privacy-policyaci\xf3n sobre su pol\xedtica de privacidade, consulte https://wpengine.com/legal/privacy/\n\u2022Zoom: herramienta utilizada para videoconferencias. Este servicio est\xe1 a cargo de la empresa Zoom Video Communications, Inc., ubicada en Estados Unidos de Am\xe9rica, ha adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://zoom.us/gdpr. Si desea obtener m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede consultar: https://zoom.us/privacy\nEn casos puntales JPDIRECTOR  podr\xe1 utilizar aplicaciones o herramientas que no hayan sido incluidas o nombradas en este listado, lo anterior por ser una mejor opci\xf3n que coadyuve a la realizaci\xf3n de una determinada tarea; si esto sucediera JPDIRECTOR notificar\xe1 de esta situaci\xf3n a sus usuarios, clientes o participantes seg\xfan fuere el caso.\n"),"laContraDebe6Caracteres",A.d("La contrase\xf1a debe tener mas de 6 caracteres"),"laContrasenaSeHaReest",A.d("Tu contrase\xf1a se ha reestablecido, ya puedes iniciar sesion con tu nueva clave."),"laDenominacionSocial",A.d("-La denominaci\xf3n social del responsable por este sitio web es: ON POINT PRODUCTIONS AGENCY LLC, Para efectos de este aviso legal y t\xe9rminos de uso, se entender\xe1 en lo adelante como JPDIRECTOR\n-Su domicilio social se encuentra en: 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica.\n-Puedes contactarle al Email: hola@jpdirector.net\n-Su actividad social es: formaci\xf3n, blogging y asesor\xeda publicitaria para negocios online.\n"),"laDisolucion",A.d("La disoluci\xf3n implica la p\xe9rdida de sus derechos sobre el servicio contratado."),"laExtensionDebe",A.d("La extension debe ser PNG, JPG \xf3 JPEG"),"laFalsedadText",A.d("La falsedad, en todo o en parte, de los datos suministrados en el proceso de contrataci\xf3n de cualquier servicio.\nAlterar, eludir, realizar ingenier\xeda inversa, descompilar, desmontar o alterar de ning\xfan modo de la tecnolog\xeda de seguridad aportada por ON POINT PRODUCTIONS AGENCY LLC.\nLos casos de abuso de los servicios de soporte por el requerimiento de m\xe1s horas de las establecidas en el contrato.\nOpiniones falsas e infundadas con \xe1nimo de desprestigiar al titular de los productos o servicios adquiridos.\nCualquier incumplimiento establecido a lo largo de las condiciones."),"laPaginaWebText",A.d("La p\xe1gina web https://quieroads.com/ en adelante (LA WEB) proporciona el acceso a art\xedculos, informaciones, servicios y datos (en adelante, \u201clos contenidos\u201d) propiedad de ON POINT PRODUCTIONS AGENCY LLC. El USUARIO asume la responsabilidad del uso de la web.\nEl USUARIO se compromete a hacer un uso adecuado de los contenidos que ofrece a trav\xe9s de su web y con car\xe1cter enunciativo pero no limitativo, a no emplearlos para:\n(a) incurrir en actividades il\xedcitas, ilegales o contrarias a la buena fe y al orden p\xfablico;\n(b) difundir contenidos o propaganda de car\xe1cter racista, xen\xf3fobo, pornogr\xe1fico-ilegal, de apolog\xeda del terrorismo o atentatorio contra los derechos humanos;\n(c) provocar da\xf1os en los sistemas f\xedsicos y l\xf3gicos de la web, de sus proveedores o de terceras personas, introducir o difundir en la red virus inform\xe1ticos o cualesquiera otros sistemas f\xedsicos o l\xf3gicos que sean susceptibles de provocar los da\xf1os anteriormente mencionados;\n(d) intentar acceder y, en su caso, utilizar las cuentas de correo electr\xf3nico de otros usuarios y modificar o manipular sus mensajes.\nON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xen\xf3fobos, racistas, pornogr\xe1ficos, que atenten contra la juventud o la infancia, el orden o la seguridad p\xfablica o que, a su juicio, no resultaran adecuados para su publicaci\xf3n.\nEn cualquier caso, ON POINT PRODUCTIONS AGENCY LLC no ser\xe1 responsable de las opiniones vertidas por los usuarios a trav\xe9s de cualquier herramientas de participaci\xf3n que puedan crearse, conforme a lo previsto en la normativa de aplicaci\xf3n."),"laVentanaDeFormacion",A.d("-La venta de formaci\xf3n y servicios sobre negocios online.\n-Gestionar la lista de suscriptores y usuarios adscritos a la web.\n-Dirigir su red de afiliados y comerciantes as\xed como la gesti\xf3n de pagos de los mismos."),"leadActualizadoConExito",A.d("Lead Actualizado con exito"),"leadCreadoConExito",A.d("Lead Creado con exito"),"leadsMenuBtn",A.d("Leads"),"leyAplicable",A.d("11. LEY APLICABLE Y JURISDICCI\xd3N"),"leyAplicableText",A.d("La relaci\xf3n entre ON POINT PRODUCTIONS AGENCY LLC y el CLIENTE se regir\xe1 por la normativa de Estados Unidos y cualquier controversia se someter\xe1 a los Juzgados y tribunales del Estado de Florida, salvo que la Ley aplicable disponga otra cosa."),"listaDeComentarios",A.d("Lista de comentarios"),"listaDeCursos",A.d("Lista de cursos"),"listaDescarga",A.d("Lista de descargas"),"listaForm",A.d("Lista de Formularios"),"listaUsuarios",A.d("Lista de usuarios"),"llegasteAlMundo",A.d("Llegaste al mundo indicado"),"loadingBlogs",A.d("Cargando blogs..."),"logout",A.d("LOG OUT"),"logoutLabel",A.d("SALIR"),"losEnlacesATerceros",A.d("Los enlaces a terceros que se puedan encontrar en el sitio web poseen pol\xedticas de privacidad ajenas a JPDIRECTOR. El acceso a estos sitios deber\xe1 ser responsabilidad del usuario, siendo su responsabilidad conocerlas y su decisi\xf3n aceptarlas o no.\n"),"masInformacionBtn",A.d("M\xe1s Informaci\xf3n"),"menosde6meses",A.d("Menos de 6 meses"),"mensajeEnviado",A.d("Mensaje enviado con exito"),"mentoria",A.d("MENTOR\xcdA"),"mentoriaIntensiva",A.d("MENTOR\xcdA INTENSIVA"),"miCuentaMenuBtn",A.d("Mi Cuenta"),"miDenominacion",A.d("-Mi denominaci\xf3n social es: ON POINT PRODUCTIONS AGENCY LLC\n-Mi domicilio social se encuentra en 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica.\n-Email: hola@jpdirector.net\n-Mi actividad social es: Publicidad"),"miraloOjos",A.d("M\xcdRALO CON TUS PROPIOS OJOS"),"misCursosLabel",A.d("Mis Cursos"),"misCursosMenuBtn",A.d("MIS CURSOS"),"modificacionCond",A.d("8. MODIFICACI\xd3N DE LAS PRESENTES CONDICIONES Y DURACI\xd3N"),"modificacionCondText",A.d("ON POINT PRODUCTIONS AGENCY LLC podr\xe1 modificar en cualquier momento las condiciones aqu\xed determinadas, siendo debidamente publicadas como aqu\xed aparecen. La vigencia de las citadas condiciones ir\xe1 en funci\xf3n de su exposici\xf3n y estar\xe1n vigentes hasta que sean modificadas por otras debidamente publicadas."),"modificaciones",A.d("4. MODIFICACIONES"),"modificacionesText",A.d("ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su web, pudiendo cambiar, suprimir o a\xf1adir tanto los contenidos y servicios que se presten a trav\xe9s de la misma como la forma en la que \xe9stos aparezcan presentados o localizados en su web."),"moduloActualizado",A.d("Modulo Actualizado con exito"),"moduloAgregado",A.d("Modulo agregado con exito"),"moduloBorrado",A.d("Modulo borrado con exito"),"modulos",A.d("MODULOS"),"modulos2puntos",A.d("Modulos: "),"modulosDelCurso",A.d("Modulos del curso"),"motivacion",A.d("Motivaci\xf3n"),"motivacionResp",A.d("Se necesita mucho coraje para llevar un negocio o cumplir con todos los objetivos del d\xeda a d\xeda. Es por eso que cuento mi trayectoria para inspirar y dar el ejemplo de que S\xcd es posible."),"negocio2puntos",A.d("Negocio :"),"negocioLocFis",A.d("Negocio (Local o f\xedsico)"),"negocioLocFisText",A.d("Tienda de ropa, restaurante, gimnasio, bar o cualquier negocio que necesita tr\xe1fico en su tienda para consumir su producto o servicio."),"noBlogsFound",A.d("No se encontraron blogs"),"noEstoyPreparado",A.d("No, no se cuales son los requerimientos"),"noSePermiteRepr",A.d("-No se permite la reproducci\xf3n total o parcial de ninguno de los servicios ni contenidos del sitio web sin la previa autorizaci\xf3n expresa de ON POINT PRODUCTIONS AGENCY LLC.\n-No se establecer\xe1n deep-links ni enlaces IMG o de imagen, ni frames con la web de ON POINT PRODUCTIONS AGENCY LLC sin su previa autorizaci\xf3n expresa.\n-No se establecer\xe1 ninguna manifestaci\xf3n falsa, inexacta o incorrecta sobre la web de ON POINT PRODUCTIONS AGENCY LLC ni sobre los servicios o contenidos de la misma. Salvo aquellos signos que formen parte del hiperv\xednculo, la p\xe1gina web en la que se establezca no contendr\xe1 ninguna marca, nombre comercial, r\xf3tulo de establecimiento, denominaci\xf3n, logotipo, eslogan u otros signos distintivos pertenecientes a ON POINT PRODUCTIONS AGENCY LLC salvo autorizaci\xf3n expresa de \xe9ste.\n-El establecimiento del hiperv\xednculo no implicar\xe1 la existencia de relaciones entre ON POINT PRODUCTIONS AGENCY LLC y el titular de la p\xe1gina web o del portal desde el cual se realice, ni el conocimiento y aceptaci\xf3n de ON POINT PRODUCTIONS AGENCY LLC de los servicios y contenidos ofrecidos en dicha p\xe1gina web o portal.\n-ON POINT PRODUCTIONS AGENCY LLC no ser\xe1 responsable de los contenidos o servicios puestos a disposici\xf3n del p\xfablico en la p\xe1gina web o portal desde el cual se realice el hiperv\xednculo, ni de las informaciones y manifestaciones incluidas en los mismos.\n-El sitio web de ON POINT PRODUCTIONS AGENCY LLC puede poner a disposici\xf3n del usuario conexiones y enlaces a otros sitios web gestionados y controlados por terceros. Dichos enlaces tienen como exclusiva funci\xf3n, la de facilitar a los usuarios la b\xfasqueda de informaci\xf3n, contenidos y servicios en Internet, sin que en ning\xfan caso pueda considerarse una sugerencia, recomendaci\xf3n o invitaci\xf3n para la visita de los mismos.\n-ON POINT PRODUCTIONS AGENCY LLC no comercializa, ni dirige, ni controla previamente, ni hace propios los contenidos, servicios, informaciones y manifestaciones disponibles en dichos sitios web.\n-ON POINT PRODUCTIONS AGENCY LLC no asume ning\xfan tipo de responsabilidad, ni siquiera de forma indirecta o subsidiaria, por los da\xf1os y perjuicios de toda clase que pudieran derivarse del acceso, mantenimiento, uso, calidad, licitud, fiabilidad y utilidad de los contenidos, informaciones, comunicaciones, opiniones, manifestaciones, productos y servicios existentes u ofrecidos en los sitios web no gestionados por ON POINT PRODUCTIONS AGENCY LLC y que resulten accesibles a trav\xe9s de ON POINT PRODUCTIONS AGENCY LLC."),"noTienesCursos",A.d("No tienes ningun curso"),"nombApllYCorr",A.d("-Nombre, apellidos y correo electr\xf3nico en los formularios de contacto: para realizar cualquier contacto directo con JPDIRECTOR, ya sea para plantear dudas, comentarios, sugerencias, solicitar un servicio o producto, o cualquier otra informaci\xf3n. No suministrar los datos personales m\xednimos necesarios imposibilitar\xe1 a JPDIRECTOR de responder a la petici\xf3n.\n-Nombre, correo electr\xf3nico: para poder realizar comentarios en el blog del sitio web.\n-Nombre, apellidos, direcci\xf3n, tel\xe9fono, correo electr\xf3nico, n\xfamero de identificaci\xf3n fiscal: se solicitar\xe1 esta informaci\xf3n al momento del pago del servicio para procesar todo lo relacionado con el cliente.\n-Nombre, tel\xe9fono y correo electr\xf3nico para newsletter: con el debido consentimiento expreso y voluntario del titular de los datos, se solicitar\xe1 en el sitio web la informaci\xf3n m\xednima necesaria para enviar un bolet\xedn comercial automatizado, donde se informar\xe1 sobre publicidad, promociones y otra informaci\xf3n de los servicios y/o productos ofrecidos por JPDIRECTOR.\n-Correo electr\xf3nico: se solicitar\xe1 el correo electr\xf3nico para poder acceder al \xe1rea de cliente, de acuerdo con los datos suministrados al momento de crear la cuenta.\n"),"nombreDeUsuario",A.d("Nombre de usuario"),"nombreDelCurso",A.d("Nombre del curso"),"nombreDelModulo",A.d("Nombre del modulo"),"nombreTextField",A.d("Nombre"),"nombreyapellidoForm",A.d("Nombre y Apellido"),"nuestra",A.d("nuestra "),"nuevoCurso",A.d("Nuevo Curso"),"nuevoForm",A.d("Nuevo Formulario"),"nuevoLead",A.d("Nuevo Lead"),"nuevoModulo",A.d("Nuevo modulo"),"nuevoUsuario",A.d("Nuevo Usuario"),"olvideMiPass",A.d("Olvide mi contrase\xf1a"),"optimizacion",A.d("Optimizaci\xf3n"),"optimizacionResp",A.d("Una optimizaci\xf3n eficaz, en espa\xf1ol, quiere decir que analizar\xe9 los datos y luego de obtener los resultados tomaremos decisiones para mejorarlos seg\xfan transcurra el tiempo y as\xed el \xe9xito sea continuo."),"pagina404",A.d("P\xe1gina no encontrada 404"),"passDeUsuario",A.d("Contrase\xf1a de usuario"),"passNoCoinciden",A.d("Las contrase\xf1as no coinciden"),"pendiente",A.d("PENDIENTE"),"podrasDescargar",A.d("2. Podr\xe1s descargar en cada m\xf3dulo un material complementario de la clase que est\xe9s aprendiendo"),"politicaDeEnlaces",A.d("5. POL\xcdTICA DE ENLACES"),"politicaDeEnlacesText",A.d("Las personas o entidades que pretendan realizar o realicen un hiperenlace desde una p\xe1gina web de otro portal de Internet a la web de ON POINT PRODUCTIONS AGENCY LLC\ndeber\xe1 someterse las siguientes condiciones:"),"politicaDePrivacidad",A.d("Pol\xedtica de Privacidad"),"politicasDeProivacidad",A.d("POL\xcdTICAS DE PRIVACIDAD"),"politicasRelacionadasConNews",A.d(u.gd),"porFavorEspere",A.d("Por favor espere"),"porQueYo",A.d("\xbfPor qu\xe9 yo?"),"porQueYoResp",A.d("SELECTIVO Y SINCERO\nSer el encargado de tu marca requiere compromiso y responsabilidad, es por eso que antes de comenzar analizar\xe9 tu negocio con mucho detalle para concluir si cumples con todos los requerimientos para poder apoyarte.\n\nEn caso de ser un S\xcd pondremos un plan de acci\xf3n eficaz.\n\nEn caso de ser un NO te dar\xe9 mi feedback sincero para referirte con el especialista o plan que tu negocio necesite.\n\nPRECIO SEG\xdaN TU MODELO DE NEGOCIO\nAlgo que me caracteriza es que reviso muy a detalle tu negocio antes de comenzar e incluso evaluando en conjunto contigo puedo saber si est\xe1s preparado para dar este paso.\n\nMi promesa es que cuando adquieras mi servicio sea un gran alivio y veas resultados.\n\nEXPERIENCIA Y RESULTADOS\nDesde la creaci\xf3n de la estrategia, copywriting, anuncios creativos, segmentaci\xf3n, funnels de conversi\xf3n de tu web, manejo de presupuesto y an\xe1lisis de resultados est\xe1n dentro de mis capacidades para ocupar este puesto"),"precio11",A.d("$300"),"precioDelCurso",A.d("Precio del curso"),"preguntasfrecuentes",A.d("Preguntas frecuentes"),"preguntasfrecuentes1Resp",A.d("1. \xbfDebo tener un presupuesto alto para invertir en mis campa\xf1as?\nEsto es muy relativo y depende de tu producto o servicio, lo que si tienes que tener en cuenta es que como m\xednimo tengas $3000 USD para poder hacer la mayor cantidad de pruebas y hagamos un buen an\xe1lisis de resultados durante este tiempo.\n\n2. Entiendo gran parte pero quiero m\xe1s detalles\nC\xf3mo este servicio es especializado, tendremos una videollamada de 20 minutos para saber si tu negocio est\xe1 preparado y comprometido.\nEn la llamada te explicar\xe9 m\xe1s a detalle todas tus dudas.\n\n3. \xbfCu\xe1l es el precio de la mentor\xeda intensiva?\nEl precio es de $12.000 USD depende de m\xfaltiples factores que estaremos conversando en la video llamada.\n\n4. No es una pregunta, quiero que seas mi mentor!\nCalma, primero conversemos y veamos si est\xe1s preparado y tienes los requisitos, si est\xe1s leyendo esto, ya tienes el primero: Ganas."),"preguntasfrecuentes2Resp",A.d("\xbfCu\xe1l es el costo promedio para que seas el encargado de la publicidad de mi negocio?\nEl precio comienza desde los $6000 en adelante, depende de muchos factores y los objetivos que tengas como negocio es por eso que me tomo el tiempo de analizar previamente y saber si puedo asumir el proyecto.\n\n\xbfVer\xe9 resultados de inmediato?\nEsta pregunta es muy com\xfan, y esto depende de como est\xe1 plasmada la estrategia, tu producto, precio y valor percibido por tu audiencia.\n\nLa respuesta correcta es que me encargar\xe9 de que impactes a tu p\xfablico objetivo de una manera inteligente.\n\nUna vez rellene el formulario \xbfQu\xe9 suceder\xe1?\nEn el transcurso de  2 a 3 d\xedas me comunicar\xe9 contigo para darte todos los detalles y tendremos una reuni\xf3n que durar\xe1 30 minutos para entender tus necesidades y n\xfameros al 100%."),"preguntasfrecuentes3Resp",A.d("\xbfC\xf3mo funciona el proceso para agendar la fecha?\nEscr\xedbeme a hola@jpdirector.net para chequear si ese d\xeda  est\xe1 disponible, si es el caso,  puedes hacer un pago de dos partes 50% del precio de la conferencia y el otro 50% debe ser cancelado cinco d\xedas antes del evento.\n\n\xbfPuedes asistir a cualquier estado dentro de los Estados Unidos?\nClaro, solo debemos coordinar los boletos de avi\xf3n, hospedaje y vi\xe1ticos."),"preguntasfrecuentesResp",A.d("\xbfImporta si no conozco nada de Facebook - Instagram o Tik Tok Ads?\nNo, m\xedralo como si fueran clases privadas solo para ti.\n\n\xbfSi conozco y hago campa\xf1as actualmente esto es para mi?\nS\xed, te har\xe9 un examen general de tu negocio y c\xf3mo puedes mejorar en los puntos en que est\xe9s fallando en ads.\n\n\xbfPuedo ver m\xe1s de 1 hora?\nPor supuesto, en caso de requerir m\xe1s clases al final de nuestro meeting podemos coordinar la hora y d\xeda de las siguientes, tendr\xe1s muchas tareas que te enviar\xe9, si eso sucede, prep\xe1rate para este reto.\n\n\xbfD\xf3nde ser\xe1 la video llamada?\nSer\xe1 a trav\xe9s de la plataforma Zoom.\n\n\xbfY si no estoy satisfecho con mi mentor\xeda?\nEn caso de que no sea lo que esperabas, te devolver\xe9 todo tu dinero.\n\n\xbfTuve un inconveniente, puedo reprogramar nuestra reuni\xf3n?\nTienes 24 horas a m\xe1s tardar para poder agendar otro d\xeda y hora, debes notificar en el siguiente correo: hola@jpdirector.net\n\nEn caso de que no lo hagas en ese tiempo perder\xe1s tu inversi\xf3n y pagar\xe1s nuevamente una nueva asesor\xeda."),"profesionalesEnMark",A.d("Profesionales en Marketing y Comunicaci\xf3n"),"profesionalesEnMarkText",A.d("Si est\xe1s estudiando o trabajando en una empresa esto ser\xe1 muy valioso para desarrollarlo dentro de la compa\xf1\xeda u ofrecerlo como uno de tus servicios"),"progreso2puntos",A.d("Progreso: "),"propiedadIntelectual",A.d("2. PROPIEDAD INTELECTUAL E INDUSTRIAL:"),"propiedadIntelectualText",A.d("ON POINT PRODUCTIONS AGENCY LLC por s\xed o como cesionario, es titular de todos los derechos de propiedad intelectual e industrial de su p\xe1gina web, as\xed como de los elementos contenidos en la misma (a t\xedtulo enunciativo, im\xe1genes, sonido, audio, v\xeddeo, software o textos; marcas o logotipos, combinaciones de colores, estructura y dise\xf1o, selecci\xf3n de materiales usados, programas de ordenador necesarios para su funcionamiento, acceso y uso, etc.), titularidad de ON POINT PRODUCTIONS AGENCY LLC o bien de sus licenciantes. Todos los derechos reservados.\nCualquier uso no autorizado previamente por ON POINT PRODUCTIONS AGENCY LLC ser\xe1 considerado un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.\nQuedan expresamente prohibidas la reproducci\xf3n, la distribuci\xf3n y la comunicaci\xf3n p\xfablica, incluida su modalidad de puesta a disposici\xf3n, de la totalidad o parte de los contenidos de esta p\xe1gina web, con fines comerciales, en cualquier soporte y por cualquier medio t\xe9cnico, sin la autorizaci\xf3n de ON POINT PRODUCTIONS AGENCY LLC.\nEl USUARIO se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de ON POINT PRODUCTIONS AGENCY LLC. Podr\xe1 visualizar \xfanicamente los elementos de la web sin posibilidad de imprimirlos, copiarlos o almacenarlos en el disco duro de su ordenador o en cualquier otro soporte f\xedsico. El USUARIO deber\xe1 abstenerse de suprimir, alterar, eludir o manipular cualquier dispositivo de protecci\xf3n o sistema de seguridad que estuviera instalado en las p\xe1ginas de ON POINT PRODUCTIONS AGENCY LLC.\nQueda terminantemente prohibido compartir la licencia para uso con m\xe1s personas, cada licencia es personal e intransferible reserv\xe1ndonos cuantas acciones civiles y penales nos asistan en aras de salvaguardar nuestros derechos, todo ello bajo apercibimiento de incurrir en un delito contra la propiedad intelectual."),"pubOnline",A.d("Publicidad Online"),"pubOnlineResp",A.d("La importancia de estar presentes y maneras de lograr el \xe9xito con casos reales."),"publicado2puntos",A.d("Publicado:  "),"publishedBlogs",A.d("Blogs Publicados"),"puedoGatantizarte",A.d("Puedo garantizarte que te encuentras en un espacio 100 % seguro, para ello debes saber:\n\n1.1. DATOS IDENTIFICATIVOS DEL RESPONSABLE\nTal y como recoge la normativa vigente, le informo que:"),"queHablareEvento",A.d("\xbfQu\xe9 hablar\xe9 durante tu evento?"),"queHablaremos",A.d("\xbfQu\xe9 hablaremos en la reuni\xf3n?"),"queHablaremosResp",A.d("Plan de negocio\nAnalizar\xe9 si tu propuesta te dar\xe1 rentabilidad con los servicios o productos que quieres comercializar por internet.\n\nCampa\xf1as\nCreadas o no creadas revisar\xe9 su estructura y estrategia de manera estrat\xe9gica.\n\nSitio Web\nExaminar\xe9 toda la estructura y te dar\xe9 la v\xeda para que puedas vender m\xe1s por tu web.\n\nM\xe9todo de Ventas\nDependiendo de la metodolog\xeda mejoraremos la manera en la que cierras con tus clientes."),"queVeremos3m",A.d("\xbfQu\xe9 veremos durante estos 2 meses?"),"queVeremos3mResp",A.d("-De nivel cero a 100 todos los factores y herramientas necesarias para tu estrategia de publicidad.\n\n-Toda la educaci\xf3n en Instagram - Facebook - Tik Tok para realizar campa\xf1as publicitarias rentables.\n\n-Estrategia y an\xe1lisis de resultados como decisiones de optimizaci\xf3n."),"quieresConseguir",A.d("Quieres conseguir m\xe1s clientes"),"quieresTener",A.d("Quieres tener un mentor que te ense\xf1e de manera correcta"),"quieroAds",A.d("Quiero Ads"),"quieroMiAsesoriaBtn",A.d("Quiero mi Asesor\xeda"),"quieroYaBtn",A.d("QUIERO ESTE CURSO YA"),"readMore",A.d("Leer M\xe1s"),"recibirasInstruccionesPass",A.d("Recibiras un correo electr\xf3nico con instrucciones para reestablecer tu contrase\xf1a"),"reclamacionesDudas",A.d("9. RECLAMACIONES Y DUDAS"),"reclamacionesDudasText",A.d("ON POINT PRODUCTIONS AGENCY LLC informa que existen hojas de reclamaci\xf3n a disposici\xf3n de usuarios y clientes pudiendo remitir un correo a hola@jpdirector.net  indicando su nombre y apellidos, el servicio o producto adquirido y exponiendo los motivos de su reclamaci\xf3n.\nTambi\xe9n puede dirigir su reclamaci\xf3n por correo postal dirigido a: ON POINT PRODUCTIONS AGENCY LLC, 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica."),"recuerdaPrimero",A.d("Recuerda: Primero, conversaremos para hacer el checklist de tu negocio y analizar qu\xe9 es lo que m\xe1s necesitas en este momento."),"recuerdame",A.d("Recu\xe9rdame"),"recuperarPass",A.d("RECUPERA TU CONTRASE\xd1A"),"redesSociales",A.d("Redes sociales"),"registrarBtn",A.d("REGISTRAR"),"registrateAqui",A.d("Registrate aqu\xed"),"repitaContrasenaTextFiel",A.d("Repita la contrase\xf1a"),"requerido",A.d("Requerido"),"residentesCalifornia",A.d("RESIDENTES EN CALIFORNIA, ESTADOS UNIDOS\n"),"resolvamosEsto",A.d("Resolvamos esto"),"responder",A.d("Responder"),"respuesta",A.d("Respuesta"),"resultadosMenuBtn",A.d("Resultados"),"seHaEnviadoUnCorreo",A.d("Se ha enviado un correo electr\xf3nico con instrucciones, porfavor verifica tu correo electr\xf3nico"),"seamosSinceros",A.d("Seamos sinceros, estamos en la era de lo personalizado.\n\nEs por eso que contrat\xe1ndome para tu conferencia me enfocar\xe9 en los temas que S\xcd les interesan, educando y divirtiendo a todos los participantes del evento."),"seguroBorrar",A.d("Seguro que deseas Borrar"),"seguroBorrarComent",A.d("Seguro que desea borrar el comentario?"),"seguroBorrarUsuario",A.d("Seguro que deseas usuario"),"seguroEliminarCurso",A.d("Estas seguro de eliminar el curso"),"seguroEliminarModulo",A.d("Esta seguro de eliminar el modulo "),"seleccioneCurso",A.d("Seleccione un curso"),"seleccioneOpcion",A.d("Seleccione una opci\xf3n"),"serElEncargado",A.d("SER EL ENCARGADO"),"servicios",A.d(q),"servicios2puntos",A.d("Servicios: "),"serviciosMenuBtn",A.d("Servicios"),"si",A.d("Si"),"siBorrar",A.d("Si, Borrar"),"siEstoyPreparado",A.d("Si, estoy preparado"),"siTienesAlgunaDuda",A.d("4. Si tienes alguna pregunta m\xe1s especifica contamos con un "),"siTienesDudas",A.d("Si tienes alguna duda, comun\xedcate conmigo v\xeda "),"siguemeEnTodas",A.d("S\xedgueme en todas las redes para conocer TIPS y actualizaciones ADS"),"siguienteBtn",A.d("SIGUIENTE"),"sinModulos",A.d("Sin modulos, Agregue un nuevo modulo"),"siu",A.d("SI"),"sobreMi",A.d("Sobre mi"),"soporte",A.d("Soporte"),"soyElResp",A.d("SOY EL RESPONSABLE DE TU \xc9XITO"),"soyJpDir",A.d("Soy JP Director"),"tamanoInvalido",A.d("Tama\xf1o inv\xe1lido"),"teExplicamos",A.d("Te explicamos \ud83d\udc47 todo lo que debes saber: "),"telefonoDeUsuario",A.d("Tel\xe9fono de usuario"),"telefonoForm",A.d("Tel\xe9fono"),"telfDebeCodArea",A.d("Debe incluir cod intenacional + cod de \xe1rea"),"telfSinCaracteres",A.d("Tel\xe9fono sin caract\xe9res especiales (12223334455)"),"telfSoloNumeros",A.d("Solo debe contener n\xfameros. (12223334455)"),"tenerUnMentor",A.d("Tener un mentor acelera dr\xe1sticamente el \xe9xito de tu negocio. Durante 2 meses estar\xe9 contigo mano a mano elaborando tu plan de publicidad y ense\xf1\xe1ndote c\xf3mo hacerlo por ti mismo."),"terminoDeUso",A.d("T\xe9rminos de Uso "),"terminosYCondiciones",A.d("T\xc9RMINOS Y CONDICIONES"),"testimonioActualizado",A.d("Testimonio Actualizado con exito"),"testimonioAgregado",A.d("Testimonio agregado con exito"),"testimonioAnier",A.d("\u201cEstudi\xe9 inform\xe1tica y un mont\xf3n de educaci\xf3n. Luego de ver el curso no solo recuper\xe9 mi inversi\xf3n sino que adem\xe1s puedo correr mis propia publicidad, gracias JP\u201d."),"testimonioBorrado",A.d("Testimonio borrado con exito"),"testimonioGerman",A.d("\u201cEn 1 mes logr\xe9 tener m\xe1s de 100 clientes potenciales con mis campa\xf1as de publicidad. A todo el que quiera aprender le recomiendo este curso.\u201d"),"testimonioSaylin",A.d("\u201cMe ha encantado, es muy completo y un mundo de conocimiento. Para mi negocio este curso logr\xf3 un antes y un despu\xe9s\u201d."),"testimonioTania",A.d("Tengo ideas y planes para desarrollar por 6 meses gracias a este curso. Todo el que lo vea entender\xe1 luego de aprender con JP\u201d"),"testimonios",A.d("TESTIMONIOS"),"tiempoSeAcumulaPreg",A.d("\xbfSi veo menos del tiempo establecido se acumula?"),"tiempoSeAcumulaResp",A.d("No, en caso de que hayas agendado tu sesi\xf3n y hayamos resuelto tu problema se dar\xe1 por finalizada la asesor\xeda"),"todoListoDescarga",A.d("Todo listo, ya puedes descargar tu regalo haciendo click en el enlace que hemos enviado a tu correo electr\xf3nico"),"todosLosDerechosRes",A.d("TODOS LOS DERECHOS RESERVADOS \xa9 2023"),"topBotonBlog",A.d("BLOG"),"topBotonContacto",A.d("CONTACTO"),"topBotonCursos",A.d("CURSOS"),"topBotonResultados",A.d("RESULTADOS"),"topBotonServicios",A.d(q),"tresy",A.d("3 A\xf1os"),"unAdmRespondera",A.d("Un Administrado responder\xe1 tu pregunta"),"unaVezFinalices",A.d("3. Una vez finalices el curso podr\xe1s descargar tu certificado de finalizaci\xf3n en el bot\xf3n que aparecer\xe1 en la parte superior derecha"),"unoAuno",A.d("UNO A UNO"),"uny",A.d("1 A\xf1o"),"urlVideoModulo",A.d("Url del video"),"usd",A.d("usd"),"usoDelSitioWeb1_4",A.d("1.4. USO DEL SITIO WEB Y CAPTURA DE INFORMACI\xd3N:"),"usoDelSitioWeb1_4_1",A.d("1.4.1 USO DEL SITIO WEB"),"usuario",A.d("Usuario"),"usuarioActualizado",A.d("Usuario Actualizado con exito"),"usuarioCreado",A.d("Usuario Creado con exito"),"usuarios1_3",A.d("1.3. USUARIOS:"),"usuariosMenuBtn",A.d("Usuarios"),"ver",A.d("VER"),"verCertificadoBtn",A.d("VER CERTIFICADO"),"verMas",A.d("Ver mas"),"verMaterialBtn",A.d("VER MATERIAL"),"videollamada",A.d("VIDEOLLAMADA"),"xHora",A.d("x hora"),"xdondeComenzar",A.d("\xbfPor d\xf3nde comenzar?"),"xdondeComenzarResp",A.d("Estar solo en el proceso suele ser dif\xedcil e intentar comprender la plataforma, cu\xe1nto presupuesto diario invertir, tener errores, estar inhabilitados, no saber si la estrategia funcionar\xe1 y c\xf3mo analizar los resultados suele ser un dolor de cabeza.\n\nEs por eso que esta asesor\xeda te ayudar\xe1 a obtener un panorama m\xe1s exacto de lo que necesitas y adem\xe1s acelerar el proceso que debes tener como negocio.\n\nCon mi experiencia en el mundo de la publicidad digital, puedo darte una visi\xf3n m\xe1s clara de lo que requieres para aumentar las ventas.\n\nDurante el 2021 comenc\xe9 a realizar estas asesor\xedas y he perfeccionado la metodolog\xeda para que puedas aprovechar este tiempo en aclarar todas tus dudas y solucionar esos errores comunes que hacen que no avances, corregirlos y dar en el punto de posicionar tu negocio.\n\nAl comprar el servicio te llegar\xe1 un correo con la informaci\xf3n que necesitas tener para ese d\xeda y podamos aprovechar la asesor\xeda al m\xe1ximo."),"yReconocesQue",A.d("y reconoces que has le\xeddo "),"yaTienesCuenta",A.d("\xbfYa tienes cuenta?"),"yaTienesEsteCurso",A.d("Ya tienes este Curso"),"yaTienesTodos",A.d("Ya tienes todos los cursos")],t.N,t._8)},
+return A.ag(["aPesarDeLoAnterior",A.d("A pesar de lo anterior, los usuarios podr\xe1n darse de baja en cualquier momento de los servicios prestados por ON POINT PRODUCTIONS AGENCY LLC o datos aportados por el USUARIO dando cumplimiento a la normativa vigente sobre Protecci\xf3n de Datos. Asimismo, tanto al suscribirse a esta p\xe1gina web, como al realizar alg\xfan comentario o realizar una compra en cualquiera de sus p\xe1ginas y/o entradas, el usuario consiente:"),"acciones",A.d("ACCIONES"),"acepto2puntos",A.d("De acuerdo:"),"actInfo",A.d("Actualizar Informaci\xf3n"),"actInfoBtn",A.d("ACTUALIZAR INFORMACI\xd3N"),"actRapidez",A.d("Actualizaciones y rapidez de la tecnolog\xeda"),"actRapidezResp",A.d("Leyendo esto seguro sali\xf3 una actualizaci\xf3n de alguna herramienta o una nueva funcionalidad es por eso que ese d\xeda hablaremos de lo actual del 2025."),"actRrssBtn",A.d("ACTUALIZAR RRSS"),"activo",A.d("ACTIVO"),"actualizacionTyC",A.d("\xdaltima actualizaci\xf3n 7 de Marzo de 2023"),"actualizado2024",A.d("Actualizado 2025"),"actualizarBtn",A.d("ACTUALIZAR"),"adminCursos",A.d("Administraci\xf3n de Cursos"),"adminForms",A.d("Administraci\xf3n de Formularios"),"adminLeads",A.d("Administraci\xf3n de Leads"),"adminUsuarios",A.d("Administraci\xf3n de Usuarios"),"advisoryBefore",A.d("Publicidad Antes?"),"advisoryLvl",A.d("Nivel de Publicidad"),"agendarBtn",A.d("Agendar"),"agendarLlamadaBtn",A.d("Agendar una llamada"),"agregarBtn",A.d("AGREGAR"),"agregarUnComentario",A.d("Agregar un comentario"),"agregarUnModulo",A.d("Agregar Modulo"),"alHacerClickHeLeido",A.d("Al hacer clic en ENVIAR, confirmas que has le\xeddo y aceptado todas las pol\xedticas y condiciones"),"alIniciarSesion",A.d("Al iniciar sesi\xf3n aceptas nuestros "),"anadirCurso",A.d("A\xf1adele un curso al usuario"),"apellidoDeUsuario",A.d("Apellido de usuario"),"apellidoTextFiel",A.d("Apellido"),"aprendeTodoAds",A.d("APRENDE TODO SOBRE ADS"),"asesoria11",A.d("ASESOR\xcdA 1:1"),"asiMismoInformamos",A.d("Asimismo, informamos que la informaci\xf3n de nuestros usuarios est\xe1 protegida de acuerdo a nuestra POL\xcdTICA DE PRIVACIDAD\nAl activar una suscripci\xf3n, formulario de contacto o comentario, el usuario comprende y acepta que:\nDesde el momento en que efect\xfaa su suscripci\xf3n o accedes a alg\xfan servicio de pago,ON POINT PRODUCTIONS AGENCY LLC tiene acceso\nEn todo caso ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de modificar, en cualquier momento y sin necesidad de previo aviso, la presentaci\xf3n y configuraci\xf3n de la web https://quieroads.com/ como el presente aviso legal."),"avanzado",A.d("Avanzado"),"avisoLegal1",A.d("1. AVISO LEGAL Y T\xc9RMINOS DE USO"),"avisoLegalYTerminos",A.d("Aviso Legal y T\xe9rminos de Uso del Sitio"),"banerDelCurso",A.d("Baner del curso"),"basico",A.d("B\xe1sico"),"bienvenidoAlosProg",A.d("Bienvenido a los programas m\xe1s completos de publicidad digital. Te damos las gracias y un gran abrazo por confiar en nuestras formaciones; estamos emocionados de verte crecer en este nuevo camino de \xe9xito."),"blog",A.d("Blog"),"blogError",A.d("Error al cargar blogs"),"borrar",A.d("Borrar"),"borrarDefinitivo",A.d("Borrar definitivamente el usuario"),"borrarForm",A.d("Borrar formulario"),"borrarFormDef",A.d("Borrar definitivamente el formulario"),"botonLogin",A.d("ENTRAR"),"botonReg",A.d("Registrate"),"buscasAcelerar",A.d("Buscas acelerar tu negocio con publicidad"),"cadaCursoCuenta",A.d("1. Cada curso cuenta con su barra de comentarios - puedes dejarnos todas tus preguntas y nuestro equipo estar\xe1 contest\xe1ndolas"),"cancelarBtn",A.d("CANCELAR"),"capturaDeInf1_4_2",A.d("1.4.2 CAPTURA DE INFORMACI\xd3N"),"capturaDeInf1_4_2Text",A.d("-Formulario de contacto, donde el USUARIO deber\xe1 rellenar el campo de correo electr\xf3nico, asunto y nombre.\n-Formulario de suscripci\xf3n, rellenando el USUARIO los campos necesarios para la suscripci\xf3n a la web con los campos de nombre, email y n\xfamero de tel\xe9fono.\n-Formulario de venta, rellenando el USUARIO los campos necesarios para la venta con los campos de nombre, email, direcci\xf3n, tel\xe9fono y DNI\n-Cookies de rastreo, conforme a las siguientes reglas\n-Navegaci\xf3n y Direcci\xf3n IP: Al navegar por esta web, el usuario facilita de forma autom\xe1tica al servidor de la web informaci\xf3n relativa a tu direcci\xf3n IP, fecha y hora de acceso, el hiperv\xednculo que le ha reenviado a \xe9stas, tu sistema operativo y el navegador utilizado."),"casosEsp",A.d("Casos especializados"),"casosEspResp",A.d("Imaginemos que eres una empresa de Seguros y quieres ejemplos de c\xf3mo hacer publicidad. Pues entonces: manos a la obra, expondr\xe9 temas y casos en los que entiendan y les sirvan para poder implementarlos en su d\xeda a d\xeda."),"causasDeDisolucion",A.d("12. CAUSAS DE DISOLUCI\xd3N DEL CONTRATO"),"causasDeDisolucionText",A.d("La disoluci\xf3n del contrato de servicios puede ocurrir en cualquier momento por cualquiera de las dos partes.\nNo est\xe1s obligado a condiciones de permanencia con ON POINT PRODUCTIONS AGENCY LLC.\nON POINT PRODUCTIONS AGENCY LLC puede terminar o suspender cualquier y todos los Servicios contratados inmediatamente, sin previo aviso o responsabilidad, en caso de que t\xfa no cumplas con las condiciones aqu\xed expuestas.\nA la disoluci\xf3n del contrato, tu derecho a utilizar los Servicios cesar\xe1 inmediatamente.\nSer\xe1n causas de disoluci\xf3n de contrato:"),"centroSoporte",A.d("Centro de Ayuda y Soporte"),"cero",A.d("Cero"),"certificadoBtn",A.d("CERTIFICADO"),"comentar",A.d("COMENTAR"),"comentarioAgregado",A.d("Comentario agregado con exito"),"comentarioInvalido",A.d("Comentario Invalido"),"comentariosBtn",A.d("COMENTARIOS"),"comienzaAqui",A.d("Comienza Aqu\xed"),"como",A.d("\xbfC\xf3mo?"),"comoPuedoBuscarteRRSS",A.d("\xbfC\xf3mo te puedo buscar en redes sociales?"),"completPers",A.d("COMPLETAMENTE PERSONALIZADO"),"comprarBtn",A.d("COMPRAR"),"conTuNeg",A.d("con TU NEGOCIO"),"condicionesDeVenta",A.d("10. CONDICIONES DE VENTA"),"condicionesDeVentaText",A.d("Las presentes condiciones generales tienen por objeto regular expresamente las condiciones aplicables a los procesos de contrataci\xf3n llevados a cabo por los usuarios \u201cCliente\u201d de los cursos online y servicios ofrecidos por parte de ON POINT PRODUCTIONS AGENCY LLC a trav\xe9s de su sitio web.\nEstas condiciones permanecer\xe1n en vigor y ser\xe1n v\xe1lidas durante todo el tiempo que est\xe9n accesible a trav\xe9s del sitio web, todo ello sin perjuicio de que ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho a modificar, sin previo aviso, las condiciones generales as\xed como cualquiera de los textos legales que se encuentren en dicho sitio web. En todo caso, el acceso a la Web tras su modificaci\xf3n, inclusi\xf3n y/o sustituci\xf3n, implica la aceptaci\xf3n de los mismos por parte del usuario.\nEl cliente se encuentra sujeto a las condiciones generales vigentes en cada uno de los momentos de realizar la contrataci\xf3n correspondiente, no siendo posible la contrataci\xf3n de servicio alguno sin la previa aceptaci\xf3n de las presentes condiciones generales de contrataci\xf3n.\nEn la presente web podr\xe1 adquirir productos o servicios reflejados en cada p\xe1gina de ventas.\nPara proceder al pago, el cliente tiene a su disposici\xf3n los siguientes medios:\nVisa/Mastercard/American Express; el usuario deber\xe1 proporcionar el nombre del titular de la tarjeta, el n\xfamero, la fecha de caducidad y el CVV.\nToda la informaci\xf3n ser\xe1 tramitada a trav\xe9s de una pasarela de pagos externa a ON POINT PRODUCTIONS AGENCY LLC ubicada en Stripe.com, pudiendo obtener m\xe1s informaci\xf3n visitando su p\xe1gina web https://stripe.com/privacy - https://www.paypal.com/us/home.\nPara proceder al pago, normalmente ser\xe1s redirigido a un carrito donde se te solicitar\xe1n los datos necesarios a trav\xe9s de plataformas de terceros como pueden ser Stripe o Paypal."),"confCampanas",A.d("\xbfConfiguraci\xf3n de Campa\xf1as?"),"confCampanasResp",A.d("Todo lo t\xe9cnico que se hace dentro de la plataforma para que las campa\xf1as est\xe9n en correcto funcionamiento seg\xfan la estrategia establecida."),"confOnline",A.d("Conferencia Online"),"confPresenc",A.d("Conferencia Presencial"),"conferencias",A.d("CONFERENCIAS"),"configuracionMenuBtn",A.d("CONFIGURACION"),"conoceloQue",A.d("Conoce lo que aprender\xe1s"),"consigueClientesQueQuieran",A.d("Consigue clientes que quieran comprar tu producto o servicio\nutilizando la herramienta por la que llegaste aqui:\nInstagram - Facebook - Tik Tok"),"consultEspec",A.d("Consultores o Especialistas"),"consultEspecText",A.d("Eres m\xe9dico, coach, realtor, abogado o nutricionista y tus servicios son altamente buscados en las redes sociales, por lo que solo falta exponerte de la manera correcta en publicidad."),"contactoLargeText",A.d("Desde hace 6 a\xf1os estoy comprometido en potenciar y educar con estrategias publicitarias efectivas que dan en el punto.\nCon un recorrido de mas de $18.000.000 USD invertidos y un retorno de mas de $180.000.000 USD en ventas a trav\xe9s de campa\xf1as publicitarias en Meta (Facebook, Instagram, Whatsapp) Google y Tiktok, afirmo que el \xe9xito de los negocios consiste en: \n1. Una excelente estrategia publicitaria.\n2. Analizar y optimizar los datos.\n3. Contar con un profesional con experiencia.\nMi misi\xf3n es ser el encargado o mentor acompa\xf1\xe1ndote al \xe9xito en todo el proceso publicitario."),"contactoMenuBtn",A.d("Contacto"),"continuaMensaje",A.d("continua el mensaje..."),"continuar",A.d("CONTINUAR"),"contrasenaTextFiel",A.d("Contrase\xf1a"),"contratamePara",A.d("Contr\xe1tame para exponer la importancia de publicidad online enfocada en el rubro que desees: Seguros, Abogados, Real Estate, M\xe9dicos, Salones de Belleza, Coaching, Restaurantes y todos los negocios o emprendimientos que necesiten conocer ejemplos reales para hacer publicidad."),"correoDeUsuario",A.d("Correo de usuario"),"correoForm",A.d(s),"correoTextFiel",A.d(s),"correoYaExiste",A.d("Correo ya existe. ir al Log in"),"crearBtn",A.d("CREAR"),"crearCuenta",A.d("CREAR CUENTA"),"credencialesInvalidas",A.d("Credenciales Invalidas"),"cuandoSeRealice",A.d("Cuando se realice un lanzamiento de productos o servicios nuevos, o promociones especiales por tiempo determinado, se recoger\xe1 el nombre y correo electr\xf3nico de los usuarios del sitio web mediante un formulario. Este tratamiento de datos personales se har\xe1 con base en el inter\xe9s leg\xedtimo que posee JPDIRECTOR para aumentar sus ventas, dar a conocer sus productos o servicios y cumplir con la finalidad de enviarle al titular de los datos la informaci\xf3n prometida en el sitio web.\nEste tratamiento ser\xe1 realizado mientras perdure el inter\xe9s leg\xedtimo de JPDIRECTOR. Para aumentar las garant\xedas y respeto a la privacidad, se ofrece la posibilidad de la exclusi\xf3n voluntaria de esta publicidad mediante un m\xe9todo f\xe1cil y de ejecuci\xf3n inmediata, ubicado en la parte inferior de los correos electr\xf3nicos que reciba.\nPara saber si este inter\xe9s es proporcionado y respetuoso con los derechos de los titulares de los datos, se ha realizado una ponderaci\xf3n que puede ser solicitada en cualquier momento escribiendo al correo electr\xf3nico hola@jpdirector.net\n"),"cuantosAnosNegAct",A.d("\xbfCu\xe1ntos a\xf1os tiene tu negocio operativo?"),"cuatroy",A.d("+4 A\xf1os"),"cuentaConmigo",A.d("Cuenta Conmigo"),"cursoActualizado",A.d("Curso Actualizado con exito"),"cursoAgregado",A.d("Curso agregado"),"cursoBorrado",A.d("Curso borrado"),"cursoCreado",A.d("Curso Creado con exito"),"cursoMayus",A.d("CURSOS"),"cursoRepetido",A.d("Curso ya existe"),"cursos",A.d("Cursos"),"cursosDisponibles",A.d("Cursos disponibles"),"cursosMenuBtn",A.d("Cursos"),"datosDescarga",A.d("Datos de descargas"),"datosSolicitados",A.d("Datos solicitados en el sitio web y finalidad del tratamiento.\n"),"deQueSector",A.d(r),"debePesarMenos",A.d("La imagen debe pesar menos de 3 MB"),"debeVerificar",A.d("Debe verificar su cuenta, Revise su correo Electr\xf3nico"),"dequesededicaForm",A.d(r),"derechoExcl",A.d("6. DERECHO DE EXCLUSI\xd3N"),"derechoExclText",A.d("ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho a denegar o retirar el acceso al portal y/o los servicios ofrecidos sin necesidad de preaviso, a instancia propia o de un tercero, a aquellos usuarios que incumplan las presentes Condiciones Generales de Uso."),"derechos",A.d("DERECHOS"),"derechosReservados",A.d("TODOS LOS DERECHOS RESERVADOS"),"descargaRegaloBtn",A.d("DESCARGA ESTE REGALO"),"descripcionDelCurso",A.d("Descripci\xf3n del curso"),"descripcionDelModulo",A.d("Descripci\xf3n del modulo"),"descubreComo",A.d("Descubre c\xf3mo impulsar tu negocio"),"desdeHace4",A.d("Desde hace 6 a\xf1os me dedico a potenciar marcas y negocios con estrategias efectivas en ads que dan en el punto. \n\nEn todo el proceso he manejado una cantidad de mas de $18.000.000 USD en campa\xf1as publicitarias, logrando mas de $180.000.000 USD 180.000.000 USD en ventas a trav\xe9s de campa\xf1as publicitarias en Meta (Facebook, Instagram, Whatsapp) Google y Tiktok. Luego de innumerables pruebas, an\xe1lisis y educaci\xf3n, decid\xed realizar esta experiencia grupal para ense\xf1arle a emprendedores, due\xf1os de negocio o equipos de marketing a entender el motor que es realizar campa\xf1as publicitarias."),"deseasDejar",A.d("Deseas dejar de sentir angustia por resultados que no convierten"),"deseasQueLaConf",A.d("\xbfDeseas que la conferencia sea presencial o prefieres online?"),"disenoEstrat",A.d("Dise\xf1o de Estrategias"),"disenoEstratResp",A.d("Desarrollar\xe9 las estrategias claras y precisas con tiempos definidos poniendo en prioridad a tus distintos clientes ideales con todo el estudio que se necesita para poder impactarlos de manera persuasiva."),"dondeTeBrindaremos",A.d("donde te brindaremos una respuesta en el transcurso de 48 horas"),"dosy",A.d("2 A\xf1os"),"duenosNegocios",A.d("Due\xf1os de Negocios"),"duenosNegociosText",A.d("Ves publicidad todo el tiempo en tu tel\xe9fono y sabes que tu negocio lo necesita para darse a conocer y vender m\xe1s. Esta formaci\xf3n te ayudar\xe1 a entender como hacerlo y su importancia."),"duracion2puntos",A.d("Duraci\xf3n: "),"duracionDeTratamiento",A.d("DURACI\xd3N DEL TRATAMIENTO\n"),"duracionDelCurso",A.d("Duraci\xf3n del curso"),"duracionObligatoria",A.d("La duracion del curso es requerida"),"duranteElPrimerMes",A.d("Durante el primer mes, te ense\xf1ar\xe9 todo lo que s\xe9 y elaboraremos - lanzaremos en conjunto tu plan de publicidad donde aprender\xe1s la forma correcta de crecer tu negocio.\n\nEn el siguiente mes tendremos varias sesiones de an\xe1lisis de resultados con el plan que desarrollamos y progresivamente optimizaremos tu publicidad."),"editar2puntos",A.d("Editar:"),"editarModulo",A.d("Editar modulo"),"educacionYEstrategia",A.d("Educaci\xf3n y\nEstrategia de ADS"),"elAccesoyo",A.d("El acceso y/o uso de este sitio web atribuye la condici\xf3n de USUARIO, que acepta, desde dicho acceso y/o uso, los presentes t\xe9rminos de uso, no obstante, por el mero uso de la p\xe1gina web no significa el inicio de relaci\xf3n laboral/comercial alguna"),"elEmailNoExiste",A.d("El correo no existe"),"elSitioWebDispone",A.d("El sitio web dispone de 4 tipos de formularios:\nDe contacto: el usuario, cliente o participante podr\xe1 encontrar formularios que facilitar\xe1n la comunicaci\xf3n con JPDIRECTOR para plantear dudas, comentarios, solicitar un presupuesto, reservar alguno de los servicios ofrecidos en el sitio web o exigir alg\xfan derecho que tenga. No suministrar los datos personales m\xednimos necesarios imposibilitar\xe1 a JPDIRECTOR responder a la petici\xf3n. Este tratamiento se considerar\xe1 leg\xedtimo por ser parte de una diligencia pre-contractual. El servidor del sitio web y del correo electr\xf3nico de JPDIRECTOR ser\xe1n los encargados del tratamiento.\nDe publicidad: se solicitar\xe1 a los usuarios, compradores o participantes su consentimiento expreso y voluntario para entregar a JPDIRECTOR, los m\xednimos datos necesarios para enviar publicidad e informaci\xf3n comercial relacionada con los servicios y/o productos ofrecidos por JPDIRECTOR, para que se agregue a un fichero automatizado de email marketing gestionado por el encargado del tratamiento que se indica m\xe1s abajo. El tratamiento de los datos personales que se encuentren en esta secci\xf3n se ha hecho con el consentimiento del titular de los datos.\nPara comentarios en el blog: en aras de evitar el spam, mensajes inadecuados, y hacer un correcto seguimiento, se solicitar\xe1 al usuario su nombre, email y sitio web para identificarlo en los comentarios que desee realizar en las entradas del blog. Estos datos ser\xe1n visibles para otros usuarios del sitio web. Si no desea que los datos sean visibles por otras personas, deber\xe1 comunicarse con JPDIRECTOR  al correo electr\xf3nico hola@jpdirector.net. El servidor del sitio web ser\xe1 el encargado del tratamiento y que se realizar\xe1 con el consentimiento del titular de los datos.\nPara procesar la solicitud del servicio: se solicitar\xe1 a los usuarios, clientes o participantes sus datos para que JPDIRECTOR pueda procesar los servicios solicitados por el cliente. Tratamiento leg\xedtimo de datos personales por la relaci\xf3n contractual que existe con el cliente o participante. Los datos ser\xe1n guardados en el servidor del sitio web.\n"),"elTratamientoDeSusDatos",A.d("1. El tratamiento de sus datos personales en el entorno de Wix conforme a sus pol\xedticas de privacidad.\n2. El acceso de ON POINT PRODUCTIONS AGENCY LLC a los datos que, de acuerdo con la infraestructura de Wix, necesite el usuario aportar bien para la suscripci\xf3n a la web bien para cualquier consulta mediante el formulario de contacto."),"elUsuarioTiene",A.d("El usuario tiene los siguientes derechos relacionados con sus datos personales:\nAcceso: el usuario puede dirigirse a JPDIRECTOR para poder saber los datos que se han recopilado de \xe9l.\nRectificaci\xf3n: el usuario puede en cualquier momento rectificar los datos que haya suministrado a JPDIRECTOR\nOposici\xf3n: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar el cese al tratamiento de sus datos personales.\nSupresi\xf3n: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar la eliminaci\xf3n de sus datos personales.\nLimitaci\xf3n al tratamiento: siempre que no interrumpa la prestaci\xf3n de un servicio, o una obligaci\xf3n legal que posea JPDIRECTOR, el usuario podr\xe1 solicitar que sus datos personales sean tratados de la forma como \xe9l los limite, por ejemplo solicitar que no se modifiquen, que se borren o supriman.\nPortabilidad: siempre que el usuario as\xed lo solicite y pueda realizarse, podr\xe1 solicitar una copia de sus datos personales en un formato estructurado, de uso com\xfan, de lectura mec\xe1nica e interoperable, o solicitar que se transmita a otro responsable del tratamiento, siempre que el tratamiento se legitime en base al consentimiento o en el marco de la ejecuci\xf3n de un contrato.\nNo ser objeto de decisiones individuales automatizadas: en JPDIRECTOR no se realizan perfiles automatizados que puedan afectar significativa o negativamente al usuario. Cualquier decisi\xf3n que se tome con base a un perfil automatizado, es con la \xfanica finalidad de enviar al usuario una informaci\xf3n que haya solicitado de acuerdo con sus h\xe1bitos de navegaci\xf3n y descarga de materiales en el sitio web.\nInformaci\xf3n: el usuario tiene derecho a saber la forma en la cual son tratados sus datos personales.\nPara el ejercicio de cualquiera de estos derechos el usuario puede escribir al correo electr\xf3nico hola@jpdirector.net\n"),"eliminado",A.d("Eliminado"),"eliminarCurso",A.d("Eliminar Curso"),"eliminarModulo",A.d("Eliminar modulo"),"ellosVivieronMision",A.d("Ellos vivieron la misi\xf3n"),"empezamosBtn",A.d("\xbfEmpezamos?"),"emprendedorOFree",A.d("Emprendedor o Freelancer"),"emprendedorOFreeText",A.d("Si eres emprendedor, tienes un negocio o quieres una formaci\xf3n que verdaderamente capacite a tu equipo a lanzar campa\xf1as de manera correcta"),"enElCasoDeLosDatos",A.d("En el caso de los datos personales suministrados para facturaci\xf3n y compra de productos o servicios, ser\xe1n guardados por el tiempo legalmente aplicable.\nEn el caso de los datos personales suministrados para boletines comerciales electr\xf3nicos y comentarios en el blog, ser\xe1 por el tiempo que el titular de los datos desee permanecer en la lista de suscripci\xf3n, por lo que podr\xe1 darse de baja en el momento que as\xed lo desee, de forma autom\xe1tica como se indica en cada bolet\xedn, o escribiendo al soporte@quieroads.com\n"),"enElTranscurso",A.d("En el transcurso de 2 a 3 d\xedas me estar\xe9 comunicando contigo para explicarte los siguientes pasos."),"enQueAyudarte",A.d("En que podemos ayudarte"),"enQueNivel",A.d("\xbfEn qu\xe9 nivel de conocimiento se encuentra tu equipo referente a la publicidad digital?"),"enUnaVideollamada",A.d("En una videollamada de 1 hora conversaremos de:\nCampa\xf1as, Presupuestos, Estrategias, Problemas Actuales, Inhabilitaciones y todo lo que quieras aclarar o aprender."),"encargadosDelTratamiento",A.d("ENCARGADOS DEL TRATAMIENTO\n"),"enlaceInvalido",A.d("ENLACE INVALIDO"),"entiendesQueEsto",A.d("\xbfEntiendes que esto es un proceso en el que debes estar comprometido y tener un modelo de negocio establecido con diferentes requerimientos?"),"envianosComentario",A.d("Envianos tus comentarios, en menos de 48h te brindaremos una respuesta"),"enviarBtn",A.d("ENVIAR"),"enviarEmaila",A.d("Enviar email a:"),"enviaremosUnEmail",A.d("Ingresa tus datos y recibe mi nueva GU\xcdA\nsin costo para ti \u2764\ufe0f"),"eresNuevo",A.d("\xbfEres Nuevo?"),"errorActualizandoModulo",A.d("Error actualizando modulo"),"errorAgregandoComentario",A.d("Error agregado comentario"),"errorAuth",A.d("Ocurri\xf3 problema con tu autenticaci\xf3n"),"errorBorrandoModulo",A.d("Error borrando modulo"),"errorCursoActualizado",A.d("Error actualizando curso"),"errorCursoCreado",A.d("Error creando curso"),"errorEliminadoCurso",A.d("Error eliminado curso"),"errorEliminadoLead",A.d("Error eliminado lead"),"errorEliminadoUsuario",A.d("Error eliminado usuario"),"errorModuloAgregado",A.d("Error agregado modulo"),"errorTestimonioActualizado",A.d("Error actualizando testimonio"),"errorTestimonioAgregado",A.d("Error agregado testimonio"),"errorTestimonioBorrado",A.d("Error borrando testimonio"),"escribeComentario",A.d("Escribe tu comentario"),"escribeTodasTusEspectativas",A.d("Escribe todas tus expectativas y temas que\nquieres que exponga para tu empresa"),"estaMision",A.d("Esta misi\xf3n es para ti"),"estaPolitica",A.d("Esta pol\xedtica de privacidad junto con el aviso legal, pol\xedtica de cookies, de ventas, t\xe9rminos y condiciones, y cualquier otra pol\xedtica a la que se haga referencia, identifica c\xf3mo se recopilan y procesan los datos personales que se reciben en este sitio web.\nLa informaci\xf3n que se encuentra en este sitio web no est\xe1 dirigida a ni\xf1os. Se entender\xe1 por ni\xf1o lo que la ley de la jurisdicci\xf3n donde se encuentre as\xed lo defina, en el caso de Estados Unidos de Am\xe9rica es alguien menor a 13 a\xf1os. Si el usuario cree que alg\xfan ni\xf1o ha proporcionado sus datos personales en este sitio web sin el consentimiento de los padres, deber\xe1 escribir a hola@jpdirector.net\nSi el usuario tiene menos de 13 a\xf1os, deber\xe1 tener la autorizaci\xf3n de sus padres o tutores legales para entregar sus datos personales. JPDIRECTOR no tiene manera de comprobar efectivamente la edad de los usuarios, por lo que queda eximida de cualquier responsabilidad, si el usuario no cumple con lo aqu\xed indicado. En JPDIRECTOR cumplimos con la Ley de Protecci\xf3n de la Privacidad en L\xednea de los Ni\xf1os de 1998 (\u201cCOPPA\u201d).\nDatos identificativos del responsable\nTal y como recoge la normativa vigente, te informamos que:\n"),"estado",A.d("ESTADO"),"estasAunPaso",A.d("\xa1Est\xe1s a un paso del \xe9xito para marcar la diferencia, bienvenido a esta misi\xf3n!"),"estasEnElMomento",A.d("\xbfNecesitas contratar a un especialista que aumente tu flujo de clientes, visitas al negocio y VENTAS?"),"estasPoliticasSeEntenderan",A.d("Estas pol\xedticas se entender\xe1n en todo momento como parte complementaria de los t\xe9rminos y condiciones expuestos en el sitio web, siendo ambos de igual aplicaci\xf3n al momento de una controversia. La pol\xedtica de privacidad y de propiedad intelectual aplicada ser\xe1 la misma que se expone en los t\xe9rminos y condiciones del sitio web.\nSe entender\xe1 como \u201cnewsletter\u201d al bolet\xedn digital que JPDIRECTOR realiza de forma peri\xf3dica y que hace llegar a sus suscriptores a trav\xe9s de un proveedor de servicios de correo electr\xf3nico externo, al cual el usuario se ha suscrito de manera voluntaria.\nJPDIRECTOR no est\xe1 en la obligaci\xf3n de enviar en per\xedodos de tiempo definidos la newsletter, por lo que es totalmente libre de hacerlo cuando lo estime conveniente. El usuario podr\xe1 en todo momento ejercer sus derechos de acceso, rectificaci\xf3n, cancelaci\xf3n u oposici\xf3n siguiendo las instrucciones que encontrar\xe1 en el pie de p\xe1gina de la newsletter.\nEl usuario no deber\xe1 compartir su contenido con terceros, ya que esto violar\xeda los derechos de autor de JPDIRECTOR. El \xfanico canal de distribuci\xf3n posible es el administrado y/o autorizado por JPDIRECTOR.\nJPDIRECTOR no se har\xe1 responsable por el contenido de terceros expuesto en la newsletter, cualquier controversia que surja deber\xe1 ser tratada directamente con la persona o empresa de la cual se hace menci\xf3n.\nTodo el material que se expone en la newsletter est\xe1 protegido por derechos de autor a favor de JPDIRECTOR, y en el caso de pertenecer a terceros, se entender\xe1 que JPDIRECTOR tiene la debida autorizaci\xf3n para utilizarlo como se haya convenido con el autor.\n"),"esteServicioEsta",A.d("Este servicio est\xe1 dise\xf1ado para ti, que est\xe1s buscando a la persona que se encargue de realizar la estrategia y manejo de publicidad de tu marca. Me enfocar\xe9 en el crecimiento, obtenci\xf3n de clientes potenciales de calidad y aumento de las ventas."),"estoyListoBtn",A.d("Estoy listo, comencemos."),"estudiantes",A.d("estudiantes"),"exclusionDeGarant",A.d("3. EXCLUSI\xd3N DE GARANT\xcdAS Y RESPONSABILIDAD"),"exclusionDeGarantText",A.d("ON POINT PRODUCTIONS AGENCY LLC no se hace responsable, en ning\xfan caso, de los da\xf1os y perjuicios de cualquier naturaleza que pudieran ocasionar, a t\xedtulo enunciativo: por errores u omisiones en los contenidos, por falta de disponibilidad del sitio web, \u2013 el cual realizar\xe1 paradas peri\xf3dicas por mantenimientos t\xe9cnicos \u2013 as\xed como por la transmisi\xf3n de virus o programas maliciosos o lesivos en los contenidos, a pesar de haber adoptado todas las medidas tecnol\xf3gicas necesarias para evitarlo."),"extensionInvalida",A.d("Extension Invalida"),"fecha",A.d("Fecha"),"felicidadesCert",A.d("Felicidades, tu certificado esta listo!"),"finDeLosComentarios",A.d("Fin de los comentarios"),"finalidadWeb1_2",A.d("1.2. FINALIDAD DE LA P\xc1GINA WEB.\nLos servicios prestados por el responsable de la p\xe1gina web son los siguientes:"),"finalizarBtn",A.d("FINALIZAR"),"formularios",A.d("FORMULARIOS"),"formulariosMenuBtn",A.d("Formularios"),"generalidades",A.d("7. GENERALIDADES"),"generalidadesText",A.d("ON POINT PRODUCTIONS AGENCY LLC perseguir\xe1 el incumplimiento de las presentes condiciones as\xed como cualquier utilizaci\xf3n indebida de su web ejerciendo todas las acciones civiles y penales que le puedan corresponder en derecho."),"generandoCert",A.d("Generando Certificado"),"graciasInfo",A.d("\xa1Gracias por brindarnos tu informaci\xf3n!"),"graciasPorComunicarte",A.d("Gracias por comunicarte, en menos de 48 horas te brindaremos una respuesta a tu correo electr\xf3nico"),"graciasPorConfirmar",A.d("Gracias por confirmar tu cuenta"),"graciasPorRegistrarte",A.d("Gracias por registrarte, revisa tu correo para verificar tu cuenta"),"hasHechoPubAntes",A.d("\xbfHas hecho publicidad antes?"),"hola",A.d("Hola,"),"idCarpertaModulo",A.d("Id de carpeta"),"idZipModulo",A.d("Id de Zip"),"imagen",A.d("IMAGEN"),"imagenDelCurso",A.d("Imagen del curso"),"imgCambiadaNtf",A.d("Imagen cambiada con exito"),"imgCursoCertificado",A.d("Imagen del certificado"),"imgDeCurso",A.d("IMAGEN DEL CURSO"),"infoDeCurso",A.d("INFORMACI\xd3N DEL CURSO"),"informacionMayus",A.d("INFORMACI\xd3N"),"ingresaNewPass",A.d("Ingresa tu nueva clave"),"ingresaTuDirEmail",A.d("Ingresa tu direcci\xf3n de correo"),"ingreseApellidoTextFiel",A.d("Ingrese su apellido"),"ingreseCorreoValido",A.d("Ingrese un correo valido"),"ingreseNombreTextField",A.d("Ingrese su nombre"),"ingreseSuCorreo",A.d("Ingrese su correo"),"ingreseUnaPassValida",A.d("Ingrese una contrase\xf1a valida"),"inhabResagBloq",A.d("Inhabilitados, Resagados o Bloqueados"),"inhabResagBloqText",A.d("Si est\xe1s estudiando o trabajando en una empresa esto ser\xe1 muy valioso para desarrollarlo dentro de la compa\xf1\xeda u ofrecerlo como uno de tus servicios."),"iniciaAqui",A.d("Inicia sesi\xf3n aqu\xed"),"iniciaSesion",A.d("INICIA SESI\xd3N"),"iniciarSesionBtn",A.d("ENTRAR"),"inicioMenuBtn",A.d("Inicio"),"inteligenteInv",A.d("INTELIGENTE INVERSI\xd3N"),"interesLegitimo",A.d("INTER\xc9S LEG\xcdTIMO\n"),"intermedio",A.d("Intermedio"),"irAlLogin",A.d("Iniciar sesi\xf3n"),"irAlLoginBtn",A.d("Ir al Login"),"jpCompartira",A.d("JPDIRECTOR compartir\xe1 con terceros los datos que posee, solo para cumplir con los servicios contratados por alg\xfan usuario, enviar la newsletter, cumplir con exigencias legales o para la administraci\xf3n del sitio web. A este efecto, se proporcionar\xe1n los debidos acuerdos de confidencialidad entre las partes.\n"),"jpCumpleLaLey",A.d("JPDIRECTOR cumple con la Ley de Privacidad del Consumidor de California de 2018 (\u201cCCPA\u201d). Los residentes en California tienen derecho a solicitar que JPDIRECTOR  revele qu\xe9 informaci\xf3n personal ha recopilado, utilizado, divulgado y vendido durante el per\xedodo de 12 meses anterior a la recepci\xf3n de dicha solicitud. Para ejercer este derecho, as\xed como el de eliminaci\xf3n u oposici\xf3n al tratamiento de sus datos, el usuario deber\xe1 escribir a hola@jpdirector.net\n"),"jpEnTodoMomento",A.d("JPDIRECTOR en todo momento velar\xe1 porque el uso que se le da al sitio web, a los contenidos, y al tratamiento de los datos personales del usuario, se realicen de la forma m\xe1s correcta. Para ello, el usuario siempre podr\xe1 ejercer sus derechos de acceso, rectificaci\xf3n, limitaci\xf3n, cancelaci\xf3n, portabilidad, olvido u oposici\xf3n, todo ello en fiel cumplimiento de las directrices de las leyes que rigen la materia, escribiendo a JPDIRECTOR no vende, no vender\xe1 datos personales de los usuarios a otras empresas ni terceros.\n"),"jpNecesitaElApoyo",A.d("JPDIRECTOR necesita el apoyo de terceros para ofrecer adecuadamente sus servicios y productos, con los cuales celebra los debidos acuerdos de confidencialidad y verifica el cumplimiento de las normativas sobre protecci\xf3n de datos personales.\nLos datos suministrados a estos terceros no podr\xe1n ser utilizados para otros fines no autorizados por el titular de los datos.\nEn cumplimiento de los principios de informaci\xf3n y transparencia, se hace saber que estos terceros son:\nMailchimp: Utilizada para el email marketing y gesti\xf3n de clientes Puedes ver m\xe1s informaci\xf3n sobre pol\xedtica de privacidad en https://mailchimp.com/about/security/\n\u2022Hostgator: Proveedor de Hosting (almacenamiento web). Puede ver su pol\xedtica de privacidad en https://es.wix.com/manage/privacy-security-hub\n\u2022Facebook: Herramienta utilizada como red social y a los fines de conectarse con el titular de los datos. El servicio es prestado por la empresa Facebook Ireland Ltd., sus servidores est\xe1n en Estados Unidos. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. . Puede consultarse su pol\xedtica de provacidad en https://www.facebook.com/business/gdpr. Con esta herramienta tambi\xe9n se maneja la publicidad que se pueda realizar en WhatsApp y/o Instagram, as\xed como el an\xe1lisis de datos y estad\xedsticas para una posible segmentaci\xf3n de la publicidad.\n\u2022Google: sistema de publicidad patrocinada (ADS), Servicio de an\xe1lisis web, para ver las estad\xedsticas del uso del sitio web (Analytics) y sistema de gesti\xf3n de etiquetas (Tag Manager).Estos servicios son prestados por la empresa Google LLC, ubicada en Mountain View, California, Estados Unidos de Am\xe9rica. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://cloud.google.com/security/gdpr/resource-center. Si desea obtener m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede consultar: https://policies.google.com/privacy\n\u2022Instagram: Red social y aplicaci\xf3n para subir fotos y v\xeddeos cuyo propietario es la empresa Facebook Inc., que est\xe1 ubicada en 1601 Willow Road Menlo Park, CA 94025, Estados Unidos de Am\xe9rica. En caso de estar fuera de los Estados Unidos de Am\xe9rica o Canad\xe1, la entidad de control de datos responsable de la informaci\xf3n es Facebook Ireland Ltd., que se encuentra ubicada en 4 Grand Canal Square Grand Canal Harbour, Dubl\xedn 2, Irlanda. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en: https://help.instagram.com/155833707900388\n\u2022Linkedin: Red social orientada a las empresas, a los negocios y el empleo. Puede ser contactada en https://www.linkedin.com/help/linkedin?lang=es  y su pol\xedtica de privacidad puede observarse en https://www.linkedin.com/legal/privacy-policy\n\u2022PayPal (Europe) S.\xe0 r.l. et Cie, S.C.A.: empresa utilizada para gestionar los pagos mediante tarjeta de d\xe9bito y  cr\xe9dito en el sitio web. Ubicada en 22-24 Boulevard Royal L-2449, Luxemburgo. Para m\xe1s informaci\xf3n puede visitar https://www.paypal.com/es/webapps/mpp/ua/privacy-full?locale.x=es_ES\n\u2022Pixel de Facebook: herramienta de an\xe1lisis para publicidad, utilizado para conocer las acciones de los titulares de los datos en este sitio web. Este servicio es proporcionado por Facebook, Inc., que est\xe1 ubicada en 1601 Willow Road Menlo Park, CA 94025, Estados Unidos de Am\xe9rica. En caso de estar fuera de los Estados Unidos de Am\xe9rica o Canad\xe1, la entidad de control de datos responsable de la informaci\xf3n es Facebook Ireland Ltd., que se encuentra ubicada en 4 Grand Canal Square Grand Canal Harbour, Dubl\xedn 2, Irlanda. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://www.facebook.com/legal/terms/dataprocessing. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en  https://www.facebook.com/privacy/explanation\n\u2022Stripe: herramienta utilizada para gestionar los pagos mediante tarjeta de d\xe9bito y cr\xe9dito en el sitio web. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://es.wix.com/manage/privacy-security-hub.\n\u2022TikTok: Red social y aplicaci\xf3n para subir v\xeddeos cuyo propietario es la empresa TikTok Technology Limited ubicada en 10 Earlsfort Terrace, Dubl\xedn, D02 T380, Irlanda. Para los usuarios del Reino Unido: TikTok Information Technologies UK Limited, WeWork, 125 Kingsway, Londres, WC2B 6NH, Reino Unido. Para obtener m\xe1s informaci\xf3n sobre la pol\xedtica de privacidad ingresa en: https://www.tiktok.com/legal/privacy-policy?lang=es\n\u2022Twitter: Red social con sede en San Francisco, California, con filiales en San Antonio y Boston en Estados Unidos, prestado por la empresa Twitter, Inc. Han adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://gdpr.twitter.com/. Puede ser contactada en https://help.twitter.com/en/contact-us y su pol\xedtica de privacidad puede observarse en https://twitter.com/es/privacy\n\u2022Vimeo: plataforma creada para la disposici\xf3n de videos. Este servicio est\xe1 a cargo de la empresa Vimeo, Inc., ubicada en Estados Unidos y que ha adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea. Para m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede visitar https://vimeo.com/privacy\n\u2022WhatsApp: Herramienta utilizada para la comunicaci\xf3n con los usuarios, compradores, clientes y participantes a trav\xe9s de la empresa WhatsApp Ireland Limited (para los que se encuentran ubicados en Europa), puede contactarse a trav\xe9s del enlace https://www.whatsapp.com/contact/?subject=messenger y su pol\xedtica de privacidad puede observarse en https://www.whatsapp.com/legal?eea=1#privacy-policyaci\xf3n sobre su pol\xedtica de privacidade, consulte https://wpengine.com/legal/privacy/\n\u2022Zoom: herramienta utilizada para videoconferencias. Este servicio est\xe1 a cargo de la empresa Zoom Video Communications, Inc., ubicada en Estados Unidos de Am\xe9rica, ha adoptado cl\xe1usulas tipo de procesamiento de datos aprobadas por la Comisi\xf3n Europea que pueden ser consultadas en: https://zoom.us/gdpr. Si desea obtener m\xe1s informaci\xf3n sobre su pol\xedtica de privacidad puede consultar: https://zoom.us/privacy\nEn casos puntales JPDIRECTOR  podr\xe1 utilizar aplicaciones o herramientas que no hayan sido incluidas o nombradas en este listado, lo anterior por ser una mejor opci\xf3n que coadyuve a la realizaci\xf3n de una determinada tarea; si esto sucediera JPDIRECTOR notificar\xe1 de esta situaci\xf3n a sus usuarios, clientes o participantes seg\xfan fuere el caso.\n"),"laContraDebe6Caracteres",A.d("La contrase\xf1a debe tener mas de 6 caracteres"),"laContrasenaSeHaReest",A.d("Tu contrase\xf1a se ha reestablecido, ya puedes iniciar sesion con tu nueva clave."),"laDenominacionSocial",A.d("-La denominaci\xf3n social del responsable por este sitio web es: ON POINT PRODUCTIONS AGENCY LLC, Para efectos de este aviso legal y t\xe9rminos de uso, se entender\xe1 en lo adelante como JPDIRECTOR\n-Su domicilio social se encuentra en: 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica.\n-Puedes contactarle al Email: hola@jpdirector.net\n-Su actividad social es: formaci\xf3n, blogging y asesor\xeda publicitaria para negocios online.\n"),"laDisolucion",A.d("La disoluci\xf3n implica la p\xe9rdida de sus derechos sobre el servicio contratado."),"laExtensionDebe",A.d("La extension debe ser PNG, JPG \xf3 JPEG"),"laFalsedadText",A.d("La falsedad, en todo o en parte, de los datos suministrados en el proceso de contrataci\xf3n de cualquier servicio.\nAlterar, eludir, realizar ingenier\xeda inversa, descompilar, desmontar o alterar de ning\xfan modo de la tecnolog\xeda de seguridad aportada por ON POINT PRODUCTIONS AGENCY LLC.\nLos casos de abuso de los servicios de soporte por el requerimiento de m\xe1s horas de las establecidas en el contrato.\nOpiniones falsas e infundadas con \xe1nimo de desprestigiar al titular de los productos o servicios adquiridos.\nCualquier incumplimiento establecido a lo largo de las condiciones."),"laPaginaWebText",A.d("La p\xe1gina web https://quieroads.com/ en adelante (LA WEB) proporciona el acceso a art\xedculos, informaciones, servicios y datos (en adelante, \u201clos contenidos\u201d) propiedad de ON POINT PRODUCTIONS AGENCY LLC. El USUARIO asume la responsabilidad del uso de la web.\nEl USUARIO se compromete a hacer un uso adecuado de los contenidos que ofrece a trav\xe9s de su web y con car\xe1cter enunciativo pero no limitativo, a no emplearlos para:\n(a) incurrir en actividades il\xedcitas, ilegales o contrarias a la buena fe y al orden p\xfablico;\n(b) difundir contenidos o propaganda de car\xe1cter racista, xen\xf3fobo, pornogr\xe1fico-ilegal, de apolog\xeda del terrorismo o atentatorio contra los derechos humanos;\n(c) provocar da\xf1os en los sistemas f\xedsicos y l\xf3gicos de la web, de sus proveedores o de terceras personas, introducir o difundir en la red virus inform\xe1ticos o cualesquiera otros sistemas f\xedsicos o l\xf3gicos que sean susceptibles de provocar los da\xf1os anteriormente mencionados;\n(d) intentar acceder y, en su caso, utilizar las cuentas de correo electr\xf3nico de otros usuarios y modificar o manipular sus mensajes.\nON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xen\xf3fobos, racistas, pornogr\xe1ficos, que atenten contra la juventud o la infancia, el orden o la seguridad p\xfablica o que, a su juicio, no resultaran adecuados para su publicaci\xf3n.\nEn cualquier caso, ON POINT PRODUCTIONS AGENCY LLC no ser\xe1 responsable de las opiniones vertidas por los usuarios a trav\xe9s de cualquier herramientas de participaci\xf3n que puedan crearse, conforme a lo previsto en la normativa de aplicaci\xf3n."),"laVentanaDeFormacion",A.d("-La venta de formaci\xf3n y servicios sobre negocios online.\n-Gestionar la lista de suscriptores y usuarios adscritos a la web.\n-Dirigir su red de afiliados y comerciantes as\xed como la gesti\xf3n de pagos de los mismos."),"leadActualizadoConExito",A.d("Lead Actualizado con exito"),"leadCreadoConExito",A.d("Lead Creado con exito"),"leadsMenuBtn",A.d("Leads"),"leyAplicable",A.d("11. LEY APLICABLE Y JURISDICCI\xd3N"),"leyAplicableText",A.d("La relaci\xf3n entre ON POINT PRODUCTIONS AGENCY LLC y el CLIENTE se regir\xe1 por la normativa de Estados Unidos y cualquier controversia se someter\xe1 a los Juzgados y tribunales del Estado de Florida, salvo que la Ley aplicable disponga otra cosa."),"listaDeComentarios",A.d("Lista de comentarios"),"listaDeCursos",A.d("Lista de cursos"),"listaDescarga",A.d("Lista de descargas"),"listaForm",A.d("Lista de Formularios"),"listaUsuarios",A.d("Lista de usuarios"),"llegasteAlMundo",A.d("Llegaste al mundo indicado"),"loadingBlogs",A.d("Cargando blogs..."),"logout",A.d("LOG OUT"),"logoutLabel",A.d("SALIR"),"losEnlacesATerceros",A.d("Los enlaces a terceros que se puedan encontrar en el sitio web poseen pol\xedticas de privacidad ajenas a JPDIRECTOR. El acceso a estos sitios deber\xe1 ser responsabilidad del usuario, siendo su responsabilidad conocerlas y su decisi\xf3n aceptarlas o no.\n"),"masInformacionBtn",A.d("M\xe1s Informaci\xf3n"),"menosde6meses",A.d("Menos de 6 meses"),"mensajeEnviado",A.d("Mensaje enviado con exito"),"mentoria",A.d("MENTOR\xcdA"),"mentoriaIntensiva",A.d("MENTOR\xcdA INTENSIVA"),"miCuentaMenuBtn",A.d("Mi Cuenta"),"miDenominacion",A.d("-Mi denominaci\xf3n social es: ON POINT PRODUCTIONS AGENCY LLC\n-Mi domicilio social se encuentra en 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica.\n-Email: hola@jpdirector.net\n-Mi actividad social es: Publicidad"),"miraloOjos",A.d("M\xcdRALO CON TUS PROPIOS OJOS"),"misCursosLabel",A.d("Mis Cursos"),"misCursosMenuBtn",A.d("MIS CURSOS"),"modificacionCond",A.d("8. MODIFICACI\xd3N DE LAS PRESENTES CONDICIONES Y DURACI\xd3N"),"modificacionCondText",A.d("ON POINT PRODUCTIONS AGENCY LLC podr\xe1 modificar en cualquier momento las condiciones aqu\xed determinadas, siendo debidamente publicadas como aqu\xed aparecen. La vigencia de las citadas condiciones ir\xe1 en funci\xf3n de su exposici\xf3n y estar\xe1n vigentes hasta que sean modificadas por otras debidamente publicadas."),"modificaciones",A.d("4. MODIFICACIONES"),"modificacionesText",A.d("ON POINT PRODUCTIONS AGENCY LLC se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su web, pudiendo cambiar, suprimir o a\xf1adir tanto los contenidos y servicios que se presten a trav\xe9s de la misma como la forma en la que \xe9stos aparezcan presentados o localizados en su web."),"moduloActualizado",A.d("Modulo Actualizado con exito"),"moduloAgregado",A.d("Modulo agregado con exito"),"moduloBorrado",A.d("Modulo borrado con exito"),"modulos",A.d("MODULOS"),"modulos2puntos",A.d("Modulos: "),"modulosDelCurso",A.d("Modulos del curso"),"motivacion",A.d("Motivaci\xf3n"),"motivacionResp",A.d("Se necesita mucho coraje para llevar un negocio o cumplir con todos los objetivos del d\xeda a d\xeda. Es por eso que cuento mi trayectoria para inspirar y dar el ejemplo de que S\xcd es posible."),"negocio2puntos",A.d("Negocio :"),"negocioLocFis",A.d("Negocio (Local o f\xedsico)"),"negocioLocFisText",A.d("Tienda de ropa, restaurante, gimnasio, bar o cualquier negocio que necesita tr\xe1fico en su tienda para consumir su producto o servicio."),"noBlogsFound",A.d("No se encontraron blogs"),"noEstoyPreparado",A.d("No, no se cuales son los requerimientos"),"noSePermiteRepr",A.d("-No se permite la reproducci\xf3n total o parcial de ninguno de los servicios ni contenidos del sitio web sin la previa autorizaci\xf3n expresa de ON POINT PRODUCTIONS AGENCY LLC.\n-No se establecer\xe1n deep-links ni enlaces IMG o de imagen, ni frames con la web de ON POINT PRODUCTIONS AGENCY LLC sin su previa autorizaci\xf3n expresa.\n-No se establecer\xe1 ninguna manifestaci\xf3n falsa, inexacta o incorrecta sobre la web de ON POINT PRODUCTIONS AGENCY LLC ni sobre los servicios o contenidos de la misma. Salvo aquellos signos que formen parte del hiperv\xednculo, la p\xe1gina web en la que se establezca no contendr\xe1 ninguna marca, nombre comercial, r\xf3tulo de establecimiento, denominaci\xf3n, logotipo, eslogan u otros signos distintivos pertenecientes a ON POINT PRODUCTIONS AGENCY LLC salvo autorizaci\xf3n expresa de \xe9ste.\n-El establecimiento del hiperv\xednculo no implicar\xe1 la existencia de relaciones entre ON POINT PRODUCTIONS AGENCY LLC y el titular de la p\xe1gina web o del portal desde el cual se realice, ni el conocimiento y aceptaci\xf3n de ON POINT PRODUCTIONS AGENCY LLC de los servicios y contenidos ofrecidos en dicha p\xe1gina web o portal.\n-ON POINT PRODUCTIONS AGENCY LLC no ser\xe1 responsable de los contenidos o servicios puestos a disposici\xf3n del p\xfablico en la p\xe1gina web o portal desde el cual se realice el hiperv\xednculo, ni de las informaciones y manifestaciones incluidas en los mismos.\n-El sitio web de ON POINT PRODUCTIONS AGENCY LLC puede poner a disposici\xf3n del usuario conexiones y enlaces a otros sitios web gestionados y controlados por terceros. Dichos enlaces tienen como exclusiva funci\xf3n, la de facilitar a los usuarios la b\xfasqueda de informaci\xf3n, contenidos y servicios en Internet, sin que en ning\xfan caso pueda considerarse una sugerencia, recomendaci\xf3n o invitaci\xf3n para la visita de los mismos.\n-ON POINT PRODUCTIONS AGENCY LLC no comercializa, ni dirige, ni controla previamente, ni hace propios los contenidos, servicios, informaciones y manifestaciones disponibles en dichos sitios web.\n-ON POINT PRODUCTIONS AGENCY LLC no asume ning\xfan tipo de responsabilidad, ni siquiera de forma indirecta o subsidiaria, por los da\xf1os y perjuicios de toda clase que pudieran derivarse del acceso, mantenimiento, uso, calidad, licitud, fiabilidad y utilidad de los contenidos, informaciones, comunicaciones, opiniones, manifestaciones, productos y servicios existentes u ofrecidos en los sitios web no gestionados por ON POINT PRODUCTIONS AGENCY LLC y que resulten accesibles a trav\xe9s de ON POINT PRODUCTIONS AGENCY LLC."),"noTienesCursos",A.d("No tienes ningun curso"),"nombApllYCorr",A.d("-Nombre, apellidos y correo electr\xf3nico en los formularios de contacto: para realizar cualquier contacto directo con JPDIRECTOR, ya sea para plantear dudas, comentarios, sugerencias, solicitar un servicio o producto, o cualquier otra informaci\xf3n. No suministrar los datos personales m\xednimos necesarios imposibilitar\xe1 a JPDIRECTOR de responder a la petici\xf3n.\n-Nombre, correo electr\xf3nico: para poder realizar comentarios en el blog del sitio web.\n-Nombre, apellidos, direcci\xf3n, tel\xe9fono, correo electr\xf3nico, n\xfamero de identificaci\xf3n fiscal: se solicitar\xe1 esta informaci\xf3n al momento del pago del servicio para procesar todo lo relacionado con el cliente.\n-Nombre, tel\xe9fono y correo electr\xf3nico para newsletter: con el debido consentimiento expreso y voluntario del titular de los datos, se solicitar\xe1 en el sitio web la informaci\xf3n m\xednima necesaria para enviar un bolet\xedn comercial automatizado, donde se informar\xe1 sobre publicidad, promociones y otra informaci\xf3n de los servicios y/o productos ofrecidos por JPDIRECTOR.\n-Correo electr\xf3nico: se solicitar\xe1 el correo electr\xf3nico para poder acceder al \xe1rea de cliente, de acuerdo con los datos suministrados al momento de crear la cuenta.\n"),"nombreDeUsuario",A.d("Nombre de usuario"),"nombreDelCurso",A.d("Nombre del curso"),"nombreDelModulo",A.d("Nombre del modulo"),"nombreTextField",A.d("Nombre"),"nombreyapellidoForm",A.d("Nombre y Apellido"),"nuestra",A.d("nuestra "),"nuevoCurso",A.d("Nuevo Curso"),"nuevoForm",A.d("Nuevo Formulario"),"nuevoLead",A.d("Nuevo Lead"),"nuevoModulo",A.d("Nuevo modulo"),"nuevoUsuario",A.d("Nuevo Usuario"),"olvideMiPass",A.d("Olvide mi contrase\xf1a"),"optimizacion",A.d("Optimizaci\xf3n"),"optimizacionResp",A.d("Una optimizaci\xf3n eficaz, en espa\xf1ol, quiere decir que analizar\xe9 los datos y luego de obtener los resultados tomaremos decisiones para mejorarlos seg\xfan transcurra el tiempo y as\xed el \xe9xito sea continuo."),"pagina404",A.d("P\xe1gina no encontrada 404"),"passDeUsuario",A.d("Contrase\xf1a de usuario"),"passNoCoinciden",A.d("Las contrase\xf1as no coinciden"),"pendiente",A.d("PENDIENTE"),"podrasDescargar",A.d("2. Podr\xe1s descargar en cada m\xf3dulo un material complementario de la clase que est\xe9s aprendiendo"),"politicaDeEnlaces",A.d("5. POL\xcdTICA DE ENLACES"),"politicaDeEnlacesText",A.d("Las personas o entidades que pretendan realizar o realicen un hiperenlace desde una p\xe1gina web de otro portal de Internet a la web de ON POINT PRODUCTIONS AGENCY LLC\ndeber\xe1 someterse las siguientes condiciones:"),"politicaDePrivacidad",A.d("Pol\xedtica de Privacidad"),"politicasDeProivacidad",A.d("POL\xcdTICAS DE PRIVACIDAD"),"politicasRelacionadasConNews",A.d(u.gd),"porFavorEspere",A.d("Por favor espere"),"porQueYo",A.d("\xbfPor qu\xe9 yo?"),"porQueYoResp",A.d("SELECTIVO Y SINCERO\nSer el encargado de tu marca requiere compromiso y responsabilidad, es por eso que antes de comenzar analizar\xe9 tu negocio con mucho detalle para concluir si cumples con todos los requerimientos para poder apoyarte.\n\nEn caso de ser un S\xcd pondremos un plan de acci\xf3n eficaz.\n\nEn caso de ser un NO te dar\xe9 mi feedback sincero para referirte con el especialista o plan que tu negocio necesite.\n\nPRECIO SEG\xdaN TU MODELO DE NEGOCIO\nAlgo que me caracteriza es que reviso muy a detalle tu negocio antes de comenzar e incluso evaluando en conjunto contigo puedo saber si est\xe1s preparado para dar este paso.\n\nMi promesa es que cuando adquieras mi servicio sea un gran alivio y veas resultados.\n\nEXPERIENCIA Y RESULTADOS\nDesde la creaci\xf3n de la estrategia, copywriting, anuncios creativos, segmentaci\xf3n, funnels de conversi\xf3n de tu web, manejo de presupuesto y an\xe1lisis de resultados est\xe1n dentro de mis capacidades para ocupar este puesto"),"precio11",A.d("$350"),"precioDelCurso",A.d("Precio del curso"),"preguntasfrecuentes",A.d("Preguntas frecuentes"),"preguntasfrecuentes1Resp",A.d("1. \xbfDebo tener un presupuesto alto para invertir en mis campa\xf1as?\nEsto es muy relativo y depende de tu producto o servicio, lo que si tienes que tener en cuenta es que como m\xednimo tengas $3000 USD para poder hacer la mayor cantidad de pruebas y hagamos un buen an\xe1lisis de resultados durante este tiempo.\n\n2. Entiendo gran parte pero quiero m\xe1s detalles\nC\xf3mo este servicio es especializado, tendremos una videollamada de 20 minutos para saber si tu negocio est\xe1 preparado y comprometido.\nEn la llamada te explicar\xe9 m\xe1s a detalle todas tus dudas.\n\n3. \xbfCu\xe1l es el precio de la mentor\xeda intensiva?\nEl precio es de $12.000 USD depende de m\xfaltiples factores que estaremos conversando en la video llamada.\n\n4. No es una pregunta, quiero que seas mi mentor!\nCalma, primero conversemos y veamos si est\xe1s preparado y tienes los requisitos, si est\xe1s leyendo esto, ya tienes el primero: Ganas."),"preguntasfrecuentes2Resp",A.d("\xbfCu\xe1l es el costo promedio para que seas el encargado de la publicidad de mi negocio?\nEl precio comienza desde los $6000 en adelante, depende de muchos factores y los objetivos que tengas como negocio es por eso que me tomo el tiempo de analizar previamente y saber si puedo asumir el proyecto.\n\n\xbfVer\xe9 resultados de inmediato?\nEsta pregunta es muy com\xfan, y esto depende de como est\xe1 plasmada la estrategia, tu producto, precio y valor percibido por tu audiencia.\n\nLa respuesta correcta es que me encargar\xe9 de que impactes a tu p\xfablico objetivo de una manera inteligente.\n\nUna vez rellene el formulario \xbfQu\xe9 suceder\xe1?\nEn el transcurso de  2 a 3 d\xedas me comunicar\xe9 contigo para darte todos los detalles y tendremos una reuni\xf3n que durar\xe1 30 minutos para entender tus necesidades y n\xfameros al 100%."),"preguntasfrecuentes3Resp",A.d("\xbfC\xf3mo funciona el proceso para agendar la fecha?\nEscr\xedbeme a hola@jpdirector.net para chequear si ese d\xeda  est\xe1 disponible, si es el caso,  puedes hacer un pago de dos partes 50% del precio de la conferencia y el otro 50% debe ser cancelado cinco d\xedas antes del evento.\n\n\xbfPuedes asistir a cualquier estado dentro de los Estados Unidos?\nClaro, solo debemos coordinar los boletos de avi\xf3n, hospedaje y vi\xe1ticos."),"preguntasfrecuentesResp",A.d("\xbfImporta si no conozco nada de Facebook - Instagram o Tik Tok Ads?\nNo, m\xedralo como si fueran clases privadas solo para ti.\n\n\xbfSi conozco y hago campa\xf1as actualmente esto es para mi?\nS\xed, te har\xe9 un examen general de tu negocio y c\xf3mo puedes mejorar en los puntos en que est\xe9s fallando en ads.\n\n\xbfPuedo ver m\xe1s de 1 hora?\nPor supuesto, en caso de requerir m\xe1s clases al final de nuestro meeting podemos coordinar la hora y d\xeda de las siguientes, tendr\xe1s muchas tareas que te enviar\xe9, si eso sucede, prep\xe1rate para este reto.\n\n\xbfD\xf3nde ser\xe1 la video llamada?\nSer\xe1 a trav\xe9s de la plataforma Zoom.\n\n\xbfY si no estoy satisfecho con mi mentor\xeda?\nEn caso de que no sea lo que esperabas, te devolver\xe9 todo tu dinero.\n\n\xbfTuve un inconveniente, puedo reprogramar nuestra reuni\xf3n?\nTienes 24 horas a m\xe1s tardar para poder agendar otro d\xeda y hora, debes notificar en el siguiente correo: hola@jpdirector.net\n\nEn caso de que no lo hagas en ese tiempo perder\xe1s tu inversi\xf3n y pagar\xe1s nuevamente una nueva asesor\xeda."),"profesionalesEnMark",A.d("Profesionales en Marketing y Comunicaci\xf3n"),"profesionalesEnMarkText",A.d("Si est\xe1s estudiando o trabajando en una empresa esto ser\xe1 muy valioso para desarrollarlo dentro de la compa\xf1\xeda u ofrecerlo como uno de tus servicios"),"progreso2puntos",A.d("Progreso: "),"propiedadIntelectual",A.d("2. PROPIEDAD INTELECTUAL E INDUSTRIAL:"),"propiedadIntelectualText",A.d("ON POINT PRODUCTIONS AGENCY LLC por s\xed o como cesionario, es titular de todos los derechos de propiedad intelectual e industrial de su p\xe1gina web, as\xed como de los elementos contenidos en la misma (a t\xedtulo enunciativo, im\xe1genes, sonido, audio, v\xeddeo, software o textos; marcas o logotipos, combinaciones de colores, estructura y dise\xf1o, selecci\xf3n de materiales usados, programas de ordenador necesarios para su funcionamiento, acceso y uso, etc.), titularidad de ON POINT PRODUCTIONS AGENCY LLC o bien de sus licenciantes. Todos los derechos reservados.\nCualquier uso no autorizado previamente por ON POINT PRODUCTIONS AGENCY LLC ser\xe1 considerado un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.\nQuedan expresamente prohibidas la reproducci\xf3n, la distribuci\xf3n y la comunicaci\xf3n p\xfablica, incluida su modalidad de puesta a disposici\xf3n, de la totalidad o parte de los contenidos de esta p\xe1gina web, con fines comerciales, en cualquier soporte y por cualquier medio t\xe9cnico, sin la autorizaci\xf3n de ON POINT PRODUCTIONS AGENCY LLC.\nEl USUARIO se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de ON POINT PRODUCTIONS AGENCY LLC. Podr\xe1 visualizar \xfanicamente los elementos de la web sin posibilidad de imprimirlos, copiarlos o almacenarlos en el disco duro de su ordenador o en cualquier otro soporte f\xedsico. El USUARIO deber\xe1 abstenerse de suprimir, alterar, eludir o manipular cualquier dispositivo de protecci\xf3n o sistema de seguridad que estuviera instalado en las p\xe1ginas de ON POINT PRODUCTIONS AGENCY LLC.\nQueda terminantemente prohibido compartir la licencia para uso con m\xe1s personas, cada licencia es personal e intransferible reserv\xe1ndonos cuantas acciones civiles y penales nos asistan en aras de salvaguardar nuestros derechos, todo ello bajo apercibimiento de incurrir en un delito contra la propiedad intelectual."),"pubOnline",A.d("Publicidad Online"),"pubOnlineResp",A.d("La importancia de estar presentes y maneras de lograr el \xe9xito con casos reales."),"publicado2puntos",A.d("Publicado:  "),"publishedBlogs",A.d("Blogs Publicados"),"puedoGatantizarte",A.d("Puedo garantizarte que te encuentras en un espacio 100 % seguro, para ello debes saber:\n\n1.1. DATOS IDENTIFICATIVOS DEL RESPONSABLE\nTal y como recoge la normativa vigente, le informo que:"),"queHablareEvento",A.d("\xbfQu\xe9 hablar\xe9 durante tu evento?"),"queHablaremos",A.d("\xbfQu\xe9 hablaremos en la reuni\xf3n?"),"queHablaremosResp",A.d("Plan de negocio\nAnalizar\xe9 si tu propuesta te dar\xe1 rentabilidad con los servicios o productos que quieres comercializar por internet.\n\nCampa\xf1as\nCreadas o no creadas revisar\xe9 su estructura y estrategia de manera estrat\xe9gica.\n\nSitio Web\nExaminar\xe9 toda la estructura y te dar\xe9 la v\xeda para que puedas vender m\xe1s por tu web.\n\nM\xe9todo de Ventas\nDependiendo de la metodolog\xeda mejoraremos la manera en la que cierras con tus clientes."),"queVeremos3m",A.d("\xbfQu\xe9 veremos durante estos 2 meses?"),"queVeremos3mResp",A.d("-De nivel cero a 100 todos los factores y herramientas necesarias para tu estrategia de publicidad.\n\n-Toda la educaci\xf3n en Instagram - Facebook - Tik Tok para realizar campa\xf1as publicitarias rentables.\n\n-Estrategia y an\xe1lisis de resultados como decisiones de optimizaci\xf3n."),"quieresConseguir",A.d("Quieres conseguir m\xe1s clientes"),"quieresTener",A.d("Quieres tener un mentor que te ense\xf1e de manera correcta"),"quieroAds",A.d("Quiero Ads"),"quieroMiAsesoriaBtn",A.d("Quiero mi Asesor\xeda"),"quieroYaBtn",A.d("QUIERO ESTE CURSO YA"),"readMore",A.d("Leer M\xe1s"),"recibirasInstruccionesPass",A.d("Recibiras un correo electr\xf3nico con instrucciones para reestablecer tu contrase\xf1a"),"reclamacionesDudas",A.d("9. RECLAMACIONES Y DUDAS"),"reclamacionesDudasText",A.d("ON POINT PRODUCTIONS AGENCY LLC informa que existen hojas de reclamaci\xf3n a disposici\xf3n de usuarios y clientes pudiendo remitir un correo a hola@jpdirector.net  indicando su nombre y apellidos, el servicio o producto adquirido y exponiendo los motivos de su reclamaci\xf3n.\nTambi\xe9n puede dirigir su reclamaci\xf3n por correo postal dirigido a: ON POINT PRODUCTIONS AGENCY LLC, 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, Estados Unidos de Am\xe9rica."),"recuerdaPrimero",A.d("Recuerda: Primero, conversaremos para hacer el checklist de tu negocio y analizar qu\xe9 es lo que m\xe1s necesitas en este momento."),"recuerdame",A.d("Recu\xe9rdame"),"recuperarPass",A.d("RECUPERA TU CONTRASE\xd1A"),"redesSociales",A.d("Redes sociales"),"registrarBtn",A.d("REGISTRAR"),"registrateAqui",A.d("Registrate aqu\xed"),"repitaContrasenaTextFiel",A.d("Repita la contrase\xf1a"),"requerido",A.d("Requerido"),"residentesCalifornia",A.d("RESIDENTES EN CALIFORNIA, ESTADOS UNIDOS\n"),"resolvamosEsto",A.d("Resolvamos esto"),"responder",A.d("Responder"),"respuesta",A.d("Respuesta"),"resultadosMenuBtn",A.d("Resultados"),"seHaEnviadoUnCorreo",A.d("Se ha enviado un correo electr\xf3nico con instrucciones, porfavor verifica tu correo electr\xf3nico"),"seamosSinceros",A.d("Seamos sinceros, estamos en la era de lo personalizado.\n\nEs por eso que contrat\xe1ndome para tu conferencia me enfocar\xe9 en los temas que S\xcd les interesan, educando y divirtiendo a todos los participantes del evento."),"seguroBorrar",A.d("Seguro que deseas Borrar"),"seguroBorrarComent",A.d("Seguro que desea borrar el comentario?"),"seguroBorrarUsuario",A.d("Seguro que deseas usuario"),"seguroEliminarCurso",A.d("Estas seguro de eliminar el curso"),"seguroEliminarModulo",A.d("Esta seguro de eliminar el modulo "),"seleccioneCurso",A.d("Seleccione un curso"),"seleccioneOpcion",A.d("Seleccione una opci\xf3n"),"serElEncargado",A.d("SER EL ENCARGADO"),"servicios",A.d(q),"servicios2puntos",A.d("Servicios: "),"serviciosMenuBtn",A.d("Servicios"),"si",A.d("Si"),"siBorrar",A.d("Si, Borrar"),"siEstoyPreparado",A.d("Si, estoy preparado"),"siTienesAlgunaDuda",A.d("4. Si tienes alguna pregunta m\xe1s especifica contamos con un "),"siTienesDudas",A.d("Si tienes alguna duda, comun\xedcate conmigo v\xeda "),"siguemeEnTodas",A.d("S\xedgueme en todas las redes para conocer TIPS y actualizaciones ADS"),"siguienteBtn",A.d("SIGUIENTE"),"sinModulos",A.d("Sin modulos, Agregue un nuevo modulo"),"siu",A.d("SI"),"sobreMi",A.d("Sobre mi"),"soporte",A.d("Soporte"),"soyElResp",A.d("SOY EL RESPONSABLE DE TU \xc9XITO"),"soyJpDir",A.d("Soy JP Director"),"tamanoInvalido",A.d("Tama\xf1o inv\xe1lido"),"teExplicamos",A.d("Te explicamos \ud83d\udc47 todo lo que debes saber: "),"telefonoDeUsuario",A.d("Tel\xe9fono de usuario"),"telefonoForm",A.d("Tel\xe9fono"),"telfDebeCodArea",A.d("Debe incluir cod intenacional + cod de \xe1rea"),"telfSinCaracteres",A.d("Tel\xe9fono sin caract\xe9res especiales (12223334455)"),"telfSoloNumeros",A.d("Solo debe contener n\xfameros. (12223334455)"),"tenerUnMentor",A.d("Tener un mentor acelera dr\xe1sticamente el \xe9xito de tu negocio. Durante 2 meses estar\xe9 contigo mano a mano elaborando tu plan de publicidad y ense\xf1\xe1ndote c\xf3mo hacerlo por ti mismo."),"terminoDeUso",A.d("T\xe9rminos de Uso "),"terminosYCondiciones",A.d("T\xc9RMINOS Y CONDICIONES"),"testimonioActualizado",A.d("Testimonio Actualizado con exito"),"testimonioAgregado",A.d("Testimonio agregado con exito"),"testimonioAnier",A.d("\u201cEstudi\xe9 inform\xe1tica y un mont\xf3n de educaci\xf3n. Luego de ver el curso no solo recuper\xe9 mi inversi\xf3n sino que adem\xe1s puedo correr mis propia publicidad, gracias JP\u201d."),"testimonioBorrado",A.d("Testimonio borrado con exito"),"testimonioGerman",A.d("\u201cEn 1 mes logr\xe9 tener m\xe1s de 100 clientes potenciales con mis campa\xf1as de publicidad. A todo el que quiera aprender le recomiendo este curso.\u201d"),"testimonioSaylin",A.d("\u201cMe ha encantado, es muy completo y un mundo de conocimiento. Para mi negocio este curso logr\xf3 un antes y un despu\xe9s\u201d."),"testimonioTania",A.d("Tengo ideas y planes para desarrollar por 6 meses gracias a este curso. Todo el que lo vea entender\xe1 luego de aprender con JP\u201d"),"testimonios",A.d("TESTIMONIOS"),"tiempoSeAcumulaPreg",A.d("\xbfSi veo menos del tiempo establecido se acumula?"),"tiempoSeAcumulaResp",A.d("No, en caso de que hayas agendado tu sesi\xf3n y hayamos resuelto tu problema se dar\xe1 por finalizada la asesor\xeda"),"todoListoDescarga",A.d("Todo listo, ya puedes descargar tu regalo haciendo click en el enlace que hemos enviado a tu correo electr\xf3nico"),"todosLosDerechosRes",A.d("TODOS LOS DERECHOS RESERVADOS \xa9 2023"),"topBotonBlog",A.d("BLOG"),"topBotonContacto",A.d("CONTACTO"),"topBotonCursos",A.d("CURSOS"),"topBotonResultados",A.d("RESULTADOS"),"topBotonServicios",A.d(q),"tresy",A.d("3 A\xf1os"),"unAdmRespondera",A.d("Un Administrado responder\xe1 tu pregunta"),"unaVezFinalices",A.d("3. Una vez finalices el curso podr\xe1s descargar tu certificado de finalizaci\xf3n en el bot\xf3n que aparecer\xe1 en la parte superior derecha"),"unoAuno",A.d("UNO A UNO"),"uny",A.d("1 A\xf1o"),"urlVideoModulo",A.d("Url del video"),"usd",A.d("usd"),"usoDelSitioWeb1_4",A.d("1.4. USO DEL SITIO WEB Y CAPTURA DE INFORMACI\xd3N:"),"usoDelSitioWeb1_4_1",A.d("1.4.1 USO DEL SITIO WEB"),"usuario",A.d("Usuario"),"usuarioActualizado",A.d("Usuario Actualizado con exito"),"usuarioCreado",A.d("Usuario Creado con exito"),"usuarios1_3",A.d("1.3. USUARIOS:"),"usuariosMenuBtn",A.d("Usuarios"),"ver",A.d("VER"),"verCertificadoBtn",A.d("VER CERTIFICADO"),"verMas",A.d("Ver mas"),"verMaterialBtn",A.d("VER MATERIAL"),"videollamada",A.d("VIDEOLLAMADA"),"xHora",A.d("x hora"),"xdondeComenzar",A.d("\xbfPor d\xf3nde comenzar?"),"xdondeComenzarResp",A.d("Estar solo en el proceso suele ser dif\xedcil e intentar comprender la plataforma, cu\xe1nto presupuesto diario invertir, tener errores, estar inhabilitados, no saber si la estrategia funcionar\xe1 y c\xf3mo analizar los resultados suele ser un dolor de cabeza.\n\nEs por eso que esta asesor\xeda te ayudar\xe1 a obtener un panorama m\xe1s exacto de lo que necesitas y adem\xe1s acelerar el proceso que debes tener como negocio.\n\nCon mi experiencia en el mundo de la publicidad digital, puedo darte una visi\xf3n m\xe1s clara de lo que requieres para aumentar las ventas.\n\nDurante el 2021 comenc\xe9 a realizar estas asesor\xedas y he perfeccionado la metodolog\xeda para que puedas aprovechar este tiempo en aclarar todas tus dudas y solucionar esos errores comunes que hacen que no avances, corregirlos y dar en el punto de posicionar tu negocio.\n\nAl comprar el servicio te llegar\xe1 un correo con la informaci\xf3n que necesitas tener para ese d\xeda y podamos aprovechar la asesor\xeda al m\xe1ximo."),"yReconocesQue",A.d("y reconoces que has le\xeddo "),"yaTienesCuenta",A.d("\xbfYa tienes cuenta?"),"yaTienesEsteCurso",A.d("Ya tienes este Curso"),"yaTienesTodos",A.d("Ya tienes todos los cursos")],t.N,t._8)},
 a_a:function a_a(a){this.a=a},
 boc(a){var s,r=a.gey()
 r=r==null?null:r.length===0
@@ -36631,7 +36631,7 @@ if(s===b)return!0
 return b instanceof A.FZ&&b.a.l(0,s.a)&&b.b.l(0,s.b)&&b.c.l(0,s.c)},
 gE(a){return A.a6(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.vD.prototype={
-M(){return"MutatorType."+this.b}}
+N(){return"MutatorType."+this.b}}
 A.kZ.prototype={
 l(a,b){var s,r=this
 if(b==null)return!1
@@ -37670,7 +37670,7 @@ f5(a){},
 m(){this.a.remove()},
 guX(){return this.a}}
 A.u_.prototype={
-M(){return"CanvasKitVariant."+this.b}}
+N(){return"CanvasKitVariant."+this.b}}
 A.SK.prototype={
 gwS(){var s,r,q,p,o=this.b
 if(o===$){s=t.N
@@ -38286,7 +38286,7 @@ A.b4y.prototype={
 $1(a){return this.a===a},
 $S:21}
 A.GY.prototype={
-M(){return"IntlSegmenterGranularity."+this.b}}
+N(){return"IntlSegmenterGranularity."+this.b}}
 A.SJ.prototype={
 k(a){return"CanvasKitError: "+this.a}}
 A.EQ.prototype={
@@ -38346,7 +38346,7 @@ break
 case 1:return A.r(q,r)}})
 return A.t($async$AL,r)}}
 A.Tb.prototype={
-M(){return"ColorFilterType."+this.b}}
+N(){return"ColorFilterType."+this.b}}
 A.W7.prototype={
 k(a){var s,r=this
 switch(r.d.a){case 0:s="ColorFilter.mode("+A.n(r.a)+", "+A.n(r.b)+")"
@@ -38943,11 +38943,11 @@ return A.t($async$i2,r)},
 gvu(){return this.a.gvu()},
 $iht:1}
 A.qA.prototype={
-M(){return"ImageFileType."+this.b}}
+N(){return"ImageFileType."+this.b}}
 A.mV.prototype={
-M(){return"ImageType."+this.b}}
+N(){return"ImageType."+this.b}}
 A.or.prototype={
-M(){return"ImageFileSignature."+this.b}}
+N(){return"ImageFileSignature."+this.b}}
 A.b3V.prototype={
 P3(){var s,r,q,p,o=this,n=o.Lk()
 o.b+=4
@@ -39013,7 +39013,7 @@ return A.kd(q,0,null)},
 Yh(){var s=this.a.getUint8(this.b);++this.b
 return s}}
 A.um.prototype={
-M(){return"DebugEngineInitializationState."+this.b}}
+N(){return"DebugEngineInitializationState."+this.b}}
 A.b66.prototype={
 $2(a,b){var s,r
 for(s=$.tr.length,r=0;r<$.tr.length;$.tr.length===s||(0,A.S)($.tr),++r)$.tr[r].$0()
@@ -39787,7 +39787,7 @@ r.n(0,"attributeFilter",s)
 s=A.aJ(r)
 s.toString
 p.observe(q,s)},
-atF(a){this.kP("flutter/lifecycle",J.tD(B.ac.gcU(B.by.cH(a.M()))),new A.aqF())},
+atF(a){this.kP("flutter/lifecycle",J.tD(B.ac.gcU(B.by.cH(a.N()))),new A.aqF())},
 a_W(a){var s=this,r=s.d
 if(r.d!==a){s.d=r.ayE(a)
 A.nR(null,null)
@@ -40556,7 +40556,7 @@ s.preventDefault()
 s.stopPropagation()}},
 $S:46}
 A.E2.prototype={
-M(){return"Assertiveness."+this.b}}
+N(){return"Assertiveness."+this.b}}
 A.aih.prototype={
 ax2(a){var s
 switch(a.a){case 0:s=this.a
@@ -40583,7 +40583,7 @@ if(s==null)s=null
 else{s.bL()
 s=!0}return s===!0}}
 A.M4.prototype={
-M(){return"_CheckableKind."+this.b}}
+N(){return"_CheckableKind."+this.b}}
 A.aFo.prototype={
 bL(){var s=this.e
 if(s==null)s=null
@@ -40706,7 +40706,7 @@ if(p.f)p=!p.r||p.w
 else p=!1
 s.a1o(p)}else q.d.It()}}
 A.xT.prototype={
-M(){return"AccessibilityFocusManagerEvent."+this.b}}
+N(){return"AccessibilityFocusManagerEvent."+this.b}}
 A.tE.prototype={
 a4T(a,b){var s,r,q=this,p=q.b,o=p==null
 if(b===(o?null:p.a[2])){o=p.a
@@ -40916,7 +40916,7 @@ A.aFc.prototype={
 $1(a){this.a.em(0)},
 $S:179}
 A.Ha.prototype={
-M(){return"LabelRepresentation."+this.b},
+N(){return"LabelRepresentation."+this.b},
 azq(a){var s,r,q
 switch(this.a){case 0:s=new A.ajZ(B.aN,a)
 break
@@ -41440,7 +41440,7 @@ A.a1Z.prototype={$ib93:1}
 A.a1X.prototype={
 gcO(a){return this.a}}
 A.cZ.prototype={
-M(){return"EngineSemanticsRole."+this.b}}
+N(){return"EngineSemanticsRole."+this.b}}
 A.JM.prototype={
 dY(a,b,c){var s=this,r=s.c,q=A.wo(s.cD(0),r)
 s.a!==$&&A.cc()
@@ -42022,9 +42022,9 @@ return!0},
 k(a){return this.oy(0)},
 gcO(a){return this.k4}}
 A.aim.prototype={
-M(){return"AccessibilityMode."+this.b}}
+N(){return"AccessibilityMode."+this.b}}
 A.uU.prototype={
-M(){return"GestureMode."+this.b}}
+N(){return"GestureMode."+this.b}}
 A.aqL.prototype={
 sI9(a){var s,r,q
 if(this.b)return
@@ -42203,7 +42203,7 @@ $1(a){if(this.a.r.i(0,a.k4)==null)this.b.G(0,a)
 return!0},
 $S:180}
 A.G0.prototype={
-M(){return"EnabledState."+this.b}}
+N(){return"EnabledState."+this.b}}
 A.aFV.prototype={}
 A.aFR.prototype={
 a94(a){var s=A.hA(a,"KeyboardEvent")
@@ -42791,7 +42791,7 @@ return r},
 oB(a){var s=this.b,r=B.k.al(s,a)
 if(r!==0)this.b=s+(a-r)}}
 A.Hh.prototype={
-M(){return"LineBreakType."+this.b}}
+N(){return"LineBreakType."+this.b}}
 A.vj.prototype={
 gE(a){var s=this
 return A.a6(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
@@ -42902,7 +42902,7 @@ A.HV.prototype={
 gkO(){return null},
 Em(){return A.bai()}}
 A.Bf.prototype={
-M(){return"TextCapitalization."+this.b}}
+N(){return"TextCapitalization."+this.b}}
 A.KM.prototype={
 Rv(a){var s,r
 switch(this.a.a){case 0:s="words"
@@ -43593,7 +43593,7 @@ A.apv.prototype={
 $1(a){return A.hn(a)},
 $S:420}
 A.L7.prototype={
-M(){return"TransformKind."+this.b}}
+N(){return"TransformKind."+this.b}}
 A.b5r.prototype={
 $1(a){return"0x"+B.d.ej(B.k.pQ(a,16),2,"0")},
 $S:99}
@@ -48660,7 +48660,7 @@ o=p<10?"0":""
 return s+m+":"+q+r+":"+o+p+"."+B.d.ej(B.k.k(n%1e6),6,"0")},
 $id2:1}
 A.aSN.prototype={
-k(a){return this.M()}}
+k(a){return this.N()}}
 A.dl.prototype={
 gwd(){return A.btp(this)}}
 A.tO.prototype={
@@ -50979,9 +50979,9 @@ A.afj.prototype={}
 A.afk.prototype={}
 A.W6.prototype={}
 A.amw.prototype={
-M(){return"ClipOp."+this.b}}
+N(){return"ClipOp."+this.b}}
 A.a_R.prototype={
-M(){return"PathFillType."+this.b}}
+N(){return"PathFillType."+this.b}}
 A.aO1.prototype={
 ee(a,b){A.bC3(this.a,this.b,a,b)}}
 A.Pw.prototype={
@@ -51227,7 +51227,7 @@ return A.bfj(s.z,s.Q,s.d,s.x,s.y,s.a,s.c,s.e,s.f,s.b,s.r,s.w)},
 k(a){return this.a_k("RSuperellipse")},
 gtZ(){return this.as}}
 A.H8.prototype={
-M(){return"KeyEventType."+this.b},
+N(){return"KeyEventType."+this.b},
 gP8(a){var s
 switch(this.a){case 0:s="Key Down"
 break
@@ -51237,7 +51237,7 @@ case 2:s="Key Repeat"
 break
 default:s=null}return s}}
 A.ava.prototype={
-M(){return"KeyEventDeviceType."+this.b}}
+N(){return"KeyEventDeviceType."+this.b}}
 A.jt.prototype={
 ap4(){var s=this.e,r=B.k.pQ(s,16),q=B.e.h3(s/4294967296)
 $label0$0:{if(0===q){s=" (Unicode)"
@@ -51302,27 +51302,27 @@ gn4(){return this.c},
 gnx(a){return this.d},
 gug(){return this.e}}
 A.Kp.prototype={
-M(){return"StrokeCap."+this.b}}
+N(){return"StrokeCap."+this.b}}
 A.a2Q.prototype={
-M(){return"StrokeJoin."+this.b}}
+N(){return"StrokeJoin."+this.b}}
 A.a_O.prototype={
-M(){return"PaintingStyle."+this.b}}
+N(){return"PaintingStyle."+this.b}}
 A.o2.prototype={
-M(){return"BlendMode."+this.b}}
+N(){return"BlendMode."+this.b}}
 A.ym.prototype={
-M(){return"Clip."+this.b}}
+N(){return"Clip."+this.b}}
 A.Ss.prototype={
-M(){return"BlurStyle."+this.b}}
+N(){return"BlurStyle."+this.b}}
 A.zH.prototype={
 l(a,b){if(b==null)return!1
 return b instanceof A.zH&&b.a===this.a&&b.b===this.b},
 gE(a){return A.a6(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"MaskFilter.blur("+this.a.k(0)+", "+B.e.aE(this.b,1)+")"}}
 A.uI.prototype={
-M(){return"FilterQuality."+this.b}}
+N(){return"FilterQuality."+this.b}}
 A.b8p.prototype={}
 A.amH.prototype={
-M(){return"ColorSpace."+this.b}}
+N(){return"ColorSpace."+this.b}}
 A.nl.prototype={
 bd(a,b){return new A.nl(this.a,this.b.ai(0,b),this.c*b)},
 l(a,b){var s=this
@@ -51340,9 +51340,9 @@ o=A.dM(0,o,0,0)
 s=q[0]
 return r+"(buildDuration: "+(A.n((p.a-n.a)*0.001)+"ms")+", rasterDuration: "+(A.n((l.a-k.a)*0.001)+"ms")+", vsyncOverhead: "+(A.n((o.a-A.dM(0,s,0,0).a)*0.001)+"ms")+", totalSpan: "+(A.n((A.dM(0,m,0,0).a-A.dM(0,s,0,0).a)*0.001)+"ms")+", layerCacheCount: "+q[6]+", layerCacheBytes: "+q[7]+", pictureCacheCount: "+q[8]+", pictureCacheBytes: "+q[9]+", frameNumber: "+B.c.gav(q)+")"}}
 A.ls.prototype={
-M(){return"AppLifecycleState."+this.b}}
+N(){return"AppLifecycleState."+this.b}}
 A.E1.prototype={
-M(){return"AppExitResponse."+this.b}}
+N(){return"AppExitResponse."+this.b}}
 A.kU.prototype={
 ge1(a){var s=this.a,r=B.cX.i(0,s)
 return r==null?s:r},
@@ -51360,21 +51360,21 @@ xu(a){var s=this.ge1(0)
 if(this.c!=null)s+=a+A.n(this.gey())
 return s.charCodeAt(0)==0?s:s}}
 A.anR.prototype={
-M(){return"DartPerformanceMode."+this.b}}
+N(){return"DartPerformanceMode."+this.b}}
 A.rw.prototype={
 k(a){return"SemanticsActionEvent("+this.a.k(0)+", view: "+this.b+", node: "+this.c+")"}}
 A.BF.prototype={
 k(a){return"ViewFocusEvent(viewId: "+this.a+", state: "+this.b.k(0)+", direction: "+this.c.k(0)+")"}}
 A.a3F.prototype={
-M(){return"ViewFocusState."+this.b}}
+N(){return"ViewFocusState."+this.b}}
 A.Lo.prototype={
-M(){return"ViewFocusDirection."+this.b}}
+N(){return"ViewFocusDirection."+this.b}}
 A.oL.prototype={
-M(){return"PointerChange."+this.b}}
+N(){return"PointerChange."+this.b}}
 A.nc.prototype={
-M(){return"PointerDeviceKind."+this.b}}
+N(){return"PointerDeviceKind."+this.b}}
 A.Aa.prototype={
-M(){return"PointerSignalKind."+this.b}}
+N(){return"PointerSignalKind."+this.b}}
 A.l_.prototype={
 pL(a){var s=this.p4
 if(s!=null)s.$1$allowPlatformDefault(a)},
@@ -51541,16 +51541,16 @@ return s},
 gE(a){var s=this
 return A.cG(A.a([s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,s.cy,s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,s.k2,s.k3],t.HZ))}}
 A.i7.prototype={
-M(){return"SemanticsRole."+this.b}}
+N(){return"SemanticsRole."+this.b}}
 A.rx.prototype={
-M(){return"SemanticsInputType."+this.b}}
+N(){return"SemanticsInputType."+this.b}}
 A.JQ.prototype={
-M(){return"SemanticsValidationResult."+this.b}}
+N(){return"SemanticsValidationResult."+this.b}}
 A.aG5.prototype={}
 A.z4.prototype={
-M(){return"FontStyle."+this.b}}
+N(){return"FontStyle."+this.b}}
 A.r6.prototype={
-M(){return"PlaceholderAlignment."+this.b}}
+N(){return"PlaceholderAlignment."+this.b}}
 A.iw.prototype={
 k(a){var s=B.acP.i(0,this.a)
 s.toString
@@ -51569,9 +51569,9 @@ return b instanceof A.uX&&s.a.l(0,b.a)&&s.b.l(0,b.b)&&s.c===b.c},
 gE(a){return A.a6(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"Glyph("+this.a.k(0)+", textRange: "+this.b.k(0)+", direction: "+this.c.k(0)+")"}}
 A.pa.prototype={
-M(){return"TextAlign."+this.b}}
+N(){return"TextAlign."+this.b}}
 A.nv.prototype={
-M(){return"TextBaseline."+this.b}}
+N(){return"TextBaseline."+this.b}}
 A.wC.prototype={
 l(a,b){if(b==null)return!1
 return b instanceof A.wC&&b.a===this.a},
@@ -51585,9 +51585,9 @@ if((r&4)!==0)s.push("lineThrough")
 if(s.length===1)return"TextDecoration."+s[0]
 return"TextDecoration.combine(["+B.c.ce(s,", ")+"])"}}
 A.KN.prototype={
-M(){return"TextDecorationStyle."+this.b}}
+N(){return"TextDecorationStyle."+this.b}}
 A.a35.prototype={
-M(){return"TextLeadingDistribution."+this.b}}
+N(){return"TextLeadingDistribution."+this.b}}
 A.KR.prototype={
 l(a,b){if(b==null)return!1
 if(J.ac(b)!==A.G(this))return!1
@@ -51595,7 +51595,7 @@ return b instanceof A.KR&&b.c===this.c},
 gE(a){return A.a6(!0,!0,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"TextHeightBehavior(applyHeightToFirstAscent: true, applyHeightToLastDescent: true, leadingDistribution: "+this.c.k(0)+")"}}
 A.KO.prototype={
-M(){return"TextDirection."+this.b}}
+N(){return"TextDirection."+this.b}}
 A.ib.prototype={
 l(a,b){var s=this
 if(b==null)return!1
@@ -51607,7 +51607,7 @@ return A.a6(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,
 k(a){var s=this
 return"TextBox.fromLTRBD("+B.e.aE(s.a,1)+", "+B.e.aE(s.b,1)+", "+B.e.aE(s.c,1)+", "+B.e.aE(s.d,1)+", "+s.e.k(0)+")"}}
 A.KK.prototype={
-M(){return"TextAffinity."+this.b}}
+N(){return"TextAffinity."+this.b}}
 A.aY.prototype={
 l(a,b){if(b==null)return!1
 if(J.ac(b)!==A.G(this))return!1
@@ -51628,14 +51628,14 @@ return b instanceof A.r4&&b.a===this.a},
 gE(a){return B.e.gE(this.a)},
 k(a){return A.G(this).k(0)+"(width: "+A.n(this.a)+")"}}
 A.Eh.prototype={
-M(){return"BoxHeightStyle."+this.b}}
+N(){return"BoxHeightStyle."+this.b}}
 A.SA.prototype={
-M(){return"BoxWidthStyle."+this.b}}
+N(){return"BoxWidthStyle."+this.b}}
 A.L0.prototype={
-M(){return"TileMode."+this.b}}
+N(){return"TileMode."+this.b}}
 A.ap2.prototype={}
 A.SB.prototype={
-M(){return"Brightness."+this.b}}
+N(){return"Brightness."+this.b}}
 A.alD.prototype={
 l(a,b){if(b==null)return!1
 return this===b},
@@ -51658,9 +51658,9 @@ p=q==null
 if(!p)s.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 s=this.b=p?"":q}return A.Db(4,s+"assets/"+a,B.aT,!1)}}
 A.Ei.prototype={
-M(){return"BrowserEngine."+this.b}}
+N(){return"BrowserEngine."+this.b}}
 A.oB.prototype={
-M(){return"OperatingSystem."+this.b}}
+N(){return"OperatingSystem."+this.b}}
 A.akY.prototype={
 gp6(){var s=this.b
 return s===$?this.b=v.G.window.navigator.userAgent:s},
@@ -52155,9 +52155,9 @@ case 2:q.b.r.$0()
 return A.r(null,r)}})
 return A.t($async$qI,r)}}
 A.o5.prototype={
-M(){return"CarouselPageChangedReason."+this.b}}
+N(){return"CarouselPageChangedReason."+this.b}}
 A.Es.prototype={
-M(){return"CenterPageEnlargeStrategy."+this.b}}
+N(){return"CenterPageEnlargeStrategy."+this.b}}
 A.alS.prototype={}
 A.En.prototype={
 T(){return new A.Ep(this.r,B.tW,null,null)}}
@@ -52568,7 +52568,7 @@ return A.o(q.oV(q.a.c.w.a.f),$async$xs)
 case 3:q.d=!1
 o=q.a.c
 o.y1=!1
-o.N()
+o.M()
 q.a.toString
 A.Ku(B.ri,B.a47)
 q.a.toString
@@ -52870,7 +52870,7 @@ A.aPy.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aPA.prototype={
 $0(){var s=this.a,r=s.r
@@ -52881,7 +52881,7 @@ A.aPx.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!1
-s.N()},
+s.M()},
 $S:0}
 A.aPB.prototype={
 $0(){var s,r,q=this.a
@@ -52923,7 +52923,7 @@ A.aPJ.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.b()
 r.a=!1
-r.N()
+r.M()
 s.D7()},
 $S:0}
 A.aPL.prototype={
@@ -52934,16 +52934,16 @@ A.aPK.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!1
-s.N()},
+s.M()},
 $S:0}
 A.aPO.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.b()
 r.a=!0
-r.N()
+r.M()
 r=s.CW
 r.y1=!r.y1
-r.N()
+r.M()
 s.x=A.cz(B.au,new A.aPN(s))},
 $S:0}
 A.aPN.prototype={
@@ -52980,7 +52980,7 @@ r===$&&A.b()
 if(r.a.f){r=s.d
 r===$&&A.b()
 r.a=!1
-r.N()
+r.M()
 r=s.r
 if(r!=null)r.aG(0)
 s.ch.ek(0)}else{s.oF()
@@ -53012,7 +53012,7 @@ A.aPT.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aPV.prototype={
 $0(){var s=this.a,r=s.ch
@@ -53294,13 +53294,13 @@ A.aWU.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aWV.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXb.prototype={
 $1(a){var s=this.a
@@ -53313,7 +53313,7 @@ A.aX5.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.b()
 r.a=!1
-r.N()
+r.M()
 s.as=!0},
 $S:0}
 A.aX7.prototype={
@@ -53324,16 +53324,16 @@ A.aX6.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!1
-s.N()},
+s.M()},
 $S:0}
 A.aXa.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.b()
 r.a=!0
-r.N()
+r.M()
 r=s.cx
 r.y1=!r.y1
-r.N()
+r.M()
 s.z=A.cz(B.au,new A.aX9(s))},
 $S:0}
 A.aX9.prototype={
@@ -53349,7 +53349,7 @@ r===$&&A.b()
 if(r.a.f){r=s.d
 r===$&&A.b()
 r.a=!1
-r.N()
+r.M()
 r=s.r
 if(r!=null)r.aG(0)
 s.CW.ek(0)}else{s.oR()
@@ -53371,7 +53371,7 @@ A.aXe.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXg.prototype={
 $0(){var s=this.a,r=s.CW
@@ -53564,7 +53564,7 @@ Xq(){var s,r=this
 r.L(new A.aXz(r))
 s=r.cx
 s.y1=!s.y1
-s.N()
+s.M()
 r.z=A.cz(B.au,new A.aXA(r))},
 xc(){var s=this,r=s.CW
 r===$&&A.b()
@@ -53656,13 +53656,13 @@ A.aXj.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXk.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXB.prototype={
 $1(a){var s=this.a
@@ -53685,7 +53685,7 @@ A.aXv.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.b()
 r.a=!1
-r.N()
+r.M()
 s.as=!0},
 $S:0}
 A.aXx.prototype={
@@ -53696,13 +53696,13 @@ A.aXw.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!1
-s.N()},
+s.M()},
 $S:0}
 A.aXz.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXA.prototype={
 $0(){var s=this.a
@@ -53715,7 +53715,7 @@ A.aXC.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!1
-s.N()},
+s.M()},
 $S:0}
 A.aXD.prototype={
 $1(a){var s=this.a.CW
@@ -53730,7 +53730,7 @@ A.aXE.prototype={
 $0(){var s=this.a.d
 s===$&&A.b()
 s.a=!0
-s.N()},
+s.M()},
 $S:0}
 A.aXG.prototype={
 $0(){var s=this.a,r=s.CW
@@ -54177,7 +54177,7 @@ A.aos.prototype={}
 A.ni.prototype={
 bx(a){return null}}
 A.qj.prototype={
-M(){return"DioExceptionType."+this.b}}
+N(){return"DioExceptionType."+this.b}}
 A.ji.prototype={
 k(a){var s,r,q,p
 try{q=A.biS(this)
@@ -54534,7 +54534,7 @@ $0(){var s=this.a.a.deref()
 if(s!=null)s.a.ag5()},
 $S:2}
 A.zm.prototype={
-M(){return"InterceptorResultType."+this.b}}
+N(){return"InterceptorResultType."+this.b}}
 A.eR.prototype={
 k(a){return"InterceptorState<"+A.cM(this.$ti.c).k(0)+">(type: "+this.b.k(0)+", data: "+this.a.k(0)+")"}}
 A.aLR.prototype={}
@@ -54698,9 +54698,9 @@ A.aA7.prototype={
 $1(a){return t.H3.b(a)?a:new Uint8Array(A.jP(a))},
 $S:345}
 A.Ay.prototype={
-M(){return"ResponseType."+this.b}}
+N(){return"ResponseType."+this.b}}
 A.XZ.prototype={
-M(){return"ListFormat."+this.b}}
+N(){return"ListFormat."+this.b}}
 A.a_D.prototype={
 sMU(a){this.F4$=a},
 sNi(a){if(a!=null&&a.a<0)throw A.i(A.ae("connectTimeout should be positive"))
@@ -55084,7 +55084,7 @@ if((q.e&2)!==0)A.ad(A.ae(r))
 q.ta(0,s)}},
 $S(){return this.b.h("~(0,eQ<cS>)")}}
 A.Kr.prototype={
-M(){return"SubdomainType."+this.b}}
+N(){return"SubdomainType."+this.b}}
 A.ar7.prototype={
 fT(a,b){return this.aG0(!1,b)},
 A5(){return this.fT(!1,B.ky)},
@@ -55175,7 +55175,7 @@ $2(a,b){var s=a.gak(a)?"":A.n(a)+","
 return s+" ."+A.n(b)},
 $S:173}
 A.Wk.prototype={
-M(){return"FileType."+this.b}}
+N(){return"FileType."+this.b}}
 A.ar_.prototype={}
 A.ar0.prototype={
 fT(a,b){return this.C4(b,!1,!0,null,null,!1,!1,30)},
@@ -55434,11 +55434,11 @@ case 1:return A.r(q,r)}})
 return A.t($async$$1,r)},
 $S:548}
 A.ato.prototype={
-M(){return"HandlerType."+this.b}}
+N(){return"HandlerType."+this.b}}
 A.atn.prototype={}
 A.RY.prototype={}
 A.iQ.prototype={
-M(){return"TransitionType."+this.b}}
+N(){return"TransitionType."+this.b}}
 A.a1i.prototype={}
 A.Ww.prototype={
 d3(a,b,c,d,e){this.a.awK(new A.RY(b,c,e,d,null,null))},
@@ -55527,7 +55527,7 @@ $C:"$4",
 $R:4,
 $S:90}
 A.a1k.prototype={
-M(){return"RouteTreeNodeType."+this.b}}
+N(){return"RouteTreeNodeType."+this.b}}
 A.ajH.prototype={}
 A.a1j.prototype={}
 A.AB.prototype={}
@@ -55598,7 +55598,7 @@ $1(a){var s=A.eY(a,"+"," ")
 return A.pB(s,0,s.length,B.aT,!1)},
 $S:25}
 A.kx.prototype={
-M(){return"AnimationStatus."+this.b},
+N(){return"AnimationStatus."+this.b},
 gkQ(){var s,r=this
 $label0$0:{if(B.cM===r||B.ci===r){s=!0
 break $label0$0}if(B.aF===r||B.ak===r){s=!1
@@ -55620,9 +55620,9 @@ case 0:s="\u23ee"
 break
 default:s=null}return s}}
 A.BN.prototype={
-M(){return"_AnimationDirection."+this.b}}
+N(){return"_AnimationDirection."+this.b}}
 A.RU.prototype={
-M(){return"AnimationBehavior."+this.b}}
+N(){return"AnimationBehavior."+this.b}}
 A.pU.prototype={
 gt(a){var s=this.x
 s===$&&A.b()
@@ -55630,7 +55630,7 @@ return s},
 st(a,b){var s=this
 s.eZ(0)
 s.KK(b)
-s.N()
+s.M()
 s.wC()},
 gj1(){var s=this.r
 if(!(s!=null&&s.a!=null))return 0
@@ -55681,7 +55681,7 @@ o=l.a
 if(o===0){r=j.x
 r===$&&A.b()
 if(r!==a){j.x=A.L(a,j.a,j.b)
-j.N()}j.Q=j.z===B.bM?B.aF:B.ak
+j.M()}j.Q=j.z===B.bM?B.aF:B.ak
 j.wC()
 return A.b9h()}k=j.x
 k===$&&A.b()
@@ -55744,7 +55744,7 @@ r.y=a
 s=a.a/1e6
 r.x=A.L(r.w.h7(0,s),r.a,r.b)
 if(r.w.lP(s)){r.Q=r.z===B.bM?B.aF:B.ak
-r.wg(0,!1)}r.N()
+r.wg(0,!1)}r.M()
 r.wC()},
 Aq(){var s,r=this.r,q=r==null,p=!q&&r.a!=null?"":"; paused"
 if(q)s="; DISPOSED"
@@ -55815,7 +55815,7 @@ if(r.pq$>0)r.EI()}r.c=b
 if(b!=null){if(r.pq$>0)r.EH()
 q=r.b
 s=r.c
-if(q!==s.gt(s))r.N()
+if(q!==s.gt(s))r.M()
 q=r.a
 s=r.c
 if(q!==s.gbE(s)){q=r.c
@@ -55880,9 +55880,9 @@ if(s.ga0g())return s.a.k(0)+"\u27a9"+s.b.k(0)+"\u2092\u2099/"+A.n(s.c)
 return s.a.k(0)+"\u27a9"+s.b.k(0)+"/"+A.n(s.c)+"\u2092\u2099"},
 gbY(a){return this.a}}
 A.afi.prototype={
-M(){return"_TrainHoppingMode."+this.b}}
+N(){return"_TrainHoppingMode."+this.b}}
 A.wP.prototype={
-D8(a){if(a!==this.e){this.N()
+D8(a){if(a!==this.e){this.M()
 this.e=a}},
 gbE(a){var s=this.a
 return s.gbE(s)},
@@ -55909,7 +55909,7 @@ r=o.a
 o.D8(r.gbE(r))}q=n}else q=!1
 n=o.a
 p=n.gt(n)
-if(p!==o.f){o.N()
+if(p!==o.f){o.M()
 o.f=p}if(q&&o.d!=null)o.d.$0()},
 gt(a){var s=this.a
 return s.gt(s)},
@@ -55952,7 +55952,7 @@ if(s.gbE(0)!==s.c){s.c=s.gbE(0)
 s.zW(s.gbE(0))}},
 apz(){var s=this
 if(!J.h(s.gt(s),s.d)){s.d=s.gt(s)
-s.N()}}}
+s.M()}}}
 A.E_.prototype={
 gt(a){var s=this.a,r=this.b
 return Math.min(s.gt(s),r.gt(r))}}
@@ -56041,7 +56041,7 @@ A.tM.prototype={
 a5(a,b){this.cc()
 this.dr$.G(0,b)},
 O(a,b){if(this.dr$.I(0,b))this.uy()},
-N(){var s,r,q,p,o,n,m,l,k,j=this.dr$,i=j.fG(0,!1)
+M(){var s,r,q,p,o,n,m,l,k,j=this.dr$,i=j.fG(0,!1)
 for(o=i.length,j=j.a,n=0;n<i.length;i.length===o||(0,A.S)(i),++n){s=i[n]
 r=null
 try{if(j.az(0,s))s.$0()}catch(m){q=A.ab(m)
@@ -56127,9 +56127,9 @@ A.jI.prototype={}
 A.a9X.prototype={
 k(a){return"<"+A.n(this.a)+", "+A.n(this.b)+">"}}
 A.yB.prototype={
-M(){return"CupertinoButtonSize."+this.b}}
+N(){return"CupertinoButtonSize."+this.b}}
 A.aPs.prototype={
-M(){return"_CupertinoButtonStyle."+this.b}}
+N(){return"_CupertinoButtonStyle."+this.b}}
 A.F4.prototype={
 T(){return new A.Mg(new A.aV(1,null,t.Y),null,null)}}
 A.Mg.prototype={
@@ -56390,22 +56390,22 @@ $S:58}
 A.a6K.prototype={
 snE(a){if(J.h(this.dx,a))return
 this.dx=a
-this.N()},
+this.M()},
 st(a,b){if(this.dy==b)return
 this.dy=b
-this.N()},
+this.M()},
 sPR(a){if(this.fr==a)return
 this.fr=a
-this.N()},
+this.M()},
 sck(a,b){if(J.h(this.fx,b))return
 this.fx=b
-this.N()},
+this.M()},
 sfu(a){if(J.h(this.fy,a))return
 this.fy=a
-this.N()},
+this.M()},
 sim(a){if(this.go==a)return
 this.go=a
-this.N()},
+this.M()},
 BK(a,b,c,d,e){var s,r,q,p,o=this
 if(o.go===B.az){s=o.ax
 s.toString
@@ -56954,7 +56954,7 @@ a1U(a,b){var s=null
 return this.qV(s,a,s,s,s,s,s,b,s)}}
 A.a7s.prototype={}
 A.Vh.prototype={
-M(){return"CupertinoUserInterfaceLevelData."+this.b}}
+N(){return"CupertinoUserInterfaceLevelData."+this.b}}
 A.Fl.prototype={
 d7(a){return a.f!==this.f}}
 A.a7t.prototype={
@@ -57834,7 +57834,7 @@ s.toString
 if(t.U.a(s).e)this.a.$1(a)},
 $S:22}
 A.x2.prototype={
-M(){return"_CupertinoTextSelectionToolbarItemsSlot."+this.b}}
+N(){return"_CupertinoTextSelectionToolbarItemsSlot."+this.b}}
 A.QB.prototype={
 bR(){this.cC()
 this.cw()
@@ -58135,7 +58135,7 @@ r.soW(r.goW()+1)}else r.Ys(s)
 break}},
 m(){this.se8($.ao())
 this.sfv(0,0)},
-N(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
+M(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
 if(f.gfv(f)===0)return
 f.snp(f.gnp()+1)
 p=f.gfv(f)
@@ -58178,12 +58178,12 @@ A.cH.prototype={
 gt(a){return this.a},
 st(a,b){if(J.h(this.a,b))return
 this.a=b
-this.N()},
+this.M()},
 k(a){return"<optimized out>#"+A.bT(this)+"("+A.n(this.gt(this))+")"}}
 A.Fy.prototype={
-M(){return"DiagnosticLevel."+this.b}}
+N(){return"DiagnosticLevel."+this.b}}
 A.od.prototype={
-M(){return"DiagnosticsTreeStyle."+this.b}}
+N(){return"DiagnosticsTreeStyle."+this.b}}
 A.aYX.prototype={}
 A.f3.prototype={
 Ap(a,b){return this.oy(0)},
@@ -58382,7 +58382,7 @@ WR(a){var s,r,q=this.b,p=q.length
 for(s=J.lp(a),r=0;r<p;r+=2)if(s.l(a,q[r]))return r
 return-1}}
 A.iL.prototype={
-M(){return"TargetPlatform."+this.b}}
+N(){return"TargetPlatform."+this.b}}
 A.aKC.prototype={
 hP(a,b){var s,r,q=this
 if(q.b===q.a.length)q.asD()
@@ -58463,7 +58463,7 @@ A.aHp.prototype={
 $1(a){return this.a.a},
 $S(){return this.a.$ti.h("1(@)")}}
 A.WM.prototype={
-M(){return"GestureDisposition."+this.b}}
+N(){return"GestureDisposition."+this.b}}
 A.dC.prototype={}
 A.z8.prototype={
 a0(a){this.a.qx(this.b,this.c,a)}}
@@ -58912,7 +58912,7 @@ A.ahk.prototype={}
 A.ahl.prototype={}
 A.ahm.prototype={}
 A.x6.prototype={
-M(){return"_ForceState."+this.b}}
+N(){return"_ForceState."+this.b}}
 A.uP.prototype={}
 A.lJ.prototype={
 hh(a){var s=this
@@ -59155,7 +59155,7 @@ a4=p-a
 a1+=o*a4*a4}q.b=a1<=1e-10?1:1-a0/a1
 return q}}
 A.ME.prototype={
-M(){return"_DragState."+this.b}}
+N(){return"_DragState."+this.b}}
 A.iv.prototype={
 K9(){return null},
 js(a){var s=this
@@ -59439,7 +59439,7 @@ return Math.abs(s)>A.b5v(a,this.b)},
 wT(a){return a},
 wW(a){return null}}
 A.a8i.prototype={
-M(){return"_DragDirection."+this.b}}
+N(){return"_DragDirection."+this.b}}
 A.a7g.prototype={
 aqT(){this.a=!0}}
 A.D3.prototype={
@@ -59559,9 +59559,9 @@ q=null
 m=A.ce("while resolving a PointerSignalEvent")
 A.ej(new A.cF(s,r,"gesture library",m,q,!1))}n.b=n.a=null}}
 A.W_.prototype={
-M(){return"DragStartBehavior."+this.b}}
+N(){return"DragStartBehavior."+this.b}}
 A.a_l.prototype={
-M(){return"MultitouchDragStrategy."+this.b}}
+N(){return"MultitouchDragStrategy."+this.b}}
 A.dD.prototype={
 MF(a){this.e.n(0,a.gbO(),a.gds(a))
 if(this.FQ(a))this.DA(a)},
@@ -59622,7 +59622,7 @@ s.I(0,a)
 if(s.a===0)this.nK(a)}},
 wh(a){if(t.oN.b(a)||t.Ko.b(a)||t.WQ.b(a))this.i7(a.gbO())}}
 A.GA.prototype={
-M(){return"GestureRecognizerState."+this.b}}
+N(){return"GestureRecognizerState."+this.b}}
 A.Ab.prototype={
 gBU(){var s=this.b
 s=s==null?null:s.a
@@ -59681,7 +59681,7 @@ ag(a,b){return new A.fW(this.a.ag(0,b.a),this.b.ag(0,b.b))},
 k(a){return"OffsetPair(local: "+this.a.k(0)+", global: "+this.b.k(0)+")"}}
 A.a9o.prototype={}
 A.CU.prototype={
-M(){return"_ScaleState."+this.b}}
+N(){return"_ScaleState."+this.b}}
 A.xl.prototype={
 gaB7(){return this.b.ac(0,this.c)},
 gdM(a){return this.d},
@@ -60060,7 +60060,7 @@ $S:0}
 A.aeG.prototype={}
 A.aeM.prototype={}
 A.MF.prototype={
-M(){return"_DragState."+this.b}}
+N(){return"_DragState."+this.b}}
 A.KD.prototype={}
 A.KG.prototype={}
 A.KF.prototype={}
@@ -60556,7 +60556,7 @@ MM(a,b){a.bx(0)}}
 A.ajw.prototype={}
 A.a5U.prototype={}
 A.aIs.prototype={
-M(){return"ThemeMode."+this.b}}
+N(){return"ThemeMode."+this.b}}
 A.Hw.prototype={
 T(){return new A.NA()}}
 A.awu.prototype={
@@ -60712,7 +60712,7 @@ s.toString
 return 2*Math.asin(this.b/(2*s))},
 $S:147}
 A.BU.prototype={
-M(){return"_CornerId."+this.b}}
+N(){return"_CornerId."+this.b}}
 A.po.prototype={}
 A.zI.prototype={
 no(){var s,r,q,p=this,o=A.bzF(B.a7a,new A.ayV(p,p.b.gbI().ag(0,p.a.gbI()))),n=p.a
@@ -61577,9 +61577,9 @@ if(r!=null)r.O(0,s.gf0())
 s.bH$=null
 s.aC()}}
 A.El.prototype={
-M(){return"ButtonTextTheme."+this.b}}
+N(){return"ButtonTextTheme."+this.b}}
 A.alu.prototype={
-M(){return"ButtonBarLayoutBehavior."+this.b}}
+N(){return"ButtonBarLayoutBehavior."+this.b}}
 A.SE.prototype={
 gd0(a){var s=this.e
 if(s==null)switch(this.c.a){case 0:s=B.eS
@@ -62275,7 +62275,7 @@ bR(){this.cC()
 this.cw()
 this.eK()}}
 A.aO_.prototype={
-M(){return"_CardVariant."+this.b}}
+N(){return"_CardVariant."+this.b}}
 A.SN.prototype={
 v(a){var s,r,q,p,o,n,m,l,k,j=null
 a.ap(t.Am)
@@ -62332,7 +62332,7 @@ if(J.ac(b)!==A.G(s))return!1
 return b instanceof A.Eq&&J.h(b.b,s.b)&&b.c==s.c&&J.h(b.d,s.d)&&b.e==s.e&&J.h(b.a,s.a)}}
 A.a6G.prototype={}
 A.aO9.prototype={
-M(){return"_CheckboxType."+this.b}}
+N(){return"_CheckboxType."+this.b}}
 A.Eu.prototype={
 T(){return new A.a6L(new A.a6J($.ao()),$,$,$,$,$,$,$,$,B.a_,$,null,!1,!1,null,null)}}
 A.a6L.prototype={
@@ -62490,22 +62490,22 @@ $S:58}
 A.a6J.prototype={
 snE(a){if(J.h(this.dx,a))return
 this.dx=a
-this.N()},
+this.M()},
 st(a,b){if(this.dy==b)return
 this.dy=b
-this.N()},
+this.M()},
 sPR(a){if(this.fr==a)return
 this.fr=a
-this.N()},
+this.M()},
 sck(a,b){if(J.h(this.fx,b))return
 this.fx=b
-this.N()},
+this.M()},
 sawr(a){if(J.h(this.fy,a))return
 this.fy=a
-this.N()},
+this.M()},
 saCQ(a){if(J.h(this.go,a))return
 this.go=a
-this.N()},
+this.M()},
 XQ(a,b){var s=1-Math.abs(b-0.5)*2,r=18-s*2,q=a.a+s,p=a.b+s
 return new A.O(q,p,q+r,p+r)},
 Uf(a){var s,r=this.e
@@ -62666,7 +62666,7 @@ r===$&&A.b()
 r.m()
 s.adh()}}
 A.aOa.prototype={
-M(){return"_CheckboxType."+this.b}}
+N(){return"_CheckboxType."+this.b}}
 A.u3.prototype={
 ao1(){var s=this
 switch(s.c){case!1:s.d.$1(!0)
@@ -62745,7 +62745,7 @@ else{n=k.k2.S(s.b)
 n=A.b1(A.bsn(A.zc(A.jU(h,l,l,B.bU,!0,s,l,l,B.aW),n,l)),l,l)
 h=n}return A.RP(l,h,l,new A.a5(p,o,p,o),B.a3,new A.bg(r,i,l,l,l,l,l,B.fD),B.a7,l,l,l)}}
 A.apq.prototype={
-M(){return"DynamicSchemeVariant."+this.b}}
+N(){return"DynamicSchemeVariant."+this.b}}
 A.q9.prototype={
 a2_(d2,d3,d4,d5,d6,d7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7=this,c8=null,c9=d5==null?c7.b:d5,d0=c7.c,d1=c7.d
 if(d1==null)d1=c7.b
@@ -63261,9 +63261,9 @@ s=s===A.bF(b)}else s=!1
 return s}}
 A.WS.prototype={}
 A.mK.prototype={
-M(){return"DatePickerEntryMode."+this.b}}
+N(){return"DatePickerEntryMode."+this.b}}
 A.Vw.prototype={
-M(){return"DatePickerMode."+this.b}}
+N(){return"DatePickerMode."+this.b}}
 A.b6y.prototype={
 $1(a){var s=this.b.$2(a,this.a.a)
 return s},
@@ -63505,14 +63505,14 @@ return A.a_(s,B.cl,B.l,B.bp,0,l)}},
 $S:842}
 A.ad6.prototype={
 ph(){return this.cy},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){a.toString
 return B.a6P[A.ez(a)]},
 mZ(){var s=this.y
 return(s==null?A.v(this).h("bD.T").a(s):s).a}}
 A.ad5.prototype={
 ph(){return this.cy},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){a.toString
 return B.a8R[A.ez(a)]},
 mZ(){var s=this.y
@@ -63948,7 +63948,7 @@ return b instanceof A.yN&&J.h(b.gd8(b),s.gd8(s))&&b.b==s.b&&b.c==s.c&&b.d==s.d&&
 gd8(a){return this.a}}
 A.a8c.prototype={}
 A.W0.prototype={
-M(){return"DrawerAlignment."+this.b}}
+N(){return"DrawerAlignment."+this.b}}
 A.a8o.prototype={
 d7(a){return!this.f.qf(0,a.f)}}
 A.FN.prototype={
@@ -64852,7 +64852,7 @@ A.a8X.prototype={}
 A.aRP.prototype={
 k(a){return"<default FloatingActionButton tag>"}}
 A.N2.prototype={
-M(){return"_FloatingActionButtonType."+this.b}}
+N(){return"_FloatingActionButtonType."+this.b}}
 A.Wu.prototype={
 v(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=A.a1(a4),a0=a.aq,a1=c.k1,a2=new A.aST(a4,a1,!0,b,b,b,b,b,6,6,8,b,6,b,!0,b,B.tk,B.tj,B.tl,B.tm,8,b,b,b),a3=a0.a
 if(a3==null)a3=a2.ges()
@@ -65012,7 +65012,7 @@ gz0(){return this.cx},
 gz1(){return this.cy}}
 A.a90.prototype={}
 A.aVn.prototype={
-M(){return"_IconButtonVariant."+this.b}}
+N(){return"_IconButtonVariant."+this.b}}
 A.Xn.prototype={
 v(a){var s,r,q,p,o,n=this,m=null
 A.a1(a)
@@ -65639,7 +65639,7 @@ Es(a){return!0}}
 A.Nn.prototype={
 T(){return new A.Nm(A.B(t.R9,t.Pr),new A.bJ(A.a([],t.IR),t.yw),null)}}
 A.t1.prototype={
-M(){return"_HighlightType."+this.b}}
+N(){return"_HighlightType."+this.b}}
 A.Nm.prototype={
 gaCE(){var s=this.r,r=A.v(s).h("bR<2>")
 return!new A.aC(new A.bR(s,r),new A.aVL(),r.h("aC<A.E>")).gak(0)},
@@ -66032,7 +66032,7 @@ A.QK.prototype={
 af(){this.au()
 if(this.gpW())this.tt()},
 eb(){var s=this.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 this.hl$=null}this.lc()}}
 A.kP.prototype={}
@@ -66242,9 +66242,9 @@ s.a0c()},
 $S:0}
 A.Np.prototype={
 scM(a,b){if(b!=this.a){this.a=b
-this.N()}},
+this.M()}},
 sep(a){if(a!==this.b){this.b=a
-this.N()}},
+this.M()}},
 l(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -66406,7 +66406,7 @@ n=A.k(p,s.z,B.aR,m,o,n,m,m)
 return A.bN(m,m,new A.fQ(r,!1,A.b8d(n,!0,q),m),!0,m,m,!1,m,!1,m,m,m,m,m,m,l!==!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.P,m)},
 $S:316}
 A.Gj.prototype={
-M(){return"FloatingLabelBehavior."+this.b}}
+N(){return"FloatingLabelBehavior."+this.b}}
 A.Wv.prototype={
 gE(a){return B.k.gE(-1)},
 l(a,b){if(b==null)return!1
@@ -66415,7 +66415,7 @@ if(J.ac(b)!==A.G(this))return!1
 return b instanceof A.Wv},
 k(a){return A.bqN(-1)}}
 A.hk.prototype={
-M(){return"_DecorationSlot."+this.b}}
+N(){return"_DecorationSlot."+this.b}}
 A.a7U.prototype={
 l(a,b){var s=this
 if(b==null)return!1
@@ -67540,9 +67540,9 @@ aA(a){var s,r,q
 this.ev(0)
 for(s=this.gio(0),r=s.length,q=0;q<s.length;s.length===r||(0,A.S)(s),++q)s[q].aA(0)}}
 A.aw3.prototype={
-M(){return"ListTileStyle."+this.b}}
+N(){return"ListTileStyle."+this.b}}
 A.vo.prototype={
-M(){return"ListTileTitleAlignment."+this.b},
+N(){return"ListTileTitleAlignment."+this.b},
 My(a,b,c,d){var s,r,q=this
 $label0$0:{if(B.wY===q){s=B.wZ.My(a,b,c,d)
 break $label0$0}r=B.a0P===q
@@ -67652,7 +67652,7 @@ if(a.q(0,B.J))return s.d
 if(a.q(0,B.Y))return s.c
 return s.b}}
 A.mn.prototype={
-M(){return"_ListTileSlot."+this.b}}
+N(){return"_ListTileSlot."+this.b}}
 A.aah.prototype={
 gRS(){return B.a6B},
 a1q(a){var s,r=this
@@ -67978,7 +67978,7 @@ $S:0}
 A.Ya.prototype={
 v(a){return A.bfn(new A.kC(B.US,null,null),B.z,new A.zF(1,B.a8Z,new A.dR(B.PZ,B.N)),this.c.ac(0,new A.c(0,40.95)),1.25,B.aqX)}}
 A.vv.prototype={
-M(){return"MaterialType."+this.b}}
+N(){return"MaterialType."+this.b}}
 A.Hu.prototype={
 T(){return new A.aay(new A.bc("ink renderer",t.A),null,null)}}
 A.aay.prototype={
@@ -68480,7 +68480,7 @@ s.sqH(!1)}},
 aEF(a){if(a.gkQ())this.gQA()
 this.ra$.sqH(!1)}}
 A.Qn.prototype={
-La(a){this.N()},
+La(a){this.M()},
 UX(a,b,c){var s,r,q,p,o,n,m=this
 if(!m.r){s=m.w
 s=s.gbE(s)!==B.aF}else s=!1
@@ -68536,7 +68536,7 @@ s=s.y
 r.sb4(0,a.a5L(b,B.e.W(s.gt(s)*255),this.b,r.a))},
 $S:23}
 A.Qo.prototype={
-La(a){this.N()},
+La(a){this.M()},
 a5q(a,b,c,d,e,f){var s=this.w,r=s.a,q=this.x
 A.bhX(a,d,s.b.ao(0,r.gt(r)),q.gt(q),f)},
 oa(a,b,c,d){var s,r,q,p=this
@@ -68756,7 +68756,7 @@ if(J.ac(b)!==A.G(s))return!1
 return b instanceof A.IE&&J.h(b.a,s.a)&&J.h(b.b,s.b)&&J.h(b.c,s.c)&&b.d==s.d&&J.h(b.e,s.e)&&J.h(b.f,s.f)&&J.h(b.r,s.r)&&b.w==s.w&&J.h(b.Q,s.Q)&&b.as==s.as}}
 A.ac5.prototype={}
 A.aKT.prototype={
-M(){return"_ActivityIndicatorType."+this.b}}
+N(){return"_ActivityIndicatorType."+this.b}}
 A.a0j.prototype={
 W0(a,b){var s=this.f
 s=s==null?null:s.a
@@ -69109,7 +69109,7 @@ if(b instanceof A.II)if(b.b==r.b)if(b.c==r.c)if(b.d==r.d)s=b.r==r.r
 return s}}
 A.acf.prototype={}
 A.jN.prototype={
-M(){return"_ScaffoldSlot."+this.b}}
+N(){return"_ScaffoldSlot."+this.b}}
 A.Js.prototype={
 T(){var s=null
 return new A.AD(A.n2(t.Np),A.qP(s,t.nY),A.qP(s,t.BL),s,s)}}
@@ -69221,7 +69221,7 @@ A.adk.prototype={
 a0e(a,b,c){var s=this
 s.b=c==null?s.b:c
 s.c=s.c.ayT(a,b)
-s.N()},
+s.M()},
 a0d(a){return this.a0e(null,null,a)},
 avX(a,b){return this.a0e(a,b,null)}}
 A.LT.prototype={
@@ -69924,7 +69924,7 @@ if(b instanceof A.K6)if(b.a==r.a)if(J.h(b.b,r.b))if(J.h(b.c,r.c))if(J.h(b.d,r.d)
 return s}}
 A.ae2.prototype={}
 A.m7.prototype={
-M(){return"SnackBarClosedReason."+this.b}}
+N(){return"SnackBarClosedReason."+this.b}}
 A.K9.prototype={
 T(){return new A.Pk()},
 zZ(){return this.w.$0()}}
@@ -70146,7 +70146,7 @@ r=s.y2
 return r==null?s.c:r},
 $S:9}
 A.a2r.prototype={
-M(){return"SnackBarBehavior."+this.b}}
+N(){return"SnackBarBehavior."+this.b}}
 A.B0.prototype={
 gE(a){var s=this
 return A.a6(s.gcN(s),s.gDw(),s.gyT(),s.glt(),s.geO(s),s.gck(s),s.gy7(),s.w,s.gzp(),s.gw8(),s.gE8(),s.gxQ(),s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
@@ -70170,7 +70170,7 @@ gE8(){return this.z},
 gxQ(){return this.Q}}
 A.aea.prototype={}
 A.b1X.prototype={
-M(){return"_SwitchType."+this.b}}
+N(){return"_SwitchType."+this.b}}
 A.a2R.prototype={
 ak_(a){var s,r=A.a1(a),q=A.bg_(a),p=A.b9M(a),o=new A.xw(a,A.a1(a).ax),n=q.y
 if(n==null)n=p.gd0(0)
@@ -70511,90 +70511,90 @@ if(s!=null)s.m()
 s=r.dx
 s.toString
 r.dy=A.cn(B.bt,s,B.dJ)
-r.N()},
+r.M()},
 sawo(a){return},
 saCN(a){return},
 saCJ(a){if(a.l(0,this.fy))return
 this.fy=a
-this.N()},
+this.M()},
 sawp(a){if(a.l(0,this.go))return
 this.go=a
-this.N()},
+this.M()},
 saCO(a){if(a.l(0,this.id))return
 this.id=a
-this.N()},
+this.M()},
 sawq(a){if(a.l(0,this.k1))return
 this.k1=a
-this.N()},
+this.M()},
 saCP(a){if(a.l(0,this.k2))return
 this.k2=a
-this.N()},
+this.M()},
 sDx(a){if(a===this.k3)return
 this.k3=a
-this.N()},
+this.M()},
 sFI(a){if(a===this.k4)return
 this.k4=a
-this.N()},
+this.M()},
 sGH(a){if(a===this.ok)return
 this.ok=a
-this.N()},
+this.M()},
 sHd(a){if(a==this.p1)return
 this.p1=a
-this.N()},
+this.M()},
 sHk(a){if(a.l(0,this.p2))return
 this.p2=a
-this.N()},
+this.M()},
 svH(a){if(a===this.p3)return
 this.p3=a
-this.N()},
+this.M()},
 svJ(a){if(a===this.p4)return
 this.p4=a
-this.N()},
+this.M()},
 saws(a){return},
 saED(a){return},
 saCR(a){return},
 saF_(a){return},
 sawt(a){if(a.l(0,this.to))return
 this.to=a
-this.N()},
+this.M()},
 sawu(a){if(J.h(a,this.x1))return
 this.x1=a
-this.N()},
+this.M()},
 saCT(a){if(J.h(a,this.x2))return
 this.x2=a
-this.N()},
+this.M()},
 sawv(a){if(a==this.xr)return
 this.xr=a
-this.N()},
+this.M()},
 saCU(a){if(a==this.y1)return
 this.y1=a
-this.N()},
+this.M()},
 saCS(a){if(a.l(0,this.y2))return
 this.y2=a
-this.N()},
+this.M()},
 smo(a){if(a.l(0,this.R))return
 this.R=a
-this.N()},
+this.M()},
 sc1(a){if(this.V===a)return
 this.V=a
-this.N()},
+this.M()},
 sae0(a){if(a.l(0,this.p))return
 this.p=a
-this.N()},
+this.M()},
 saDq(a){if(a===this.J)return
 this.J=a
-this.N()},
+this.M()},
 saHz(a){if(a===this.Y)return
 this.Y=a
-this.N()},
+this.M()},
 saDj(a){if(a===this.ae)return
 this.ae=a
-this.N()},
+this.M()},
 sHe(a){var s=this.ab
 if(a==null?s==null:a===s)return
 this.ab=a
-this.N()},
-akK(){if(!this.aZ)this.N()},
+this.M()},
+akK(){if(!this.aZ)this.M()},
 b1(b4,b5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2=this,b3=b2.a.gt(0)
 switch(b2.V.a){case 0:s=1-b3
 break
@@ -71993,7 +71993,7 @@ if(r!=null)r.O(0,s.gf0())
 s.bH$=null
 s.aC()}}
 A.D6.prototype={
-M(){return"_TextSelectionToolbarItemPosition."+this.b}}
+N(){return"_TextSelectionToolbarItemPosition."+this.b}}
 A.a3a.prototype={
 v(a){var s=this,r=null
 return A.dT(!1,s.c,r,r,r,r,r,r,s.d,r,A.rH(s.f,r,B.x,r,r,r,r,r,r,A.bvc(A.a1(a).ax),r,B.O0,r,s.e,r,B.hz,r,r,r,B.au4,r))}}
@@ -72145,7 +72145,7 @@ $1(a){return new A.wI(t.we.a(a),null)},
 $S:350}
 A.o_.prototype={}
 A.vu.prototype={
-M(){return"MaterialTapTargetSize."+this.b}}
+N(){return"MaterialTapTargetSize."+this.b}}
 A.la.prototype={
 a7i(a){return a.h("o_<0>?").a(this.d.i(0,A.cM(a)))},
 Ei(a,b,c,d,e,a0,a1,a2,a3,a4,a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
@@ -72627,7 +72627,7 @@ if(b instanceof A.L4)if(b.a==r.a)if(J.h(b.b,r.b))if(J.h(b.c,r.c))if(J.h(b.d,r.d)
 return s}}
 A.afc.prototype={}
 A.Jw.prototype={
-M(){return"ScriptCategory."+this.b}}
+N(){return"ScriptCategory."+this.b}}
 A.Bu.prototype={
 a7h(a){var s
 switch(a.a){case 0:s=this.c
@@ -72861,20 +72861,20 @@ gln(){return this.c}}
 A.a2Z.prototype={
 k(a){return"TextAlignVertical(y: "+this.a+")"}}
 A.As.prototype={
-M(){return"RenderComparison."+this.b}}
+N(){return"RenderComparison."+this.b}}
 A.Se.prototype={
-M(){return"Axis."+this.b}}
+N(){return"Axis."+this.b}}
 A.a3z.prototype={
-M(){return"VerticalDirection."+this.b}}
+N(){return"VerticalDirection."+this.b}}
 A.y4.prototype={
-M(){return"AxisDirection."+this.b}}
+N(){return"AxisDirection."+this.b}}
 A.a_N.prototype={
 a47(a,b,c,d){return A.bBX(a,!1,c,d)},
 aD6(a){return this.a47(a,!1,null,null)},
 a48(a,b){return A.ahP(a,b)},
 aD8(a){return this.a48(a,null)}}
 A.aeB.prototype={
-N(){var s,r,q
+M(){var s,r,q
 for(s=this.a,s=A.d5(s,s.r,A.v(s).c),r=s.$ti.c;s.A();){q=s.d;(q==null?r.a(q):q).$0()}},
 a5(a,b){this.a.G(0,b)},
 O(a,b){this.a.I(0,b)}}
@@ -72962,7 +72962,7 @@ gkp(){return this.f},
 glf(){return this.r},
 gkl(){return this.w}}
 A.Su.prototype={
-M(){return"BorderStyle."+this.b}}
+N(){return"BorderStyle."+this.b}}
 A.b5.prototype={
 a1V(a,b){var s=this,r=a==null?s.a:a,q=b==null?s.d:b
 return new A.b5(r,s.b,s.c,q)},
@@ -73066,7 +73066,7 @@ $1(a){return a.k(0)},
 $S:366}
 A.a6q.prototype={}
 A.Sz.prototype={
-M(){return"BoxShape."+this.b}}
+N(){return"BoxShape."+this.b}}
 A.Sx.prototype={
 kt(a,b,c){return null},
 G(a,b){return this.kt(0,b,!1)},
@@ -73354,7 +73354,7 @@ m=m==null?null:m.a0(k)
 n.Gu(a,l,m,o.w,k)}},
 k(a){return"BoxPainter for "+this.b.k(0)}}
 A.Eg.prototype={
-M(){return"BoxFit."+this.b}}
+N(){return"BoxFit."+this.b}}
 A.Wp.prototype={}
 A.c4.prototype={
 iz(){$.aw()
@@ -73496,7 +73496,7 @@ A.q2.prototype={
 m(){}}
 A.a7X.prototype={}
 A.zf.prototype={
-M(){return"ImageRepeat."+this.b}}
+N(){return"ImageRepeat."+this.b}}
 A.un.prototype={
 yz(a){return new A.a7W(this,a)},
 l(a,b){var s,r=this
@@ -74043,7 +74043,7 @@ case 1:return A.r(q,r)
 case 2:return A.q(o.at(-1),r)}})
 return A.t($async$wZ,r)}}
 A.aKr.prototype={
-M(){return"WebHtmlElementStrategy."+this.b}}
+N(){return"WebHtmlElementStrategy."+this.b}}
 A.a8K.prototype={}
 A.zW.prototype={
 k(a){return this.b},
@@ -74868,7 +74868,7 @@ gmE(a){return this.r},
 gpu(a){return this.w}}
 A.aeq.prototype={}
 A.Bj.prototype={
-M(){return"TextOverflow."+this.b}}
+N(){return"TextOverflow."+this.b}}
 A.A6.prototype={
 l(a,b){var s,r=this
 if(b==null)return!1
@@ -74883,7 +74883,7 @@ $label0$0:{if(B.MP===p||B.hv===p||B.MQ===p||B.MN===p||B.MO===p){s=q+r.a.k(0)+", 
 break $label0$0}if(B.MM===p){s=q+r.a.k(0)+", "+p.k(0)+"("+A.n(r.c)+" from top))"
 break $label0$0}s=null}return s}}
 A.aIn.prototype={
-M(){return"TextWidthBasis."+this.b}}
+N(){return"TextWidthBasis."+this.b}}
 A.BK.prototype={
 vX(a){return this.b.j5(new A.aY(Math.max(a,0),B.v))},
 agE(a){var s,r=this.a,q=r.qQ(0,a)
@@ -75572,7 +75572,7 @@ k(a){return"Simulation"}}
 A.a2H.prototype={
 k(a){return"SpringDescription(mass: "+B.e.aE(this.a,1)+", stiffness: "+B.e.aE(this.b,1)+", damping: "+B.e.aE(this.c,1)+")"}}
 A.Kf.prototype={
-M(){return"SpringType."+this.b}}
+N(){return"SpringType."+this.b}}
 A.B4.prototype={
 h7(a,b){var s=this,r=s.d&&s.lP(b),q=s.b
 if(r)return q
@@ -75607,7 +75607,7 @@ gAs(a){return B.arF}}
 A.Bp.prototype={
 k(a){return"Tolerance(distance: \xb1"+A.n(this.a)+", time: \xb10.001, velocity: \xb1"+A.n(this.c)+")"}}
 A.Aq.prototype={
-M(){return"RenderAnimatedSizeState."+this.b}}
+N(){return"RenderAnimatedSizeState."+this.b}}
 A.IT.prototype={
 aed(a,b,c,d,e,f,g,h,i){var s=this,r=A.c_(null,e,g,1,null,i)
 r.cc()
@@ -75941,7 +75941,7 @@ A.aLT.prototype={
 $0(){return this.a.$1(this.b)},
 $S:390}
 A.xc.prototype={
-M(){return"_IntrinsicDimension."+this.b},
+N(){return"_IntrinsicDimension."+this.b},
 ei(a,b,c){var s=a.a
 if(s==null)s=a.a=A.B(t.Yr,t.i)
 return s.cv(0,new A.aT(this,b),new A.aW4(c,b))}}
@@ -77028,16 +77028,16 @@ A.rg.prototype={}
 A.PJ.prototype={
 sFE(a){if(J.h(a,this.w))return
 this.w=a
-this.N()},
+this.M()},
 sFF(a){if(J.h(a,this.x))return
 this.x=a
-this.N()},
+this.M()},
 sRs(a){if(this.y===a)return
 this.y=a
-this.N()},
+this.M()},
 sRt(a){if(this.z===a)return
 this.z=a
-this.N()},
+this.M()},
 jv(a,b,c){var s,r,q,p,o,n,m,l,k,j=this,i=j.x,h=j.w
 if(i==null||h==null||i.a===i.b)return
 s=j.r
@@ -77059,19 +77059,19 @@ return!(a instanceof A.PJ)||!J.h(a.w,s.w)||!J.h(a.x,s.x)||a.y!==s.y||a.z!==s.z}}
 A.M1.prototype={
 sIk(a){if(this.r===a)return
 this.r=a
-this.N()},
+this.M()},
 sN2(a){var s,r=this.z
 r=r==null?null:r.j()
 s=a.j()
 if(r===s)return
 this.z=a
-this.N()},
+this.M()},
 sa28(a){if(J.h(this.Q,a))return
 this.Q=a
-this.N()},
+this.M()},
 sa27(a){if(this.as.l(0,a))return
 this.as=a
-this.N()},
+this.M()},
 sa15(a){var s,r=this,q=r.at
 if(q==null)q=null
 else{q=q.a
@@ -77079,10 +77079,10 @@ q=q.gt(q)}s=a.a
 s=s.gt(s)
 if(q===s)return
 r.at=a
-if(r.w)r.N()},
+if(r.w)r.M()},
 sa36(a){if(J.h(this.ax,a))return
 this.ax=a
-this.N()},
+this.M()},
 aFK(a,b,c,d){var s,r,q,p=this,o=b.l6(d)
 if(p.r){s=p.ax
 if(s!=null)if(s.gbI().ag(0,o.gbI()).gr3()<225)return
@@ -77196,13 +77196,13 @@ o=a.gde(0)
 o.a.a2D(p,b.ac(0,new A.c(r,q)))}}catch(k){}}}
 A.aWf.prototype={}
 A.Wt.prototype={
-M(){return"FlexFit."+this.b}}
+N(){return"FlexFit."+this.b}}
 A.h7.prototype={
 k(a){return this.wj(0)+"; flex="+A.n(this.e)+"; fit="+A.n(this.f)}}
 A.Yb.prototype={
-M(){return"MainAxisSize."+this.b}}
+N(){return"MainAxisSize."+this.b}}
 A.qS.prototype={
-M(){return"MainAxisAlignment."+this.b},
+N(){return"MainAxisAlignment."+this.b},
 wK(a,b,c,d){var s,r,q,p=this
 $label0$0:{if(B.l===p){s=c?new A.aT(a,d):new A.aT(0,d)
 break $label0$0}if(B.ar===p){s=B.l.wK(a,b,!c,d)
@@ -77218,7 +77218,7 @@ break $label0$0}if(B.HM===p){s=a/(b+1)
 s=new A.aT(s,s+d)
 break $label0$0}s=null}return s}}
 A.ug.prototype={
-M(){return"CrossAxisAlignment."+this.b},
+N(){return"CrossAxisAlignment."+this.b},
 K6(a,b){var s,r=this
 $label0$0:{if(B.cl===r||B.kb===r){s=0
 break $label0$0}if(B.V===r){s=b?a:0
@@ -78112,7 +78112,7 @@ p=q.i(0,r)
 if(!A.bsw(p,a))return
 o=q.a
 new A.azL(n,p,a,r,s).$0()
-if(o!==0!==(q.a!==0))n.N()},
+if(o!==0!==(q.a!==0))n.M()},
 aHK(){new A.azJ(this).$0()}}
 A.azI.prototype={
 $1(a){return a.guo(a)},
@@ -79701,7 +79701,7 @@ arq(){var s=this,r=s.VW(),q=s.x
 q===$&&A.b()
 if(q.l(0,r))return
 s.x=r
-s.N()},
+s.M()},
 VW(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=c.d
 if(b==null||c.e==null)return B.Nl
 s=b.a
@@ -80383,7 +80383,7 @@ A.agQ.prototype={}
 A.agR.prototype={}
 A.agS.prototype={}
 A.a04.prototype={
-M(){return"PlatformViewHitTestBehavior."+this.b}}
+N(){return"PlatformViewHitTestBehavior."+this.b}}
 A.b4L.prototype={
 $1(a){return a.gAs(a)},
 $S(){return this.a.h("id(aqV<0>)")}}
@@ -80521,7 +80521,7 @@ b1(a,b){var s=this.C$
 if(s==null)return
 a.e2(s,b)}}
 A.GF.prototype={
-M(){return"HitTestBehavior."+this.b}}
+N(){return"HitTestBehavior."+this.b}}
 A.J9.prototype={
 d_(a,b){var s,r=this
 if(r.gu(0).q(0,b)){s=r.di(a,b)||r.F===B.aY
@@ -80970,7 +80970,7 @@ r.r=q.gt(q)
 s.a.a2C(r)}this.a.j8(a,b)},
 $S:23}
 A.VA.prototype={
-M(){return"DecorationPosition."+this.b}}
+N(){return"DecorationPosition."+this.b}}
 A.a0G.prototype={
 sb3(a){var s,r=this
 if(a.l(0,r.a7))return
@@ -81603,7 +81603,7 @@ this.ev(0)
 s=this.C$
 if(s!=null)s.aA(0)}}
 A.rt.prototype={
-M(){return"SelectionResult."+this.b}}
+N(){return"SelectionResult."+this.b}}
 A.h_.prototype={$iaj:1}
 A.a1O.prototype={
 srG(a){var s=this,r=s.F6$
@@ -81623,16 +81623,16 @@ Zb(){var s=this
 if(s.uG$){s.F6$.I(0,s)
 s.uG$=!1}}}
 A.wl.prototype={
-M(){return"SelectionEventType."+this.b}}
+N(){return"SelectionEventType."+this.b}}
 A.wD.prototype={
-M(){return"TextGranularity."+this.b}}
+N(){return"TextGranularity."+this.b}}
 A.aET.prototype={}
 A.EL.prototype={}
 A.JI.prototype={}
 A.AM.prototype={
-M(){return"SelectionExtendDirection."+this.b}}
+N(){return"SelectionExtendDirection."+this.b}}
 A.JJ.prototype={
-M(){return"SelectionStatus."+this.b}}
+N(){return"SelectionStatus."+this.b}}
 A.rs.prototype={
 l(a,b){var s=this
 if(b==null)return!1
@@ -81649,7 +81649,7 @@ if(J.ac(b)!==A.G(s))return!1
 return b instanceof A.wm&&b.a.l(0,s.a)&&b.b===s.b&&b.c===s.c},
 gE(a){return A.a6(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.KV.prototype={
-M(){return"TextSelectionHandleType."+this.b}}
+N(){return"TextSelectionHandleType."+this.b}}
 A.adC.prototype={}
 A.adD.prototype={}
 A.ri.prototype={
@@ -81910,7 +81910,7 @@ return"scrollOffset: "+A.n(s.a)+" precedingScrollExtent: "+A.n(s.b)+" viewportMa
 gE(a){var s=this
 return A.a6(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.WT.prototype={
-M(){return"GrowthDirection."+this.b}}
+N(){return"GrowthDirection."+this.b}}
 A.p4.prototype={
 ga4C(){return!1},
 y4(a,b,c){if(a==null)a=this.w
@@ -82839,7 +82839,7 @@ if(r.length===0)r.push("not positioned")
 r.push(s.wj(0))
 return B.c.ce(r,"; ")}}
 A.a2I.prototype={
-M(){return"StackFit."+this.b}}
+N(){return"StackFit."+this.b}}
 A.Au.prototype={
 ft(a){if(!(a.b instanceof A.f8))a.b=new A.f8(null,null,B.o)},
 gLy(){var s=this,r=s.J
@@ -83033,7 +83033,7 @@ zJ(a,b){return 0},
 Op(a,b){return 1},
 k(a){return"FlexColumnWidth("+A.jR(1)+")"}}
 A.rE.prototype={
-M(){return"TableCellVerticalAlignment."+this.b}}
+N(){return"TableCellVerticalAlignment."+this.b}}
 A.rj.prototype={
 saxW(a){var s=this.ae
 if(s===a)return
@@ -83520,9 +83520,9 @@ this.ev(0)
 s=this.C$
 if(s!=null)s.aA(0)}}
 A.SF.prototype={
-M(){return"CacheExtentStyle."+this.b}}
+N(){return"CacheExtentStyle."+this.b}}
 A.aGO.prototype={
-M(){return"SliverPaintOrder."+this.b}}
+N(){return"SliverPaintOrder."+this.b}}
 A.rn.prototype={
 k(a){return"RevealedOffset(offset: "+A.n(this.a)+", rect: "+this.b.k(0)+")"}}
 A.Aw.prototype={
@@ -84013,7 +84013,7 @@ q=s.b
 q.toString
 s=r.a(q).aR$}}}
 A.JA.prototype={
-M(){return"ScrollDirection."+this.b}}
+N(){return"ScrollDirection."+this.b}}
 A.ie.prototype={
 zS(a,b,c,d){var s=d.a===0
 if(s){this.fk(b)
@@ -84028,7 +84028,7 @@ return"<optimized out>#"+A.bT(s)+"("+B.c.ce(r,", ")+")"},
 ff(a){var s=this.at
 if(s!=null)a.push("offset: "+B.e.aE(s,1))}}
 A.rV.prototype={
-M(){return"WrapAlignment."+this.b},
+N(){return"WrapAlignment."+this.b},
 Dq(a,b,c,d){var s,r,q=this
 $label0$0:{if(B.bW===q){s=new A.aT(d?a:0,b)
 break $label0$0}if(B.aB3===q){s=B.bW.Dq(a,b,c,!d)
@@ -84042,7 +84042,7 @@ break $label0$0}if(B.aB5===q){s=a/(c+1)
 s=new A.aT(s,s+b)
 break $label0$0}s=null}return s}}
 A.LC.prototype={
-M(){return"WrapCrossAlignment."+this.b},
+N(){return"WrapCrossAlignment."+this.b},
 gaiY(){switch(this.a){case 0:var s=B.aB6
 break
 case 1:s=B.aP
@@ -84315,7 +84315,7 @@ s=r.a(q).aR$}}}
 A.ad2.prototype={}
 A.Cf.prototype={}
 A.we.prototype={
-M(){return"SchedulerPhase."+this.b}}
+N(){return"SchedulerPhase."+this.b}}
 A.aBe.prototype={}
 A.nj.prototype={
 a67(a){var s=this.dy$
@@ -85061,7 +85061,7 @@ for(p=r.length,l=0;l<r.length;r.length===p||(0,A.S)(r),++l){k=r[l]
 if(k.cx&&k.ax!=null)k.aeT(h,s)}f.ad(0)
 for(f=A.d5(s,s.r,s.$ti.c),p=f.$ti.c;f.A();){o=f.d
 $.bcT.i(0,o==null?p.a(o):o).toString}g.a.$1(new A.a1Z(q))
-g.N()},
+g.M()},
 ajZ(a,b){var s,r={},q=r.a=this.c.i(0,a)
 if(q!=null)s=(q.z||q.x)&&!q.cy.az(0,b)
 else s=!1
@@ -85328,7 +85328,7 @@ A.aFJ.prototype={
 $2(a,b){if(($.ai6()&a.a)>0)this.a.w.n(0,a,b)},
 $S:441}
 A.aod.prototype={
-M(){return"DebugSemanticsDumpOrder."+this.b}}
+N(){return"DebugSemanticsDumpOrder."+this.b}}
 A.AP.prototype={
 c9(a,b){var s,r=this.a,q=b.a
 if(r==q)return this.aAo(b)
@@ -85347,7 +85347,7 @@ A.adG.prototype={}
 A.adJ.prototype={}
 A.adK.prototype={}
 A.S5.prototype={
-M(){return"Assertiveness."+this.b}}
+N(){return"Assertiveness."+this.b}}
 A.aFS.prototype={
 Hh(a){var s=A.ag(["type",this.a,"data",this.rO()],t.N,t.z)
 if(a!=null)s.n(0,"nodeId",a)
@@ -85684,7 +85684,7 @@ A.as3.prototype={
 $1(a){return A.b6g(a,this.a.a)},
 $S:452}
 A.zs.prototype={
-M(){return"KeyboardLockMode."+this.b}}
+N(){return"KeyboardLockMode."+this.b}}
 A.ju.prototype={}
 A.n0.prototype={}
 A.vf.prototype={}
@@ -85718,7 +85718,7 @@ if(r.q(0,s))r.I(0,s)
 else r.G(0,s)}}else if(a instanceof A.vf)q.a.I(0,p)
 return q.ahN(a)}}
 A.XJ.prototype={
-M(){return"KeyDataTransitMode."+this.b}}
+N(){return"KeyDataTransitMode."+this.b}}
 A.H9.prototype={
 k(a){return"KeyMessage("+A.n(this.a)+")"}}
 A.XK.prototype={
@@ -86224,7 +86224,7 @@ return A.t($async$dj,r)}}
 A.aBB.prototype={}
 A.vS.prototype={}
 A.Ks.prototype={
-M(){return"SwipeEdge."+this.b}}
+N(){return"SwipeEdge."+this.b}}
 A.a0d.prototype={
 l(a,b){var s=this
 if(b==null)return!1
@@ -86293,9 +86293,9 @@ break
 case 1:return A.r(q,r)}})
 return A.t($async$GK,r)}}
 A.vg.prototype={
-M(){return"KeyboardSide."+this.b}}
+N(){return"KeyboardSide."+this.b}}
 A.k1.prototype={
-M(){return"ModifierKey."+this.b}}
+N(){return"ModifierKey."+this.b}}
 A.IK.prototype={
 gaEt(){var s,r,q=A.B(t.xS,t.Dj)
 for(s=0;s<9;++s){r=B.Ci[s]
@@ -86422,7 +86422,7 @@ q.c=!0
 r=q.b
 if(r!=null)r.df(0,p)
 q.b=null
-if(q.a!=s){q.N()
+if(q.a!=s){q.M()
 if(s!=null)s.m()}},
 L_(a){return this.apF(a)},
 apF(a){var s=0,r=A.u(t.H),q=this,p
@@ -86574,21 +86574,21 @@ return b instanceof A.a2E&&b.a===this.a&&A.dq(b.b,this.b)},
 gE(a){return A.a6(this.a,A.cG(this.b),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"SpellCheckResults(spellCheckText: "+this.a+", suggestionSpans: "+A.n(this.b)+")"}}
 A.us.prototype={
-M(){return"DeviceOrientation."+this.b}}
+N(){return"DeviceOrientation."+this.b}}
 A.ajX.prototype={}
 A.Ky.prototype={
-M(){return"SystemUiOverlay."+this.b}}
+N(){return"SystemUiOverlay."+this.b}}
 A.aHz.prototype={
-M(){return"SystemUiMode."+this.b}}
+N(){return"SystemUiMode."+this.b}}
 A.wy.prototype={
 a_a(){var s,r,q,p,o=this,n=o.a
 n=n==null?null:n.j()
 s=o.e
 s=s==null?null:s.j()
-r=o.f.M()
-q=o.r.M()
+r=o.f.N()
+q=o.r.N()
 p=o.c
-p=p==null?null:p.M()
+p=p==null?null:p.N()
 return A.ag(["systemNavigationBarColor",n,"systemNavigationBarDividerColor",null,"systemStatusBarContrastEnforced",o.w,"statusBarColor",s,"statusBarBrightness",r,"statusBarIconBrightness",q,"systemNavigationBarIconBrightness",p,"systemNavigationBarContrastEnforced",o.d],t.N,t.z)},
 k(a){return"SystemUiOverlayStyle("+this.a_a().k(0)+")"},
 gE(a){var s=this
@@ -86607,7 +86607,7 @@ A.aHr.prototype={
 $0(){$.aHq=null},
 $S:0}
 A.a2T.prototype={
-M(){return"SystemSoundType."+this.b}}
+N(){return"SystemSoundType."+this.b}}
 A.jF.prototype={
 h9(a){var s
 if(a<0)return null
@@ -86709,7 +86709,7 @@ A.a31.prototype={}
 A.Bg.prototype={}
 A.aeR.prototype={}
 A.a_3.prototype={
-M(){return"MaxLengthEnforcement."+this.b}}
+N(){return"MaxLengthEnforcement."+this.b}}
 A.wE.prototype={}
 A.aaS.prototype={}
 A.b2c.prototype={}
@@ -86749,9 +86749,9 @@ $1(a){var s=this,r=s.a,q=a<=r&&a<s.b?0:s.c.length
 return q-(B.k.dN(a,r,s.b)-r)},
 $S:71}
 A.a2p.prototype={
-M(){return"SmartDashesType."+this.b}}
+N(){return"SmartDashesType."+this.b}}
 A.a2q.prototype={
-M(){return"SmartQuotesType."+this.b}}
+N(){return"SmartQuotesType."+this.b}}
 A.me.prototype={
 d6(){return A.ag(["name","TextInputType."+B.x7[this.a],"signed",this.b,"decimal",this.c],t.N,t.z)},
 k(a){return"TextInputType(name: "+("TextInputType."+B.x7[this.a])+", signed: "+A.n(this.b)+", decimal: "+A.n(this.c)+")"},
@@ -86759,9 +86759,9 @@ l(a,b){if(b==null)return!1
 return b instanceof A.me&&b.a===this.a&&b.b==this.b&&b.c==this.c},
 gE(a){return A.a6(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.iM.prototype={
-M(){return"TextInputAction."+this.b}}
+N(){return"TextInputAction."+this.b}}
 A.aHO.prototype={
-M(){return"TextCapitalization."+this.b}}
+N(){return"TextCapitalization."+this.b}}
 A.a34.prototype={
 d6(){var s=this,r=s.f.d6(),q=A.B(t.N,t.z)
 q.n(0,"viewId",s.a)
@@ -86774,9 +86774,9 @@ q.n(0,"smartQuotesType",B.k.k(s.w.a))
 q.n(0,"enableSuggestions",!0)
 q.n(0,"enableInteractiveSelection",s.y)
 q.n(0,"actionLabel",s.z)
-q.n(0,"inputAction",s.Q.M())
-q.n(0,"textCapitalization",s.as.M())
-q.n(0,"keyboardAppearance",s.at.M())
+q.n(0,"inputAction",s.Q.N())
+q.n(0,"textCapitalization",s.as.N())
+q.n(0,"keyboardAppearance",s.at.N())
 q.n(0,"enableIMEPersonalizedLearning",!0)
 q.n(0,"contentCommitMimeTypes",s.ay)
 if(r!=null)q.n(0,"autofill",r)
@@ -86811,7 +86811,7 @@ r.push("allowedMimeTypes: "+A.n(s.ay))
 r.push("enableDeltaModel: false")
 return"TextInputConfiguration("+B.c.ce(r,", ")+")"}}
 A.Gi.prototype={
-M(){return"FloatingCursorDragState."+this.b}}
+N(){return"FloatingCursorDragState."+this.b}}
 A.Al.prototype={}
 A.dI.prototype={
 yq(a,b,c){var s=c==null?this.a:c,r=b==null?this.b:b
@@ -86835,7 +86835,7 @@ r=o.b
 p=o.c
 return new A.dI(q,A.d0(B.v,s.$1(r.c),s.$1(r.d),!1),new A.d4(s.$1(p.a),s.$1(p.b)))},
 Qj(){var s=this.b,r=this.c
-return A.ag(["text",this.a,"selectionBase",s.c,"selectionExtent",s.d,"selectionAffinity",s.e.M(),"selectionIsDirectional",s.f,"composingBase",r.a,"composingExtent",r.b],t.N,t.z)},
+return A.ag(["text",this.a,"selectionBase",s.c,"selectionExtent",s.d,"selectionAffinity",s.e.N(),"selectionIsDirectional",s.f,"composingBase",r.a,"composingExtent",r.b],t.N,t.z)},
 k(a){return"TextEditingValue(text: \u2524"+this.a+"\u251c, selection: "+this.b.k(0)+", composing: "+this.c.k(0)+")"},
 l(a,b){var s=this
 if(b==null)return!1
@@ -86848,7 +86848,7 @@ $1(a){var s=this.a,r=s.a,q=a<=r&&a<s.b?0:this.b.length
 return a+q-(B.k.dN(a,r,s.b)-r)},
 $S:71}
 A.l5.prototype={
-M(){return"SelectionChangedCause."+this.b}}
+N(){return"SelectionChangedCause."+this.b}}
 A.aIk.prototype={}
 A.aHV.prototype={}
 A.wn.prototype={
@@ -87192,7 +87192,7 @@ A.aey.prototype={}
 A.aez.prototype={}
 A.agw.prototype={}
 A.a3o.prototype={
-M(){return"UndoDirection."+this.b}}
+N(){return"UndoDirection."+this.b}}
 A.a3p.prototype={
 gavh(){var s=this.a
 s===$&&A.b()
@@ -87888,7 +87888,7 @@ s===$&&A.b()
 r.e=new A.dy(B.k5,s.b,s.c,s.d,s.$ti)},
 $S:0}
 A.yx.prototype={
-M(){return"ConnectionState."+this.b}}
+N(){return"ConnectionState."+this.b}}
 A.dy.prototype={
 k(a){var s=this
 return"AsyncSnapshot("+s.a.k(0)+", "+A.n(s.b)+", "+A.n(s.c)+", "+A.n(s.d)+")"},
@@ -88015,7 +88015,7 @@ $0(){},
 $S:0}
 A.ve.prototype={}
 A.H7.prototype={
-m(){this.N()
+m(){this.M()
 this.dD()}}
 A.o1.prototype={
 tt(){var s=new A.H7($.ao())
@@ -88023,7 +88023,7 @@ this.hl$=s
 this.c.f3(new A.ve(s))},
 pR(){var s,r=this
 if(r.gpW()){if(r.hl$==null)r.tt()}else{s=r.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 r.hl$=null}}},
 v(a){if(this.gpW()&&this.hl$==null)this.tt()
@@ -88893,7 +88893,7 @@ aCg(a){var s=0,r=A.u(t.H),q,p=this
 var $async$pv=A.p(function(b,c){if(b===1)return A.q(c,r)
 while(true)switch(s){case 0:s=3
 return A.o(p.abB(a),$async$pv)
-case 3:switch(A.cs(J.aD(t.a.a(a),"type"))){case"fontsChange":p.nN$.N()
+case 3:switch(A.cs(J.aD(t.a.a(a),"type"))){case"fontsChange":p.nN$.M()
 break}s=1
 break
 case 1:return A.r(q,r)}})
@@ -89083,7 +89083,7 @@ A.a7V.prototype={
 HK(a){return this.c.HL(new A.O(0,0,0+a.a,0+a.b),this.b)},
 Il(a){return!a.c.l(0,this.c)||a.b!==this.b}}
 A.kD.prototype={
-M(){return"ContextMenuButtonType."+this.b}}
+N(){return"ContextMenuButtonType."+this.b}}
 A.eH.prototype={
 l(a,b){var s=this
 if(b==null)return!1
@@ -89138,12 +89138,12 @@ if(p>0)q-=p
 return new A.c(q,s>0?r-s:r)},
 ou(a){return!this.b.l(0,a.b)}}
 A.lC.prototype={
-M(){return"DismissDirection."+this.b}}
+N(){return"DismissDirection."+this.b}}
 A.FE.prototype={
 T(){var s=null
 return new A.My(new A.bc(s,t.A),s,s,s)}}
 A.N_.prototype={
-M(){return"_FlingGestureKind."+this.b}}
+N(){return"_FlingGestureKind."+this.b}}
 A.My.prototype={
 af(){var s,r,q=this
 q.adv()
@@ -89340,7 +89340,7 @@ A.QF.prototype={
 af(){this.au()
 if(this.gpW())this.tt()},
 eb(){var s=this.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 this.hl$=null}this.lc()}}
 A.yM.prototype={
@@ -91312,7 +91312,7 @@ A.MN.prototype={
 af(){this.au()
 if(this.a.d.gcE())this.tt()},
 eb(){var s=this.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 this.hl$=null}this.lc()}}
 A.a8u.prototype={}
@@ -91327,7 +91327,7 @@ s.aC()}}
 A.a8v.prototype={}
 A.a8w.prototype={}
 A.n1.prototype={
-M(){return"KeyEventResult."+this.b}}
+N(){return"KeyEventResult."+this.b}}
 A.a6h.prototype={}
 A.arO.prototype={
 aA(a){var s,r=this.a
@@ -91346,7 +91346,7 @@ s.toString
 a=A.b8a(s,!0,!0);(a==null?r.e.f.d.b:a).CN(r)}},
 a69(){return this.Q6(null)}}
 A.a3q.prototype={
-M(){return"UnfocusDisposition."+this.b}}
+N(){return"UnfocusDisposition."+this.b}}
 A.ed.prototype={
 gi6(){var s,r
 if(this.a)return!0
@@ -91484,7 +91484,7 @@ this.dD()},
 L6(){var s=this
 if(s.Q==null)return
 if(s.gjq())s.qA()
-s.N()},
+s.M()},
 a6d(a){this.md(!0)},
 hp(){return this.a6d(null)},
 md(a){var s,r=this
@@ -91540,9 +91540,9 @@ o.pop()}o=A.kQ(o)
 if(!a||o==null){if(p.b&&B.c.fg(p.ge4(),A.h2())){p.qA()
 p.Xk(p)}return}o.md(!0)}}
 A.qr.prototype={
-M(){return"FocusHighlightMode."+this.b}}
+N(){return"FocusHighlightMode."+this.b}}
 A.arP.prototype={
-M(){return"FocusHighlightStrategy."+this.b}}
+N(){return"FocusHighlightStrategy."+this.b}}
 A.a68.prototype={
 r_(a){return this.a.$1(a)}}
 A.Gl.prototype={
@@ -91593,10 +91593,10 @@ r=j.c=j.r
 j.r=null}if(s!=r){if(s!=null)j.d.G(0,s)
 r=j.c
 if(r!=null)j.d.G(0,r)}for(r=j.d,q=A.d5(r,r.r,A.v(r).c),p=q.$ti.c;q.A();){m=q.d;(m==null?p.a(m):m).L6()}r.ad(0)
-if(s!=j.c)j.N()},
+if(s!=j.c)j.M()},
 $iaj:1}
 A.a9s.prototype={
-N(){var s,r,q,p,o,n,m,l,k,j=this,i=j.f
+M(){var s,r,q,p,o,n,m,l,k,j=this,i=j.f
 if(i.a.a===0)return
 o=A.aa(i,t.Su)
 for(i=o.length,n=0;n<o.length;o.length===i||(0,A.S)(o),++n){s=o[n]
@@ -91652,7 +91652,7 @@ r=s?B.oQ:B.oR
 break}q=p.b
 if(q==null)q=A.x9()
 p.b=r
-if((r==null?A.x9():r)!==q)p.N()}}
+if((r==null?A.x9():r)!==q)p.M()}}
 A.a94.prototype={}
 A.a95.prototype={}
 A.a96.prototype={}
@@ -91830,9 +91830,9 @@ return!1}return!0},
 $S:36}
 A.Cc.prototype={}
 A.pd.prototype={
-M(){return"TraversalDirection."+this.b}}
+N(){return"TraversalDirection."+this.b}}
 A.L8.prototype={
-M(){return"TraversalEdgeBehavior."+this.b}}
+N(){return"TraversalEdgeBehavior."+this.b}}
 A.WA.prototype={
 Lt(a,b,c,d,e,f){var s,r,q
 if(a instanceof A.on){s=a.fy
@@ -92404,7 +92404,7 @@ A.asf.prototype={
 $0(){this.a.p7()},
 $S:0}
 A.mA.prototype={
-M(){return"AutovalidateMode."+this.b}}
+N(){return"AutovalidateMode."+this.b}}
 A.aTC.prototype={
 $2(a,b){if(!a.a)a.O(0,b)},
 $S:52}
@@ -92493,7 +92493,7 @@ cD(a){return new A.JX(this,B.aE)}}
 A.fw.prototype={
 cD(a){return A.bsx(this)}}
 A.C9.prototype={
-M(){return"_ElementLifecycle."+this.b}}
+N(){return"_ElementLifecycle."+this.b}}
 A.a9K.prototype={
 a_o(a){a.c5(new A.aVD(this))
 a.n2()},
@@ -93327,7 +93327,7 @@ s=this.b
 if(s!=null)s.$1(a)},
 $S:24}
 A.z9.prototype={
-M(){return"HeroFlightDirection."+this.b}}
+N(){return"HeroFlightDirection."+this.b}}
 A.v_.prototype={
 T(){return new A.Ck(new A.bc(null,t.A))}}
 A.atD.prototype={
@@ -94505,7 +94505,7 @@ m(){$.au.jx(this)
 this.dD()},
 a2j(a){var s=this,r=s.Lx(a,s.d)
 if(!r.l(0,s.f)){s.f=r
-s.N()}},
+s.M()}},
 Lx(a,b){return A.bAw(a,b)},
 k(a){return B.ay6.k(0)}}
 A.aak.prototype={}
@@ -94640,9 +94640,9 @@ l=l.a(A.E.prototype.gb4.call(n,0))
 l.toString
 a.pK(l,A.fY.prototype.gfD.call(n),b)}}
 A.a_E.prototype={
-M(){return"Orientation."+this.b}}
+N(){return"Orientation."+this.b}}
 A.eU.prototype={
-M(){return"_MediaQueryAspect."+this.b}}
+N(){return"_MediaQueryAspect."+this.b}}
 A.HM.prototype={
 gcP(){var s=this.d
 if(B.SZ!==s)return s
@@ -94774,7 +94774,7 @@ case 23:break
 default:r=null}return r},
 $S:130}
 A.a_p.prototype={
-M(){return"NavigationMode."+this.b}}
+N(){return"NavigationMode."+this.b}}
 A.NI.prototype={
 T(){return new A.aaA()}}
 A.aaA.prototype={
@@ -94923,7 +94923,7 @@ a4_(a){a.p=this.a}}
 A.aaM.prototype={
 v(a){return new A.iF(this.c,A.ag([B.ayy,new A.a65(this.d)],t.v,t.xR),B.aY,!1,null)}}
 A.AA.prototype={
-M(){return"RoutePopDisposition."+this.b}}
+N(){return"RoutePopDisposition."+this.b}}
 A.dw.prototype={
 gvw(){var s=this.a,r=this.b
 if(r==null)s=null
@@ -95007,7 +95007,7 @@ A.aAk.prototype={
 $1(a){return a==null},
 $S:560}
 A.hI.prototype={
-M(){return"_RouteLifecycle."+this.b}}
+N(){return"_RouteLifecycle."+this.b}}
 A.OP.prototype={}
 A.kr.prototype={
 gfp(){var s,r
@@ -95127,7 +95127,7 @@ A.NX.prototype={
 rv(a){}}
 A.a9t.prototype={
 U(a,b){B.c.U(this.a,b)
-if(J.j6(b))this.N()},
+if(J.j6(b))this.M()},
 i(a,b){return this.a[b]},
 gar(a){var s=this.a
 return new J.dr(s,s.length,A.a2(s).h("dr<1>"))},
@@ -95176,10 +95176,10 @@ m=k.c
 m.toString
 l=new A.kr(n.Nz(m),null,!0,B.rP,B.dE,new A.nO(new ($.Ry())(B.dE),q),B.dE)
 p.push(l)
-r.N()
+r.M()
 m=s.a6i(l,k)
 B.c.U(p,m)
-if(B.c.gcJ(m))r.N()}if(s.y==null){s=k.a
+if(B.c.gcJ(m))r.M()}if(s.y==null){s=k.a
 q=s.r
 r.U(0,J.fI(s.aEY(k,q),new A.aAj(k),t.Ez))}k.BZ()},
 NU(a){var s,r=this
@@ -95204,7 +95204,7 @@ if(p.gP()!=null)p.gP().Vq()}}},
 Vr(){var s,r,q
 this.f.JV(new A.aAg(),!0)
 for(s=this.e,r=s.a;!s.gak(0);){q=r.pop()
-s.N()
+s.M()
 A.beL(q,!1)}},
 Mc(a){var s,r,q=this
 if(q.Q!=a){if(a!=null)$.mv().n(0,a,q)
@@ -95364,7 +95364,7 @@ if(p.c)b1.a.toString
 p.d=B.rQ
 continue $label0$1
 case 13:p=B.c.kc(q,r)
-s.N()
+s.M()
 n.push(p)
 p=e
 break
@@ -95440,7 +95440,7 @@ return this.aGj(s,c)},
 aGk(a,b,c){return this.a5M(a,null,null,b,c)},
 aGd(a){var s=this.e
 s.a.push(A.b9I(a,B.Po,!1,null))
-s.N()
+s.M()
 this.BZ()
 this.BJ()
 return a.e.a},
@@ -95448,7 +95448,7 @@ mP(a){return this.aGd(a,t.X)},
 aGi(a,b){var s=A.b9I(a,B.rR,!1,null),r=this.e
 r.a4L(0,A.lq()).axZ(0,b,!0)
 r.a.push(s)
-r.N()
+r.M()
 this.BZ()
 this.BJ()
 return a.e.a},
@@ -95573,7 +95573,7 @@ this.b.f3(B.aeW)
 return!0},
 $S:242}
 A.OQ.prototype={
-M(){return"_RouteRestorationType."+this.b}}
+N(){return"_RouteRestorationType."+this.b}}
 A.ad9.prototype={
 ga4y(){return!0},
 Eb(){return A.a([this.a.a],t.f)}}
@@ -95639,14 +95639,14 @@ k=f<=d||!J.h(i.i(p,d),e)}else k=!0
 B.c.G(r,e)}}k=k||r.length!==J.cf(p)
 c.aiO(r,l,o,n)
 if(k||n.gcJ(n)){c.y=o
-c.N()}},
+c.M()}},
 aiO(a,b,c,d){var s
 if(a.length!==0){s=b==null?null:b.gfp()
 c.n(0,s,a)
 d.I(0,s)}},
 ad(a){if(this.y==null)return
 this.y=null
-this.N()},
+this.M()},
 a6i(a,b){var s,r,q,p,o=A.a([],t.uD)
 if(this.y!=null)s=a!=null&&a.gfp()==null
 else s=!0
@@ -95718,7 +95718,7 @@ pH(a){}}
 A.jv.prototype={}
 A.agv.prototype={}
 A.a_H.prototype={
-M(){return"OverflowBarAlignment."+this.b}}
+N(){return"OverflowBarAlignment."+this.b}}
 A.a_G.prototype={
 ba(a){var s=this,r=a.ap(t.I).w
 r=new A.CO(s.e,s.f,s.r,s.w,s.x,r,0,null,null,new A.ba(),A.aB(t.T))
@@ -96720,14 +96720,14 @@ this.adx()},
 v(a){var s=this,r=null,q=s.a,p=s.d,o=s.e,n=q.e,m=s.f
 return new A.dY(s.gLc(),new A.jy(A.it(new A.jy(q.w,r),new A.a9r(p,o,n,m),r,r,B.a8),r),r,t.WA)}}
 A.Ch.prototype={
-M(){return"_GlowState."+this.b}}
+N(){return"_GlowState."+this.b}}
 A.Nd.prototype={
 sd8(a,b){if(this.ay.l(0,b))return
 this.ay=b
-this.N()},
+this.M()},
 sa14(a){if(this.ch===a)return
 this.ch=a
-this.N()},
+this.M()},
 m(){var s=this,r=s.b
 r===$&&A.b()
 r.m()
@@ -96771,7 +96771,7 @@ o===$&&A.b()
 o.e=B.ed
 if(p.a!==B.mZ){o.lH(0,0)
 p.a=B.mZ}else{o=o.r
-if(!(o!=null&&o.a!=null))p.N()}p.c=A.cz(B.ed,new A.aUL(p))},
+if(!(o!=null&&o.a!=null))p.M()}p.c=A.cz(B.ed,new A.aUL(p))},
 Jb(a){var s=this
 if(a!==B.aF)return
 switch(s.a.a){case 1:s.qw(B.il)
@@ -96806,7 +96806,7 @@ auW(a){var s,r=this,q=r.Q
 if(q!=null){q=q.a
 s=r.as
 r.at=s-(s-r.at)*Math.pow(2,-(a.a-q)/$.blN().a)
-r.N()}if(A.Re(r.as,r.at,0.001)){q=r.z
+r.M()}if(A.Re(r.as,r.at,0.001)){q=r.z
 q===$&&A.b()
 q.eZ(0)
 r.Q=null}else r.Q=a},
@@ -96875,7 +96875,7 @@ s.XW(a,b,s.c,r,B.kL)},
 eY(a){return a.b!=this.b||a.c!=this.c},
 k(a){return"_GlowingOverscrollIndicatorPainter("+A.n(this.b)+", "+A.n(this.c)+")"}}
 A.aek.prototype={
-M(){return"_StretchDirection."+this.b}}
+N(){return"_StretchDirection."+this.b}}
 A.Kn.prototype={
 T(){return new A.PC(null,null)},
 vc(a){return A.ahS().$1(a)}}
@@ -96978,7 +96978,7 @@ m=A.Br(o,k.f,s,j,!0)
 return A.EP(m,!i&&n!==p?k.e:B.h,l)},
 $S:571}
 A.D_.prototype={
-M(){return"_StretchState."+this.b}}
+N(){return"_StretchState."+this.b}}
 A.PB.prototype={
 aGc(a,b,c){var s,r,q,p=this,o=c>0?B.rX:B.Ps
 if(p.r!==o&&p.e===B.t_)return
@@ -96996,7 +96996,7 @@ q===$&&A.b()
 q.e=B.kg
 if(p.e!==B.rZ){q.lH(0,0)
 p.e=B.rZ}else{s=q.r
-if(!(s!=null&&s.a!=null))p.N()}},
+if(!(s!=null&&s.a!=null))p.M()}},
 Jb(a){var s=this
 if(a!==B.aF)return
 switch(s.e.a){case 1:s.qw(B.kg)
@@ -97594,7 +97594,7 @@ r.uz(s)}},
 zm(a){this.y=a}}
 A.kq.prototype={
 ph(){return this.cy},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){return A.v(this).h("kq.T").a(a)},
 mZ(){var s=this.y
 return s==null?A.v(this).h("bD.T").a(s):s}}
@@ -97608,7 +97608,7 @@ A.rl.prototype={}
 A.a1b.prototype={}
 A.a1a.prototype={
 ph(){return this.cy},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){return a!=null?new A.cE(A.ao9(A.ez(a),0,!1),0,!1):null},
 mZ(){var s=this.y
 if(s==null)s=A.v(this).h("bD.T").a(s)
@@ -97642,7 +97642,7 @@ gol(){return this.b}}
 A.a1l.prototype={
 T(){return new A.CS(new A.ad7($.ao()),null,A.B(t.yb,t.M),null,!0,null,this.$ti.h("CS<1>"))}}
 A.aDS.prototype={
-M(){return"RouteInformationReportingType."+this.b}}
+N(){return"RouteInformationReportingType."+this.b}}
 A.CS.prototype={
 gfp(){return this.a.r},
 af(){var s,r=this
@@ -97784,7 +97784,7 @@ A.adi.prototype={
 d7(a){return!0}}
 A.ad7.prototype={
 ph(){return null},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){var s,r
 if(a==null)return null
 t.Dn.a(a)
@@ -97985,7 +97985,7 @@ A.a8b.prototype={
 nZ(a,b){return A.zP(this.e,null,t.z).gnz()},
 eT(a){return A.bb(this.e,!1).a4X()}}
 A.xh.prototype={
-M(){return"_ModalRouteAspect."+this.b}}
+N(){return"_ModalRouteAspect."+this.b}}
 A.NM.prototype={
 d7(a){var s=this
 return s.w!==a.w||s.x!==a.x||s.y!==a.y||s.Q!==a.Q||s.z!==a.z},
@@ -98643,7 +98643,7 @@ A.agU.prototype={
 af(){this.au()
 if(this.r)this.tt()},
 eb(){var s=this.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 this.hl$=null}this.lc()}}
 A.a1F.prototype={
@@ -98758,7 +98758,7 @@ $1(a){this.a.XD(a)
 return!1},
 $S:62}
 A.a1D.prototype={
-M(){return"ScrollDecelerationRate."+this.b}}
+N(){return"ScrollDecelerationRate."+this.b}}
 A.rq.prototype={
 lp(a){var s=this.a
 s=s==null?null:s.mj(a)
@@ -98980,7 +98980,7 @@ mj(a){return new A.a_q(this.lp(a))},
 gMK(){return!1},
 gnv(){return!1}}
 A.wh.prototype={
-M(){return"ScrollPositionAlignmentPolicy."+this.b}}
+N(){return"ScrollPositionAlignmentPolicy."+this.b}}
 A.nk.prototype={
 T_(a,b,c,d,e){if(d!=null)this.p9(d)
 this.a6k()},
@@ -99382,7 +99382,7 @@ lP(a){var s=this.e
 s===$&&A.b()
 return a>=s}}
 A.a1H.prototype={
-M(){return"ScrollViewKeyboardDismissBehavior."+this.b}}
+N(){return"ScrollViewKeyboardDismissBehavior."+this.b}}
 A.a1G.prototype={
 axm(a,b,c,d){var s=this
 if(s.x)return new A.a2_(c,b,B.rg,s.CW,d,null)
@@ -100048,7 +100048,7 @@ qN(){this.IE()
 this.c4=null}}
 A.ad8.prototype={
 ph(){return null},
-uz(a){this.N()},
+uz(a){this.M()},
 mG(a){a.toString
 return A.dn(a)},
 mZ(){var s=this.y
@@ -100202,7 +100202,7 @@ return A.o(p.tQ(),$async$tQ)
 case 6:case 5:case 1:return A.r(q,r)}})
 return A.t($async$tQ,r)}}
 A.a1E.prototype={
-M(){return"ScrollIncrementType."+this.b}}
+N(){return"ScrollIncrementType."+this.b}}
 A.fZ.prototype={}
 A.Jx.prototype={
 o_(a,b,c){var s
@@ -100231,47 +100231,47 @@ p.toString
 r.zS(0,p+o,B.nW,B.a_)},
 eT(a){return this.ee(a,null)}}
 A.AJ.prototype={
-M(){return"ScrollbarOrientation."+this.b}}
+N(){return"ScrollbarOrientation."+this.b}}
 A.AK.prototype={
 sd8(a,b){if(this.a.l(0,b))return
 this.a=b
-this.N()},
+this.M()},
 sn_(a){if(this.b.l(0,a))return
 this.b=a
-this.N()},
+this.M()},
 sa6C(a){if(this.c.l(0,a))return
 this.c=a
-this.N()},
+this.M()},
 saHA(a){return},
 sc1(a){if(this.e===a)return
 this.e=a
-this.N()},
+this.M()},
 sQe(a){if(this.f===a)return
 this.f=a
-this.N()},
+this.M()},
 sPf(a){if(this.w===a)return
 this.w=a
-this.N()},
+this.M()},
 sND(a){if(this.x===a)return
 this.x=a
-this.N()},
+this.M()},
 sAb(a){if(J.h(this.y,a))return
 this.y=a
-this.N()},
+this.M()},
 sck(a,b){return},
 sd0(a,b){if(this.Q.l(0,b))return
 this.Q=b
-this.N()},
+this.M()},
 sPm(a,b){if(this.as===b)return
 this.as=b
-this.N()},
+this.M()},
 sa4Z(a){if(this.at===a)return
 this.at=a
-this.N()},
+this.M()},
 sI4(a){return},
 sa3U(a){if(this.ay===a)return
 this.ay=a
-this.N()},
+this.M()},
 gx7(){var s,r=this.gLz()
 $label0$0:{if(B.Nh===r||B.Ni===r){s=this.Q.b
 break $label0$0}if(B.ap2===r||B.Nj===r){s=this.Q.a
@@ -100284,7 +100284,7 @@ if(r!=null&&Math.max(r.gfE()-r.gkW(),0)===Math.max(b.gfE()-b.gkW(),0)&&r.gr8()==
 s.db=b
 s.dx=c
 if(!s.L1(r)&&!s.L1(b))return
-s.N()},
+s.M()},
 gXX(){var s,r
 $.aw()
 s=A.bu()
@@ -101116,7 +101116,7 @@ k.Q=A.b3(t.x9)},
 EE(){this.Dm()},
 Dm(){var s=this,r=s.a7Q()
 if(!s.at.l(0,r)){s.at=r
-s.N()}s.avv()},
+s.M()}s.avv()},
 gyh(){return A.bCY()},
 an1(){if(this.x)return
 this.Dm()},
@@ -101544,7 +101544,7 @@ Qw(a,b){var s,r,q,p
 for(s=b.gar(b),r=this.x,q=a.x;s.A();){p=s.gZ(s)
 if(!J.h(r.i(0,p),q.i(0,p)))return!0}return!1}}
 A.Hq.prototype={
-M(){return"LockState."+this.b}}
+N(){return"LockState."+this.b}}
 A.aO.prototype={
 atX(a){var s
 switch(this.f.a){case 0:s=!0
@@ -101560,7 +101560,7 @@ A.AU.prototype={
 sos(a){var s=this
 if(!A.Rc(s.b,a)){s.b=a
 s.c=null
-s.N()}},
+s.M()}},
 gWS(){var s=this.c
 return s==null?this.c=A.but(this.b):s},
 aiP(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=a.b,e=this.gWS().i(0,f)
@@ -102185,11 +102185,11 @@ s.CZ(a,c)}}
 A.Pj.prototype={
 bg(a,b){return this.SF(a,b)}}
 A.Kb.prototype={
-M(){return"SnapshotMode."+this.b}}
+N(){return"SnapshotMode."+this.b}}
 A.Ka.prototype={
 sqH(a){if(a===this.a)return
 this.a=a
-this.N()}}
+this.M()}}
 A.a2t.prototype={
 ba(a){var s=new A.CP(A.an(a,B.eE,t.w).w.b,this.w,this.e,this.f,!0,null,new A.ba(),A.aB(t.T))
 s.b9()
@@ -102322,7 +102322,7 @@ return s},
 gE(a){var s=this
 return A.a6(s.a,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Kh.prototype={
-M(){return"StandardComponentType."+this.b}}
+N(){return"StandardComponentType."+this.b}}
 A.Kv.prototype={
 T(){return new A.aeA()}}
 A.aHx.prototype={
@@ -103882,7 +103882,7 @@ m(){$.au.jx(this)
 this.w=!0
 this.dD()}}
 A.yq.prototype={
-M(){return"ClipboardStatus."+this.b}}
+N(){return"ClipboardStatus."+this.b}}
 A.mf.prototype={
 OC(a){return this.aBQ(a)},
 aBQ(a){var s=0,r=A.u(t.H)
@@ -104077,58 +104077,58 @@ if(b===r)return
 if(r!=null)r.a.O(0,s.gdQ())
 b.a.a5(0,s.gdQ())
 s.a=b
-s.N()},
+s.M()},
 sPY(a){var s=this,r=s.b
 if(a===r)return
 if(r!=null)r.a.O(0,s.gdQ())
 a.a.a5(0,s.gdQ())
 s.b=a
-s.N()},
+s.M()},
 sa5Q(a){var s=this,r=s.c
 if(a===r)return
 if(r!=null)r.a.O(0,s.gdQ())
 a.a.a5(0,s.gdQ())
 s.c=a
-s.N()},
+s.M()},
 sa5R(a){var s=this,r=s.d
 if(a===r)return
 if(r!=null)r.a.O(0,s.gdQ())
 a.a.a5(0,s.gdQ())
 s.d=a
-s.N()},
+s.M()},
 sMz(a){if(J.h(this.e,a))return
 this.e=a
-this.N()},
+this.M()},
 sOX(a){if(J.h(this.f,a))return
 this.f=a
-this.N()},
+this.M()},
 sa3X(a){if(a.l(0,this.r))return
 this.r=a
-this.N()},
+this.M()},
 sa5P(a){if(a.l(0,this.w))return
 this.w=a
-this.N()},
+this.M()},
 spw(a){if(a.l(0,this.x))return
 this.x=a
-this.N()},
+this.M()},
 snW(a){if(a.l(0,this.y))return
 this.y=a
-this.N()},
+this.M()},
 siC(a){if(a===this.z)return
 this.z=a
-this.N()},
+this.M()},
 sO_(a){if(J.h(a,this.Q))return
 this.Q=a
-this.N()},
+this.M()},
 so0(a){if(a===this.as)return
 this.as=a
-this.N()},
+this.M()},
 sP4(a){if(a===this.at)return
 this.at=a
-this.N()},
+this.M()},
 spz(a){if(a===this.ax)return
 this.ax=a
-this.N()},
+this.M()},
 a5p(a,b){var s,r,q,p,o=this
 if(o.b.gbE(0)!==B.ak||o.c.gbE(0)!==B.ak||o.d.gbE(0)!==B.ak){$.aw()
 s=A.bu()
@@ -104779,7 +104779,7 @@ a4z(a){return!0},
 k(a){return"WidgetState.any"},
 $ia3P:1}
 A.d1.prototype={
-M(){return"WidgetState."+this.b},
+N(){return"WidgetState."+this.b},
 a4z(a){return a.q(0,this)},
 $ia3P:1}
 A.rU.prototype={$icq:1}
@@ -104840,7 +104840,7 @@ gE(a){return J.U(this.a)},
 $icq:1}
 A.a3Q.prototype={
 en(a,b,c){var s=this.a
-if(c?J.j4(s,b):J.pQ(s,b))this.N()}}
+if(c?J.j4(s,b):J.pQ(s,b))this.M()}}
 A.ag2.prototype={}
 A.LB.prototype={
 T(){return new A.ag7()}}
@@ -110191,12 +110191,12 @@ return r},
 Z6(a,b,c,d,e,f){var s=B.SH.Hg()
 return s}}
 A.av8.prototype={
-M(){return"KeyCipherAlgorithm."+this.b}}
+N(){return"KeyCipherAlgorithm."+this.b}}
 A.aH7.prototype={
-M(){return"StorageCipherAlgorithm."+this.b}}
+N(){return"StorageCipherAlgorithm."+this.b}}
 A.ajs.prototype={}
 A.avt.prototype={
-M(){return"KeychainAccessibility."+this.b}}
+N(){return"KeychainAccessibility."+this.b}}
 A.ajW.prototype={}
 A.auh.prototype={}
 A.aw1.prototype={}
@@ -110365,7 +110365,7 @@ s=this.b===B.cc?"Italic":""
 if(r==="Regular")return s===""?r:s
 return r+s},
 k(a){var s,r=this.a.a,q=r===3,p=q?"":(r+1)*100
-r=this.b.M()
+r=this.b.N()
 r=A.eY(r,"FontStyle.","")
 s=B.d.lY(r,"normal",q?"regular":"")
 return A.n(p)+s},
@@ -111229,7 +111229,7 @@ A.b6F.prototype={
 $1(a){return"fallback"},
 $S:139}
 A.lZ.prototype={
-M(){return"PluralCase."+this.b}}
+N(){return"PluralCase."+this.b}}
 A.av_.prototype={
 $2(a,b){var s,r,q=null,p=a.c
 switch(p.a){case 0:case 2:case 1:s="El servidor est\xe1 tardando demasiado en responder. Por favor, int\xe9ntelo m\xe1s tarde."
@@ -111239,7 +111239,7 @@ break
 case 4:r=a.b
 s="El servidor respondi\xf3 con un error: "+A.n(r==null?q:r.c)
 break
-default:s="Error al comunicarse con el servidor: "+A.n(a.f)}p=A.ag(["error",!0,"mensaje",s,"tipo",p.M(),"detalles",a.f],t.N,t.X)
+default:s="Error al comunicarse con el servidor: "+A.n(a.f)}p=A.ag(["error",!0,"mensaje",s,"tipo",p.N(),"detalles",a.f],t.N,t.X)
 r=a.b
 r=r==null?q:r.c
 if(r==null)r=500
@@ -111296,7 +111296,7 @@ case 9:s=j.e!=null?10:11
 break
 case 10:s=12
 return A.o(A.H(j,!1,i).m2(),$async$$0)
-case 12:k.N()
+case 12:k.M()
 case 11:case 8:q=1
 s=5
 break
@@ -111347,7 +111347,7 @@ break
 case 2:A.bh("Blog eliminado con \xe9xito",B.I)
 s=5
 return A.o(p.m2(),$async$$0)
-case 5:q.a.N()
+case 5:q.a.M()
 case 3:return A.r(null,r)}})
 return A.t($async$$0,r)},
 $S:11}
@@ -111660,7 +111660,7 @@ n.toString
 s=5
 return A.o(A.XE("/uploads/usuarios/"+b,n),$async$lU)
 case 5:if(a.e!=null)A.H(a,!1,t.Jr).n6()
-q.N()
+q.M()
 A.bh(A.j("Image changed successfully",null,"imgCambiadaNtf",A.a([],t.f),null),B.I)
 case 4:return A.r(null,r)}})
 return A.t($async$lU,r)},
@@ -112971,7 +112971,7 @@ return A.o(A.fs("/cursos/"+a),$async$AK)
 case 6:n=c
 m=A.Vm(n)
 o.f=m
-o.N()
+o.M()
 o.as=m.r
 o.Q=m.d
 o.z=m.c
@@ -112982,7 +112982,7 @@ o.ay=m.w
 o.cx=m.ch
 o.ch=m.at
 o.CW=m.ax
-o.N()
+o.M()
 q=1
 s=5
 break
@@ -113005,7 +113005,7 @@ return A.o(A.fs("/cursos/"+a),$async$jC)
 case 7:m=c
 l=A.Vm(m)
 n.w=l
-n.N()
+n.M()
 j=n.w
 q=j
 s=1
@@ -113039,7 +113039,7 @@ s=1
 break}if(m!=null){l=A.bo7(m)
 l.toString
 n.a=l.b
-n.N()}else A.b_("La respuesta del servidor es nula")
+n.M()}else A.b_("La respuesta del servidor es nula")
 p=2
 s=6
 break
@@ -113071,7 +113071,7 @@ s=3
 return A.o(A.kR("/usuarios/add/"+b,A.ag(["cursoId",p.d],t.N,t.z)),$async$xS)
 case 3:if(o.aD(d,"msg")!=null){s=1
 break}else{A.bh(A.j("Course added",null,"cursoAgregado",A.a([],t.f),null),B.I)
-p.N()}case 1:return A.r(q,r)}})
+p.M()}case 1:return A.r(q,r)}})
 return A.t($async$xS,r)},
 Ex(a,b,c){return this.azX(a,b,c)},
 azX(a,b,c){var s=0,r=A.u(t.z),q=1,p=[],o=this,n,m,l,k,j
@@ -113083,7 +113083,7 @@ q=3
 s=6
 return A.o(A.kR("/usuarios/remove/"+c,A.ag(["cursoId",b],t.N,t.z)),$async$Ex)
 case 6:B.c.hI(o.c,new A.aje(b))
-o.N()
+o.M()
 A.bh(A.j("Course deleted",null,"cursoBorrado",A.a([],t.f),null),B.I)
 q=1
 s=5
@@ -113112,10 +113112,10 @@ s=6
 return A.o(A.kR("/cursos/"+b,m),$async$Hu)
 case 6:l=d
 o.r=A.Vm(l)
-o.N()
+o.M()
 B.c.hI(o.a,new A.ajl(b))
 o.a.push(o.r)
-o.N()
+o.M()
 A.bh(A.j("Course updated successfully",null,"cursoActualizado",A.a([],t.f),null),B.I)
 q=1
 s=5
@@ -113142,7 +113142,7 @@ p=4
 s=7
 return A.o(A.n_("/cursos/"+b,A.B(t.N,t.z)),$async$Ew)
 case 7:B.c.hI(n.a,new A.ajf(b))
-n.N()
+n.M()
 A.bh(A.j("Course deleted",null,"cursoBorrado",A.a([],t.f),null),B.I)
 q=!0
 s=1
@@ -113181,7 +113181,7 @@ m=A.ag(["nombre",e,"descripcion",b,"video",g,"idDriveFolder",c,"idDriveZip",d],k
 q=3
 s=6
 return A.o(A.kR("/modulos/"+f,m),$async$Hy)
-case 6:o.N()
+case 6:o.M()
 A.bh(A.j("Module updated successfully",null,"moduloActualizado",A.a([],t.f),null),B.I)
 q=1
 s=5
@@ -113207,7 +113207,7 @@ s=7
 return A.o(A.n_("/modulos/"+b,A.B(t.N,t.z)),$async$EA)
 case 7:B.c.hI(n.f.f,new A.ajg(b))
 n.ht()
-n.N()
+n.M()
 A.bh(A.j("Module deleted successfully",null,"moduloBorrado",A.a([],t.f),null),B.I)
 q=!0
 s=1
@@ -113297,7 +113297,7 @@ s=7
 return A.o(A.ef("/uploads/certificados/gen",j),$async$AH)
 case 7:m=d
 n.x=A.bcm(J.aD(m,"cert"))
-n.N()
+n.M()
 s=1
 break
 p=2
@@ -113335,7 +113335,7 @@ m=A.ag(["nombre",e,"img",d,"testimonio",f,"cursoId",b],k,k)
 q=3
 s=6
 return A.o(A.kR("/cursos/testimonio/"+c,m),$async$HA)
-case 6:o.N()
+case 6:o.M()
 A.bh(A.j("Testimonial updated successfully",null,"testimonioActualizado",A.a([],t.f),null),B.I)
 q=1
 s=5
@@ -113361,7 +113361,7 @@ s=7
 return A.o(A.n_("/cursos/testimonio/"+b,A.B(t.N,t.z)),$async$EB)
 case 7:B.c.hI(n.f.ay,new A.ajh(b))
 n.ht()
-n.N()
+n.M()
 A.bh(A.j("Testimonial deleted successfully",null,"testimonioBorrado",A.a([],t.f),null),B.I)
 q=!0
 s=1
@@ -113382,7 +113382,7 @@ return A.t($async$EB,r)}}
 A.aj8.prototype={
 $1(a){var s=A.Vm(a),r=this.a
 r.a.push(s)
-r.N()
+r.M()
 A.bh(A.j("Course created successfully",null,"cursoCreado",A.a([],t.f),null),B.I)},
 $S:18}
 A.aj9.prototype={
@@ -113404,7 +113404,7 @@ A.ajf.prototype={
 $1(a){return a.a===this.a},
 $S:65}
 A.aja.prototype={
-$1(a){this.a.N()
+$1(a){this.a.M()
 A.bh(A.j("Module added successfully",null,"moduloAgregado",A.a([],t.f),null),B.I)},
 $S:18}
 A.ajb.prototype={
@@ -113414,7 +113414,7 @@ A.ajg.prototype={
 $1(a){return a.a===this.a},
 $S:142}
 A.aj6.prototype={
-$1(a){this.a.N()
+$1(a){this.a.M()
 A.bh(A.j("Comment added successfully",null,"comentarioAgregado",A.a([],t.f),null),B.I)},
 $S:18}
 A.aj7.prototype={
@@ -113424,7 +113424,7 @@ A.ajk.prototype={
 $1(a){return a.a===this.a},
 $S:65}
 A.ajc.prototype={
-$1(a){this.a.N()
+$1(a){this.a.M()
 A.bh(A.j("Testimonial added successfully",null,"testimonioAgregado",A.a([],t.f),null),B.I)},
 $S:18}
 A.ajd.prototype={
@@ -113435,7 +113435,7 @@ $1(a){return a.a===this.a},
 $S:719}
 A.tK.prototype={}
 A.E4.prototype={
-M(){return"AuthStatus."+this.b}}
+N(){return"AuthStatus."+this.b}}
 A.tP.prototype={
 G2(a,b,c){return this.aE1(a,b,c)},
 aE1(a,b,c){var s=0,r=A.u(t.z),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e
@@ -113453,7 +113453,7 @@ case 7:k=a0
 if(t.G.b(k)&&J.h(J.aD(k,"error"),!0)){n.f=!1
 f=J.aD(k,"mensaje")
 A.bh(f==null?A.j("Invalid credentials",null,"credencialesInvalidas",A.a([],t.f),null):f,B.dU)
-n.N()
+n.M()
 s=1
 break}j=A.akf(k)
 f=A.H(a,!1,t.x)
@@ -113463,7 +113463,7 @@ f.Ho("Login "+j.a.z,h,"/login","login",i.cy)
 if(!j.a.z){A.bh(A.j(u.bz,null,"debeVerificar",A.a([],t.f),null),B.r)
 A.em("/user/login")
 n.f=!1
-n.N()
+n.M()
 s=1
 break}n.d=j.a
 j.toString
@@ -113472,7 +113472,7 @@ $.Hn.bZ().Zp("String","token",J.aD(k,"token"))
 A.b8u()
 A.em("/user/dashboard/miscursos")
 n.f=!1
-n.N()
+n.M()
 p=2
 s=6
 break
@@ -113480,7 +113480,7 @@ case 4:p=3
 e=o.pop()
 n.f=!1
 A.bh(A.j("Invalid credentials",null,"credencialesInvalidas",A.a([],t.f),null),B.r)
-n.N()
+n.M()
 s=6
 break
 case 3:s=2
@@ -113493,7 +113493,7 @@ var $async$rn=A.p(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:n.f=!0
 if(A.dJ(J.aD($.Hn.bZ().a,"token"))==null){n.c=B.bF
 n.f=!1
-n.N()
+n.M()
 q=!1
 s=1
 break}p=4
@@ -113503,7 +113503,7 @@ case 7:m=b
 if(t.G.b(m)&&J.h(J.aD(m,"error"),!0)){if(!J.h(J.aD(m,"tipo"),"DioExceptionType.connectionError")){k=J.aD(m,"mensaje")
 A.bh(k==null?"Error de autenticaci\xf3n":k,B.dU)}n.c=B.bF
 n.f=!1
-n.N()
+n.M()
 q=!1
 s=1
 break}l=A.akf(m)
@@ -113511,7 +113511,7 @@ n.d=l.a
 l.toString
 n.c=B.bY
 n.f=!1
-n.N()
+n.M()
 q=!0
 s=1
 break
@@ -113523,7 +113523,7 @@ i=o.pop()
 A.bh("Error al procesar los datos de autenticaci\xf3n",B.r)
 n.c=B.bF
 n.f=!1
-n.N()
+n.M()
 q=!1
 s=1
 break
@@ -113540,7 +113540,7 @@ var $async$Q1=A.p(function(g,h){if(g===1)return A.q(h,r)
 while(true)switch(s){case 0:o=A.az(c,B.B,t.J)
 o.toString
 q.f=!0
-q.N()
+q.M()
 p=t.N
 A.ef("/usuarios",A.ag(["nombre",e,"apellido",b,"correo",d,"password",f,"telf","no value"],p,p)).bG(0,new A.akc(q,o),t.P).hy(new A.akd(q,o))
 return A.r(null,r)}})
@@ -113637,7 +113637,7 @@ s=6
 return A.o(A.kR("/usuarios/prog/"+o.d.cy,l),$async$pS)
 case 6:n=e
 o.d=A.b9n(n)
-o.N()
+o.M()
 q=1
 s=5
 break
@@ -113714,18 +113714,18 @@ q.d=r
 if(!r.z){A.bh(A.j(u.dS,null,"graciasPorRegistrarte",A.a([],t.f),null),B.I)
 A.bG("/user/login")
 q.f=!1
-q.N()
+q.M()
 return}q.c=B.bY
 $.Hn.bZ().Zp("String","token",s.b)
 A.bG("/user/dashboard/miscursos")
 q.f=!1
-q.N()
+q.M()
 A.b8u()},
 $S:18}
 A.akd.prototype={
 $1(a){var s=this.a
 s.f=!1
-s.N()
+s.M()
 A.bh(A.j("Email already exists. Go to Log in.",null,"correoYaExiste",A.a([],t.f),null),B.r)},
 $S:18}
 A.uC.prototype={
@@ -113855,14 +113855,14 @@ s.ch=s.ay=s.cx=s.ax=""
 s.CW="cero"
 s.cy=!0
 s.db=""
-s.N()},
+s.M()},
 AN(){var s=0,r=A.u(t.z),q=this,p
 var $async$AN=A.p(function(a,b){if(a===1)return A.q(b,r)
 while(true)switch(s){case 0:p=A
 s=2
 return A.o(A.fs("/forms"),$async$AN)
 case 2:q.dx=p.br2(b).b
-q.N()
+q.M()
 return A.r(null,r)}})
 return A.t($async$AN,r)},
 q6(a){return this.a8k(a)},
@@ -113877,14 +113877,14 @@ J.bnB(n,"nombre: "+o.y+" - correo: "+m+" - telefono: "+o.z+" - business: "+o.Q+"
 s=6
 return A.o(A.ef("/forms/",j),$async$q6)
 case 6:o.Ig()
-o.N()
+o.M()
 A.bh("Submitted form",B.I)
 q=1
 s=5
 break
 case 3:q=2
 i=p.pop()
-o.N()
+o.M()
 A.bh("error sending form",B.r)
 s=5
 break
@@ -113900,7 +113900,7 @@ s=p}while(true)switch(s){case 0:p=4
 s=7
 return A.o(A.n_("/forms/"+a,A.B(t.N,t.z)),$async$Ey)
 case 7:B.c.hI(n.dx,new A.asl(a))
-n.N()
+n.M()
 A.bh("Form deleted",B.I)
 q=!0
 s=1
@@ -113932,7 +113932,7 @@ l=o.dx
 k=A.a2(l).h("a4<1,hV>")
 l=A.aa(new A.a4(l,new A.asm(a,n),k),k.h("aE.E"))
 o.dx=l
-o.N()
+o.M()
 q=1
 s=5
 break
@@ -113974,7 +113974,7 @@ case 9:s=10
 return A.o(B.jC.QN(0,"KEY_PASS",p.c),$async$pU)
 case 10:s=11
 return A.o(B.jC.QN(0,"KEY_RMMB",String(p.d)),$async$pU)
-case 11:p.N()
+case 11:p.M()
 s=7
 break
 case 8:s=12
@@ -113982,7 +113982,7 @@ return A.o($.baW().a2f(B.jC.Z6(null,null,null,null,null,null)),$async$pU)
 case 12:case 7:o=n.G2(a,p.b,p.c)
 s=13
 return A.o(t.L0.b(o)?o:A.fC(o,t.z),$async$pU)
-case 13:p.N()
+case 13:p.M()
 q=!0
 s=1
 break
@@ -114004,7 +114004,7 @@ while(true)switch(s){case 0:p=A
 s=2
 return A.o(A.fs("/leads"),$async$vT)
 case 2:q.a=p.brP(b).a
-q.N()
+q.M()
 return A.r(null,r)}})
 return A.t($async$vT,r)},
 yx(a,b){return this.azu(a,b)},
@@ -114031,7 +114031,7 @@ j=o.a
 l=A.a2(j).h("a4<1,hB>")
 j=A.aa(new A.a4(j,new A.avQ(b,n),l),l.h("aE.E"))
 o.a=j
-o.N()
+o.M()
 q=1
 s=5
 break
@@ -114055,7 +114055,7 @@ s=7
 return A.o(A.n_("/leads/"+a,A.B(t.N,t.z)),$async$Ez)
 case 7:m=c
 B.c.hI(n.a,new A.avP(a))
-n.N()
+n.M()
 q=m
 s=1
 break
@@ -114078,7 +114078,7 @@ A.avN.prototype={
 $1(a){var s=A.bef(a),r=this.a
 B.c.G(r.a,s)
 r.b=!0
-r.N()
+r.M()
 return!0},
 $S:144}
 A.avO.prototype={
@@ -114145,7 +114145,7 @@ A.wt.prototype={
 fY(a){this.b=a
 A.h8(B.a_,new A.aGn(this),t.P)}}
 A.aGn.prototype={
-$0(){this.a.N()},
+$0(){this.a.M()},
 $S:2}
 A.wS.prototype={
 n6(){var s=0,r=A.u(t.z),q=this,p
@@ -114154,7 +114154,7 @@ while(true)switch(s){case 0:p=A
 s=2
 return A.o(A.fs("/usuarios"),$async$n6)
 case 2:q.a=p.bo8(b).b
-q.N()
+q.M()
 return A.r(null,r)}})
 return A.t($async$n6,r)},
 azC(a,b,c,d,e,f){A.ef("/usuarios",A.ag(["nombre",a,"apellido",b,"correo",c,"password",c,"rol",e,"estado",f],t.N,t.X)).bG(0,new A.aJt(this),t.P).hy(new A.aJu())},
@@ -114189,7 +114189,7 @@ s=p}while(true)switch(s){case 0:p=4
 s=7
 return A.o(A.n_("/usuarios/"+a,A.B(t.N,t.z)),$async$EC)
 case 7:B.c.hI(n.a,new A.aJv(a))
-n.N()
+n.M()
 q=!0
 s=1
 break
@@ -114211,7 +114211,7 @@ return A.t($async$EC,r)}}
 A.aJt.prototype={
 $1(a){var s=A.akf(a),r=this.a
 r.a.push(s.a)
-r.N()},
+r.M()},
 $S:18}
 A.aJu.prototype={
 $1(a){},
@@ -114612,8 +114612,10 @@ $S:747}
 A.aOj.prototype={
 $0(){var s="Anywhere",r=this.a,q=this.b,p=t.x
 if(r.r.l(0,B.eu)){J.ch(A.H(q,!1,p),"Cambio idioma a ingles",s,"click-lenguaje-ingles")
-r.r=B.pY}else{J.ch(A.H(q,!1,p),"Cambio idioma a Espanol",s,"click-lenguaje-espanol")
-r.r=B.eu}},
+r.r=B.pY
+r.M()}else{J.ch(A.H(q,!1,p),"Cambio idioma a Espanol",s,"click-lenguaje-espanol")
+r.r=B.eu
+r.M()}},
 $S:0}
 A.aOk.prototype={
 $1(a){$.aAU.b=a},
@@ -114659,8 +114661,10 @@ return A.l2(B.u,A.a_(A.a([A.z(j,A.bX(B.c8,r,B.z,B.Q,j),B.h,j,new A.a5(0,q,0,1/0)
 A.b32.prototype={
 $0(){var s="Anywhere",r=this.a,q=this.b,p=t.x
 if(r.r.l(0,B.eu)){J.ch(A.H(q,!1,p),"Cambio idioma a ingles",s,"click-lenguaje-ingles")
-r.r=B.pY}else{J.ch(A.H(q,!1,p),"Cambio idioma a Espa\xf1ol",s,"click-lenguaje-espanol")
-r.r=B.eu}},
+r.r=B.pY
+r.M()}else{J.ch(A.H(q,!1,p),"Cambio idioma a Espa\xf1ol",s,"click-lenguaje-espanol")
+r.r=B.eu
+r.M()}},
 $S:0}
 A.b33.prototype={
 $1(a){$.aAU.b=a},
@@ -114882,7 +114886,7 @@ $.b6U().I(0,"flutter.token")
 r.c=B.bF
 A.em("/home")
 r.f=!1
-r.N()},
+r.M()},
 $S:2}
 A.aVi.prototype={
 $0(){var s=this.a,r=s.d,q=s.e
@@ -115695,37 +115699,37 @@ $S:12}
 A.aQk.prototype={
 $1(a){var s=this.a
 s.y=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQq.prototype={
 $1(a){var s=this.a
 s.z=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQr.prototype={
 $1(a){var s=this.a
 s.cx=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQs.prototype={
 $1(a){var s=this.a
 s.as=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQt.prototype={
 $1(a){var s=this.a
 s.ay=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQu.prototype={
 $1(a){var s=this.a
 s.at=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQw.prototype={
@@ -115734,13 +115738,13 @@ $S:12}
 A.aQv.prototype={
 $1(a){var s=this.a
 s.ax=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQx.prototype={
 $1(a){var s=this.a
 s.Q=a
-s.N()
+s.M()
 return a},
 $S:3}
 A.aQm.prototype={
@@ -115750,7 +115754,7 @@ r=!r
 s.d=r
 s=this.b
 s.ch=r
-s.N()},
+s.M()},
 $S:15}
 A.aQn.prototype={
 $1(a){var s,r=this.a,q=r.e
@@ -115759,7 +115763,7 @@ q=!q
 r.e=q
 s=this.b
 s.CW=q
-s.N()
+s.M()
 r.L(new A.aQi())},
 $S:15}
 A.aQi.prototype={
@@ -116971,7 +116975,7 @@ $S:11}
 A.aU_.prototype={
 $1(a){var s=this.a
 s.cx=a
-s.N()
+s.M()
 return null},
 $S:3}
 A.aU0.prototype={
@@ -117060,12 +117064,12 @@ $S:2}
 A.aWK.prototype={
 $1(a){var s=this.a
 s.d=!s.d
-s.N()},
+s.M()},
 $S:66}
 A.aWL.prototype={
 $0(){var s=this.a
 s.e=!s.e
-s.N()
+s.M()
 return null},
 $S:0}
 A.aWO.prototype={
@@ -117333,7 +117337,7 @@ v(a){var s,r,q=null
 A.az(a,B.B,t.J).toString
 s=t.f
 r=t.p
-return A.V(A.a([A.z(q,A.e_(B.bW,A.a([A.z(q,A.V(A.a([A.k(A.j("I'm JP Director",q,"soyJpDir",A.a([],s),q),q,q,q,$.eZ().S(B.dH),q,q,q),B.ad,A.k(A.j(u.q,q,"desdeHace4",A.a([],s),q),q,q,q,$.aG().a1T(A.w(B.e.W(127.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255),1.4),q,q,q),B.ad],r),B.i,B.l,B.f,B.m),B.h,q,B.tr,q,q,q,q,B.dk,q,q,q),A.z(q,B.a_X,B.h,q,B.tr,q,q,q,q,q,q,q,q)],r),B.aP,0,0),B.h,q,B.bs,q,q,q,q,q,q,q,q),B.cH],r),B.i,B.l,B.f,B.m)}}
+return A.V(A.a([A.z(q,A.e_(B.bW,A.a([A.z(q,A.V(A.a([A.k(A.j("I'm JP Director",q,"soyJpDir",A.a([],s),q),q,q,q,$.eZ().S(B.dH),q,q,q),B.ad,A.k(A.j(u.gz,q,"desdeHace4",A.a([],s),q),q,q,q,$.aG().a1T(A.w(B.e.W(127.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255),1.4),q,q,q),B.ad],r),B.i,B.l,B.f,B.m),B.h,q,B.tr,q,q,q,q,B.dk,q,q,q),A.z(q,B.a_X,B.h,q,B.tr,q,q,q,q,q,q,q,q)],r),B.aP,0,0),B.h,q,B.bs,q,q,q,q,q,q,q,q),B.cH],r),B.i,B.l,B.f,B.m)}}
 A.rC.prototype={
 T(){return new A.aef()}}
 A.aef.prototype={
@@ -117548,7 +117552,7 @@ var $async$$0=A.p(function(a,b){if(a===1)return A.q(b,r)
 while(true)switch(s){case 0:p=q.a
 o=A.H(p,!1,t.R)
 o.f=o.r
-o.N()
+o.M()
 s=2
 return A.o(A.ku(B.x,new A.aQf(),p,!0,!1,!1,t.z),$async$$0)
 case 2:return A.r(null,r)}})
@@ -118713,7 +118717,7 @@ i=A.a_(A.a([B.O6,A.k(A.j("Courses",g,"cursos",A.a([],n),g),g,g,g,$.eZ(),g,g,g)],
 h=A.a([],j)
 if(q.length===0)h.push(A.b1(A.aP(A.k(A.j("You Don't Have Any Courses",g,"noTienesCursos",A.a([],n),g),g,g,g,$.bK().S(A.w(B.e.W(127.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255)),B.a1,g,g),40,200),g,g))
 if(q.length!==0)B.c.U(h,new A.a4(q,new A.aL4(),A.a2(q).h("a4<1,f>")))
-return A.bX(B.a9,A.a([r,A.b1(A.dH(A.z(B.E,A.V(A.a([new A.ah(B.ob,m,g),k,B.A,i,B.A,A.bX(B.a9,A.a([A.z(g,A.alU(g,h,A.alT(!0,!1,!0,0.3,B.nw,250,0,g,!1,!1,g,o)),B.h,g,B.Qz,g,g,g,g,g,g,g,1/0)],j),B.z,B.Q,g),B.re,A.aP(new A.ah(B.cb,A.k(A.j(u.gH,g,"consigueClientesQueQuieran",A.a([],n),g),g,g,g,$.aG().S(A.w(B.e.W(127.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255)),B.a1,g,g),g),g,796)],j),B.i,B.w,B.f,B.m),B.h,g,g,g,g,g,g,g,g,g,g),g,B.t,g,g,!1,B.a5),g,g)],j),B.z,B.Q,g)}}
+return A.bX(B.a9,A.a([r,A.b1(A.dH(A.z(B.E,A.V(A.a([new A.ah(B.ob,m,g),k,B.A,i,B.A,A.bX(B.a9,A.a([A.z(g,A.alU(g,h,A.alT(!0,!1,!0,0.3,B.nw,250,0,g,!1,!1,g,o)),B.h,g,B.Qz,g,g,g,g,g,g,g,1/0)],j),B.z,B.Q,g),B.re,A.aP(new A.ah(B.cb,A.k(A.j(u.q,g,"consigueClientesQueQuieran",A.a([],n),g),g,g,g,$.aG().S(A.w(B.e.W(127.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255)),B.a1,g,g),g),g,796)],j),B.i,B.w,B.f,B.m),B.h,g,g,g,g,g,g,g,g,g,g),g,B.t,g,g,!1,B.a5),g,g)],j),B.z,B.Q,g)}}
 A.aL2.prototype={
 $1(a){return a.at},
 $S:65}
@@ -118819,7 +118823,7 @@ m=B.e.W(178.5)
 l=A.w(m,B.u.j()>>>16&255,B.u.j()>>>8&255,B.u.j()&255)
 k=q<585
 j=A.a([A.lG(A.k("@jpdirector - Jorge P\xe9rez",d,d,d,k?$.fe():$.xL(),d,d,d),B.cx),B.ad],o)
-if(q>585){i=A.j(u.cH,d,"contactoLargeText",A.a([],t.f),d)
+if(q>585){i=A.j(u.cA,d,"contactoLargeText",A.a([],t.f),d)
 j.push(A.k(i,d,d,d,k?$.bK().ayY(8,12):$.bK(),d,d,d))}j.push(B.ad)
 k=A.ja(B.fP,-1,B.D,4)
 i=A.bw(15)
@@ -119514,7 +119518,7 @@ p=A.z(l,l,B.h,l,l,B.bk,l,5,l,l,l,l,300)
 o=A.k(A.j("VIDEO CALL",l,"videollamada",A.a([],r),l),l,l,l,$.mu(),l,l,l)
 n=A.k(A.j("with YOUR BUSINESS",l,"conTuNeg",A.a([],r),l),l,l,l,$.mu(),l,l,l)
 m=t.p
-return A.V(A.a([q,p,B.ad,o,n,A.bX(B.a9,A.a([B.a_R,A.dZ(l,A.hx(s<1200?A.w(B.e.W(76.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255):B.b,B.eH,B.a4,l,!1,B.Ia,80),l,l,l,160,220,l)],m),B.z,B.Q,l),A.k(A.j("ONE-ON-ONE",l,"unoAuno",A.a([],r),l),l,l,l,$.DB(),l,l,l),A.a_(A.a([A.k(A.j("$300",l,"precio11",A.a([],r),l),l,l,l,$.DB(),l,l,l),A.k(A.j("USD",l,"usd",A.a([],r),l),l,l,l,$.a3().S(B.j),l,l,l),B.bh,A.k(A.j("per hour",l,"xHora",A.a([],r),l),l,l,l,$.DB(),l,l,l)],m),B.i,B.w,B.f,0,l),B.ad,new A.hq(100,A.j("Schedule",l,"agendarBtn",A.a([],r),l),new A.aWr(a),l),A.aP(A.hx(A.w(102,B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255),B.eH,B.a4,l,!1,B.iP,l),l,l)],m),B.i,B.w,B.f,B.m)}}
+return A.V(A.a([q,p,B.ad,o,n,A.bX(B.a9,A.a([B.a_R,A.dZ(l,A.hx(s<1200?A.w(B.e.W(76.5),B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255):B.b,B.eH,B.a4,l,!1,B.Ia,80),l,l,l,160,220,l)],m),B.z,B.Q,l),A.k(A.j("ONE-ON-ONE",l,"unoAuno",A.a([],r),l),l,l,l,$.DB(),l,l,l),A.a_(A.a([A.k(A.j("$350",l,"precio11",A.a([],r),l),l,l,l,$.DB(),l,l,l),A.k(A.j("USD",l,"usd",A.a([],r),l),l,l,l,$.a3().S(B.j),l,l,l),B.bh,A.k(A.j("per hour",l,"xHora",A.a([],r),l),l,l,l,$.DB(),l,l,l)],m),B.i,B.w,B.f,0,l),B.ad,new A.hq(100,A.j("Schedule",l,"agendarBtn",A.a([],r),l),new A.aWr(a),l),A.aP(A.hx(A.w(102,B.b.j()>>>16&255,B.b.j()>>>8&255,B.b.j()&255),B.eH,B.a4,l,!1,B.iP,l),l,l)],m),B.i,B.w,B.f,B.m)}}
 A.aWr.prototype={
 $0(){var s=0,r=A.u(t.P),q=this
 var $async$$0=A.p(function(a,b){if(a===1)return A.q(b,r)
@@ -119771,7 +119775,7 @@ l=A.j(u.G,i,"graciasInfo",A.a([],m),i)
 l=A.k(l,i,i,i,p?$.a3():$.fe(),B.aC,i,i)
 k=A.j(u.n,i,"estasAunPaso",A.a([],m),i)
 k=A.k(k,i,i,i,p?$.a3():$.fe(),i,i,i)
-j=A.j(u.gz,i,"enElTranscurso",A.a([],m),i)
+j=A.j(u.dL,i,"enElTranscurso",A.a([],m),i)
 j=A.k(j,i,i,i,p?$.bK():$.a3(),i,i,i)
 m=A.j(u.R,i,"siguemeEnTodas",A.a([],m),i)
 m=A.k(m,i,i,i,p?$.a3():$.fe(),B.a1,i,i)
@@ -119850,7 +119854,7 @@ $S:2}
 A.b1_.prototype={
 $2(a,b){var s=this.a
 s.r=a
-s.N()},
+s.M()},
 $S:295}
 A.zM.prototype={
 v(a){return B.aoT}}
@@ -120859,10 +120863,10 @@ else{s=r.d
 if(b<1)return A.b8F(r.c,s,(b-0.5)/0.5)
 else return s}}}
 A.L3.prototype={
-M(){return"TonePolarity."+this.b}}
+N(){return"TonePolarity."+this.b}}
 A.hh.prototype={}
 A.mi.prototype={
-M(){return"Variant."+this.b}}
+N(){return"Variant."+this.b}}
 A.alE.prototype={}
 A.jm.prototype={
 l(a,b){var s,r
@@ -121419,7 +121423,7 @@ A.QT.prototype={
 af(){this.au()
 this.a.toString},
 eb(){var s=this.hl$
-if(s!=null){s.N()
+if(s!=null){s.M()
 s.dD()
 this.hl$=null}this.lc()}}
 A.k7.prototype={
@@ -121753,7 +121757,7 @@ gE(a){return B.d.gE(this.a)}}
 A.a_V.prototype={
 v(a){return A.kF(A.b1(A.cg(B.Yu,B.jL,null,40),null,null),this.c,B.cm)}}
 A.iC.prototype={
-M(){return"PhotoViewScaleState."+this.b}}
+N(){return"PhotoViewScaleState."+this.b}}
 A.GL.prototype={
 T(){return new A.a9J()}}
 A.a9J.prototype={
@@ -121840,7 +121844,7 @@ $S:0}
 A.GJ.prototype={
 m(){this.a=null
 this.dD()},
-N(){var s,r,q,p,o,n,m,l
+M(){var s,r,q,p,o,n,m,l
 this.Bo()
 p=this.a
 if(p!=null){o=A.c0(p,!0,t.M)
@@ -121852,7 +121856,7 @@ if(l!=null)l.$1(new A.cF(r,q,"Photoview library",null,null,!1))}}}}}
 A.v6.prototype={
 st(a,b){if(this.w.l(0,b))return
 this.w=b
-this.N()},
+this.M()},
 a6K(a){if(this.w.l(0,a))return
 this.w=a
 this.Bo()},
@@ -122660,7 +122664,7 @@ this.a=s}}
 A.a9T.prototype={}
 A.La.prototype={}
 A.avv.prototype={
-M(){return"LaunchMode."+this.b}}
+N(){return"LaunchMode."+this.b}}
 A.aKv.prototype={}
 A.akW.prototype={}
 A.azh.prototype={
@@ -122670,7 +122674,7 @@ A.azi.prototype={
 $1(a){return a===!0},
 $S:818}
 A.w1.prototype={
-M(){return"PreferredLaunchMode."+this.b}}
+N(){return"PreferredLaunchMode."+this.b}}
 A.Xt.prototype={}
 A.XO.prototype={}
 A.aIZ.prototype={
@@ -123620,9 +123624,9 @@ RJ(a,b){throw A.i(A.cL("setWebOptions() has not been implemented."))}}
 A.aZg.prototype={}
 A.anS.prototype={}
 A.anT.prototype={
-M(){return"DataSourceType."+this.b}}
+N(){return"DataSourceType."+this.b}}
 A.aK_.prototype={
-M(){return"VideoViewType."+this.b}}
+N(){return"VideoViewType."+this.b}}
 A.ld.prototype={
 l(a,b){var s,r=this
 if(b==null)return!1
@@ -123632,7 +123636,7 @@ return s},
 gE(a){var s=this
 return A.a6(s.a,s.b,s.c,null,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.rS.prototype={
-M(){return"VideoEventType."+this.b}}
+N(){return"VideoEventType."+this.b}}
 A.FQ.prototype={
 k(a){return"DurationRange(start: "+this.a.k(0)+", end: "+this.b.k(0)+")"},
 l(a,b){var s,r,q=this
@@ -124068,7 +124072,7 @@ s=A.aQ.prototype
 s.a9G=s.a5
 s.ow=s.O
 s.dD=s.m
-s.Bo=s.N
+s.Bo=s.M
 s=A.cH.prototype
 s.ni=s.st
 s=A.aA.prototype
@@ -124763,7 +124767,7 @@ n(h=A.wP.prototype,"gtV","D8",14)
 o(h,"gMs","aw1",0)
 n(h=A.yv.prototype,"gXw","apA",14)
 o(h,"gXv","apz",0)
-o(A.tM.prototype,"gdQ","N",0)
+o(A.tM.prototype,"gdQ","M",0)
 n(A.pV.prototype,"ga57","zW",14)
 n(h=A.Mg.prototype,"ganC","anD",45)
 n(h,"ganK","anL",92)
@@ -124803,7 +124807,7 @@ r(A,"bAp","bpN",838)
 m(h=A.aQ.prototype,"gDF","a5",70)
 m(h,"ga63","O",70)
 o(h,"gdn","m",0)
-o(h,"gdQ","N",0)
+o(h,"gdQ","M",0)
 r(A,"bD1","buH",839)
 n(h=A.Gz.prototype,"gamo","amp",458)
 n(h,"gahx","ahy",459)
@@ -126994,7 +126998,7 @@ s(A.aho,A.eh)})()
 var v={G:typeof self!="undefined"?self:globalThis,typeUniverse:{eC:new Map(),tR:{},eT:{},tPV:{},sEA:[]},mangledGlobalNames:{x:"int",Z:"double",d6:"num",l:"String",Q:"bool",bH:"Null",J:"List",T:"Object",am:"Map",a7:"JSObject"},mangledNames:{},types:["~()","Z(Z)","bH()","~(l)","ap<~>()","~(a7)","Z(fi)","wM(fi)","~(b7)","D(bZ<d1>)","FR(fi)","ap<bH>()","l?(l?)","lZ()","~(kx)","~(Q)","~(x)","~(T?)","bH(@)","Q(o4,c)","f(C)","Q(l)","~(E)","~(oE,c)","~(yO)","l(l)","tG(C)","~(aR)","fK(@)","~(c3)","D?(bZ<d1>)","~(@)","hh(fi)","~(jW)","bH(~)","~(hS)","Q(aR)","Q(ed)","~(l,@)","J<f3>()","W(C?,am<l,J<l>>)","bH(T,dS)","~(ra)","Q(T?)","~(r9)","~(Bc)","~(ea?)","bH(a7)","Q(fK)","aV<Z>(@)","~(l?)","~(h_)","~(eo<T?>,~())","~(T,dS)","f(C,f?)","l()","Z(K)","Q(mR)","el(bZ<d1>)","md(bZ<d1>)","N(K,a5)","Q(l0)","Q(iG)","Q(oA)","x(ed,ed)","Q(dL)","~(Q?)","x(T?)","Z(K,Z)","F(bZ<d1>)","~(~())","x(x)","Q(x)","~(hE)","jF()","Q(h_)","x()","Q(hX)","~(cE)","pc(C,f?)","Z(Z,Z)","~(oe)","~(x?)","~(oN)","~(oM)","Q(kr)","~(@,@)","@(@)","cq<D?>?(ct?)","cq<D?>?(fO?)","f(C,cA<Z>,cA<Z>,f)","hQ(@)","~(rG)","x(E,E)","Q(db)","ap<@>(kV)","ia()","~(ia)","b5(bZ<d1>)","l(x)","c(c)","~(vG)","F({background:r2?,backgroundColor:D?,color:D?,decoration:wC?,decorationColor:D?,decorationStyle:KN?,decorationThickness:Z?,fontFeatures:J<bqY>?,fontSize:Z?,fontStyle:z4?,fontWeight:iw?,foreground:r2?,height:Z?,letterSpacing:Z?,locale:kU?,shadows:J<nl>?,textBaseline:nv?,textStyle:F?,wordSpacing:Z?})","~(KD)","~(uP)","Q()","D(D)","l(fK)","bH(pU)","~(jp,Q)","bH(T)","bH(l)","ib(ib)","cq<N?>?(ct?)","bH(Q)","~({curve:hu,descendant:E?,duration:b7,rect:O?})","~([bI?])","a7()","~(l,l)","x(db,db)","jJ()","ap<eR<@>>()","Q(mJ)","Q(uL)","bH(@,@)","~(kb,oZ)","O()","T?(T?)","~(ji,uA)","of(@)","Q(T)","~(c)","Q(l,l)","bZ<0^>()<T?>","Q(m6)","Q(wg)","x(@,@)","~(jJ)","bM(Z)","l(@)","b8(C,T,dS?)","~(T?,T?)","Q(fu)","oU(C)","Q(@)","~(Bn)","@()","Z()","~(Z)","oo(C?,am<l,J<l>>)","Q(jt)","a5(a5)","f(C,dy<@>)","~(qz)","a7?(x)","f(C,a5)","~(T,dS?)","f(C,cA<Z>,cA<Z>)","Q(jr)","n1(ed,ju)","Q(ih)","a7(T?)","Q(T?,T?)","D?(fO?)","f_(C,Z,f?)","T(@)","jt()","~(jz<@>,w9)","~(l,J<l>)","l(l,T?)","x(l)","~(J<x>)","~(ne)","l(l,l)","dw<@>?(jA)","bd8()","~(BF)","~(ls)","ap<a7>([a7?])","~(uU)","Q(wq)","~(~)","ap<~>(~)","D?(D?)","ap<Q>()","l(Z,Z,l)","Z(xl)","bZ<l>()","ID?()","l(T?)","rv(C,f?)","~(N)","@(l)","cq<Z?>?(ct?)","f(C,bZ<d1>,f?)?(ct?)","f(C,x)","0^?(0^?(fO?))<T?>","0^?(cq<0^>?(fO?),bZ<d1>)<T?>","cq<en?>?(fO?)","~(T[dS?])","Q(C)","Z(bZ<d1>)","~(qr)","J<a7>()","yg(J<hE>)","~(K?)","x(l?)","tn(C,cA<Z>,f?)","to(C,cA<Z>,f?)","mI(yH)","~(Z,Z)","am<l,lK>(@)","ap<hy>()","hy()","~(hz)","~(bk)","~(b93)","Z?(+(a5,nv))","Q(E)","bH(cS)","eV(hE)","~(nM)","+boundaryEnd,boundaryStart(aY,aY)(aY)","Q(o4)","~(p4)","Z({from!Z,to!Z})","x(Z)","~(c,K)","N(K)","~(J<qu>)","~(rw)","~(db)","J<db>(mo)","~(rd)","ap<x>()","ap<ea?>(ea?)","ap<~>(kV)","~(eT)","am<T?,T?>()","a7(x{params:T?})","xm(T?)","ap<cS>(rd)","Q(oz)","ap<~>(@)","Q(ap4)","~([b7?])","aY(aY,Q,jF)","x(fo,fo)","lD()","~(lD)","lT()","~(lT)","k_()","~(k_)","k6()","~(k6)","aV<@>?(aV<@>?,@,aV<@>(@))","Q(l?)","pl()","oc(@)","lU(C)","iT(c3)","~(T)","~(i3)","Q(h_,Z)","~(KG)","~(zD)","~(Hs)","~(zC)","~(KF)","~(KH)","~(KE)","Z?(K,a5,nv)","l(vt)","q0(C)","a7([a7?])","qf(C)","qX(C)","qY(C)","qt(C)","qN(C)","rQ(C)","eG(C)","cB<@>()","am<l,@>(fK)","bH(T?)","A8(C,f?)","Q(km)","f(C,dy<dL>)","ir(C)","ap<~>(C)","r_(C)","vT(C)","uc(C)","ap<~>(Q?)","bH(x,o5)","n3(C,x)","l(l?)","f(f?)","a7(x)","f?(C,cA<Z>,cA<Z>,Q,f?)","Z(K,a5)","f(C,ql)","x(h_,h_)","pT(@)","~(kX,bM)","aL(f)","~(KJ)","~(fl,x)","b5?(bZ<d1>)","O()?(K)","~(bI?)","~(P<T?>,a7)","Q(qD?)","D(t1)","bo<l,J<l>>(l,J<l>)","rv(C)","~(a7,J<l_>)","x1<@,@>(eQ<@>)","~({allowPlatformDefault:Q})","~(Kt,@)","BQ()","D?(D?,D?,D?[D?])","vn(C)","W?(C,vr,cH<n4>)","Q(jv)","~(l,x)","~(l,x?)","wr(@)","CI()","l(l,D)","f(C,cA<Z>,cA<Z>,Q,f?)","oD?(iL)","cy<J<x>>()","mJ?()","ah(f)","hT<x>(x)","ly(C,a5)","x(a7)","zO(C,f?)","nY(C,f?)","Q(bZ<d1>)","rU()","rU?()","~(lC)","cS(J<x>)","cA<N>(Q)","~(iN,l5?)","v9(C,f?)","wR(ix<l>)","wI(@)","tN()","la()","bo<T,nw<@>>(T,nw<@>)","Q(bo<T,nw<@>>)","Q(rM)","cE()","bH(hy)","x(x,x)","~(l,l?)","~(x,x,x)","ap<ht>(qB{allowUpscaling:Q,cacheHeight:x?,cacheWidth:x?})","ap<ht>(qB{getTargetSize:buX(x,x)?})","eb(eb,cW)","cW(cW)","Q(cW)","l(cW)","Q(Z)","D(Z)","Cs()","~(jp?,Q)","ap<~>(T,dS?)","mq()","bH(ak8)","lN(c)","~(jp)","~(T,dS?)?(hz)","~(qz)?(hz)","~(ht)","w3?(mD,l,l)","r2(c4)","O(c4)","oG(c4)","Q(x,Q)","uX?()","~(mq)","qO(qO)","~(x,Q)","lN(c,x)","N()","Z?()","N(a5)","ap<a7>()","~(iN)","Q(os)","O(O?,ib)","Q(bS)","a5(K)","el(kX)","~(kl<a7>)","Q(kX)","dt(bS)","~(cS)","~(dt)","ap<@>()","~(l,a7)","~(J<eV>{isMergeUp:Q})","hE?(eV)","~(lE?,Bh?)","J<eV>(J<eV>)","J<iX>(iX)","bZ<fm>?(eV)","bZ<fm>(bZ<fm>)","kz(kB)","Q(nM)","@(T)(~(ji,uA))","+boundaryEnd,boundaryStart(aY,aY)(aY,l)","dg(aqV<dg>)","nx?(oE,c)","Q(AZ{crossAxisPosition!Z,mainAxisPosition!Z})","Z(@)","eG(f)","Q(K)","aR(x)","J<oH>()","O(db)","~(J<a7>,a7)","~(db,Z,Z)","Q(dQ)","BD()","C1(eQ<cS>)","brj?()","~(x,Cf)","yY(l)","~(N?)","db(pA)","~(T?,l)","~(x,Q(mR))","x(db)","db(x)","~(fm)","~(eg,~(T?))","ap<l>()","ea(ea?)","ap<wZ>(l)","pW(am<T?,T?>)","cy<kS>()","ap<l?>(l?)","l(dC)","ap<~>(ea?,~(ea?))","cS(ea)","ap<~>(ap<cS>)","ap<~>(cS)","ap<am<l,@>>(@)","~(oS)","bZ<m>(m)","Cg()","IK()","~(r8)","Z?(x)","Q(l_)","J<eT>()","J<eT>(J<eT>)","Z(d6)","J<@>(l)","J<d6>(wn)","am<l,@>(hW)","A7(C,vS)","xa(Iz)","ap<~>(c3)","fn?(l_)","l(Z)","~(oA)","~(bW<bI>)","~(D3)","am<~(c3),bM?>()","dw<@>(jA)","vp(C,f?)","Q(ve)","ap<cS>(rd,x)","yn(C)","~(~(c3),bM?)","ap<Q>(kV)","qg(C)","ap<~>(kx)","ap<@>(@)","O(ap4)","~(iG)","~(fj)","eR<kb>()","x0()","bH(x)","~(rO)","~(m0)","~(p1)","~(fZ)","~(aqS)","~(lc)","T?(jj)","dI(dI,wE)","Bi(C)","~(oP)","~(dI)","Q(dI?,dI)","dI(dI)","ap<cS>(x)","yu(C,ie)","Q(jZ<aK>)","~([ed?])","cS(T?)","Q(H9)","~(Cc)","Q(C3)","~(J<T?>)","Q(pd)","bZ<kH>(fo)","~(hv,cS?,l?,cy<J<x>>?)","J<kH>(C)","O(fo)","x(nK,nK)","J<fo>(fo,A<fo>)","Q(fo)","Q(ix<@>)","jh<aR>(aR)","aR?(aR)","T?(x,aR?)","qe(eH)","yJ(eH)","ui(eH)","zI(O?,O?)","qV<0^>(jA,f(C))<T?>","~(yk)","ap<~>(kb,oZ)","Z(po)","jB()","~(jB)","~(oO)","~(oV)","~(jE,T)","hC(C,f?)","~(ps)","f(C,cA<Z>,z9,C,C)","Q(ps)","lU(C,f?)","v5(C)","Q(b7V)","~(hS{isClosing:Q?})","@(@)(~(kb,oZ))","ap<k8>(l)","tW(@)","vy(@)","wH(@)","tU(@)","~(o8)","ap<@>(CG)","am<id,@>(J<@>)","am<id,@>(am<id,@>)","bH(am<id,@>)","@(@,l)","~({allowPlatformDefault!Q})","Q(dw<@>?)","ap<bH>(@)","Q(r0)","~(oy)","ap<~>([a7?])","kr(dw<@>)","bo<l?,J<T>>(@,@)","K?()","xq()","K(x)","~(a5)","yp(C,f?)","wW(C,ie)","~(N,c)","bH(eT?)","~(eo<T?>)","cB<Q>(Q)","Q(xh)","rm(C,f?)","nY(C)","ze(C,f?)","hY()","zE(c3)","vK()","0^?(0^?(ct?))<T?>","uO(@)","f(C,ie)","f?(C,x)","x?(f,x)","bH(J<~>)","0^?(cq<0^>?(ct?))<T?>","D?()","~(l,T?)","~(iv)","t2()","tm()","nN()","~(nN)","~(o5)","O(O)","Q(O)","~(AT,bI)","J<rW>()","bI?()","C?()","bW<bI>?()","CX(C,ie)","~(K)","aR?()","hW(jo)","Q(kf)","iu?(kf)","jO(kf)","aR(f)","Q(jO)","Q(J<aR>)","A<K>(jO)","K(aR)","J<aR>(jO)","tf(C)","z3(@)","nI()","hc<@>(jA?,am<l,J<l>>)","cq<F?>?(ct?)","bo<x,l>(bo<l,l>)","cq<eb?>?(ct?)","bH(~())","cq<b5?>?(ct?)","cq<en?>?(ct?)","nt()","~(nt)","nu()","~(nu)","lJ()","~(lJ)","el?(bZ<d1>)","~(rP)","~(rf)","xy(C,oI)","cB<av>()","cB<at>()","~(l,yI)","cB<ay>()","ap<~>(l,ea?,~(ea?)?)","Q(~)","bH(l,l[T?])","HN()","el?(ct?)","cE(x)","a0u()","cE(x,x,x,x,x,x,x,Q)","Q(nD)","C_(l,f2)","BZ(l,f2)","BY(l,f2)","l?(qZ)","l(qZ)","~(nI)","vC()","ap<rz>(l,am<l,l>)","mD(T?)","D?(ct?)","ph?(ct?)","vu?(ct?)","wv(fu)","b7?(ct?)","ir(kh)","Q?(ct?)","j7?(ct?)","km()","ir(l)","zk?(ct?)","Q(x,x)","bH(@,dS)","yt()","o0(Q)","tI(C)","tJ(C)","uj(C)","tK(C)","uR(C)","vQ(C)","vi(C)","vq(C)","Q(fx)","uC(C)","vP(C)","wS(C)","wt(C)","tP(C)","l(am<l,@>,l)","xV(C,x)","bH(hY,hY)","~(n8)","m1(@)","am<l,@>(m1)","fu(@)","kh(@)","am<l,@>(fu)","am<l,@>(kh)","dL(@)","am<l,@>(dL)","km(@)","am<l,@>(km)","hV(@)","am<l,@>(hV)","hB(@)","am<l,@>(hB)","lz(@)","am<l,@>(lz)","l0(@)","jc(@)","am<l,@>(l0)","am<l,@>(jc)","~(nd)","fK()","~(jV)","ap<~>(b7)","dL()","Q(kh)","Q(hV)","hV(hV)","hB(hB)","Q(hB)","Ar()","zX(C?,am<l,J<l>>)","y0(C?,am<l,J<l>>)","y_(C?,am<l,J<l>>)","zM(C?,am<l,J<l>>)","~(mb)","yW(C?,am<l,J<l>>)","yw(C?,am<l,J<l>>)","qv<dL>(C?,am<l,J<l>>)","wJ({from:Z?})","f(C?,am<l,J<l>>)","tZ(C?,am<l,J<l>>)","CH(C)","tR(C?,am<l,J<l>>)","f?(C?,am<l,J<l>>)","wU(C?,am<l,J<l>>)","w8(C?,am<l,J<l>>)","vH(C?,am<l,J<l>>)","Bs(C?,am<l,J<l>>)","B5(C?,am<l,J<l>>)","kN(C?,am<l,J<l>>)","A4(C?,am<l,J<l>>)","v2(x)","wN(C)","qd(Z)","qh(C)","f(C,f,qz?)","jG(C,f?)","rD(C)","qh(C,~(~()))","mM(C,x)","u3(C,x)","dL(l)","rC(dL)","J<f>(C)","e4(dL)","hT<l>(dL)","~(BN)","~(x,@)","wA(@)","ai<@>?()","bH(l,T?)","0&()","0&(@)","~(ju)","f(l)","xZ(C,~(~()))","bH(P<T?>,a7)","Q(jc)","jc()","z7(C)","q5(C)","ly(fu)","kf(x)","f(fu)","n3(lz)","n3(m1)","ir(dL)","yF(dL)","tS(@)","qb(C,dy<dL>)","uk(C)","ir(@)","ah(l)","Ag(C,qz?)","@(@)(~(jz<@>,w9))","eE(fu)","f(C,dy<Q>)","wd(C,dy<Q>)","zu(C)","br(fK)","O()(K)","Z(C)","f(C,q6)","f(q6,C)","x(jm,jm)","u5()","~(iC)","~(Ju)","~(Jv)","~(AF)","a8(C,dy<k7>)","lY()","~(lY)","~(@,dS?)","~(@,dS)","l?()","x(mm)","wX(C,r7,f?)","T(mm)","T(ih)","x(ih,ih)","J<mm>(bo<T,J<ih>>)","p9()","Q(Q?)","~(ld)","ap<~>(Bn)","tY()","eG(C,a5)","l(T?{toEncodable:T?(T?)?})","x(d2<@>,d2<@>)","l(l{encoding:uz})","J<l>()","J<l>(l,J<l>)","0^(0^,0^)<d6>","c?(c?,c?,Z)","N?(N?,N?,Z)","Z?(d6?,d6?,Z)","D?(D?,D?,Z)","Q(x?)","ap<T?>(cS)","uQ()","f(C,c,c,f)","~(cF{forceReport:Q})","f3(l)","ma?(l)","Z(Z,Z,Z)","oG()","z1(C,a5)","~(K,c)","f(C,cA<Z>)","Q?(Q?,Q?,Z)","l?(l)","f(C,f)","en?(en?,en?,Z)","eb?(eb?,eb?,Z)","F?(F?,F?,Z)","x(PH<@>,PH<@>)","Q({priority!x,scheduler!nj})","J<kS>(l)","mb()","~(ed{alignment:Z?,alignmentPolicy:wh?,curve:hu?,duration:b7?})","x(aR,aR)","ek(ek?,ek?,Z)","f?(C,vr,cH<n4>)","J<dw<@>>(lV,l)","x(f,x)","kE(C)","~(pR)","~(kz)","qW?(l)","~(q3)","iC(iC)","~(C,aQ?)","~()(Xw<aj?>,aj?)","ap<1^>(1^/(0^),0^{debugLabel:l?})<T?,T?>","~(l?{wrapWidth:x?})","~([rG?])","v3(c3)"],interceptorsByTag:null,leafTags:null,arrayRti:Symbol("$ti"),rttc:{"2;":(a,b)=>c=>c instanceof A.aT&&a.b(c.a)&&b.b(c.b),"2;bottomChildHeight,topChildHeight":(a,b)=>c=>c instanceof A.xn&&a.b(c.a)&&b.b(c.b),"2;boundaryEnd,boundaryStart":(a,b)=>c=>c instanceof A.aco&&a.b(c.a)&&b.b(c.b),"2;end,start":(a,b)=>c=>c instanceof A.acp&&a.b(c.a)&&b.b(c.b),"2;endGlyphHeight,startGlyphHeight":(a,b)=>c=>c instanceof A.Oh&&a.b(c.a)&&b.b(c.b),"2;key,value":(a,b)=>c=>c instanceof A.acq&&a.b(c.a)&&b.b(c.b),"2;localPosition,paragraph":(a,b)=>c=>c instanceof A.acr&&a.b(c.a)&&b.b(c.b),"2;representation,targetSize":(a,b)=>c=>c instanceof A.acs&&a.b(c.a)&&b.b(c.b),"3;":(a,b,c)=>d=>d instanceof A.kp&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;ascent,bottomHeight,subtextHeight":(a,b,c)=>d=>d instanceof A.act&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;breaks,graphemes,words":(a,b,c)=>d=>d instanceof A.acu&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;completer,recorder,scene":(a,b,c)=>d=>d instanceof A.Oi&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;data,event,timeStamp":(a,b,c)=>d=>d instanceof A.Oj&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;domSize,representation,targetSize":(a,b,c)=>d=>d instanceof A.acv&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;large,medium,small":(a,b,c)=>d=>d instanceof A.acw&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"3;textConstraints,tileSize,titleY":(a,b,c)=>d=>d instanceof A.acx&&a.b(d.a)&&b.b(d.b)&&c.b(d.c),"4;domBlurListener,domFocusListener,element,semanticsNodeId":a=>b=>b instanceof A.Ok&&A.baB(a,b.a),"4;height,width,x,y":a=>b=>b instanceof A.acy&&A.baB(a,b.a),"4;queue,started,target,timer":a=>b=>b instanceof A.Ol&&A.baB(a,b.a)}}
 A.bxj(v.typeUniverse,JSON.parse('{"hY":"lR","a02":"lR","ny":"lR","aC7":"lR","an4":"lR","aiD":"lR","bF4":"y","bF5":"y","bDF":"y","bDG":"bk","bDI":"pZ","bDz":"aN","bG4":"aN","bGC":"aN","bDx":"bp","bEX":"bp","bI2":"ne","bDJ":"bs","bFW":"bs","bEZ":"bS","bEG":"bS","bHA":"yl","bHx":"hH","bDy":"hU","bEL":"qc","bDP":"mE","bGN":"mE","bFX":"vB","bFU":"dt","bF_":"v1","bDU":"dA","bDW":"lA","bDZ":"hG","bE_":"is","bDV":"is","bDX":"is","bDQ":"zL","bDK":"pY","bFY":"zT","EE":{"ht":[]},"u4":{"bdO":[]},"EB":{"ht":[]},"bfJ":{"fU":[]},"oH":{"fU":[]},"vC":{"BG":[]},"vK":{"BG":[]},"fl":{"rk":[]},"oY":{"rk":[]},"u5":{"oG":[]},"qs":{"dl":[]},"bd8":{"oG":[]},"og":{"arL":[]},"SU":{"kA":[]},"EA":{"kA":[]},"yj":{"kA":[]},"SX":{"kA":[]},"T_":{"kA":[]},"yi":{"kA":[]},"vE":{"A":["kZ"],"A.E":"kZ"},"Iy":{"AG":[]},"IB":{"AG":[]},"SZ":{"ht":[]},"Xp":{"cv":[]},"SW":{"kA":[]},"EC":{"kA":[]},"pm":{"kA":[]},"M6":{"kA":[]},"M5":{"kA":[]},"ST":{"ht":[]},"EZ":{"fU":[]},"a1f":{"fU":[]},"Sh":{"fU":[],"bc1":[]},"T2":{"fU":[],"bcu":[]},"T7":{"fU":[],"bcx":[]},"T4":{"fU":[],"bcv":[]},"T6":{"fU":[],"bcw":[]},"a_C":{"fU":[],"beT":[]},"L6":{"fU":[],"b9l":[]},"Ie":{"fU":[],"b9l":[],"beR":[]},"Xq":{"fU":[],"bdP":[]},"a06":{"fU":[]},"q7":{"r2":[]},"EF":{"qO":[]},"SJ":{"dl":[]},"X8":{"bdM":[]},"X7":{"cv":[]},"X6":{"cv":[]},"x3":{"A":["1"],"A.E":"1"},"WE":{"qs":[],"dl":[]},"WC":{"qs":[],"dl":[]},"WD":{"qs":[],"dl":[]},"X4":{"ht":[]},"X2":{"ht":[]},"a23":{"asx":[]},"SC":{"ht":[]},"xX":{"asx":[]},"a17":{"ht":[]},"fv":{"ew":[]},"d9":{"ew":[]},"F2":{"ew":[]},"S0":{"ew":[]},"S1":{"ew":[]},"io":{"ew":[]},"mx":{"ew":[]},"pS":{"ew":[]},"DK":{"ew":[]},"fJ":{"ew":[]},"xU":{"ew":[]},"RK":{"ew":[]},"ua":{"ew":[]},"vh":{"oG":[],"bcz":[]},"a1L":{"jC":[]},"Et":{"jC":[]},"yc":{"jC":[]},"Wd":{"jC":[]},"uK":{"jC":[]},"XN":{"jC":[]},"qR":{"jC":[]},"a16":{"jC":[]},"a1T":{"ru":[]},"a1Q":{"ru":[]},"a1P":{"ru":[]},"wc":{"jC":[]},"a1Z":{"b93":[]},"a2X":{"jC":[]},"D9":{"ak":["1"],"J":["1"],"as":["1"],"A":["1"]},"a9S":{"D9":["x"],"ak":["x"],"J":["x"],"as":["x"],"A":["x"]},"a3l":{"D9":["x"],"ak":["x"],"J":["x"],"as":["x"],"A":["x"],"ak.E":"x","A.E":"x"},"G2":{"qO":[]},"a8I":{"og":[],"arL":[]},"yX":{"og":[],"arL":[]},"P":{"J":["1"],"as":["1"],"a7":[],"A":["1"],"co":["1"],"A.E":"1"},"H2":{"Q":[],"dU":[]},"zq":{"bH":[],"dU":[]},"y":{"a7":[]},"lR":{"a7":[]},"XC":{"Jp":[]},"auZ":{"P":["1"],"J":["1"],"as":["1"],"a7":[],"A":["1"],"co":["1"],"A.E":"1"},"qK":{"Z":[],"d6":[],"d2":["d6"]},"zo":{"Z":[],"x":[],"d6":[],"d2":["d6"],"dU":[]},"H3":{"Z":[],"d6":[],"d2":["d6"],"dU":[]},"mZ":{"l":[],"d2":["l"],"co":["@"],"dU":[]},"mk":{"A":["2"]},"u0":{"mk":["1","2"],"A":["2"],"A.E":"2"},"MQ":{"u0":["1","2"],"mk":["1","2"],"as":["2"],"A":["2"],"A.E":"2"},"M3":{"ak":["2"],"J":["2"],"mk":["1","2"],"as":["2"],"A":["2"]},"hs":{"M3":["1","2"],"ak":["2"],"J":["2"],"mk":["1","2"],"as":["2"],"A":["2"],"ak.E":"2","A.E":"2"},"o7":{"bZ":["2"],"mk":["1","2"],"as":["2"],"A":["2"],"A.E":"2"},"u1":{"bl":["3","4"],"am":["3","4"],"bl.V":"4","bl.K":"3"},"o6":{"mk":["1","2"],"as":["2"],"A":["2"],"A.E":"2"},"lQ":{"dl":[]},"jd":{"ak":["x"],"J":["x"],"as":["x"],"A":["x"],"ak.E":"x","A.E":"x"},"as":{"A":["1"]},"aE":{"as":["1"],"A":["1"]},"ke":{"aE":["1"],"as":["1"],"A":["1"],"A.E":"1","aE.E":"1"},"eB":{"A":["2"],"A.E":"2"},"lF":{"eB":["1","2"],"as":["2"],"A":["2"],"A.E":"2"},"a4":{"aE":["2"],"as":["2"],"A":["2"],"A.E":"2","aE.E":"2"},"aC":{"A":["1"],"A.E":"1"},"fP":{"A":["2"],"A.E":"2"},"wz":{"A":["1"],"A.E":"1"},"FV":{"wz":["1"],"as":["1"],"A":["1"],"A.E":"1"},"p3":{"A":["1"],"A.E":"1"},"yS":{"p3":["1"],"as":["1"],"A":["1"],"A.E":"1"},"K1":{"A":["1"],"A.E":"1"},"jX":{"as":["1"],"A":["1"],"A.E":"1"},"uM":{"A":["1"],"A.E":"1"},"di":{"A":["1"],"A.E":"1"},"BA":{"ak":["1"],"J":["1"],"as":["1"],"A":["1"]},"aaf":{"aE":["x"],"as":["x"],"A":["x"],"A.E":"x","aE.E":"x"},"Hj":{"bl":["x","1"],"am":["x","1"],"bl.V":"1","bl.K":"x"},"cx":{"aE":["1"],"as":["1"],"A":["1"],"A.E":"1","aE.E":"1"},"hg":{"Kt":[]},"ud":{"pg":["1","2"],"am":["1","2"]},"yy":{"am":["1","2"]},"ar":{"yy":["1","2"],"am":["1","2"]},"xd":{"A":["1"],"A.E":"1"},"d_":{"yy":["1","2"],"am":["1","2"]},"EV":{"l6":["1"],"bZ":["1"],"as":["1"],"A":["1"]},"fL":{"l6":["1"],"bZ":["1"],"as":["1"],"A":["1"],"A.E":"1"},"fS":{"l6":["1"],"bZ":["1"],"as":["1"],"A":["1"],"A.E":"1"},"Xy":{"lK":[]},"qE":{"lK":[]},"Ic":{"pe":[],"dl":[]},"XF":{"dl":[]},"a3r":{"dl":[]},"a_v":{"cv":[]},"Pu":{"dS":[]},"q8":{"lK":[]},"T8":{"lK":[]},"T9":{"lK":[]},"a2Y":{"lK":[]},"a2J":{"lK":[]},"y7":{"lK":[]},"a1o":{"dl":[]},"ha":{"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"c2":{"as":["1"],"A":["1"],"A.E":"1"},"bR":{"as":["1"],"A":["1"],"A.E":"1"},"fV":{"as":["bo<1,2>"],"A":["bo<1,2>"],"A.E":"bo<1,2>"},"H4":{"ha":["1","2"],"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"vd":{"ha":["1","2"],"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"qL":{"a0u":[]},"Cu":{"a0v":[],"vt":[]},"a5P":{"A":["a0v"],"A.E":"a0v"},"B8":{"vt":[]},"ael":{"A":["vt"],"A.E":"vt"},"oy":{"k3":[],"cS":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"zT":{"a7":[],"mD":[],"dU":[]},"vF":{"a7":[],"mD":[],"dU":[]},"I1":{"a7":[]},"afH":{"mD":[]},"HX":{"ea":[],"a7":[],"dU":[]},"zU":{"cw":["1"],"a7":[],"co":["1"]},"I0":{"ak":["Z"],"J":["Z"],"cw":["Z"],"as":["Z"],"a7":[],"co":["Z"],"A":["Z"]},"k3":{"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"]},"HY":{"arm":[],"ak":["Z"],"J":["Z"],"cw":["Z"],"as":["Z"],"a7":[],"co":["Z"],"A":["Z"],"dU":[],"ak.E":"Z","A.E":"Z"},"HZ":{"arn":[],"ak":["Z"],"J":["Z"],"cw":["Z"],"as":["Z"],"a7":[],"co":["Z"],"A":["Z"],"dU":[],"ak.E":"Z","A.E":"Z"},"a_n":{"k3":[],"auQ":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"I_":{"k3":[],"auR":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"a_o":{"k3":[],"auS":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"I2":{"k3":[],"aIP":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"I3":{"k3":[],"Bv":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"I4":{"k3":[],"aIQ":[],"ak":["x"],"J":["x"],"cw":["x"],"as":["x"],"a7":[],"co":["x"],"A":["x"],"dU":[],"ak.E":"x","A.E":"x"},"PU":{"id":[]},"a8J":{"dl":[]},"PV":{"pe":[],"dl":[]},"ai":{"ap":["1"]},"aA0":{"eQ":["1"]},"fz":{"l8":["1"],"fz.T":"1"},"Ci":{"eQ":["1"]},"PS":{"Bn":[]},"ll":{"A":["1"],"A.E":"1"},"dX":{"dl":[]},"eq":{"fB":["1"],"CZ":["1"],"cy":["1"],"cy.T":"1"},"x_":{"rZ":["1"],"fz":["1"],"l8":["1"],"fz.T":"1"},"pk":{"eQ":["1"]},"ti":{"pk":["1"],"eQ":["1"]},"le":{"pk":["1"],"eQ":["1"]},"a3f":{"cv":[]},"b6":{"BS":["1"]},"PF":{"BS":["1"]},"Kl":{"cy":["1"]},"th":{"eQ":["1"]},"nB":{"LK":["1"],"th":["1"],"eQ":["1"]},"D1":{"th":["1"],"eQ":["1"]},"fB":{"CZ":["1"],"cy":["1"],"cy.T":"1"},"rZ":{"fz":["1"],"l8":["1"],"fz.T":"1"},"Py":{"a5N":["1"]},"CZ":{"cy":["1"]},"C4":{"l8":["1"]},"MS":{"cy":["1"],"cy.T":"1"},"NP":{"cy":["1"],"cy.T":"1"},"NQ":{"nB":["1"],"LK":["1"],"th":["1"],"aA0":["1"],"eQ":["1"]},"N9":{"cy":["2"]},"Ce":{"fz":["2"],"l8":["2"],"fz.T":"2"},"xe":{"N9":["1","2"],"cy":["2"],"cy.T":"2"},"MT":{"eQ":["1"]},"CY":{"fz":["2"],"l8":["2"],"fz.T":"2"},"pi":{"cy":["2"],"cy.T":"2"},"Pz":{"PA":["1","2"]},"pr":{"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"t3":{"pr":["1","2"],"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"Mq":{"pr":["1","2"],"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"x8":{"as":["1"],"A":["1"],"A.E":"1"},"Nx":{"ha":["1","2"],"bl":["1","2"],"am":["1","2"],"bl.V":"2","bl.K":"1"},"nG":{"CW":["1"],"l6":["1"],"bZ":["1"],"as":["1"],"A":["1"],"A.E":"1"},"jM":{"CW":["1"],"l6":["1"],"brT":["1"],"bZ":["1"],"as":["1"],"A":["1"],"A.E":"1"},"vl":{"A":["1"],"A.E":"1"},"ak":{"J":["1"],"as":["1"],"A":["1"]},"bl":{"am":["1","2"]},"BB":{"bl":["1","2"],"am":["1","2"]},"Nz":{"as":["2"],"A":["2"],"A.E":"2"},"Ht":{"am":["1","2"]},"pg":{"am":["1","2"]},"MB":{"MC":["1"],"bde":["1"]},"MD":{"MC":["1"]},"FL":{"as":["1"],"A":["1"],"A.E":"1"},"Hk":{"aE":["1"],"as":["1"],"A":["1"],"A.E":"1","aE.E":"1"},"l6":{"bZ":["1"],"as":["1"],"A":["1"]},"CW":{"l6":["1"],"bZ":["1"],"as":["1"],"A":["1"]},"Ke":{"bl":["1","2"],"tg":["1","iY<1,2>"],"am":["1","2"],"bl.V":"2","bl.K":"1","tg.K":"1"},"py":{"as":["1"],"A":["1"],"A.E":"1"},"xt":{"as":["2"],"A":["2"],"A.E":"2"},"Po":{"as":["bo<1,2>"],"A":["bo<1,2>"],"A.E":"bo<1,2>"},"pz":{"mp":["1","2","1"],"mp.T":"1"},"Pt":{"mp":["1","iY<1,2>","2"],"mp.T":"2"},"xs":{"mp":["1","iY<1,2>","bo<1,2>"],"mp.T":"bo<1,2>"},"B3":{"l6":["1"],"bZ":["1"],"as":["1"],"tg":["1","iZ<1>"],"A":["1"],"A.E":"1","tg.K":"1"},"x1":{"eQ":["1"]},"a9Y":{"bl":["l","@"],"am":["l","@"],"bl.V":"@","bl.K":"l"},"a9Z":{"aE":["l"],"as":["l"],"A":["l"],"A.E":"l","aE.E":"l"},"Cp":{"nr":[]},"Sl":{"dK":["J<x>","l"],"dK.S":"J<x>","dK.T":"l"},"Sk":{"dK":["l","J<x>"],"dK.S":"l","dK.T":"J<x>"},"a6k":{"nr":[]},"Na":{"dK":["1","3"],"dK.S":"1","dK.T":"3"},"H5":{"dl":[]},"XG":{"dl":[]},"XI":{"dK":["T?","l"],"dK.S":"T?","dK.T":"l"},"XH":{"dK":["l","T?"],"dK.S":"l","dK.T":"T?"},"D0":{"nr":[]},"PD":{"nr":[]},"a3x":{"uz":[]},"a3y":{"dK":["l","J<x>"],"dK.S":"l","dK.T":"J<x>"},"afR":{"nr":[]},"Lh":{"dK":["J<x>","l"],"dK.S":"J<x>","dK.T":"l"},"cE":{"d2":["cE"]},"Z":{"d6":[],"d2":["d6"]},"b7":{"d2":["b7"]},"x":{"d6":[],"d2":["d6"]},"J":{"as":["1"],"A":["1"]},"d6":{"d2":["d6"]},"a0v":{"vt":[]},"bZ":{"as":["1"],"A":["1"]},"l":{"d2":["l"]},"tO":{"dl":[]},"pe":{"dl":[]},"j8":{"dl":[]},"Aj":{"dl":[]},"GN":{"dl":[]},"a_s":{"dl":[]},"Le":{"dl":[]},"Bz":{"dl":[]},"i8":{"dl":[]},"Tf":{"dl":[]},"a_F":{"dl":[]},"Kg":{"dl":[]},"a8L":{"cv":[]},"fR":{"cv":[]},"Nc":{"aE":["1"],"as":["1"],"A":["1"],"A.E":"1","aE.E":"1"},"aep":{"dS":[]},"Q4":{"a3t":[]},"lk":{"a3t":[]},"a7M":{"a3t":[]},"yA":{"a7":[]},"dA":{"a7":[]},"dt":{"bS":[],"a7":[]},"bk":{"a7":[]},"hv":{"a7":[]},"iy":{"a7":[]},"v2":{"dt":[],"bS":[],"a7":[]},"iB":{"a7":[]},"bS":{"a7":[]},"iD":{"a7":[]},"ne":{"bk":[],"a7":[]},"iH":{"a7":[]},"iI":{"a7":[]},"iJ":{"a7":[]},"hG":{"a7":[]},"iO":{"a7":[]},"hH":{"a7":[]},"iP":{"a7":[]},"bs":{"dt":[],"bS":[],"a7":[]},"RE":{"a7":[]},"RO":{"dt":[],"bS":[],"a7":[]},"RT":{"a7":[]},"S2":{"dt":[],"bS":[],"a7":[]},"pY":{"bk":[],"a7":[]},"Si":{"a7":[]},"E8":{"a7":[]},"mE":{"bS":[],"a7":[]},"yl":{"a7":[]},"qc":{"a7":[]},"Tn":{"a7":[]},"uh":{"a7":[]},"is":{"a7":[]},"lA":{"a7":[]},"To":{"a7":[]},"Tp":{"a7":[]},"Vt":{"a7":[]},"VV":{"a7":[]},"FJ":{"ak":["ka<d6>"],"bL":["ka<d6>"],"J":["ka<d6>"],"cw":["ka<d6>"],"as":["ka<d6>"],"a7":[],"A":["ka<d6>"],"co":["ka<d6>"],"bL.E":"ka<d6>","ak.E":"ka<d6>","A.E":"ka<d6>"},"FK":{"ka":["d6"],"a7":[]},"VX":{"ak":["l"],"bL":["l"],"J":["l"],"cw":["l"],"as":["l"],"a7":[],"A":["l"],"co":["l"],"bL.E":"l","ak.E":"l","A.E":"l"},"VZ":{"a7":[]},"a6Q":{"ak":["dt"],"J":["dt"],"as":["dt"],"A":["dt"],"ak.E":"dt","A.E":"dt"},"aN":{"a7":[]},"hU":{"bk":[],"a7":[]},"Wi":{"ak":["hv"],"bL":["hv"],"J":["hv"],"cw":["hv"],"as":["hv"],"a7":[],"A":["hv"],"co":["hv"],"bL.E":"hv","ak.E":"hv","A.E":"hv"},"Gd":{"a7":[]},"Wl":{"a7":[]},"WG":{"dt":[],"bS":[],"a7":[]},"X0":{"a7":[]},"v1":{"ak":["bS"],"bL":["bS"],"J":["bS"],"cw":["bS"],"as":["bS"],"a7":[],"A":["bS"],"co":["bS"],"bL.E":"bS","ak.E":"bS","A.E":"bS"},"va":{"dt":[],"bS":[],"a7":[]},"Y5":{"a7":[]},"a_4":{"a7":[]},"a_6":{"a7":[]},"zL":{"a7":[]},"a_e":{"bl":["l","@"],"a7":[],"am":["l","@"],"bl.V":"@","bl.K":"l"},"a_f":{"bl":["l","@"],"a7":[],"am":["l","@"],"bl.V":"@","bl.K":"l"},"vB":{"a7":[]},"a_g":{"ak":["iB"],"bL":["iB"],"J":["iB"],"cw":["iB"],"as":["iB"],"a7":[],"A":["iB"],"co":["iB"],"bL.E":"iB","ak.E":"iB","A.E":"iB"},"a6O":{"ak":["bS"],"J":["bS"],"as":["bS"],"A":["bS"],"ak.E":"bS","A.E":"bS"},"Ia":{"ak":["bS"],"bL":["bS"],"J":["bS"],"cw":["bS"],"as":["bS"],"a7":[],"A":["bS"],"co":["bS"],"bL.E":"bS","ak.E":"bS","A.E":"bS"},"a_S":{"a7":[]},"a08":{"ak":["iD"],"bL":["iD"],"J":["iD"],"cw":["iD"],"as":["iD"],"a7":[],"A":["iD"],"co":["iD"],"bL.E":"iD","ak.E":"iD","A.E":"iD"},"a0f":{"a7":[]},"a0x":{"a7":[]},"Jo":{"a7":[]},"a1m":{"a7":[]},"a1n":{"bl":["l","@"],"a7":[],"am":["l","@"],"bl.V":"@","bl.K":"l"},"a1K":{"dt":[],"bS":[],"a7":[]},"a2v":{"ak":["iH"],"bL":["iH"],"J":["iH"],"cw":["iH"],"as":["iH"],"a7":[],"A":["iH"],"co":["iH"],"bL.E":"iH","ak.E":"iH","A.E":"iH"},"a2D":{"ak":["iI"],"bL":["iI"],"J":["iI"],"cw":["iI"],"as":["iI"],"a7":[],"A":["iI"],"co":["iI"],"bL.E":"iI","ak.E":"iI","A.E":"iI"},"Ki":{"bl":["l","l"],"a7":[],"am":["l","l"],"bl.V":"l","bl.K":"l"},"a3b":{"ak":["hH"],"bL":["hH"],"J":["hH"],"cw":["hH"],"as":["hH"],"a7":[],"A":["hH"],"co":["hH"],"bL.E":"hH","ak.E":"hH","A.E":"hH"},"a3c":{"ak":["iO"],"bL":["iO"],"J":["iO"],"cw":["iO"],"as":["iO"],"a7":[],"A":["iO"],"co":["iO"],"bL.E":"iO","ak.E":"iO","A.E":"iO"},"a3e":{"a7":[]},"a3h":{"ak":["iP"],"bL":["iP"],"J":["iP"],"cw":["iP"],"as":["iP"],"a7":[],"A":["iP"],"co":["iP"],"bL.E":"iP","ak.E":"iP","A.E":"iP"},"a3i":{"a7":[]},"a3u":{"a7":[]},"a3C":{"a7":[]},"a3D":{"a7":[]},"a3J":{"a7":[]},"BJ":{"a7":[]},"a7j":{"ak":["dA"],"bL":["dA"],"J":["dA"],"cw":["dA"],"as":["dA"],"a7":[],"A":["dA"],"co":["dA"],"bL.E":"dA","ak.E":"dA","A.E":"dA"},"MA":{"ka":["d6"],"a7":[]},"a9n":{"ak":["iy?"],"bL":["iy?"],"J":["iy?"],"cw":["iy?"],"as":["iy?"],"a7":[],"A":["iy?"],"co":["iy?"],"bL.E":"iy?","ak.E":"iy?","A.E":"iy?"},"NR":{"ak":["bS"],"bL":["bS"],"J":["bS"],"cw":["bS"],"as":["bS"],"a7":[],"A":["bS"],"co":["bS"],"bL.E":"bS","ak.E":"bS","A.E":"bS"},"aee":{"ak":["iJ"],"bL":["iJ"],"J":["iJ"],"cw":["iJ"],"as":["iJ"],"a7":[],"A":["iJ"],"co":["iJ"],"bL.E":"iJ","ak.E":"iJ","A.E":"iJ"},"aer":{"ak":["hG"],"bL":["hG"],"J":["hG"],"cw":["hG"],"as":["hG"],"a7":[],"A":["hG"],"co":["hG"],"bL.E":"hG","ak.E":"hG","A.E":"hG"},"MU":{"cy":["1"],"cy.T":"1"},"a8A":{"MU":["1"],"cy":["1"],"cy.T":"1"},"MW":{"l8":["1"]},"Wm":{"ak":["dt"],"J":["dt"],"as":["dt"],"A":["dt"],"ak.E":"dt","A.E":"dt"},"xm":{"rd":[]},"a_y":{"cv":[]},"om":{"cv":[]},"Ir":{"cv":[]},"Is":{"cv":[]},"It":{"cv":[]},"a8W":{"cy":["J<x>"],"cy.T":"J<x>"},"a2S":{"uz":[]},"a_u":{"cv":[]},"ka":{"bI1":["1"]},"k0":{"a7":[]},"k4":{"a7":[]},"kk":{"a7":[]},"XU":{"ak":["k0"],"bL":["k0"],"J":["k0"],"as":["k0"],"a7":[],"A":["k0"],"bL.E":"k0","ak.E":"k0","A.E":"k0"},"a_x":{"ak":["k4"],"bL":["k4"],"J":["k4"],"as":["k4"],"a7":[],"A":["k4"],"bL.E":"k4","ak.E":"k4","A.E":"k4"},"a09":{"a7":[]},"a2N":{"ak":["l"],"bL":["l"],"J":["l"],"as":["l"],"a7":[],"A":["l"],"bL.E":"l","ak.E":"l","A.E":"l"},"bp":{"dt":[],"bS":[],"a7":[]},"a3j":{"ak":["kk"],"bL":["kk"],"J":["kk"],"as":["kk"],"a7":[],"A":["kk"],"bL.E":"kk","ak.E":"kk","A.E":"kk"},"auS":{"J":["x"],"as":["x"],"A":["x"]},"cS":{"J":["x"],"as":["x"],"A":["x"]},"aIQ":{"J":["x"],"as":["x"],"A":["x"]},"auQ":{"J":["x"],"as":["x"],"A":["x"]},"aIP":{"J":["x"],"as":["x"],"A":["x"]},"auR":{"J":["x"],"as":["x"],"A":["x"]},"Bv":{"J":["x"],"as":["x"],"A":["x"]},"arm":{"J":["Z"],"as":["Z"],"A":["Z"]},"arn":{"J":["Z"],"as":["Z"],"A":["Z"]},"nf":{"CJ":["nf"]},"Ai":{"CJ":["Ai"]},"S9":{"a7":[]},"Sa":{"bl":["l","@"],"a7":[],"am":["l","@"],"bl.V":"@","bl.K":"l"},"Sb":{"a7":[]},"Sc":{"a7":[]},"pZ":{"a7":[]},"a_z":{"a7":[]},"Sw":{"a8":[],"f":[]},"G9":{"W":[],"f":[]},"Ga":{"W":[],"f":[]},"Gb":{"W":[],"f":[]},"Wf":{"Y":["G9"]},"Wg":{"Y":["Ga"]},"Wh":{"Y":["Gb"]},"K3":{"W":[],"f":[]},"K2":{"W":[],"f":[]},"a2e":{"Y":["K3"]},"a2c":{"Y":["K2"]},"a2d":{"a8":[],"f":[]},"En":{"W":[],"f":[]},"nI":{"k6":[],"iv":[],"dg":[],"dD":[],"dC":[]},"Ep":{"Y":["En"]},"hf":{"A":["l"],"A.E":"l"},"DT":{"W":[],"f":[]},"RS":{"Y":["DT"]},"SP":{"a8":[],"f":[]},"SQ":{"a8":[],"f":[]},"q5":{"W":[],"f":[]},"q6":{"aQ":[],"aj":[]},"Ew":{"bE":[],"bj":[],"f":[]},"Ex":{"Y":["q5"]},"F6":{"W":[],"f":[]},"CH":{"a8":[],"f":[]},"Mh":{"Y":["F6"]},"Vi":{"a8":[],"f":[]},"RI":{"a8":[],"f":[]},"Hy":{"W":[],"f":[]},"NB":{"Y":["Hy"]},"Hz":{"W":[],"f":[]},"NC":{"Y":["Hz"]},"a_2":{"a8":[],"f":[]},"r_":{"W":[],"f":[]},"abg":{"Y":["r_"]},"vT":{"a8":[],"f":[]},"r7":{"aQ":[],"aj":[]},"A8":{"a8":[],"f":[]},"Ll":{"W":[],"f":[]},"Q8":{"Y":["Ll"]},"a2K":{"a8":[],"f":[]},"ac7":{"aj":[]},"cN":{"am":["2","3"]},"BC":{"tk":["1","A<1>"],"tk.E":"1"},"AR":{"tk":["1","bZ<1>"],"tk.E":"1"},"WX":{"dK":["J<x>","uu"]},"adM":{"dK":["J<x>","uu"],"dK.S":"J<x>","dK.T":"uu"},"ji":{"cv":[]},"XA":{"js":[]},"Xz":{"ak":["js"],"J":["js"],"as":["js"],"A":["js"],"ak.E":"js","A.E":"js"},"GM":{"js":[]},"C1":{"eQ":["cS"]},"cA":{"aj":[]},"pU":{"cA":["Z"],"aj":[]},"a5Q":{"cA":["Z"],"aj":[]},"a5R":{"cA":["Z"],"aj":[]},"DN":{"cA":["1"],"aj":[]},"w2":{"cA":["Z"],"aj":[]},"m2":{"cA":["Z"],"aj":[]},"Fn":{"cA":["Z"],"aj":[]},"wP":{"cA":["Z"],"aj":[]},"yv":{"cA":["1"],"aj":[]},"E_":{"cA":["1"],"aj":[]},"Nw":{"hu":[]},"Jq":{"hu":[]},"eJ":{"hu":[]},"a2G":{"hu":[]},"KZ":{"hu":[]},"ev":{"hu":[]},"KY":{"hu":[]},"kK":{"hu":[]},"a7T":{"hu":[]},"a6v":{"hu":[]},"aV":{"aX":["1"],"aV.T":"1","aX.T":"1"},"hQ":{"aV":["D?"],"aX":["D?"],"aV.T":"D?","aX.T":"D?"},"b2":{"cA":["1"],"aj":[]},"fA":{"aX":["1"],"aX.T":"1"},"Jj":{"aV":["1"],"aX":["1"],"aV.T":"1","aX.T":"1"},"a27":{"aV":["N?"],"aX":["N?"],"aV.T":"N?","aX.T":"N?"},"IN":{"aV":["O?"],"aX":["O?"],"aV.T":"O?","aX.T":"O?"},"qF":{"aV":["x"],"aX":["x"],"aV.T":"x","aX.T":"x"},"yz":{"aV":["1"],"aX":["1"],"aV.T":"1","aX.T":"1"},"hR":{"aX":["Z"],"aX.T":"Z"},"L9":{"aX":["1"],"aX.T":"1"},"F4":{"W":[],"f":[]},"Mg":{"Y":["F4"]},"F5":{"W":[],"f":[]},"a7m":{"Y":["F5"]},"a6K":{"aQ":[],"aj":[]},"cD":{"D":[]},"a7o":{"mf":[]},"Tq":{"a8":[],"f":[]},"ui":{"W":[],"f":[]},"Mi":{"Y":["ui"]},"mq":{"dD":[],"dC":[]},"F3":{"W":[],"f":[]},"qd":{"W":[],"f":[]},"BL":{"W":[],"f":[]},"O2":{"W":[],"f":[]},"Pi":{"jJ":[],"iv":[],"dg":[],"dD":[],"dC":[]},"a5J":{"a8":[],"f":[]},"Me":{"Y":["F3"]},"a7l":{"Y":["qd"],"b0W":[]},"a5I":{"Y":["BL"],"b0W":[]},"Mz":{"a8":[],"f":[]},"O3":{"Y":["O2"]},"a5H":{"a8":[],"f":[]},"a5K":{"a8":[],"f":[]},"ac6":{"fw":[],"aL":[],"f":[]},"OD":{"e3":["K","h7"],"K":[],"ax":["K","h7"],"E":[],"aK":[],"ax.1":"h7","e3.1":"h7","ax.0":"K"},"Tr":{"ek":[]},"Fl":{"bE":[],"bj":[],"f":[]},"a7t":{"eS":["av"],"eS.T":"av"},"VC":{"av":[]},"Fi":{"W":[],"f":[]},"Ml":{"Y":["Fi"]},"Vc":{"a8":[],"f":[]},"Fh":{"W":[],"f":[]},"F7":{"W":[],"f":[]},"BW":{"W":[],"f":[]},"yC":{"Ve":["1"],"hc":["1"],"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"a7u":{"Y":["Fh"]},"a7r":{"Y":["F7"]},"BX":{"Y":["BW<1>"]},"ml":{"iu":[]},"a7q":{"q2":[]},"Fg":{"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"yD":{"W":[],"f":[]},"Mk":{"ng":["yD"],"Y":["yD"]},"a7w":{"aj":[]},"Vf":{"mf":[]},"Mn":{"W":[],"f":[]},"Vg":{"a8":[],"f":[]},"a7y":{"bv":[],"aL":[],"f":[]},"acD":{"K":[],"b9":["K"],"E":[],"aK":[]},"Mo":{"Y":["Mn"]},"aa5":{"aj":[]},"adf":{"aj":[]},"a7n":{"aj":[]},"Mp":{"aL":[],"f":[]},"a7x":{"bq":[],"aR":[],"C":[]},"xo":{"e3":["K","ic"],"K":[],"ax":["K","ic"],"E":[],"aK":[],"ax.1":"ic","e3.1":"ic","ax.0":"K"},"qe":{"W":[],"f":[]},"Mm":{"Y":["qe"]},"aaj":{"aj":[]},"GP":{"ee":[],"bE":[],"bj":[],"f":[]},"Fk":{"a8":[],"f":[]},"t0":{"jh":["J<T>"],"f3":[]},"yY":{"t0":[],"jh":["J<T>"],"f3":[]},"Wb":{"t0":[],"jh":["J<T>"],"f3":[]},"Wa":{"t0":[],"jh":["J<T>"],"f3":[]},"uJ":{"tO":[],"dl":[]},"VN":{"f3":[]},"a91":{"ut":["cF"],"f3":[]},"aQ":{"aj":[]},"cH":{"aQ":[],"aj":[]},"xf":{"aj":[]},"jh":{"f3":[]},"ut":{"f3":[]},"VM":{"ut":["VL"],"f3":[]},"Fz":{"f3":[]},"ou":{"hZ":[]},"e5":{"ou":[],"hZ":[],"e5.T":"1"},"mh":{"ou":[],"hZ":[]},"Hg":{"kS":[]},"bJ":{"A":["1"],"A.E":"1"},"fT":{"A":["1"],"A.E":"1"},"cB":{"ap":["1"]},"Gk":{"cF":[]},"fn":{"c3":[]},"oN":{"c3":[]},"r9":{"c3":[]},"ra":{"c3":[]},"oM":{"c3":[]},"oP":{"c3":[]},"i3":{"c3":[]},"oO":{"c3":[]},"a5D":{"c3":[]},"afq":{"c3":[]},"vU":{"c3":[]},"afm":{"vU":[],"c3":[]},"vZ":{"c3":[]},"afx":{"vZ":[],"c3":[]},"afs":{"oN":[],"c3":[]},"afp":{"r9":[],"c3":[]},"afr":{"ra":[],"c3":[]},"afo":{"oM":[],"c3":[]},"vW":{"c3":[]},"aft":{"vW":[],"c3":[]},"afB":{"oP":[],"c3":[]},"w_":{"i3":[],"c3":[]},"afz":{"w_":[],"i3":[],"c3":[]},"w0":{"i3":[],"c3":[]},"afA":{"w0":[],"i3":[],"c3":[]},"a0a":{"i3":[],"c3":[]},"afy":{"i3":[],"c3":[]},"afv":{"oO":[],"c3":[]},"vY":{"c3":[]},"afw":{"vY":[],"c3":[]},"vX":{"c3":[]},"afu":{"vX":[],"c3":[]},"vV":{"c3":[]},"afn":{"vV":[],"c3":[]},"lJ":{"dg":[],"dD":[],"dC":[]},"NH":{"D8":[]},"CB":{"D8":[]},"lT":{"dg":[],"dD":[],"dC":[]},"iv":{"dg":[],"dD":[],"dC":[]},"jJ":{"iv":[],"dg":[],"dD":[],"dC":[]},"k_":{"iv":[],"dg":[],"dD":[],"dC":[]},"k6":{"iv":[],"dg":[],"dD":[],"dC":[]},"lD":{"dD":[],"dC":[]},"dD":{"dC":[]},"dg":{"dD":[],"dC":[]},"Ab":{"dg":[],"dD":[],"dC":[]},"jB":{"dg":[],"dD":[],"dC":[]},"ia":{"dg":[],"dD":[],"dC":[]},"Sn":{"dg":[],"dD":[],"dC":[]},"nt":{"dg":[],"dD":[],"dC":[]},"nu":{"dg":[],"dD":[],"dC":[]},"E7":{"dg":[],"dD":[],"dC":[]},"x0":{"dC":[]},"a6Y":{"z8":[]},"v3":{"iT":[]},"zE":{"iT":[]},"RJ":{"a8":[],"f":[]},"RQ":{"a8":[],"f":[]},"a5V":{"aj":[]},"pv":{"xk":[]},"er":{"xk":[]},"abp":{"xk":[]},"Hw":{"W":[],"f":[]},"NA":{"Y":["Hw"]},"zI":{"aV":["O?"],"aX":["O?"],"aV.T":"O?","aX.T":"O?"},"HI":{"aV":["c"],"aX":["c"],"aV.T":"c","aX.T":"c"},"bs6":{"ee":[],"bE":[],"bj":[],"f":[]},"Ee":{"W":[],"f":[]},"xg":{"W":[],"f":[]},"LW":{"Y":["Ee"]},"a8l":{"a8":[],"f":[]},"a6t":{"bv":[],"aL":[],"f":[]},"Om":{"K":[],"b9":["K"],"E":[],"aK":[]},"Cx":{"Y":["xg<1>"]},"HR":{"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"LV":{"a8":[],"f":[]},"IL":{"W":[],"f":[]},"aci":{"Y":["IL"]},"a9R":{"bv":[],"aL":[],"f":[]},"Ox":{"K":[],"b9":["K"],"E":[],"aK":[]},"Ek":{"W":[],"f":[]},"LY":{"Y":["Ek"]},"aaN":{"el":[],"cq":["el"]},"a9Q":{"bv":[],"aL":[],"f":[]},"Ow":{"K":[],"b9":["K"],"E":[],"aK":[]},"bos":{"ee":[],"bE":[],"bj":[],"f":[]},"tY":{"W":[],"f":[]},"Ms":{"W":[],"f":[]},"NN":{"W":[],"f":[]},"N6":{"bE":[],"bj":[],"f":[]},"Mu":{"W":[],"f":[]},"Mt":{"W":[],"f":[]},"LD":{"W":[],"f":[]},"M0":{"Y":["tY"]},"a7P":{"Y":["Ms"]},"NO":{"Y":["NN"]},"a7R":{"Y":["Mu"]},"a7S":{"Y":["Mt"]},"Qm":{"Y":["LD"]},"SN":{"a8":[],"f":[]},"bow":{"bE":[],"bj":[],"f":[]},"Eu":{"W":[],"f":[]},"a6L":{"Y":["Eu"]},"a6J":{"aQ":[],"aj":[]},"u3":{"a8":[],"f":[]},"boC":{"bE":[],"bj":[],"f":[]},"Ez":{"a8":[],"f":[]},"ov":{"mF":["x"],"D":[],"mF.T":"x"},"Hv":{"mF":["x"],"D":[],"mF.T":"x"},"Vr":{"a8":[],"f":[]},"KC":{"a8":[],"f":[]},"ab7":{"rF":[]},"ab8":{"f":[]},"Vs":{"aQ":[],"aj":[]},"bpo":{"bE":[],"bj":[],"f":[]},"WS":{"SG":["cE"]},"Fv":{"W":[],"f":[]},"Mr":{"Y":["Fv"]},"ad6":{"bD":["mK"],"eo":["mK"],"aQ":[],"aj":[],"bD.T":"mK"},"ad5":{"bD":["mA"],"eo":["mA"],"aQ":[],"aj":[],"bD.T":"mA"},"a7O":{"a8":[],"f":[]},"bpy":{"ee":[],"bE":[],"bj":[],"f":[]},"a7N":{"fO":[]},"a84":{"mf":[]},"VJ":{"a8":[],"f":[]},"yJ":{"a8":[],"f":[]},"qh":{"a8":[],"f":[]},"tG":{"a8":[],"f":[]},"FB":{"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"bpQ":{"ee":[],"bE":[],"bj":[],"f":[]},"mM":{"a8":[],"f":[]},"a3A":{"a8":[],"f":[]},"bpY":{"ee":[],"bE":[],"bj":[],"f":[]},"FN":{"W":[],"f":[]},"yP":{"Y":["FN"]},"a8o":{"bE":[],"bj":[],"f":[]},"bqc":{"ee":[],"bE":[],"bj":[],"f":[]},"C7":{"W":[],"f":[]},"C6":{"W":[],"f":[]},"x5":{"W":[],"f":[]},"Cw":{"bv":[],"aL":[],"f":[]},"hT":{"a8":[],"f":[]},"ux":{"bE":[],"bj":[],"f":[]},"qk":{"W":[],"f":[]},"a8q":{"aj":[]},"C8":{"Y":["C7<1>"]},"MI":{"Y":["C6<1>"]},"MJ":{"du":["lg<1>"],"eD":["lg<1>"],"dw":["lg<1>"],"du.T":"lg<1>"},"MK":{"Y":["x5<1>"]},"acL":{"K":[],"b9":["K"],"E":[],"aK":[]},"MH":{"a8":[],"f":[]},"C5":{"Y":["qk<1>"],"eh":[]},"uw":{"kM":["1"],"W":[],"f":[],"kM.T":"1"},"x4":{"ix":["1"],"Y":["kM<1>"]},"yT":{"W":[],"f":[]},"a8D":{"W":[],"f":[]},"a8E":{"a8":[],"f":[]},"a8B":{"ct":[]},"bqo":{"ee":[],"bE":[],"bj":[],"f":[]},"Wu":{"a8":[],"f":[]},"a8z":{"el":[],"cq":["el"]},"a6P":{"bv":[],"aL":[],"f":[]},"On":{"K":[],"b9":["K"],"E":[],"aK":[]},"LJ":{"cA":["1"],"aj":[]},"P4":{"W":[],"f":[]},"Xn":{"a8":[],"f":[]},"ady":{"Y":["P4"]},"a9E":{"W":[],"f":[]},"a9D":{"ct":[]},"a8Y":{"ct":[]},"a8Z":{"ct":[]},"abi":{"ct":[]},"GH":{"ee":[],"bE":[],"bj":[],"f":[]},"GS":{"W":[],"f":[]},"No":{"Y":["GS"]},"GT":{"mX":[]},"qD":{"qG":[],"mX":[]},"GU":{"qG":[],"mX":[]},"GV":{"qG":[],"mX":[]},"qG":{"mX":[]},"O6":{"bE":[],"bj":[],"f":[]},"Nn":{"W":[],"f":[]},"v8":{"a8":[],"f":[]},"Nm":{"Y":["Nn"],"b9D":[]},"Xx":{"a8":[],"f":[]},"kP":{"cW":[]},"mg":{"kP":[],"cW":[]},"dv":{"kP":[],"cW":[]},"GW":{"W":[],"f":[]},"Nr":{"Y":["GW"]},"LU":{"W":[],"f":[]},"Ng":{"W":[],"f":[]},"v9":{"W":[],"f":[]},"bru":{"ee":[],"bE":[],"bj":[],"f":[]},"Np":{"aQ":[],"aj":[]},"Nq":{"aV":["kP"],"aX":["kP"],"aV.T":"kP","aX.T":"kP"},"a9O":{"aj":[]},"a6p":{"Y":["LU"]},"Nh":{"Y":["Ng"]},"Or":{"K":[],"no":["hk","K"],"E":[],"aK":[]},"a7Y":{"jD":["hk","K"],"aL":[],"f":[],"jD.0":"hk","jD.1":"K"},"Ns":{"Y":["v9"]},"n3":{"a8":[],"f":[]},"a9M":{"cq":["D?"]},"aah":{"jD":["mn","K"],"aL":[],"f":[],"jD.0":"mn","jD.1":"K"},"OA":{"K":[],"no":["mn","K"],"E":[],"aK":[]},"vn":{"ee":[],"bE":[],"bj":[],"f":[]},"KT":{"W":[],"f":[]},"PK":{"Y":["KT"]},"Ya":{"a8":[],"f":[]},"Hu":{"W":[],"f":[]},"Ov":{"K":[],"b9":["K"],"E":[],"aK":[]},"wr":{"aV":["cW?"],"aX":["cW?"],"aV.T":"cW?","aX.T":"cW?"},"ND":{"W":[],"f":[]},"aay":{"Y":["Hu"]},"a9N":{"bv":[],"aL":[],"f":[]},"aau":{"Y":["ND"]},"Pb":{"a8":[],"f":[]},"Pc":{"aj":[]},"aav":{"eS":["at"],"eS.T":"at"},"VE":{"at":[]},"qV":{"a__":["1"],"hc":["1"],"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"tn":{"W":[],"f":[]},"to":{"W":[],"f":[]},"CF":{"W":[],"f":[]},"aga":{"a8":[],"f":[]},"ag8":{"Y":["tn"]},"ag9":{"Y":["to"]},"a5C":{"oD":[]},"Vd":{"oD":[]},"O5":{"Y":["CF<1>"]},"Qn":{"aQ":[],"aj":[]},"Qo":{"aQ":[],"aj":[]},"In":{"W":[],"f":[]},"Io":{"Y":["In"]},"Hi":{"W":[],"f":[]},"lw":{"W":[],"f":[]},"a0j":{"W":[],"f":[]},"aad":{"aj":[]},"aae":{"Y":["Hi"]},"a6S":{"aj":[]},"a6T":{"Y":["lw"]},"btu":{"ee":[],"bE":[],"bj":[],"f":[]},"Js":{"W":[],"f":[]},"AD":{"Y":["Js"]},"OS":{"bE":[],"bj":[],"f":[]},"N0":{"W":[],"f":[]},"wd":{"W":[],"f":[]},"AE":{"Y":["wd"]},"bx4":{"W":[],"f":[]},"adk":{"aQ":[],"aj":[]},"LT":{"a5":[],"o8":[]},"a6o":{"a8":[],"f":[]},"N1":{"Y":["N0"]},"a8a":{"bW":["jj"],"bW.T":"jj"},"adl":{"bE":[],"bj":[],"f":[]},"Cv":{"W":[],"f":[]},"a1J":{"a8":[],"f":[]},"aax":{"ng":["Cv"],"Y":["Cv"]},"bua":{"ee":[],"bE":[],"bj":[],"f":[]},"K9":{"W":[],"f":[]},"wu":{"W":[],"f":[]},"Pk":{"Y":["K9"]},"Pl":{"Y":["wu"]},"NF":{"W":[],"f":[]},"a2R":{"a8":[],"f":[]},"NG":{"Y":["NF"]},"PE":{"aQ":[],"aj":[]},"aev":{"o_":["mc"],"o_.T":"mc"},"aet":{"mc":[]},"aeu":{"mc":[]},"buP":{"bE":[],"bj":[],"f":[]},"Be":{"W":[],"f":[]},"aeP":{"W":[],"f":[]},"aeQ":{"a8":[],"f":[]},"aeN":{"ct":[]},"KL":{"ee":[],"bE":[],"bj":[],"f":[]},"KP":{"W":[],"f":[]},"PI":{"Y":["KP"]},"KQ":{"kM":["l"],"W":[],"f":[],"kM.T":"l"},"D4":{"ix":["l"],"Y":["kM<l>"]},"a_1":{"mf":[]},"aeU":{"aj":[]},"bv6":{"ee":[],"bE":[],"bj":[],"f":[]},"PN":{"W":[],"f":[]},"a38":{"a8":[],"f":[]},"af_":{"Y":["PN"]},"af0":{"bv":[],"aL":[],"f":[]},"af1":{"K":[],"b9":["K"],"E":[],"aK":[]},"aeX":{"fw":[],"aL":[],"f":[]},"aeY":{"bq":[],"aR":[],"C":[]},"acZ":{"K":[],"ax":["K","ic"],"E":[],"aK":[],"ax.1":"ic","ax.0":"K"},"aeW":{"a8":[],"f":[]},"aeZ":{"a8":[],"f":[]},"a3a":{"a8":[],"f":[]},"jG":{"a8":[],"f":[]},"Nl":{"ee":[],"bE":[],"bj":[],"f":[]},"wI":{"aV":["la"],"aX":["la"],"aV.T":"la","aX.T":"la"},"DW":{"W":[],"f":[]},"a61":{"Y":["DW"]},"wN":{"W":[],"f":[]},"rM":{"Y":["wN"]},"a8M":{"bv":[],"aL":[],"f":[]},"acH":{"K":[],"b9":["K"],"E":[],"kX":[],"aK":[]},"afb":{"a8":[],"f":[]},"bvp":{"ee":[],"bE":[],"bj":[],"f":[]},"cm":{"jq":["b8M"],"jq.T":"b8M"},"a9k":{"hy":[]},"wY":{"jp":[]},"f0":{"j7":[]},"hM":{"j7":[]},"NK":{"j7":[]},"aeB":{"aj":[]},"en":{"cW":[]},"lf":{"cW":[]},"Sx":{"cW":[]},"eF":{"cW":[]},"hp":{"cW":[]},"bg":{"iu":[]},"LX":{"q2":[]},"c4":{"nl":[]},"f1":{"en":[],"cW":[]},"mF":{"D":[]},"LP":{"un":[]},"a9":{"eb":[]},"de":{"eb":[]},"t7":{"eb":[]},"b8M":{"jq":["b8M"]},"LE":{"hy":[]},"S7":{"jq":["mz"]},"a8K":{"hy":[]},"zW":{"cv":[]},"E3":{"jq":["mz"],"jq.T":"mz"},"a_B":{"hy":[]},"HU":{"hy":[]},"a01":{"jr":[]},"dR":{"en":[],"cW":[]},"m3":{"en":[],"cW":[]},"CQ":{"hl":["dR"],"en":[],"cW":[],"hl.T":"dR"},"CR":{"hl":["m3"],"en":[],"cW":[],"hl.T":"m3"},"hl":{"en":[],"cW":[]},"hF":{"iu":[]},"Pd":{"q2":[]},"iK":{"en":[],"cW":[]},"ii":{"en":[],"cW":[]},"ij":{"en":[],"cW":[]},"BK":{"jF":[]},"afL":{"jF":[]},"afI":{"ki":[]},"iV":{"ki":[]},"BR":{"ki":[]},"rL":{"jr":[],"kX":[],"aK":[]},"IT":{"K":[],"b9":["K"],"E":[],"aK":[]},"LO":{"aQ":[],"aj":[]},"a7Z":{"oI":[]},"adb":{"w7":[],"b9":["K"],"E":[],"aK":[]},"a5":{"o8":[]},"o4":{"lN":[]},"K":{"E":[],"aK":[]},"q1":{"jZ":["K"]},"hr":{"dG":[]},"EY":{"hr":[],"eP":["1"],"dG":[]},"kY":{"hr":[],"eP":["K"],"dG":[]},"IW":{"e3":["K","kY"],"K":[],"ax":["K","kY"],"E":[],"aK":[],"ax.1":"kY","e3.1":"kY","ax.0":"K"},"Vp":{"aj":[]},"IX":{"K":[],"b9":["K"],"E":[],"aK":[]},"rg":{"aQ":[],"aj":[]},"w5":{"K":[],"ax":["K","l9"],"E":[],"aK":[],"ax.1":"l9","ax.0":"K"},"acF":{"K":[],"E":[],"aK":[]},"PJ":{"rg":[],"aQ":[],"aj":[]},"M1":{"rg":[],"aQ":[],"aj":[]},"BT":{"rg":[],"aQ":[],"aj":[]},"IZ":{"K":[],"E":[],"aK":[]},"h7":{"hr":[],"eP":["K"],"dG":[]},"At":{"e3":["K","h7"],"K":[],"ax":["K","h7"],"E":[],"aK":[],"ax.1":"h7","e3.1":"h7","ax.0":"K"},"J1":{"K":[],"E":[],"aK":[]},"h5":{"fj":[]},"u8":{"h5":[],"fj":[]},"yo":{"h5":[],"fj":[]},"nx":{"lW":[],"h5":[],"fj":[]},"Ig":{"lW":[],"h5":[],"fj":[]},"He":{"h5":[],"fj":[]},"a0_":{"fj":[]},"a05":{"fj":[]},"lW":{"h5":[],"fj":[]},"EN":{"h5":[],"fj":[]},"EO":{"h5":[],"fj":[]},"GK":{"lW":[],"h5":[],"fj":[]},"E5":{"h5":[],"fj":[]},"Go":{"h5":[],"fj":[]},"a_j":{"aQ":[],"aj":[]},"E":{"aK":[]},"eP":{"dG":[]},"iX":{"eV":[]},"Nj":{"eV":[]},"oJ":{"fm":[]},"l9":{"eP":["K"],"dG":[]},"nM":{"h_":[],"aQ":[],"aj":[]},"afJ":{"ki":[]},"rh":{"K":[],"ax":["K","l9"],"E":[],"aK":[],"ax.1":"l9","ax.0":"K"},"Ob":{"dg":[],"dD":[],"dC":[]},"a07":{"K":[],"E":[],"kX":[],"aK":[]},"rA":{"aj":[]},"IQ":{"K":[],"b9":["K"],"E":[],"aK":[]},"oV":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0T":{"K":[],"b9":["K"],"E":[],"aK":[]},"J9":{"K":[],"b9":["K"],"E":[],"aK":[]},"w4":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0N":{"K":[],"b9":["K"],"E":[],"aK":[]},"IU":{"K":[],"b9":["K"],"E":[],"aK":[]},"J3":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0P":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0z":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0A":{"K":[],"b9":["K"],"E":[],"aK":[]},"Fo":{"aj":[]},"CL":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0F":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0D":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0E":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0C":{"K":[],"b9":["K"],"E":[],"aK":[]},"OC":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0Q":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0R":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0G":{"K":[],"b9":["K"],"E":[],"aK":[]},"a12":{"K":[],"b9":["K"],"E":[],"aK":[]},"J_":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0J":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0S":{"K":[],"b9":["K"],"E":[],"aK":[]},"J5":{"K":[],"b9":["K"],"E":[],"kX":[],"aK":[]},"a0V":{"K":[],"b9":["K"],"E":[],"aK":[]},"J0":{"K":[],"b9":["K"],"E":[],"aK":[]},"J6":{"K":[],"b9":["K"],"E":[],"aK":[]},"J4":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0W":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0B":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0O":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0H":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0K":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0M":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0I":{"K":[],"b9":["K"],"E":[],"aK":[]},"Ja":{"K":[],"b9":["K"],"E":[],"aK":[]},"h_":{"aj":[]},"ri":{"K":[],"b9":["K"],"E":[],"aK":[]},"J7":{"K":[],"b9":["K"],"E":[],"aK":[]},"a0y":{"K":[],"b9":["K"],"E":[],"aK":[]},"J8":{"K":[],"b9":["K"],"E":[],"aK":[]},"IV":{"K":[],"b9":["K"],"E":[],"aK":[]},"IY":{"K":[],"b9":["K"],"E":[],"aK":[]},"p4":{"o8":[]},"AZ":{"lN":[]},"p5":{"p6":[],"eP":["dQ"],"dG":[]},"p8":{"rB":[],"eP":["dQ"],"dG":[]},"dQ":{"E":[],"aK":[]},"a2k":{"jZ":["dQ"]},"p6":{"dG":[]},"rB":{"dG":[]},"a0Y":{"oW":[],"dQ":[],"ax":["K","he"],"E":[],"aK":[],"ax.1":"he","ax.0":"K"},"a0Z":{"oW":[],"dQ":[],"ax":["K","he"],"E":[],"aK":[]},"AY":{"he":[],"p6":[],"eP":["K"],"lP":[],"dG":[]},"a1_":{"oW":[],"dQ":[],"ax":["K","he"],"E":[],"aK":[],"ax.1":"he","ax.0":"K"},"a10":{"oW":[],"dQ":[],"ax":["K","he"],"E":[],"aK":[],"ax.1":"he","ax.0":"K"},"lP":{"dG":[]},"he":{"p6":[],"eP":["K"],"lP":[],"dG":[]},"oW":{"dQ":[],"ax":["K","he"],"E":[],"aK":[]},"Jb":{"dQ":[],"b9":["dQ"],"E":[],"aK":[]},"a11":{"dQ":[],"b9":["dQ"],"E":[],"aK":[]},"f8":{"hr":[],"eP":["K"],"dG":[]},"Au":{"e3":["K","f8"],"K":[],"ax":["K","f8"],"E":[],"aK":[],"ax.1":"f8","e3.1":"f8","ax.0":"K"},"J2":{"e3":["K","f8"],"K":[],"ax":["K","f8"],"E":[],"aK":[],"ax.1":"f8","e3.1":"f8","ax.0":"K"},"ns":{"hr":[],"dG":[]},"GZ":{"rF":[]},"Wq":{"rF":[]},"Ws":{"rF":[]},"rj":{"K":[],"E":[],"aK":[]},"pT":{"aV":["j7?"],"aX":["j7?"],"aV.T":"j7?","aX.T":"j7?"},"w7":{"b9":["K"],"E":[],"aK":[]},"Aw":{"lj":["1"],"K":[],"ax":["dQ","1"],"IR":[],"E":[],"aK":[]},"Jd":{"lj":["p8"],"K":[],"ax":["dQ","p8"],"IR":[],"E":[],"aK":[],"ax.1":"p8","lj.0":"p8","ax.0":"dQ"},"a0X":{"lj":["p5"],"K":[],"ax":["dQ","p5"],"IR":[],"E":[],"aK":[],"ax.1":"p5","lj.0":"p5","ax.0":"dQ"},"ie":{"aQ":[],"aj":[]},"nA":{"hr":[],"eP":["K"],"dG":[]},"Jf":{"e3":["K","nA"],"K":[],"ax":["K","nA"],"E":[],"aK":[],"ax.1":"nA","e3.1":"nA","ax.0":"K"},"wJ":{"ap":["~"]},"L_":{"cv":[]},"pj":{"d2":["pj"]},"mo":{"d2":["mo"]},"pA":{"d2":["pA"]},"AP":{"d2":["AP"]},"adH":{"ut":["db"],"f3":[]},"JP":{"aQ":[],"aj":[]},"vN":{"d2":["AP"]},"wZ":{"ak8":[]},"n0":{"ju":[]},"vf":{"ju":[]},"zr":{"ju":[]},"oK":{"cv":[]},"HQ":{"cv":[]},"md":{"el":[]},"a81":{"el":[]},"ab5":{"zQ":[]},"ab4":{"el":[]},"aeC":{"zQ":[]},"re":{"oS":[]},"An":{"oS":[]},"Ji":{"aQ":[],"aj":[]},"ye":{"jF":[]},"zx":{"jF":[]},"r3":{"jF":[]},"uv":{"jF":[]},"a30":{"rJ":[]},"a3_":{"rJ":[]},"a31":{"rJ":[]},"Bg":{"rJ":[]},"Wn":{"wE":[]},"abu":{"KS":[]},"Xb":{"hW":[]},"Xc":{"hW":[]},"Xf":{"hW":[]},"Xh":{"hW":[]},"Xe":{"hW":[]},"Xg":{"hW":[]},"Xd":{"hW":[]},"xa":{"vS":[]},"Xr":{"a8":[],"f":[]},"a0s":{"bv":[],"aL":[],"f":[]},"Je":{"K":[],"b9":["K"],"E":[],"aK":[]},"nY":{"W":[],"f":[]},"LF":{"bE":[],"bj":[],"f":[]},"uL":{"W":[],"f":[]},"b9p":{"bI":[]},"bq0":{"bI":[]},"bq_":{"bI":[]},"pR":{"bI":[]},"q3":{"bI":[]},"jj":{"bI":[]},"oQ":{"bI":[]},"dW":{"bW":["1"]},"dj":{"bW":["1"],"bW.T":"1"},"LG":{"Y":["nY"]},"N5":{"Y":["uL"]},"a3I":{"bW":["b9p"],"bW.T":"b9p"},"FF":{"bW":["bI"],"bW.T":"bI"},"VR":{"bW":["jj"]},"a0i":{"dW":["oQ"],"bW":["oQ"],"dW.T":"oQ","bW.T":"oQ"},"O0":{"QR":["1"],"dW":["1"],"CE":["1"],"bW":["1"],"dW.T":"1","bW.T":"1"},"O1":{"QS":["1"],"dW":["1"],"CE":["1"],"bW":["1"],"dW.T":"1","bW.T":"1"},"Mc":{"bW":["1"],"bW.T":"1"},"DV":{"W":[],"f":[]},"a60":{"Y":["DV"]},"a6_":{"bv":[],"aL":[],"f":[]},"Ls":{"W":[],"f":[]},"Qe":{"Y":["Ls"],"eh":[]},"RW":{"eh":[]},"nq":{"W":[],"f":[]},"qv":{"W":[],"f":[]},"Px":{"Y":["nq<1,2>"]},"Kj":{"nq":["1","dy<1>"],"W":[],"f":[],"nq.T":"1","nq.S":"dy<1>"},"Nb":{"Y":["qv<1>"]},"y3":{"W":[],"f":[]},"ve":{"fx":[]},"LL":{"Y":["y3"]},"H7":{"aQ":[],"aj":[]},"ab9":{"a8":[],"f":[]},"kH":{"bE":[],"bj":[],"f":[]},"yp":{"bv":[],"aL":[],"f":[]},"yn":{"bv":[],"aL":[],"f":[]},"pc":{"bv":[],"aL":[],"f":[]},"yu":{"bv":[],"aL":[],"f":[]},"ah":{"bv":[],"aL":[],"f":[]},"f_":{"bv":[],"aL":[],"f":[]},"eG":{"bv":[],"aL":[],"f":[]},"kE":{"bv":[],"aL":[],"f":[]},"Hd":{"f5":["kY"],"bj":[],"f":[],"f5.T":"kY"},"br":{"bv":[],"aL":[],"f":[]},"hC":{"f5":["f8"],"bj":[],"f":[],"f5.T":"f8"},"z1":{"fw":[],"aL":[],"f":[]},"ly":{"fw":[],"aL":[],"f":[]},"bpF":{"bE":[],"bj":[],"f":[]},"ze":{"bv":[],"aL":[],"f":[]},"rv":{"bv":[],"aL":[],"f":[]},"rD":{"W":[],"f":[]},"afD":{"hX":[],"aR":[],"C":[]},"afE":{"bE":[],"bj":[],"f":[]},"If":{"bv":[],"aL":[],"f":[]},"Sf":{"bv":[],"aL":[],"f":[]},"Fq":{"bv":[],"aL":[],"f":[]},"T3":{"bv":[],"aL":[],"f":[]},"T5":{"bv":[],"aL":[],"f":[]},"a_Y":{"bv":[],"aL":[],"f":[]},"a_Z":{"bv":[],"aL":[],"f":[]},"Tc":{"bv":[],"aL":[],"f":[]},"Gg":{"bv":[],"aL":[],"f":[]},"WI":{"bv":[],"aL":[],"f":[]},"a1g":{"bv":[],"aL":[],"f":[]},"Vo":{"fw":[],"aL":[],"f":[]},"dk":{"bv":[],"aL":[],"f":[]},"Ti":{"bv":[],"aL":[],"f":[]},"a3n":{"a8":[],"f":[]},"zw":{"bv":[],"aL":[],"f":[]},"zY":{"bv":[],"aL":[],"f":[]},"abf":{"bq":[],"aR":[],"C":[]},"y1":{"bv":[],"aL":[],"f":[]},"XB":{"bv":[],"aL":[],"f":[]},"a2n":{"bv":[],"aL":[],"f":[]},"adE":{"bv":[],"aL":[],"f":[]},"m9":{"fw":[],"aL":[],"f":[]},"Xv":{"a8":[],"f":[]},"Of":{"fw":[],"aL":[],"f":[]},"a9L":{"bq":[],"aR":[],"C":[]},"a0c":{"a8":[],"f":[]},"p0":{"fw":[],"aL":[],"f":[]},"hw":{"f5":["h7"],"bj":[],"f":[],"f5.T":"h7"},"G7":{"f5":["h7"],"bj":[],"f":[],"f5.T":"h7"},"a5B":{"fw":[],"aL":[],"f":[]},"a1d":{"fw":[],"aL":[],"f":[]},"a0n":{"aL":[],"f":[]},"Y1":{"bv":[],"aL":[],"f":[]},"HS":{"bv":[],"aL":[],"f":[]},"jy":{"bv":[],"aL":[],"f":[]},"RD":{"bv":[],"aL":[],"f":[]},"a_c":{"bv":[],"aL":[],"f":[]},"HP":{"bv":[],"aL":[],"f":[]},"Sq":{"bv":[],"aL":[],"f":[]},"kI":{"bv":[],"aL":[],"f":[]},"GO":{"bv":[],"aL":[],"f":[]},"qM":{"a8":[],"f":[]},"e9":{"a8":[],"f":[]},"aei":{"Y":["rD"]},"kC":{"bv":[],"aL":[],"f":[]},"Oo":{"K":[],"b9":["K"],"E":[],"aK":[]},"Jm":{"f":[]},"Jk":{"aR":[],"C":[]},"a3S":{"nj":[],"aK":[]},"ir":{"a8":[],"f":[]},"Fw":{"bv":[],"aL":[],"f":[]},"a7V":{"aj":[]},"qg":{"ee":[],"bE":[],"bj":[],"f":[]},"aba":{"a8":[],"f":[]},"VG":{"a8":[],"f":[]},"FE":{"W":[],"f":[]},"My":{"Y":["FE"]},"yM":{"a8":[],"f":[]},"yQ":{"W":[],"f":[]},"ML":{"Y":["yQ"]},"rI":{"cH":["dI"],"aQ":[],"aj":[]},"yR":{"W":[],"f":[]},"ql":{"Y":["yR"],"eh":[]},"OW":{"W":[],"f":[]},"px":{"BI":[],"jr":[]},"a6Z":{"bv":[],"aL":[],"f":[]},"acC":{"K":[],"b9":["K"],"E":[],"aK":[]},"MM":{"fw":[],"aL":[],"f":[]},"adp":{"Y":["OW"],"bfE":[]},"a6W":{"jF":[]},"pn":{"dW":["1"],"bW":["1"],"dW.T":"1","bW.T":"1"},"Q2":{"dW":["1"],"bW":["1"],"dW.T":"1","bW.T":"1"},"Q3":{"dW":["1"],"bW":["1"],"dW.T":"1","bW.T":"1"},"Qb":{"dj":["1"],"bW":["1"],"bW.T":"1"},"adx":{"dW":["p2"],"bW":["p2"],"dW.T":"p2","bW.T":"p2"},"a7f":{"dW":["mG"],"bW":["mG"],"dW.T":"mG","bW.T":"mG"},"abo":{"dW":["oF"],"bW":["oF"],"dW.T":"oF","bW.T":"oF"},"ag0":{"cH":["yq"],"aQ":[],"aj":[],"eh":[]},"a8x":{"dW":["mO"],"bW":["mO"],"dW.T":"mO","bW.T":"mO"},"a8y":{"dW":["mP"],"bW":["mP"],"dW.T":"mP","bW.T":"mP"},"ed":{"aQ":[],"aj":[]},"on":{"ed":[],"aQ":[],"aj":[]},"a68":{"eh":[]},"Gl":{"aQ":[],"aj":[]},"qq":{"W":[],"f":[]},"N3":{"mW":["ed"],"bE":[],"bj":[],"f":[],"mW.T":"ed"},"Cb":{"Y":["qq"]},"Gm":{"W":[],"f":[]},"a99":{"W":[],"f":[]},"a98":{"Y":["qq"]},"G6":{"a8":[],"f":[]},"Gn":{"W":[],"f":[]},"b8Y":{"bI":[]},"n8":{"bI":[]},"nd":{"bI":[]},"jV":{"bI":[]},"N4":{"ed":[],"aQ":[],"aj":[]},"a9a":{"Y":["Gn"]},"a15":{"bW":["b8Y"],"bW.T":"b8Y"},"a_r":{"bW":["n8"],"bW.T":"n8"},"a0g":{"bW":["nd"],"bW.T":"nd"},"FD":{"bW":["jV"],"bW.T":"jV"},"uQ":{"W":[],"f":[]},"Gv":{"Y":["uQ"]},"N8":{"bE":[],"bj":[],"f":[]},"kM":{"W":[],"f":[]},"ix":{"Y":["kM<1>"]},"lM":{"hZ":[]},"bc":{"lM":["1"],"hZ":[]},"a8":{"f":[]},"W":{"f":[]},"aL":{"f":[]},"aR":{"C":[]},"jE":{"aR":[],"C":[]},"r5":{"aR":[],"C":[]},"hX":{"aR":[],"C":[]},"uW":{"lM":["1"],"hZ":[]},"bj":{"f":[]},"f5":{"bj":[],"f":[]},"bE":{"bj":[],"f":[]},"XS":{"aL":[],"f":[]},"bv":{"aL":[],"f":[]},"fw":{"aL":[],"f":[]},"Wc":{"aL":[],"f":[]},"EU":{"aR":[],"C":[]},"B6":{"aR":[],"C":[]},"IH":{"aR":[],"C":[]},"bq":{"aR":[],"C":[]},"XR":{"bq":[],"aR":[],"C":[]},"JX":{"bq":[],"aR":[],"C":[]},"k2":{"bq":[],"aR":[],"C":[]},"a13":{"bq":[],"aR":[],"C":[]},"ab6":{"aR":[],"C":[]},"abb":{"f":[]},"iF":{"W":[],"f":[]},"Am":{"Y":["iF"]},"cJ":{"uV":["1"]},"WL":{"a8":[],"f":[]},"a9p":{"bv":[],"aL":[],"f":[]},"v_":{"W":[],"f":[]},"Ck":{"Y":["v_"]},"GE":{"vG":[]},"b8":{"a8":[],"f":[]},"v5":{"ee":[],"bE":[],"bj":[],"f":[]},"dF":{"W":[],"f":[]},"Ni":{"Y":["dF"],"eh":[]},"tW":{"aV":["a5"],"aX":["a5"],"aV.T":"a5","aX.T":"a5"},"oc":{"aV":["iu"],"aX":["iu"],"aV.T":"iu","aX.T":"iu"},"of":{"aV":["eb"],"aX":["eb"],"aV.T":"eb","aX.T":"eb"},"tU":{"aV":["dz?"],"aX":["dz?"],"aV.T":"dz?","aX.T":"dz?"},"vy":{"aV":["bM"],"aX":["bM"],"aV.T":"bM","aX.T":"bM"},"wH":{"aV":["F"],"aX":["F"],"aV.T":"F","aX.T":"F"},"DO":{"W":[],"f":[]},"DR":{"W":[],"f":[]},"DU":{"W":[],"f":[]},"DQ":{"W":[],"f":[]},"DP":{"W":[],"f":[]},"DS":{"W":[],"f":[]},"FT":{"aV":["a9"],"aX":["a9"],"aV.T":"a9","aX.T":"a9"},"Xs":{"W":[],"f":[]},"zh":{"Y":["1"]},"xY":{"Y":["1"]},"a5S":{"Y":["DO"]},"a5X":{"Y":["DR"]},"a5Z":{"Y":["DU"]},"a5W":{"Y":["DQ"]},"a5T":{"Y":["DP"]},"a5Y":{"Y":["DS"]},"kO":{"bE":[],"bj":[],"f":[]},"GQ":{"hX":[],"aR":[],"C":[]},"mW":{"bE":[],"bj":[],"f":[]},"Co":{"hX":[],"aR":[],"C":[]},"ee":{"bE":[],"bj":[],"f":[]},"nC":{"a8":[],"f":[]},"XM":{"a8":[],"f":[]},"zu":{"mw":["a5"],"aL":[],"f":[],"mw.0":"a5"},"mw":{"aL":[],"f":[]},"EW":{"mw":["1"],"aL":[],"f":[]},"Cq":{"bq":[],"aR":[],"C":[]},"Oy":{"hD":["a5","K"],"K":[],"b9":["K"],"E":[],"aK":[],"hD.0":"a5"},"Ny":{"bE":[],"bj":[],"f":[]},"vp":{"W":[],"f":[]},"zA":{"aQ":[],"aj":[],"eh":[]},"ag5":{"eS":["ay"],"eS.T":"ay"},"VI":{"ay":[]},"aal":{"Y":["vp"]},"ben":{"bE":[],"bj":[],"f":[]},"a0q":{"a8":[],"f":[]},"aaX":{"aj":[]},"aar":{"bv":[],"aL":[],"f":[]},"acK":{"K":[],"b9":["K"],"E":[],"aK":[]},"lU":{"kO":["eU"],"bE":[],"bj":[],"f":[],"kO.T":"eU"},"NI":{"W":[],"f":[]},"aaA":{"Y":["NI"],"eh":[]},"afK":{"ki":[]},"Kx":{"ki":[]},"zO":{"a8":[],"f":[]},"BO":{"dg":[],"dD":[],"dC":[]},"adF":{"bv":[],"aL":[],"f":[]},"acR":{"K":[],"b9":["K"],"E":[],"aK":[]},"RR":{"W":[],"f":[]},"a65":{"uV":["BO"]},"aaM":{"a8":[],"f":[]},"beW":{"jA":[]},"v0":{"bE":[],"bj":[],"f":[]},"I8":{"W":[],"f":[]},"lV":{"Y":["I8"]},"oz":{"fx":[]},"CA":{"t8":[]},"Cz":{"t8":[]},"NW":{"t8":[]},"NX":{"t8":[]},"a9t":{"aQ":[],"A":["kr"],"aj":[],"A.E":"kr"},"a9u":{"eo":["am<l?,J<T>>?"],"aQ":[],"aj":[]},"jv":{"fx":[]},"dY":{"bj":[],"f":[]},"O_":{"aR":[],"C":[]},"nJ":{"hr":[],"eP":["K"],"dG":[]},"a_G":{"fw":[],"aL":[],"f":[]},"CO":{"e3":["K","nJ"],"K":[],"ax":["K","nJ"],"E":[],"aK":[],"ax.1":"nJ","e3.1":"nJ","ax.0":"K"},"r0":{"aj":[]},"pt":{"W":[],"f":[]},"CC":{"Y":["pt"]},"vO":{"W":[],"f":[]},"A_":{"Y":["vO"]},"xp":{"K":[],"ax":["K","f8"],"E":[],"aK":[],"ax.1":"f8","ax.0":"K"},"Ii":{"W":[],"f":[]},"tb":{"kT":["tb"],"kT.E":"tb"},"xq":{"bE":[],"bj":[],"f":[]},"pw":{"K":[],"b9":["K"],"E":[],"aK":[],"kT":["pw"],"kT.E":"pw"},"Oz":{"K":[],"b9":["K"],"E":[],"aK":[]},"PR":{"fw":[],"aL":[],"f":[]},"af6":{"bq":[],"aR":[],"C":[]},"D7":{"f8":[],"hr":[],"eP":["K"],"dG":[]},"abk":{"Y":["Ii"]},"CD":{"aL":[],"f":[]},"abj":{"bq":[],"aR":[],"C":[]},"a80":{"bv":[],"aL":[],"f":[]},"GB":{"W":[],"f":[]},"Kn":{"W":[],"f":[]},"Ne":{"Y":["GB"]},"Nd":{"aQ":[],"aj":[]},"a9r":{"aj":[]},"PC":{"Y":["Kn"]},"PB":{"aQ":[],"aj":[]},"Ij":{"iU":[],"fx":[]},"beZ":{"e5":["1"],"ou":[],"hZ":[]},"A2":{"a8":[],"f":[]},"A3":{"W":[],"f":[]},"a_I":{"aQ":[],"aj":[]},"tc":{"nk":[],"A1":[],"ie":[],"aQ":[],"aj":[]},"abn":{"Y":["A3"]},"hc":{"du":["1"],"eD":["1"],"dw":["1"]},"Ik":{"hc":["1"],"du":["1"],"eD":["1"],"dw":["1"],"du.T":"1"},"abt":{"aj":[]},"a00":{"a8":[],"f":[]},"IA":{"W":[],"f":[]},"A7":{"aL":[],"f":[]},"X3":{"a8":[],"f":[]},"Oc":{"Y":["IA"]},"abw":{"K":[],"b9":["K"],"E":[],"aK":[]},"abv":{"bv":[],"aL":[],"f":[]},"Ac":{"bE":[],"bj":[],"f":[]},"rm":{"W":[],"f":[]},"wR":{"bE":[],"bj":[],"f":[]},"Jl":{"W":[],"f":[]},"eo":{"aQ":[],"aj":[]},"ada":{"Y":["rm"]},"OO":{"Y":["Jl"]},"bD":{"eo":["1"],"aQ":[],"aj":[]},"kq":{"bD":["1"],"eo":["1"],"aQ":[],"aj":[]},"OM":{"kq":["1"],"bD":["1"],"eo":["1"],"aQ":[],"aj":[]},"Jh":{"kq":["1"],"bD":["1"],"eo":["1"],"aQ":[],"aj":[],"bD.T":"1","kq.T":"1"},"rl":{"kq":["Q"],"bD":["Q"],"eo":["Q"],"aQ":[],"aj":[],"bD.T":"Q","kq.T":"Q"},"a1b":{"kq":["l?"],"bD":["l?"],"eo":["l?"],"aQ":[],"aj":[],"bD.T":"l?","kq.T":"l?"},"a1a":{"bD":["cE?"],"eo":["cE?"],"aQ":[],"aj":[],"bD.T":"cE?"},"wa":{"eo":["1"],"aQ":[],"aj":[]},"Az":{"eo":["1"],"aQ":[],"aj":[]},"wb":{"eo":["rI"],"aQ":[],"aj":[]},"a1l":{"W":[],"f":[]},"bDS":{"bHG":["ap<Q>"]},"CS":{"Y":["a1l<1>"]},"adi":{"bE":[],"bj":[],"f":[]},"ad7":{"bD":["ro?"],"eo":["ro?"],"aQ":[],"aj":[],"bD.T":"ro?"},"NM":{"kO":["xh"],"bE":[],"bj":[],"f":[],"kO.T":"xh"},"Cy":{"W":[],"f":[]},"ko":{"Y":["Cy<1>"]},"zZ":{"dw":["1"]},"eD":{"dw":["1"]},"a8b":{"bW":["jj"],"bW.T":"jj"},"du":{"eD":["1"],"dw":["1"]},"IF":{"du":["1"],"eD":["1"],"dw":["1"]},"Ak":{"du":["1"],"eD":["1"],"dw":["1"]},"rp":{"a8":[],"f":[]},"Jy":{"jq":["1"],"jq.T":"1"},"Jz":{"bE":[],"bj":[],"f":[]},"wf":{"aQ":[],"aj":[]},"CV":{"W":[],"f":[]},"CT":{"e5":["hZ"],"ou":[],"hZ":[],"e5.T":"hZ"},"P8":{"Y":["CV"]},"iG":{"jv":[],"iU":[],"fx":[]},"m6":{"iG":[],"jv":[],"iU":[],"fx":[]},"AI":{"iG":[],"jv":[],"iU":[],"fx":[]},"na":{"iG":[],"jv":[],"iU":[],"fx":[]},"m5":{"iG":[],"jv":[],"iU":[],"fx":[]},"a3v":{"iG":[],"jv":[],"iU":[],"fx":[]},"OY":{"bE":[],"bj":[],"f":[]},"t6":{"kT":["t6"],"kT.E":"t6"},"JB":{"W":[],"f":[]},"JC":{"Y":["JB"]},"nk":{"ie":[],"aQ":[],"aj":[]},"wg":{"iU":[],"fx":[]},"wi":{"nk":[],"ie":[],"aQ":[],"aj":[]},"a1G":{"a8":[],"f":[]},"Sy":{"a8":[],"f":[]},"zz":{"a8":[],"f":[]},"GC":{"a8":[],"f":[]},"JD":{"W":[],"f":[]},"P_":{"bE":[],"bj":[],"f":[]},"wj":{"Y":["JD"]},"P1":{"W":[],"f":[]},"ads":{"Y":["P1"]},"P0":{"aQ":[],"aj":[]},"adr":{"bv":[],"aL":[],"f":[]},"OH":{"K":[],"b9":["K"],"E":[],"aK":[]},"ad8":{"bD":["Z?"],"eo":["Z?"],"aQ":[],"aj":[],"bD.T":"Z?"},"fZ":{"bI":[]},"Jx":{"dW":["fZ"],"bW":["fZ"],"dW.T":"fZ","bW.T":"fZ"},"Ao":{"W":[],"f":[]},"nN":{"ia":[],"dg":[],"dD":[],"dC":[]},"tm":{"jJ":[],"iv":[],"dg":[],"dD":[],"dC":[]},"t2":{"k_":[],"iv":[],"dg":[],"dD":[],"dC":[]},"AK":{"aQ":[],"aj":[]},"ng":{"Y":["1"]},"B7":{"aQ":[],"aj":[]},"zR":{"aQ":[],"aj":[]},"wk":{"W":[],"f":[]},"AN":{"bE":[],"bj":[],"f":[]},"adB":{"h_":[],"Y":["wk"],"aj":[]},"a1M":{"aj":[]},"JT":{"W":[],"f":[]},"adO":{"Y":["JT"]},"adP":{"kO":["T"],"bE":[],"bj":[],"f":[],"kO.T":"T"},"aO":{"AT":[]},"ws":{"W":[],"f":[]},"JU":{"W":[],"f":[]},"AU":{"aQ":[],"aj":[]},"Pf":{"Y":["ws"]},"JV":{"aQ":[],"aj":[]},"Pe":{"Y":["JU"]},"adS":{"bE":[],"bj":[],"f":[]},"CX":{"bv":[],"aL":[],"f":[]},"a21":{"a8":[],"f":[]},"adY":{"bq":[],"aR":[],"C":[]},"OJ":{"K":[],"b9":["K"],"IR":[],"E":[],"aK":[]},"a24":{"jv":[],"fx":[]},"a25":{"bv":[],"aL":[],"f":[]},"acS":{"K":[],"b9":["K"],"E":[],"aK":[]},"a2o":{"aL":[],"f":[]},"p7":{"aL":[],"f":[]},"a2m":{"p7":[],"aL":[],"f":[]},"a2i":{"p7":[],"aL":[],"f":[]},"B_":{"bq":[],"aR":[],"C":[]},"H6":{"f5":["lP"],"bj":[],"f":[],"f5.T":"lP"},"a2g":{"a8":[],"f":[]},"ae3":{"p7":[],"aL":[],"f":[]},"ae4":{"bv":[],"aL":[],"f":[]},"acU":{"dQ":[],"b9":["dQ"],"E":[],"aK":[]},"K7":{"jD":["1","2"],"aL":[],"f":[]},"K8":{"bq":[],"aR":[],"C":[]},"Ka":{"aQ":[],"aj":[]},"a2t":{"bv":[],"aL":[],"f":[]},"CP":{"K":[],"b9":["K"],"E":[],"aK":[]},"a2s":{"aQ":[],"aj":[]},"Mw":{"aQ":[],"aj":[]},"a2C":{"a8":[],"f":[]},"Kv":{"W":[],"f":[]},"aeA":{"Y":["Kv"]},"X9":{"jo":[]},"Xa":{"jo":[]},"Xk":{"jo":[]},"Xm":{"jo":[]},"Xj":{"jo":[]},"Xl":{"jo":[]},"Xi":{"jo":[]},"KA":{"aL":[],"f":[]},"aeF":{"bq":[],"aR":[],"C":[]},"KB":{"a8":[],"f":[]},"aeE":{"f5":["ns"],"bj":[],"f":[],"f5.T":"ns"},"Jc":{"K":[],"b9":["K"],"E":[],"aK":[]},"Av":{"K":[],"b9":["K"],"E":[],"aK":[]},"Bi":{"bv":[],"aL":[],"f":[]},"a2W":{"bv":[],"aL":[],"f":[]},"a8t":{"dC":[]},"a2V":{"bv":[],"aL":[],"f":[]},"uo":{"ee":[],"bE":[],"bj":[],"f":[]},"bpI":{"ee":[],"bE":[],"bj":[],"f":[]},"e4":{"a8":[],"f":[]},"P5":{"W":[],"f":[]},"abc":{"a8":[],"f":[]},"adA":{"Y":["P5"]},"ade":{"a8":[],"f":[]},"adz":{"aQ":[],"aj":[]},"FG":{"bI":[]},"up":{"bI":[]},"ur":{"bI":[]},"uq":{"bI":[]},"FC":{"bI":[]},"oh":{"bI":[]},"ok":{"bI":[]},"uG":{"bI":[]},"uD":{"bI":[]},"uE":{"bI":[]},"jY":{"bI":[]},"qn":{"bI":[]},"ol":{"bI":[]},"oj":{"bI":[]},"uF":{"bI":[]},"oi":{"bI":[]},"p1":{"bI":[]},"aqS":{"bI":[]},"p2":{"bI":[]},"mG":{"bI":[]},"oF":{"bI":[]},"rf":{"bI":[]},"m0":{"bI":[]},"rP":{"bI":[]},"lc":{"bI":[]},"rO":{"bI":[]},"mO":{"bI":[]},"mP":{"bI":[]},"VQ":{"bI":[]},"ic":{"hr":[],"eP":["K"],"dG":[]},"tf":{"W":[],"f":[]},"P6":{"W":[],"f":[]},"KU":{"W":[],"f":[]},"P9":{"Y":["tf"]},"P7":{"Y":["P6"]},"PM":{"Y":["KU"]},"ER":{"cH":["yq"],"aQ":[],"aj":[],"eh":[]},"wK":{"W":[],"f":[]},"MP":{"bE":[],"bj":[],"f":[]},"af8":{"Y":["wK"]},"Ma":{"aj":[]},"a3g":{"a8":[],"f":[]},"Bo":{"aQ":[],"aj":[]},"DX":{"W":[],"f":[]},"xV":{"W":[],"f":[]},"LI":{"Y":["DX"]},"a2f":{"W":[],"f":[]},"HK":{"W":[],"f":[]},"a1r":{"W":[],"f":[]},"a1h":{"W":[],"f":[]},"a26":{"W":[],"f":[]},"fQ":{"bv":[],"aL":[],"f":[]},"Vy":{"W":[],"f":[]},"qQ":{"W":[],"f":[]},"Bw":{"W":[],"f":[]},"Bx":{"Y":["Bw<1>"]},"Lb":{"cH":["By"],"aQ":[],"aj":[]},"wT":{"W":[],"f":[]},"De":{"Y":["wT<1>"]},"Lm":{"W":[],"f":[]},"xy":{"bE":[],"bj":[],"f":[]},"Oa":{"bE":[],"bj":[],"f":[]},"Q9":{"Y":["Lm"],"eh":[]},"a0r":{"a8":[],"f":[]},"Og":{"aL":[],"f":[]},"acj":{"bq":[],"aR":[],"C":[]},"Mx":{"lM":["1"],"hZ":[]},"wW":{"fw":[],"aL":[],"f":[]},"afX":{"bq":[],"aR":[],"C":[]},"a2_":{"fw":[],"aL":[],"f":[]},"wX":{"a8":[],"f":[]},"Qa":{"bE":[],"bj":[],"f":[]},"afY":{"bv":[],"aL":[],"f":[]},"ad0":{"K":[],"b9":["K"],"E":[],"aK":[]},"BI":{"jr":[]},"ag1":{"f5":["l9"],"bj":[],"f":[],"f5.T":"l9"},"a6g":{"bv":[],"aL":[],"f":[]},"OG":{"K":[],"b9":["K"],"E":[],"aK":[]},"d1":{"a3P":[]},"rU":{"D":[],"cq":["D"]},"a66":{"a3P":[]},"xz":{"D":[],"cq":["D"]},"a3M":{"el":[],"cq":["el"]},"Qc":{"el":[],"cq":["el"]},"a3L":{"b5":[],"cq":["b5?"]},"aa8":{"cq":["b5?"]},"pD":{"b5":[],"cq":["b5?"]},"a3O":{"F":[],"cq":["F"]},"ag3":{"F":[],"cq":["F"]},"Nu":{"cq":["1?"]},"bm":{"cq":["1"]},"kn":{"cq":["1"]},"bi":{"cq":["1"]},"a3Q":{"cH":["bZ<d1>"],"aQ":[],"aj":[]},"LB":{"W":[],"f":[]},"ag7":{"Y":["LB"]},"WO":{"av":[]},"a9q":{"eS":["av"],"eS.T":"av"},"Ts":{"av":[]},"Tt":{"av":[]},"Tu":{"av":[]},"Tv":{"av":[]},"Tw":{"av":[]},"Tx":{"av":[]},"Ty":{"av":[]},"Tz":{"av":[]},"TA":{"av":[]},"TB":{"av":[]},"TC":{"av":[]},"TD":{"av":[]},"TE":{"av":[]},"TF":{"av":[]},"F8":{"av":[]},"TG":{"av":[]},"TH":{"av":[]},"F9":{"av":[]},"TI":{"av":[]},"TJ":{"av":[]},"TK":{"av":[]},"TL":{"av":[]},"TM":{"av":[]},"TN":{"av":[]},"TO":{"av":[]},"TP":{"av":[]},"Fa":{"av":[]},"TQ":{"av":[]},"TR":{"av":[]},"TS":{"av":[]},"TT":{"av":[]},"TU":{"av":[]},"TV":{"av":[]},"TW":{"av":[]},"TX":{"av":[]},"TY":{"av":[]},"TZ":{"av":[]},"U_":{"av":[]},"U0":{"av":[]},"U1":{"av":[]},"U2":{"av":[]},"U3":{"av":[]},"U4":{"av":[]},"U5":{"av":[]},"U6":{"av":[]},"U7":{"av":[]},"U8":{"av":[]},"U9":{"av":[]},"Ua":{"av":[]},"Ub":{"av":[]},"Uc":{"av":[]},"Ud":{"av":[]},"Fb":{"av":[]},"Ue":{"av":[]},"Uf":{"av":[]},"Ug":{"av":[]},"Uh":{"av":[]},"Ui":{"av":[]},"Uj":{"av":[]},"Uk":{"av":[]},"Ul":{"av":[]},"Um":{"av":[]},"Un":{"av":[]},"Uo":{"av":[]},"Up":{"av":[]},"Uq":{"av":[]},"Ur":{"av":[]},"Us":{"av":[]},"Ut":{"av":[]},"Uu":{"av":[]},"Uv":{"av":[]},"Uw":{"av":[]},"Ux":{"av":[]},"Uy":{"av":[]},"Uz":{"av":[]},"UA":{"av":[]},"UB":{"av":[]},"UC":{"av":[]},"UD":{"av":[]},"UE":{"av":[]},"UF":{"av":[]},"UG":{"av":[]},"UH":{"av":[]},"UI":{"av":[]},"UJ":{"av":[]},"UK":{"av":[]},"UL":{"av":[]},"UM":{"av":[]},"UN":{"av":[]},"Fc":{"av":[]},"UO":{"av":[]},"UP":{"av":[]},"UQ":{"av":[]},"UR":{"av":[]},"US":{"av":[]},"UT":{"av":[]},"UU":{"av":[]},"Fd":{"av":[]},"UV":{"av":[]},"UW":{"av":[]},"UX":{"av":[]},"UY":{"av":[]},"UZ":{"av":[]},"V_":{"av":[]},"V0":{"av":[]},"V1":{"av":[]},"V2":{"av":[]},"V3":{"av":[]},"V4":{"av":[]},"V5":{"av":[]},"V6":{"av":[]},"V7":{"av":[]},"Fe":{"av":[]},"V8":{"av":[]},"Ff":{"av":[]},"V9":{"av":[]},"Va":{"av":[]},"Vb":{"av":[]},"Ye":{"at":[]},"Yf":{"at":[]},"Yg":{"at":[]},"Yh":{"at":[]},"Yi":{"at":[]},"Yj":{"at":[]},"Yk":{"at":[]},"Yl":{"at":[]},"Ym":{"at":[]},"Yn":{"at":[]},"Yo":{"at":[]},"Yp":{"at":[]},"Yq":{"at":[]},"Yr":{"at":[]},"HA":{"at":[]},"Ys":{"at":[]},"Yt":{"at":[]},"HB":{"at":[]},"Yu":{"at":[]},"Yv":{"at":[]},"Yw":{"at":[]},"Yx":{"at":[]},"Yy":{"at":[]},"Yz":{"at":[]},"YA":{"at":[]},"YB":{"at":[]},"HC":{"at":[]},"YC":{"at":[]},"YD":{"at":[]},"YE":{"at":[]},"YF":{"at":[]},"YG":{"at":[]},"YH":{"at":[]},"YI":{"at":[]},"YJ":{"at":[]},"YK":{"at":[]},"YL":{"at":[]},"YM":{"at":[]},"YN":{"at":[]},"YO":{"at":[]},"YP":{"at":[]},"YQ":{"at":[]},"YR":{"at":[]},"YS":{"at":[]},"YT":{"at":[]},"YU":{"at":[]},"YV":{"at":[]},"YW":{"at":[]},"YX":{"at":[]},"YY":{"at":[]},"YZ":{"at":[]},"Z_":{"at":[]},"HD":{"at":[]},"Z0":{"at":[]},"Z1":{"at":[]},"Z2":{"at":[]},"Z3":{"at":[]},"Z4":{"at":[]},"Z5":{"at":[]},"Z6":{"at":[]},"Z7":{"at":[]},"Z8":{"at":[]},"Z9":{"at":[]},"Za":{"at":[]},"Zb":{"at":[]},"Zc":{"at":[]},"Zd":{"at":[]},"Ze":{"at":[]},"Zf":{"at":[]},"Zg":{"at":[]},"Zh":{"at":[]},"Zi":{"at":[]},"Zj":{"at":[]},"Zk":{"at":[]},"Zl":{"at":[]},"Zm":{"at":[]},"Zn":{"at":[]},"Zo":{"at":[]},"Zp":{"at":[]},"Zq":{"at":[]},"Zr":{"at":[]},"Zs":{"at":[]},"Zt":{"at":[]},"Zu":{"at":[]},"Zv":{"at":[]},"Zw":{"at":[]},"Zx":{"at":[]},"Zy":{"at":[]},"Zz":{"at":[]},"ZA":{"at":[]},"HE":{"at":[]},"ZB":{"at":[]},"ZC":{"at":[]},"ZD":{"at":[]},"ZE":{"at":[]},"ZF":{"at":[]},"ZG":{"at":[]},"ZH":{"at":[]},"HF":{"at":[]},"ZI":{"at":[]},"ZJ":{"at":[]},"ZK":{"at":[]},"ZL":{"at":[]},"ZM":{"at":[]},"ZN":{"at":[]},"ZO":{"at":[]},"ZP":{"at":[]},"ZQ":{"at":[]},"ZR":{"at":[]},"ZS":{"at":[]},"ZT":{"at":[]},"ZU":{"at":[]},"ZV":{"at":[]},"HG":{"at":[]},"ZW":{"at":[]},"HH":{"at":[]},"ZX":{"at":[]},"ZY":{"at":[]},"ZZ":{"at":[]},"a3T":{"ay":[]},"a3U":{"ay":[]},"a3V":{"ay":[]},"a3W":{"ay":[]},"a3X":{"ay":[]},"a3Y":{"ay":[]},"a3Z":{"ay":[]},"a4_":{"ay":[]},"a40":{"ay":[]},"a41":{"ay":[]},"a42":{"ay":[]},"a43":{"ay":[]},"a44":{"ay":[]},"Lt":{"ay":[]},"a45":{"ay":[]},"a46":{"ay":[]},"Lu":{"ay":[]},"a47":{"ay":[]},"a48":{"ay":[]},"a49":{"ay":[]},"a4a":{"ay":[]},"a4b":{"ay":[]},"a4c":{"ay":[]},"a4d":{"ay":[]},"a4e":{"ay":[]},"Lv":{"ay":[]},"a4f":{"ay":[]},"a4g":{"ay":[]},"a4h":{"ay":[]},"a4i":{"ay":[]},"a4j":{"ay":[]},"a4k":{"ay":[]},"a4l":{"ay":[]},"a4m":{"ay":[]},"a4n":{"ay":[]},"a4o":{"ay":[]},"a4p":{"ay":[]},"a4q":{"ay":[]},"a4r":{"ay":[]},"a4s":{"ay":[]},"a4t":{"ay":[]},"a4u":{"ay":[]},"a4v":{"ay":[]},"a4w":{"ay":[]},"a4x":{"ay":[]},"a4y":{"ay":[]},"a4z":{"ay":[]},"a4A":{"ay":[]},"a4B":{"ay":[]},"a4C":{"ay":[]},"a4D":{"ay":[]},"Lw":{"ay":[]},"a4E":{"ay":[]},"a4F":{"ay":[]},"a4G":{"ay":[]},"a4H":{"ay":[]},"a4I":{"ay":[]},"a4J":{"ay":[]},"a4K":{"ay":[]},"a4L":{"ay":[]},"a4M":{"ay":[]},"a4N":{"ay":[]},"a4O":{"ay":[]},"a4P":{"ay":[]},"a4Q":{"ay":[]},"a4R":{"ay":[]},"a4S":{"ay":[]},"a4T":{"ay":[]},"a4U":{"ay":[]},"a4V":{"ay":[]},"a4W":{"ay":[]},"a4X":{"ay":[]},"a4Y":{"ay":[]},"a4Z":{"ay":[]},"a5_":{"ay":[]},"a50":{"ay":[]},"a51":{"ay":[]},"a52":{"ay":[]},"a53":{"ay":[]},"a54":{"ay":[]},"a55":{"ay":[]},"a56":{"ay":[]},"a57":{"ay":[]},"a58":{"ay":[]},"a59":{"ay":[]},"a5a":{"ay":[]},"a5b":{"ay":[]},"a5c":{"ay":[]},"Lx":{"ay":[]},"a5d":{"ay":[]},"a5e":{"ay":[]},"a5f":{"ay":[]},"a5g":{"ay":[]},"a5h":{"ay":[]},"a5i":{"ay":[]},"a5j":{"ay":[]},"Ly":{"ay":[]},"a5k":{"ay":[]},"a5l":{"ay":[]},"a5m":{"ay":[]},"a5n":{"ay":[]},"a5o":{"ay":[]},"a5p":{"ay":[]},"a5q":{"ay":[]},"a5r":{"ay":[]},"a5s":{"ay":[]},"a5t":{"ay":[]},"a5u":{"ay":[]},"a5v":{"ay":[]},"a5w":{"ay":[]},"Lz":{"ay":[]},"a5x":{"ay":[]},"LA":{"ay":[]},"a5y":{"ay":[]},"a5z":{"ay":[]},"a5A":{"ay":[]},"WP":{"at":[]},"aaw":{"eS":["at"],"eS.T":"at"},"WQ":{"ay":[]},"ag6":{"eS":["ay"],"eS.T":"ay"},"a14":{"cv":[]},"yb":{"cy":["J<x>"],"cy.T":"J<x>"},"u6":{"cv":[]},"a2M":{"Km":[]},"Er":{"cN":["l","l","1"],"am":["l","1"],"cN.V":"1","cN.K":"l","cN.C":"l"},"BY":{"nD":[]},"C_":{"nD":[]},"BZ":{"nD":[]},"Y4":{"cv":[]},"Sr":{"aQ":[],"aj":[]},"Vn":{"aQ":[],"aj":[]},"WH":{"aQ":[],"aj":[]},"XQ":{"aQ":[],"aj":[]},"a3w":{"aQ":[],"aj":[]},"a_b":{"qW":[]},"a_a":{"qW":[]},"RX":{"eS":["o0"],"eS.T":"o0"},"HW":{"W":[],"f":[]},"RZ":{"a8":[],"f":[]},"a_m":{"Y":["HW"]},"tI":{"aQ":[],"aj":[]},"tJ":{"aQ":[],"aj":[]},"tK":{"aQ":[],"aj":[]},"tP":{"aQ":[],"aj":[]},"uC":{"aQ":[],"aj":[]},"uR":{"aQ":[],"aj":[]},"uj":{"aQ":[],"aj":[]},"vq":{"aQ":[],"aj":[]},"oU":{"aQ":[],"aj":[]},"vi":{"aQ":[],"aj":[]},"vP":{"aQ":[],"aj":[]},"vQ":{"aQ":[],"aj":[]},"wt":{"aQ":[],"aj":[]},"wS":{"aQ":[],"aj":[]},"DM":{"W":[],"f":[]},"RL":{"Y":["DM"]},"qb":{"a8":[],"f":[]},"BH":{"a8":[],"f":[]},"a3K":{"a8":[],"f":[]},"EM":{"W":[],"f":[]},"a6U":{"Y":["EM"]},"Lf":{"W":[],"f":[]},"afN":{"Y":["Lf"]},"tV":{"a8":[],"f":[]},"hq":{"a8":[],"f":[]},"bQ":{"a8":[],"f":[]},"Y6":{"a8":[],"f":[]},"kj":{"a8":[],"f":[]},"mH":{"W":[],"f":[]},"a7I":{"Y":["mH"]},"GG":{"W":[],"f":[]},"a9v":{"Y":["GG"]},"NJ":{"a8":[],"f":[]},"q0":{"W":[],"f":[]},"LS":{"Y":["q0"]},"qf":{"W":[],"f":[]},"a7E":{"Y":["qf"]},"qt":{"W":[],"f":[]},"a9i":{"Y":["qt"]},"qN":{"W":[],"f":[]},"aa4":{"Y":["qN"]},"qX":{"W":[],"f":[]},"ab_":{"Y":["qX"]},"qY":{"W":[],"f":[]},"ab1":{"Y":["qY"]},"rQ":{"W":[],"f":[]},"DJ":{"W":[],"f":[]},"afP":{"Y":["rQ"]},"a5M":{"Y":["DJ"]},"eE":{"W":[],"f":[]},"a5E":{"Y":["eE"]},"S_":{"a8":[],"f":[]},"Sv":{"a8":[],"f":[]},"Vj":{"a8":[],"f":[]},"Vl":{"a8":[],"f":[]},"yF":{"a8":[],"f":[]},"qi":{"a8":[],"f":[]},"Gs":{"W":[],"f":[]},"a9e":{"Y":["Gs"]},"Gt":{"W":[],"f":[]},"a9f":{"Y":["Gt"]},"Gu":{"W":[],"f":[]},"a9g":{"Y":["Gu"]},"zB":{"W":[],"f":[]},"aam":{"Y":["zB"]},"IO":{"W":[],"f":[]},"acz":{"Y":["IO"]},"z7":{"a8":[],"f":[]},"Y_":{"a8":[],"f":[]},"Y7":{"a8":[],"f":[]},"jx":{"W":[],"f":[]},"aaE":{"Y":["jx"]},"ox":{"W":[],"f":[]},"aaF":{"Y":["ox"]},"a0b":{"a8":[],"f":[]},"a_d":{"a8":[],"f":[]},"Ag":{"a8":[],"f":[]},"a19":{"a8":[],"f":[]},"a2B":{"a8":[],"f":[]},"rC":{"W":[],"f":[]},"aef":{"Y":["rC"]},"wv":{"W":[],"f":[]},"aeg":{"Y":["wv"]},"wA":{"a8":[],"f":[]},"AQ":{"a8":[],"f":[]},"jH":{"a8":[],"f":[]},"Ea":{"W":[],"f":[]},"a6n":{"Y":["Ea"]},"Fm":{"W":[],"f":[]},"a7D":{"Y":["Fm"]},"Gq":{"W":[],"f":[]},"a9d":{"Y":["Gq"]},"Hf":{"W":[],"f":[]},"aa3":{"Y":["Hf"]},"Lg":{"W":[],"f":[]},"afO":{"Y":["Lg"]},"tR":{"W":[],"f":[]},"LQ":{"Y":["tR"]},"a6m":{"a8":[],"f":[]},"F0":{"W":[],"f":[]},"Fp":{"W":[],"f":[]},"FA":{"W":[],"f":[]},"uc":{"a8":[],"f":[]},"a7h":{"Y":["F0"]},"a7H":{"Y":["Fp"]},"a86":{"Y":["FA"]},"Fr":{"W":[],"f":[]},"a7J":{"Y":["Fr"]},"Fs":{"W":[],"f":[]},"a7K":{"Y":["Fs"]},"B5":{"a8":[],"f":[]},"DL":{"W":[],"f":[]},"a5O":{"Y":["DL"]},"E9":{"W":[],"f":[]},"LR":{"Y":["E9"]},"F1":{"W":[],"f":[]},"a7i":{"Y":["F1"]},"uk":{"W":[],"f":[]},"Tj":{"a8":[],"f":[]},"a7G":{"Y":["uk"]},"Wo":{"a8":[],"f":[]},"a_t":{"a8":[],"f":[]},"a_h":{"a8":[],"f":[]},"kN":{"W":[],"f":[]},"a9w":{"Y":["kN"]},"F_":{"W":[],"f":[]},"a1c":{"a8":[],"f":[]},"a7_":{"Y":["F_"]},"JS":{"W":[],"f":[]},"adL":{"Y":["JS"]},"Vk":{"a8":[],"f":[]},"zt":{"W":[],"f":[]},"Lp":{"W":[],"f":[]},"aa1":{"Y":["zt"]},"ag_":{"Y":["Lp"]},"K5":{"W":[],"f":[]},"ae0":{"Y":["K5"]},"Hr":{"W":[],"f":[]},"aan":{"Y":["Hr"]},"w8":{"W":[],"f":[]},"ad4":{"Y":["w8"]},"IP":{"W":[],"f":[]},"acA":{"Y":["IP"]},"S4":{"a8":[],"f":[]},"S3":{"a8":[],"f":[]},"Tg":{"a8":[],"f":[]},"W4":{"a8":[],"f":[]},"a_7":{"a8":[],"f":[]},"y_":{"a8":[],"f":[]},"y0":{"a8":[],"f":[]},"a6b":{"a8":[],"f":[]},"aa9":{"a8":[],"f":[]},"tZ":{"W":[],"f":[]},"a6E":{"Y":["tZ"]},"SH":{"a8":[],"f":[]},"y8":{"a8":[],"f":[]},"Ev":{"W":[],"f":[]},"a6N":{"Y":["Ev"]},"XV":{"a8":[],"f":[]},"y9":{"a8":[],"f":[]},"yw":{"a8":[],"f":[]},"aaB":{"a8":[],"f":[]},"aab":{"a8":[],"f":[]},"yW":{"a8":[],"f":[]},"a8H":{"a8":[],"f":[]},"aaa":{"a8":[],"f":[]},"Gw":{"W":[],"f":[]},"a9h":{"Y":["Gw"]},"XW":{"a8":[],"f":[]},"ya":{"a8":[],"f":[]},"oo":{"W":[],"f":[]},"K4":{"W":[],"f":[]},"a9j":{"Y":["oo"]},"ae1":{"Y":["K4"]},"zM":{"a8":[],"f":[]},"aaC":{"a8":[],"f":[]},"XX":{"a8":[],"f":[]},"vH":{"W":[],"f":[]},"ab0":{"Y":["vH"]},"A4":{"a8":[],"f":[]},"Bs":{"a8":[],"f":[]},"W5":{"a8":[],"f":[]},"wU":{"W":[],"f":[]},"afT":{"Y":["wU"]},"FX":{"W":[],"f":[]},"a8F":{"Y":["FX"]},"FY":{"W":[],"f":[]},"a8G":{"Y":["FY"]},"zX":{"a8":[],"f":[]},"Kc":{"W":[],"f":[]},"aeb":{"Y":["Kc"]},"xZ":{"a8":[],"f":[]},"tS":{"a8":[],"f":[]},"a1s":{"fi":[]},"a1t":{"fi":[]},"a1u":{"fi":[]},"a1v":{"fi":[]},"a1w":{"fi":[]},"a1x":{"fi":[]},"a1y":{"fi":[]},"a1z":{"fi":[]},"a1A":{"fi":[]},"ta":{"aR":[],"C":[]},"nn":{"f":[]},"zV":{"a8":[],"nn":[],"f":[]},"aaY":{"aR":[],"C":[]},"t9":{"a8":[],"f":[]},"nm":{"a8":[],"nn":[],"f":[]},"JY":{"aR":[],"C":[]},"a20":{"nm":[],"a8":[],"nn":[],"f":[]},"a_Q":{"cv":[]},"Iv":{"W":[],"f":[]},"O9":{"Y":["Iv"]},"Iw":{"W":[],"f":[]},"Ix":{"Y":["Iw"]},"lY":{"jB":[],"dg":[],"dD":[],"dC":[]},"bt_":{"bE":[],"bj":[],"f":[]},"a_W":{"a8":[],"f":[]},"a_V":{"a8":[],"f":[]},"GL":{"W":[],"f":[]},"a9J":{"Y":["GL"]},"GJ":{"aQ":[],"aj":[]},"v6":{"aQ":[],"aj":[]},"u2":{"zi":["1"],"nm":[],"a8":[],"nn":[],"f":[]},"EX":{"nm":[],"a8":[],"nn":[],"f":[]},"Hl":{"zi":["1"],"nm":[],"a8":[],"nn":[],"f":[]},"Xw":{"C":[]},"f9":{"bE":[],"bj":[],"f":[]},"zi":{"nm":[],"a8":[],"nn":[],"f":[]},"Nk":{"aR":[],"C":[]},"xb":{"hX":[],"aR":[],"Xw":["1"],"C":[]},"Md":{"ig":["1","BV<1>"],"ig.D":"BV<1>"},"Q7":{"ig":["1","Dd<1>"],"ig.D":"Dd<1>"},"a_k":{"zV":[],"a8":[],"nn":[],"f":[]},"a0l":{"cv":[]},"a0k":{"cv":[]},"Wj":{"m8":[],"d2":["m8"]},"Ca":{"p9":[],"d2":["a2y"]},"m8":{"d2":["m8"]},"a2x":{"m8":[],"d2":["m8"]},"a2y":{"d2":["a2y"]},"a2z":{"d2":["a2y"]},"a2A":{"cv":[]},"B1":{"fR":[],"cv":[]},"B2":{"d2":["a2y"]},"p9":{"d2":["a2y"]},"a2O":{"fR":[],"cv":[]},"Bt":{"ak":["1"],"J":["1"],"as":["1"],"A":["1"]},"a9T":{"Bt":["x"],"ak":["x"],"J":["x"],"as":["x"],"A":["x"]},"La":{"Bt":["x"],"ak":["x"],"J":["x"],"as":["x"],"A":["x"],"ak.E":"x","A.E":"x"},"Li":{"W":[],"f":[]},"Lk":{"cH":["wV"],"aQ":[],"aj":[]},"afU":{"eh":[]},"afV":{"Y":["Li"]},"afW":{"a8":[],"f":[]},"pq":{"cy":["1"],"cy.T":"1"},"MR":{"pq":["1"],"cy":["1"],"cy.T":"1"},"MV":{"l8":["1"]},"bs5":{"W":[],"f":[]},"bxa":{"bE":[],"bj":[],"f":[]},"bvU":{"bE":[],"bj":[],"f":[]},"b7V":{"iU":[],"fx":[]},"brQ":{"vS":[]}}'))
 A.bxi(v.typeUniverse,JSON.parse('{"Gh":1,"a3s":1,"BA":1,"Qs":2,"EV":1,"zU":1,"l8":1,"eQ":1,"aA0":1,"Kl":1,"a2L":2,"aex":1,"a82":1,"BB":2,"Q0":2,"Ht":2,"Pq":2,"Pp":2,"Pr":1,"Ps":1,"Q1":2,"SS":1,"Ta":2,"D0":1,"d2":1,"E0":1,"yv":1,"M7":1,"M8":1,"M9":1,"Ip":1,"Qp":1,"Mj":1,"QG":1,"a_0":1,"NE":1,"Dg":1,"EY":1,"Mb":1,"eP":1,"fY":1,"IS":1,"Fo":1,"CL":1,"OC":1,"Aw":1,"PH":1,"o1":1,"Cd":1,"zh":1,"xY":1,"Cm":1,"EW":1,"a3k":1,"beZ":1,"eo":1,"kc":1,"OM":1,"wa":1,"Az":1,"Dh":1,"bti":1,"zZ":1,"Y3":1,"IF":1,"Ak":1,"xi":1,"CK":1,"K7":2,"Pj":2,"ep":1,"ex":1,"wL":1,"PW":1,"Hl":1,"Xw":1,"a83":1,"aqV":1}'))
-var u={S:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\u03f6\x00\u0404\u03f4 \u03f4\u03f6\u01f6\u01f6\u03f6\u03fc\u01f4\u03ff\u03ff\u0584\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u05d4\u01f4\x00\u01f4\x00\u0504\u05c4\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u0400\x00\u0400\u0200\u03f7\u0200\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u0200\u0200\u0200\u03f7\x00",t:"\x01\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf1\xf0\x00\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9===\xf1\xf0\x01\x01(<<\xb4\x8c\x15(PdxPP\xc8<<<\xf1\xf0\x01\x01)==\xb5\x8d\x15(PeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(PdyPQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QdxPP\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9\u011a==\xf1\xf0\xf0\xf0\xf0\xf0\xf0\xdc\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\x01\x01)==\u0156\x8d\x15(QeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9\u012e\u012e\u0142\xf1\xf0\x01\x01)==\xa1\x8d\x15(QeyQQ\xc9===\xf1\xf0\x00\x00(<<\xb4\x8c\x14(PdxPP\xc8<<<\xf0\xf0\x01\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf0\xf0??)\u0118=\xb5\x8c?)QeyQQ\xc9=\u0118\u0118?\xf0??)==\xb5\x8d?)QeyQQ\xc9\u012c\u012c\u0140?\xf0??)==\xb5\x8d?)QeyQQ\xc8\u0140\u0140\u0140?\xf0\xdc\xdc\xdc\xdc\xdc\u0168\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\x00\xa1\xa1\xa1\xa1\xa1\u0154\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\x00",e:"\x10\x10\b\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x10\x10\x10\x10\x10\x02\x02\x02\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x02\x02\x02\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x04\x10\x04\x04\x02\x10\x10\x10\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x02\x02\x02\x02\x06\x02\x06\x02\x02\x02\x02\x06\x06\x06\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x10\x10\x02\x02\x04\x04\x02\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x0e\x0e\x02\x0e\x10\x04\x04\x04\x04\x02\x10\x10\x10\x02\x10\x10\x10\x11\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x0e\x0e\x0e\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x10\x02\x10\x10\x04\x04\x10\x10\x02\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x10\x10\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x04\x10\x02\x02\x02\x02\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x11\x04\x04\x02\x10\x10\x10\x10\x10\x10\x10\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\r\r\r\r\r\r\r\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\x02\x02\x02\x02\x04\x10\x10\x10\x10\x02\x04\x04\x04\x02\x04\x04\x04\x11\b\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x01\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\x02\x02\x02\x04\x04\x10\x04\x04\x10\x04\x04\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x04\x04\x10\x10\x10\x10\x02\x02\x04\x04\x02\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x0e\x0e\x02\x0e\n\n\n\n\n\n\n\x02\x02\x02\x02\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\x10\x10\b\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x02\x02\x02\x10\x02\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\b\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x04\x04\x02\x10\x10\x02\x04\x04\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x04\x04\x04\x02\x04\x04\x02\x02\x10\x10\x10\x10\b\x04\b\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x02\x02\x10\x10\x04\x04\x04\x04\x10\x02\x02\x02\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x07\x01\x01\x00\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x04\x04\x10\x10\x04\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\b\x02\x10\x10\x10\x10\x02\x10\x10\x10\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x04\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x04\x10\x10\x02\x02\x02\x02\x02\x02\x10\x04\x10\x10\x04\x04\x04\x10\x04\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x03\x0f\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x01\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x10\x10\x10\x02\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x02\x10\x02\x04\x04\x04\x04\x04\x04\x04\x10\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x04\x10\x10\x10\x10\x04\x04\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x02\b\b\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x10\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\b\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x10\x10\x02\x10\x04\x04\x02\x02\x02\x04\x04\x04\x02\x04\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x04\x04\x10\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x10\x04\x10\x04\x04\x04\x04\x02\x02\x04\x04\x02\x02\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x10\x10\x02\x10\x02\x02\x10\x02\x10\x10\x10\x04\x02\x04\x04\x10\x10\x10\b\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x10\x10\x02\x02\x02\x02\x10\x10\x02\x02\x10\x10\x10\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x10\x10\x04\x04\x04\x02\x02\x02\x02\x04\x04\x10\x04\x04\x04\x04\x04\x04\x10\x10\x10\x02\x02\x02\x02\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x10\x04\x10\x02\x04\x04\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x04\x04\x10\x10\x02\x02\b\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x10\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x02\x02\x04\x04\x04\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x10\x02\x02\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x10\x10\x04\x10\x04\x04\x10\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x04\x04\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\b\b\b\b\b\b\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x01\x02\x02\x02\x10\x10\x02\x10\x10\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x06\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\b\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\b\b\b\b\b\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\n\x02\x02\x02\n\n\n\n\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x02\x06\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x10\x02\x10\x02\x02\x02\x02\x04\x04\x04\x04\x04\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x04\x10\x10\x10\x10\x10\x02\x10\x10\x04\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x04\x04\x02\x02\x02\x02\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02",U:"\x15\x01)))\xb5\x8d\x01=Qeyey\xc9)))\xf1\xf0\x15\x01)))\xb5\x8d\x00=Qeyey\xc9)))\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc9(((\xf1\xf0\x15\x01(((\xb4\x8c\x01<Pdxdx\xc8(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Pdydx\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qdxey\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qexey\xc9(((\xf1\xf0\x15\x01)\x8c(\xb5\x8d\x01=Qeyey\xc9\xa0\x8c\x8c\xf1\xf0\x15\x01)((\xb5\x8c\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)(((\x8d\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc9\xc8\xc8\xdc\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc8\xdc\xdc\xdc\xf1\xf0\x14\x00(((\xb4\x8c\x00<Pdxdx\xc8(((\xf0\xf0\x15\x01)))\xb5\x8d\x01=Qeyey\xc9)))\xf0\xf0\x15\x01(\u01b8(\u01e0\x8d\x01<Pdxdx\xc8\u012c\u0140\u0154\xf0\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\u012e\u0190\u0190\u01a4\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\u012e\u0168\u0140\u0154\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\u0142\u017c\u0154\u0154\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\xc9\u0190\u0190\u01a4\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\u0142\u01a4\u01a4\u01a4\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\u012e\u0190\u0190\u01a4\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\u0142\u01a4\u01a4\u01a4\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\xc9\u01cc\u01b8\u01b8\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)((\u0156\x8d\x01=Qeyey\xc9(((\xf1\xf0",D:" must not be greater than the number of characters in the file, ",v:" or improve the response time of the server.",T:"% of the way to being a CircleBorder that is ",C:"-Contact form, where the USER must fill in the email, subject, and name fields.\n-Subscription form, with the USER filling in the necessary fields for subscription to the website with the fields of name, email, and phone number.\n-Sales form, with the USER filling in the necessary fields for the sale with the fields of name, email, address, phone number, and ID\n-Tracking cookies, according to the following rules\n-Navigation and IP Address: By browsing this website, the user automatically provides the web server with information regarding their IP address, date and time of access, the hyperlink that has referred them to these pages, their operating system, and the browser used.",M:"-From zero to 100, all the factors and tools necessary for your advertising strategy.\n\n-Comprehensive education in Instagram - Facebook - Tik Tok for running profitable advertising campaigns.\n\n-Strategy and results analysis for optimization decisions.",aX:"-My company name is: ON POINT PRODUCTIONS AGENCY LLC\n-My registered office is located at 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.\n-Email: hola@jpdirector.net\n-My business activity is: Advertising",b:"-Name, last name, and email in contact forms: for any direct contact with JPDIRECTOR, whether to ask questions, provide comments, suggestions, request a service or product, or any other information. Failure to provide the minimum necessary personal data will prevent JPDIRECTOR from responding to the request.\n-Name and email: to be able to leave comments on the website's blog.\n-Name, last name, address, phone number, email, tax identification number: this information will be requested at the time of payment for the service to process everything related to the customer.\n-Name, phone number, and email for newsletter: with the express and voluntary consent of the data subject, the minimum information necessary to send an automated commercial newsletter will be requested on the website, which will inform about advertising, promotions, and other information about the services and/or products offered by JPDIRECTOR.\n-Email: the email will be requested in order to access the client area, in accordance with the data provided when creating the account.\n",i:"-Sale of training and services on online businesses.\n-Managing the list of subscribers and users subscribed to the website.\n-Managing its network of affiliates and merchants, as well as processing their payments.",dO:"-The corporate name of the data controller for this website is: ON POINT PRODUCTIONS AGENCY LLC. For the purposes of this legal notice and terms of use, it will be referred to as JPDIRECTOR hereinafter.\n-Its registered office is located at: 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.\n-You can contact them by Email: hola@jpdirector.net\n-Its social activity is: training, blogging, and advertising consultancy for online businesses.\n",a:"-Total or partial reproduction of any of the services or contents of the website without the prior express authorization of ON POINT PRODUCTIONS AGENCY LLC is not allowed.\n-Deep links or image links, or frames with the ON POINT PRODUCTIONS AGENCY LLC website, shall not be established without its prior express authorization.\n-No false, inaccurate, or incorrect representation shall be made regarding the ON POINT PRODUCTIONS AGENCY LLC website or its services or contents. Except for signs forming part of the hyperlink, the web page on which it is established shall not contain any trademarks, trade names, establishment signs, names, logos, slogans, or other distinctive signs belonging to ON POINT PRODUCTIONS AGENCY LLC without its express authorization.\n-The establishment of the hyperlink shall not imply the existence of relationships between ON POINT PRODUCTIONS AGENCY LLC and the owner of the web page or portal from which it is created, nor the knowledge and acceptance by ON POINT PRODUCTIONS AGENCY LLC of the services and contents offered on that web page or portal.\n-ON POINT PRODUCTIONS AGENCY LLC shall not be responsible for the contents or services made available to the public on the web page or portal from which the hyperlink is created, nor for the information and statements included in them.\n-The ON POINT PRODUCTIONS AGENCY LLC website may provide connections and links to other websites managed and controlled by third parties. These links are provided solely to facilitate user searches for information, content, and services on the Internet, and at no time shall they be considered a suggestion, recommendation, or invitation to visit them.\n-ON POINT PRODUCTIONS AGENCY LLC does not commercialize, manage, or control in advance the contents, services, information, and statements available on these websites.\n-ON POINT PRODUCTIONS AGENCY LLC assumes no responsibility, not even indirectly or subsidiarily, for any damages or losses of any kind that may arise from access, maintenance, use, quality, legality, reliability, and usefulness of the contents, information, communications, opinions, statements, products, and services on websites not managed by ON POINT PRODUCTIONS AGENCY LLC and accessible through ON POINT PRODUCTIONS AGENCY LLC.",dz:"1. Do I need a high budget to invest in my campaigns?\nThis is very relative and depends on your product or service. What you do need to consider is having at least $3000 USD to conduct numerous tests and perform a thorough results analysis during this time.\n\n2. I understand a lot, but I want more details.\nSince this service is specialized, we will have a 20-minute video call to determine if your business is prepared and committed. During the call, I will explain in more detail all your doubts.\n\n3. What is the cost of intensive mentoring?\nThe price starts at $12,000 USD, depending on multiple factors that we will discuss in the video call.\n\n4. Not a question, I want you to be my mentor!\nCalm down, let's have a conversation first and see if you are prepared and meet the requirements. If you are reading this, you already have the first requirement: Willingness.",Y:"1. Each course has its comment section - you can leave us all your questions, and our team will answer them.",h:"1. The processing of their personal data within the framework of Wix in accordance with their privacy policies.\n2. ON POINT PRODUCTIONS AGENCY LLC's access to the data that, according to Wix's infrastructure, the user needs to provide for either subscribing to the website or any queries via the contact form.",dq:"1.2. PURPOSE OF THE WEBSITE\nThe services provided by the responsible party of the website are as follows:",dp:"1.4. USE OF THE WEBSITE AND INFORMATION CAPTURE:",ds:"2. You'll be able to download complementary materials for each module of the class you're learning.",g:"3. DISCLAIMER OF WARRANTIES AND LIABILITY",N:"3. Once you finish the course, you can download your completion certificate from the button that will appear at the top right",g0:"4. If you have any more specific questions, we have a ",ch:"8. MODIFICATION OF THESE TERMS AND DURATION",z:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",gl:"Access and/or use of this website grants the USER the status of USER, who accepts, from said access and/or use, these terms of use; however, by the mere use of the website, this does not imply the commencement of any labor/commercial relationship.",A:"An Administrator will answer your question",f2:"An email with instructions has been sent, please check your email",bI:"Are you sure you want to delete the comment?",I:"Are you sure you want to delete the course",d:"Are you sure you want to delete the module",L:"At what level of knowledge is your team regarding digital advertising?",bl:"Being alone in the process can be difficult, trying to understand the platform, how much daily budget to invest, making mistakes, getting disabled, not knowing if the strategy will work, and how to analyze the results can be a headache.\n\nThat's why this consultation will help you get a more accurate picture of what you need and accelerate the process your business should have.\n\nWith my experience in the world of digital advertising, I can provide you with a clearer vision of what you require to increase sales.\n\nIn 2021, I started offering these consultations and have perfected the methodology so you can use this time to clarify all your doubts, solve those common mistakes that hinder your progress, correct them, and hit the mark in positioning your business.\n\nUpon purchasing the service, you will receive an email with the information you need for that day, allowing us to make the most of the consultation.",aZ:"Business Plan\nI will analyze whether your proposal will be profitable with the services or products you want to market online.\n\nCampaigns\nWhether created or not, I will review their structure and strategy strategically.\n\nWebsite\nI will examine the entire structure and provide you with the means to sell more through your website.\n\nSales Method\nDepending on the methodology, we will improve how you close deals with your customers.",J:"By clicking SUBMIT, you confirm that you have read and accepted all the policies and conditions.",h8:"Cannot extract a file path from a URI with a fragment component",aM:"Cannot extract a file path from a URI with a query component",Q:"Cannot extract a non-Windows file path from a file URI with an authority",c:"Cannot fire new event. Controller is already firing an event",dl:"Clothing store, restaurant, gym, bar, or any business that needs foot traffic to consume its product or service.",b5:"Congratulations, your certificate is ready!",dh:"Data requested on the website and purpose of processing.\n",hd:"Despite the above, users may unsubscribe at any time from the services provided by ON POINT PRODUCTIONS AGENCY LLC or data provided by the USER in compliance with current Data Protection regulations. Likewise, both when subscribing to this website and when making a comment or making a purchase on any of its pages and/or entries, the user consents:",cN:"Dissolution implies the loss of your rights to the contracted service.",ey:"Do you need to hire a specialist to increase your customer flow, business visits, and SALES?",eQ:"Do you understand that this is a process in which you must be committed and have an established business model with different requirements?",aC:"Do you want the conference to be in-person or prefer online?",gh:"Does it matter if I know nothing about Facebook - Instagram or Tik Tok Ads?\nNo, think of it as private lessons just for you.\n\nIf I already know and run campaigns, is this for me?\nYes, I will give your business a general examination and show you how to improve in the areas where you are struggling with ads.\n\nCan I extend our call beyond 1 hour?\nCertainly, if you need more lessons, we can coordinate the time and day for additional sessions at the end of our meeting. Be prepared for this challenge; I will send you many tasks.\n\nWhere will the video call take place?\nIt will be conducted through the Zoom platform.\n\nWhat if I'm not satisfied with my mentoring?\nIf it's not what you expected, I will refund your entire payment.\n\nI encountered an issue, can I reschedule our meeting?\nYou have 24 hours at the latest to schedule another day and time. You must notify us at the following email address: hola@jpdirector.net.\n\nIf you fail to do so within that time, you will lose your investment and need to pay for a new consultation.",gg:"During the first month, I will teach you everything I know, and together we will create and launch your advertising plan where you will learn the right way to grow your business.\n\nIn the following month, we will have several results analysis sessions with the plan we developed, progressively optimizing your advertising.",x:"Effective optimization means analyzing the data and making decisions to improve results over time, ensuring continuous success.",cB:"Enter your data and receive my new GUIDE\nat no cost to you \u2764\ufe0f",P:"Error al obtener blogs relacionados adicionales: ",X:"Error de conexi\xf3n: no se pudo completar la solicitud",w:"Error handler must accept one Object or one Object and a StackTrace as arguments, and return a value of the returned future's type",dU:"Error: No se recibi\xf3 respuesta del servidor",gR:"Everything's ready, you can now download your gift by clicking the link we've sent to your email.",ci:"Falsehood, in whole or in part, of the data provided in the contracting process for any service.\nAltering, bypassing, reverse engineering, disassembling, or otherwise altering the security technology provided by ON POINT PRODUCTIONS AGENCY LLC.\nCases of abuse of support services by requiring more hours than those established in the contract.\nFalse and unfounded opinions with the intent to discredit the owner of the acquired products or services.\nAny non-compliance established throughout the conditions.",R:"Follow me on all social media channels to get ADS tips and updates.",cH:"For the past 5 years, I have been committed to empowering and educating with effective advertising strategies that hit the mark.\nWith a track record of more than $12,000,000 USD invested and a return of more than $160,000,000 USD in advertising campaigns on Facebook, Instagram, and TikTok, I affirm that business success consists of:\n1. An excellent advertising strategy.\n2. Analyzing and optimizing data.\n3. Having an experienced professional by your side.\nMy mission is to be the one in charge or mentor, accompanying you to success throughout the advertising process.",q:"For the past 5 years, I've been dedicated to boosting brands and businesses with effective ad strategies that hit the mark. Throughout the process, I've managed more than $12,000,000 USD in advertising campaigns, achieving more than $160,000,000 USD in online sales. After countless trials, analyses, and education, I decided to offer this group experience to teach entrepreneurs, business owners, or marketing teams to understand the engine that is running advertising campaigns.",gH:"Get clients who want to buy your product or service\nusing the platform you arrived here with:\nInstagram - Facebook - TikTok",du:"Having a mentor drastically accelerates the success of your business. For 2 months, I will be with you, hands-on, creating your advertising plan and teaching you how to do it yourself.",el:"Hire me to showcase the importance of online advertising tailored to the industry you desire: Insurance, Lawyers, Real Estate, Doctors, Beauty Salons, Coaching, Restaurants, and all businesses or startups that need real-world examples for advertising.",cM:"How does the process work to schedule the date?\nWrite to me at hola@jpdirector.net to check if that date is available. If it is, you can make a two-part payment: 50% of the conference price upfront, and the remaining 50% must be paid five days before the event.\n\nCan you attend any state within the United States?\nOf course, we just need to coordinate flight tickets, accommodation, and expenses.",H:"How many years has your business been operational?",F:"I can guarantee that you are in a 100% secure space, for this you should know:\n\n1.1. IDENTIFICATION DATA OF THE RESPONSIBLE PARTY\nAs required by current regulations, I inform you that:",u:"I will develop clear and precise strategies with defined timelines, prioritizing your different ideal customers, supported by all the necessary research to persuasively impact them.",bW:"I will handle all the technical aspects within the platform to ensure that campaigns run smoothly according to the established strategy.",ck:"I'm sure an update of some tool or a new functionality came out while you were reading this. That's why on that day, we will discuss the latest trends of 2025.",eO:"If you are an entrepreneur, have a business or want training that truly trains your team to launch campaigns correctly",dk:"If you have any questions, contact me via ",y:"If you're studying or working in a company, this will be very valuable for developing it within the company or offering it as one of your services.",fB:"Imagine you're an insurance company and you want examples of how to advertise. Well then, let's get to work. I will present topics and cases that you can understand and apply in your daily operations.",b_:"In a 1-hour video call, we will discuss:\nCampaigns, Budgets, Strategies, Current Issues, Disabling Issues, and anything you want to clarify or learn.",e8:"In the case of personal data provided for billing and the purchase of products or services, they shall be retained for the legally applicable period.\nIn the case of personal data provided for electronic commercial newsletters and blog comments, they shall be retained for as long as the data subject wishes to remain on the subscription list, and they may unsubscribe at any time, automatically as indicated in each newsletter, or by writing to support@quieroads.com\n",O:"Individuals or entities wishing to create or have created a hyperlink from a web page of another Internet portal to ON POINT PRODUCTIONS AGENCY LLC's website must comply with the following conditions:",bX:"It must include international code + area code",gj:"It must only contain numbers. (12223334455)",h7:"It takes a lot of courage to run a business or meet daily goals. That's why I share my journey to inspire and set an example that it IS possible.",dA:"JPDIRECTOR complies with the California Consumer Privacy Act of 2018 (\u201cCCPA\u201d). Residents of California have the right to request that JPDIRECTOR disclose what personal information it has collected, used, disclosed, and sold during the 12 months prior to receiving such a request. To exercise this right, as well as the right to deletion or opposition to the processing of their data, the user should write to hola@jpdirector.net\n",aq:"JPDIRECTOR needs the support of third parties to properly offer its services and products, with which it enters into appropriate confidentiality agreements and verifies compliance with personal data protection regulations.\nThe data provided to these third parties may not be used for purposes not authorized by the data subject.\nIn compliance with the principles of information and transparency, it is hereby made known that these third parties are:\nMailchimp: Used for email marketing and client management. You can find more information about their privacy policy at https://mailchimp.com/about/security/\nHostgator: Hosting provider (web hosting). You can view their privacy policy at https://es.wix.com/manage/privacy-security-hub\nFacebook: Tool used as a social network and for the purpose of connecting with the data subject. The service is provided by Facebook Ireland Ltd., and their servers are in the United States. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. You can review their privacy policy at https://www.facebook.com/business/gdpr. This tool is also used for advertising on WhatsApp and/or Instagram, as well as data analysis and statistics for potential ad targeting.\nGoogle: Sponsored advertising system (ADS), web analytics service for viewing website usage statistics (Analytics), and tag management system (Tag Manager). These services are provided by Google LLC, located in Mountain View, California, United States of America. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://cloud.google.com/security/gdpr/resource-center. If you want more information about their privacy policy, you can visit: https://policies.google.com/privacy\nInstagram: Social network and app for sharing photos and videos owned by Facebook Inc., located at 1601 Willow Road Menlo Park, CA 94025, United States of America. If you are outside the United States or Canada, the data controller responsible for the information is Facebook Ireland Ltd., located at 4 Grand Canal Square Grand Canal Harbour, Dublin 2, Ireland. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. For more information about the privacy policy, visit: https://help.instagram.com/155833707900388\nLinkedIn: Business-oriented social network. You can contact them at https://www.linkedin.com/help/linkedin?lang=es, and their privacy policy can be viewed at https://www.linkedin.com/legal/privacy-policy\nPayPal (Europe) S.\xe0 r.l. et Cie, S.C.A.: Used to manage payments by debit and credit card on the website. Located at 22-24 Boulevard Royal L-2449, Luxembourg. For more information, visit https://www.paypal.com/es/webapps/mpp/ua/privacy-full?locale.x=es_ES\nFacebook Pixel: Analytics tool for advertising, used to track actions of data subjects on this website. This service is provided by Facebook, Inc., located at 1601 Willow Road Menlo Park, CA 94025, United States of America. If you are outside the United States or Canada, the data controller responsible for the information is Facebook Ireland Ltd., located at 4 Grand Canal Square Grand Canal Harbour, Dublin 2, Ireland. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. For more information about the privacy policy, visit https://www.facebook.com/privacy/explanation\nStripe: Tool used to manage payments by debit and credit card on the website. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://es.wix.com/manage/privacy-security-hub\nTikTok: Social network and app for sharing videos owned by TikTok Technology Limited, located at 10 Earlsfort Terrace, Dublin, D02 T380, Ireland. For users in the UK: TikTok Information Technologies UK Limited, WeWork, 125 Kingsway, London, WC2B 6NH, United Kingdom. For more information about the privacy policy, visit https://www.tiktok.com/legal/privacy-policy?lang=es\nTwitter: Social network based in San Francisco, California, with subsidiaries in San Antonio and Boston in the United States, provided by Twitter, Inc. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://gdpr.twitter.com/. You can contact them at https://help.twitter.com/en/contact-us, and their privacy policy can be viewed at https://twitter.com/es/privacy\nVimeo: Video platform. This service is provided by Vimeo, Inc., located in the United States, and they have adopted standard data processing clauses approved by the European Commission. For more information about their privacy policy, visit https://vimeo.com/privacy\nWhatsApp: Tool used for communication with users, buyers, clients, and participants through WhatsApp Ireland Limited (for those located in Europe). You can contact them through the link https://www.whatsapp.com/contact/?subject=messenger, and their privacy policy can be viewed at https://www.whatsapp.com/legal?eea=1#privacy-policy.\nZoom: Tool used for video conferencing. This service is provided by Zoom Video Communications, Inc., located in the United States of America, and they have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://zoom.us/gdpr. For more information about their privacy policy, visit: https://zoom.us/privacy\nIn specific cases, JPDIRECTOR may use applications or tools that have not been included or named in this list, as this may be a better option to help with a particular task. If this happens, JPDIRECTOR will notify its users, clients, or participants as appropriate.\n",eL:"JPDIRECTOR will always ensure that the use of the website, its contents, and the processing of user's personal data are carried out correctly. For this purpose, the user can always exercise their rights of access, rectification, limitation, cancellation, portability, forgetfulness, or opposition, all in faithful compliance with the guidelines of the laws governing the matter, by writing to JPDIRECTOR. JPDIRECTOR does not sell or will sell users' personal data to other companies or third parties.\n",c6:"JPDIRECTOR will share with third parties the data it possesses only to fulfill services contracted by a user, send the newsletter, comply with legal requirements, or administer the website. To this end, the necessary confidentiality agreements will be provided between the parties.\n",E:"Legal Notice and Terms of Use of the Site",gJ:"Let's be honest, we're in the era of personalization.\n\nThat's why when you hire me for your conference, I will focus on the topics that DO interest them, educating and entertaining all event participants.",fa:"Likewise, we inform you that our user's information is protected in accordance with our PRIVACY POLICY.\nBy activating a subscription, contact form, or comment, the user understands and accepts that:\nFrom the moment you subscribe or access a paid service, ON POINT PRODUCTIONS AGENCY LLC has access.\nIn any case, ON POINT PRODUCTIONS AGENCY LLC reserves the right to modify, at any time and without prior notice, the presentation and configuration of the website https://quieroads.com/, as well as this legal notice.",_:"Looking to accelerate your business with advertising",c4:"Marketing and Communication Professionals",c3:"No, I do not know what the requirements are",fU:"No, if you have scheduled your session and we have resolved your issue, the consultation will be considered finished.",p:"ON POINT PRODUCTIONS AGENCY LLC informs that complaint forms are available to users and customers and can be sent by email to hola@jpdirector.net, indicating their name and surname, the service or product purchased, and stating the reasons for their complaint.\nYou can also send your complaint by postal mail to: ON POINT PRODUCTIONS AGENCY LLC, 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.",gt:"ON POINT PRODUCTIONS AGENCY LLC is not responsible, in any case, for damages of any kind that may cause, by way of example: errors or omissions in the content, lack of availability of the website, - which will make periodic stops for technical maintenance - as well as the transmission of viruses or malicious or harmful programs in the content, despite having taken all necessary technological measures to avoid it.",ek:"ON POINT PRODUCTIONS AGENCY LLC itself or as a licensee, is the owner of all intellectual and industrial property rights on its website, as well as the elements contained therein (by way of example, images, sound, audio, video, software or texts; trademarks or logos, combinations of colors, structure and design, selection of materials used, computer programs necessary for its operation, access, and use, etc.), owned by ON POINT PRODUCTIONS AGENCY LLC or its licensors. All rights reserved.\nAny use not previously authorized by ON POINT PRODUCTIONS AGENCY LLC will be considered a serious breach of the author's intellectual or industrial property rights.\nReproduction, distribution, and public communication, including its method of making available, of all or part of the contents of this website, for commercial purposes, in any medium and by any technical means, without the authorization of ON POINT PRODUCTIONS AGENCY LLC, are expressly prohibited.\nThe USER undertakes to respect the intellectual and industrial property rights owned by ON POINT PRODUCTIONS AGENCY LLC. They may only view the elements of the website without the possibility of printing, copying, or storing them on the hard drive of their computer or on any other physical medium. The USER shall refrain from deleting, altering, evading, or manipulating any protection device or security system installed on the pages of ON POINT PRODUCTIONS AGENCY LLC.\nSharing the license for use with more people is strictly prohibited, each license is personal and non-transferable, reserving as many civil and criminal actions as may assist us in order to safeguard our rights, all under threat of incurring a crime against intellectual property.",a3:"ON POINT PRODUCTIONS AGENCY LLC may modify the conditions determined here at any time, and they will be duly published as they appear here. The validity of these conditions will depend on their exposure and will be in force until they are modified by others that are duly published.",ap:"ON POINT PRODUCTIONS AGENCY LLC reserves the right to deny or withdraw access to the portal and/or the services offered without prior notice, at its own request or that of a third party, to users who violate these General Terms of Use.",cl:"ON POINT PRODUCTIONS AGENCY LLC reserves the right to make changes it deems appropriate to its website, being able to change, delete, or add both the content and services provided through it, as well as the way in which they are presented or located on its website.",bp:"ON POINT PRODUCTIONS AGENCY LLC will pursue non-compliance with these conditions as well as any misuse of its website, exercising all civil and criminal actions that may correspond in law.",gd:"POL\xcdTICAS RELACIONADAS CON LA NEWSLETTER\n",dc:"Phone without special characters (12223334455)",eR:"Remember: First, we will have a conversation to create a checklist for your business and analyze what you need most at this moment.",cQ:"SELECTIVE AND SINCERE\nBeing in charge of your brand requires commitment and responsibility. That's why I will thoroughly analyze your business before we start to determine if you meet all the requirements for me to support you.\n\nIf it's a YES, we will create an effective action plan.\n\nIf it's a NO, I will provide honest feedback and refer you to the specialist or plan your business needs.\n\nPRICE BASED ON YOUR BUSINESS MODEL\nOne of my distinguishing features is that I thoroughly review your business before starting, and even by evaluating it together with you, I can determine if you are ready to take this step.\n\nMy promise is that when you purchase my service, it will be a great relief, and you will see results.\n\nEXPERIENCE AND RESULTS\nFrom strategy creation, copywriting, creative ads, segmentation, web conversion funnels, budget management, to results analysis, these are all within my capabilities for taking on this role.",o:"Se seleccionaron $selectedRowCount elementos",K:"Send us your comments; in less than 48 hours, we will provide you with a response.",V:"Stream has been disposed.\nAn ImageStream is considered disposed once at least one listener has been added and subsequently all listeners have been removed and no handles are outstanding from the keepAlive method.\nTo resolve this error, maintain at least one listener on the stream, or create an ImageStreamCompleterHandle from the keepAlive method, or create a new stream for the image.",ac:"SystemChrome.setApplicationSwitcherDescription",s:"TextInputClient.updateEditingStateWithDeltas",gP:"TextInputClient.updateEditingStateWithTag",aA:"Thank you for getting in touch; in less than 48 hours, we will provide you with a response via email.",G:"Thank you for providing us with your information!",dS:"Thank you for registering; please check your email to verify your account.",r:"The `handler` has already been called, make sure each handler gets called only once.",ar:"The dissolution of the service contract can occur at any time by either party.\nYou are not obligated to remain under any conditions with ON POINT PRODUCTIONS AGENCY LLC.\nON POINT PRODUCTIONS AGENCY LLC can terminate or suspend any and all contracted Services immediately, without prior notice or liability, if you fail to comply with the conditions stated here.\nUpon dissolution of the contract, your right to use the Services will cease immediately.\nCauses for dissolution of the contract include:",cO:"The importance of being present and ways to achieve success with real-world cases.",f:"The password must have more than 6 characters",bB:"The relationship between ON POINT PRODUCTIONS AGENCY LLC and the CUSTOMER will be governed by the laws of the United States, and any dispute will be subject to the courts and tribunals of the State of Florida, unless applicable law provides otherwise.",eq:"The user has the following rights related to their personal data:\nAccess: The user can contact JPDIRECTOR to find out what data has been collected about them.\nRectification: The user can rectify the data they have provided to JPDIRECTOR at any time.\nObjection: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request the cessation of the processing of their personal data.\nDeletion: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request the deletion of their personal data.\nProcessing Limitation: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request that their personal data be processed as they limit it, for example, requesting that it not be modified, deleted, or suppressed.\nPortability: Whenever the user requests it and it can be done, they may request a copy of their personal data in a structured, commonly used, machine-readable, and interoperable format or request that it be transmitted to another data controller, provided that the processing is based on consent or within the framework of the execution of a contract.\nNot to be the subject of automated individual decisions: JPDIRECTOR does not make automated profiles that can significantly or negatively affect the user. Any decision made based on an automated profile is solely for the purpose of sending the user information they have requested in accordance with their browsing habits and material downloads on the website.\nInformation: The user has the right to know how their personal data is processed.\nTo exercise any of these rights, the user can write to the email address hola@jpdirector.net\n",aJ:"The website has 4 types of forms:\nContact form: Users, clients, or participants can find forms that facilitate communication with JPDIRECTOR to ask questions, provide comments, request a quote, book any of the services offered on the website, or assert any rights they may have. Failure to provide the minimum necessary personal data will prevent JPDIRECTOR from responding to the request. This processing will be considered legitimate as part of a pre-contractual diligence. The website server and JPDIRECTOR's email will be responsible for processing.\nAdvertising form: Users, buyers, or participants will be asked for their express and voluntary consent to provide JPDIRECTOR with the minimum necessary data to send advertising and commercial information related to the services and/or products offered by JPDIRECTOR, to be added to an automated email marketing file managed by the data processor indicated below. The processing of personal data in this section has been carried out with the consent of the data subject.\nComment forms on the blog: In order to prevent spam, inappropriate messages, and to provide proper tracking, users will be asked for their name, email, and website to identify them in the comments they wish to make on blog posts. This data will be visible to other website users. If you do not want your data to be visible to others, you should contact JPDIRECTOR at the email address hola@jpdirector.net. The website server will be responsible for processing, and this will be done with the consent of the data subject.\nService request form: Users, clients, or participants will be asked for their data so that JPDIRECTOR can process the services requested by the client. Legitimate processing of personal data due to the contractual relationship with the client or participant. The data will be stored on the website server.\n",fO:"The website https://quieroads.com/ hereinafter (THE WEBSITE) provides access to articles, information, services, and data (hereinafter, \u201cthe content\u201d) owned by ON POINT PRODUCTIONS AGENCY LLC. The USER assumes responsibility for the use of the website.\nThe USER agrees to make appropriate use of the content offered through the website and, by way of example but not limited to, not to use them for:\n(a) engage in illegal, unlawful, or contrary to good faith and public order activities;\n(b) disseminate content or propaganda of a racist, xenophobic, illegal-pornographic nature, terrorism apology, or that violates human rights;\n(c) cause damage to the physical and logical systems of the website, its suppliers, or third parties, introduce or spread computer viruses or any other physical or logical systems that are capable of causing the aforementioned damage;\n(d) try to access and, where appropriate, use the email accounts of other users and modify or manipulate their messages.\nON POINT PRODUCTIONS AGENCY LLC reserves the right to withdraw all comments and contributions that violate respect for the dignity of the person, that are discriminatory, xenophobic, racist, pornographic, that attack youth or childhood, public order, or security, or that, in its opinion, would not be suitable for publication.\nIn any case, ON POINT PRODUCTIONS AGENCY LLC will not be responsible for the opinions expressed by users through any participation tools that may be created, as provided in the applicable regulations.",a2:"There was a problem trying to load FontManifest.json",by:"These general conditions expressly regulate the conditions applicable to the contracting processes carried out by \"Customer\" users of online courses and services offered by ON POINT PRODUCTIONS AGENCY LLC through its website.\nThese conditions will remain in force and will be valid for as long as they are accessible through the website, without prejudice to ON POINT PRODUCTIONS AGENCY LLC reserving the right to modify, without prior notice, the general conditions as well as any of the legal texts found on the website. In any case, access to the Website after its modification, inclusion, and/or replacement implies the user's acceptance of them.\nThe customer is subject to the general conditions in force at the time of the corresponding contracting, and it is not possible to contract any service without prior acceptance of these general contracting conditions.\nOn this website, you can purchase products or services listed on each sales page.\nTo proceed with payment, the customer has the following payment methods available:\nVisa/Mastercard/American Express; the user must provide the cardholder's name, card number, expiration date, and CVV.\nAll information will be processed through a payment gateway external to ON POINT PRODUCTIONS AGENCY LLC located at Stripe.com, and more information can be obtained by visiting their website at https://stripe.com/privacy - https://www.paypal.com/us/home.\nTo proceed with payment, you will normally be redirected to a shopping cart where you will be asked for the necessary information through third-party platforms such as Stripe or Paypal.",h4:"These policies shall be understood at all times as a complementary part of the terms and conditions set forth on the website, both of which shall be equally applicable in the event of a dispute. The privacy and intellectual property policy applied shall be the same as that set forth in the terms and conditions of the website.\nThe term 'newsletter' shall refer to the digital newsletter periodically produced by JPDIRECTOR and sent to its subscribers through an external email service provider, to which the user has voluntarily subscribed.\nJPDIRECTOR is not obligated to send the newsletter at defined time intervals, and is therefore completely free to do so at its discretion. The user may at any time exercise their rights of access, rectification, cancellation, or opposition by following the instructions found in the footer of the newsletter.\nThe user shall not share its content with third parties, as this would violate JPDIRECTOR's copyright. The only possible distribution channel is one administered and/or authorized by JPDIRECTOR.\nJPDIRECTOR shall not be responsible for the content of third parties presented in the newsletter; any disputes that arise shall be addressed directly with the person or company mentioned.\nAll material presented in the newsletter is protected by copyright in favor of JPDIRECTOR, and in the case of third parties, it shall be understood that JPDIRECTOR has obtained the necessary authorization to use it as agreed with the author.\n",ga:"Third-party links that may be found on the website have privacy policies that are independent of JPDIRECTOR. Access to these sites shall be the responsibility of the user, and it is their responsibility to understand and decide whether to accept them or not.\n",fF:"This privacy policy, along with the legal notice, cookie policy, sales policy, terms and conditions, and any other referenced policy, identifies how personal data received on this website is collected and processed.\nThe information on this website is not intended for children. A child will be defined as provided by the law of the jurisdiction where it is so defined; in the case of the United States of America, it is someone under the age of 13. If the user believes that a child has provided their personal data on this website without parental consent, they should write to hola@jpdirector.net.\nIf the user is under 13 years old, they must have the authorization of their parents or legal guardians to provide their personal data. JPDIRECTOR has no way of effectively verifying the age of users, so it is exempt from any responsibility if the user does not comply with what is indicated here. At JPDIRECTOR, we comply with the Children's Online Privacy Protection Act of 1998 (\u201cCOPPA\u201d).\nData identifying the data controller\nAs required by current regulations, we inform you that:\n",bi:"This service is designed for you, who are looking for someone to take care of the strategy and management of your brand's advertising. I will focus on growth, acquiring quality leads, and increasing sales.",ab:"This site is not part of Meta website or Meta Inc.\nThis site is not part of the Tik Tok website or Tik Tok inc.\nThis site is NOT endorsed by Meta or Tik Tok in any way.\n\nMeta is a trademark of Meta and Tik Tok is a trademark of Tik Tok Inc",m:"Want to have a mentor who teaches you the right way",bq:"We'll explain everything you need to know \ud83d\udc47:",fk:"Welcome to the most comprehensive digital advertising programs. We thank you and send you a big hug for trusting our training; we are excited to see you grow on this new path to success.",W:"What Will We Cover During These 2 Months?",Z:"What is the average cost for you to take charge of advertising for my business?\nThe price starts at $6000 and goes up, depending on many factors and the goals you have as a business. That's why I take the time to analyze in advance and determine if I can take on the project.\n\nWill I see results immediately?\nThis is a common question, and it depends on how the strategy is implemented, your product, price, and perceived value to your audience.\n\nThe correct answer is that I will ensure you make a smart impact on your target audience.\n\nOnce I fill out the form, what will happen?\nWithin 2 to 3 days, I will contact you to provide all the details. We will have a 30-minute meeting to fully understand your needs and numbers.",a9:"What sector or city is your business from?",B:"What will I talk about during your event?",eC:"When launching new products or services, or special promotions for a specified period, the name and email address of website users will be collected through a form. This processing of personal data shall be based on JPDIRECTOR's legitimate interest in increasing its sales, promoting its products or services, and fulfilling the purpose of sending the promised information on the website.\nThis processing shall be carried out for as long as JPDIRECTOR's legitimate interest persists. To enhance privacy guarantees and respect for privacy, the option to opt out of this advertising is offered through an easy and immediate method located at the bottom of the emails received.\nTo determine whether this interest is provided and respectful of the rights of data subjects, a balancing test has been conducted, which can be requested at any time by writing to the email address hola@jpdirector.net\n",k:"Wish to stop feeling anguish over non-converting results",gz:"Within 2 to 3 days, I will be contacting you to explain the next steps.",hb:"Write down all your expectations and topics\nyou want me to cover for your company.",bz:"You must verify your account. Check your email.",gQ:"You see advertising on your phone all the time, and you know your business needs it to get noticed and sell more. This training will help you understand how to do it and its importance.",eI:"You will receive an email with instructions to reset your password.",cq:"You're a doctor, coach, realtor, lawyer, or nutritionist, and your services are highly sought after on social media. All that's left is to expose yourself in the right way through advertising.",n:"You're one step away from success and making a difference. Welcome to this mission!",cP:"Your password has been reset, and you can now log in with your new password.",d_:"by a synchronously-called image error listener",l:"https://wa.me/12142265941?text=Hola%20Jp%20-%20Necesito%20apoyo%20con%20mi%20publicidad",dF:"max must be in range 0 < max \u2264 2^32, was ",bT:"where we will provide you with a response within 48 hours.",aN:"\xbfIf I watch less than the established time, does it accumulate?",j:"\u1132\u166c\u166c\u206f\u11c0\u13fb\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u1bff\u1bff\u1c36\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1aee\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1fb5\u059c\u266d\u166c\u264e\u166c\u0a70\u175c\u166c\u166c\u1310\u033a\u1ebd\u0a6b\u2302\u166c\u166c\u22fc\u166c\u1ef8\u269d\u132f\u03b8\u166c\u1be8\u166c\u0a71\u0915\u1f5a\u1f6f\u04a2\u0202\u086b\u021a\u029a\u1427\u1518\u0147\u1eab\u13b9\u089f\u08b6\u2a91\u02d8\u086b\u0882\u08d5\u0789\u176a\u251c\u1d6c\u166c\u0365\u037c\u02ba\u22af\u07bf\u07c3\u0238\u024b\u1d39\u1d4e\u054a\u22af\u07bf\u166c\u1456\u2a9f\u166c\u07ce\u2a61\u166c\u166c\u2a71\u1ae9\u166c\u0466\u2a2e\u166c\u133e\u05b5\u0932\u1766\u166c\u166c\u0304\u1e94\u1ece\u1443\u166c\u166c\u166c\u07ee\u07ee\u07ee\u0506\u0506\u051e\u0526\u0526\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u196b\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1798\u1657\u046c\u046c\u166c\u0348\u146f\u166c\u0578\u166c\u166c\u166c\u22ac\u1763\u166c\u166c\u166c\u1f3a\u166c\u166c\u166c\u166c\u166c\u166c\u0482\u166c\u1364\u0322\u166c\u0a6b\u1fc6\u166c\u1359\u1f1f\u270e\u1ee3\u200e\u148e\u166c\u1394\u166c\u2a48\u166c\u166c\u166c\u166c\u0588\u137a\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u1bff\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u13a9\u13e8\u2574\u12b0\u166c\u166c\u0a6b\u1c35\u166c\u076b\u166c\u166c\u25a6\u2a23\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0747\u2575\u166c\u166c\u2575\u166c\u256e\u07a0\u166c\u166c\u166c\u166c\u166c\u166c\u257b\u166c\u166c\u166c\u166c\u166c\u166c\u0757\u255d\u0c6d\u0d76\u28f0\u28f0\u28f0\u29ea\u28f0\u28f0\u28f0\u2a04\u2a19\u027a\u2693\u2546\u0832\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u074d\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u084c\u166c\u081e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u165a\u166c\u166c\u166c\u174d\u166c\u166c\u166c\u1bff\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0261\u166c\u166c\u0465\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u2676\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u26a4\u196a\u166c\u166c\u046e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1f13\u12dd\u166c\u166c\u14de\u12ea\u1306\u02f2\u166c\u2a62\u0563\u07f1\u200d\u1d8e\u198c\u1767\u166c\u13d0\u1d80\u1750\u166c\u140b\u176b\u2ab4\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u080e\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04f6\u08f5\u052a\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u174e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1c36\u1c36\u166c\u166c\u166c\u166c\u166c\u206f\u166c\u166c\u166c\u166c\u196a\u166c\u166c\u12c0\u166c\u166f\u168c\u1912\u166c\u166c\u166c\u166c\u166c\u166c\u0399\u166c\u166c\u1786\u2206\u22bc\u1f8e\u1499\u245b\u1daa\u2387\u20b4\u1569\u2197\u19e6\u0b88\u26b7\u166c\u09e9\u0ab8\u1c46\x00\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u205e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1868\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1898\u1ac1\u166c\u2754\u166c\u0114\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166cc\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u166c\u0661\u1627\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0918\u166c\u166c\u166c\u166c\u166c\u05c6\u1ac1\u16be\u166c\u1af8\u21c3\u166c\u166c\u1a21\u1aad\u166c\u166c\u166c\u166c\u166c\u166c\u28f0\u254e\u0d89\u0f41\u28f0\u0efb\u0e39\u27e0\u0c7c\u28a9\u28f0\u166c\u28f0\u28f0\u28f0\u28f2\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1140\u103c\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c"}
+var u={S:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\u03f6\x00\u0404\u03f4 \u03f4\u03f6\u01f6\u01f6\u03f6\u03fc\u01f4\u03ff\u03ff\u0584\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u05d4\u01f4\x00\u01f4\x00\u0504\u05c4\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u0400\x00\u0400\u0200\u03f7\u0200\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u03ff\u0200\u0200\u0200\u03f7\x00",t:"\x01\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf1\xf0\x00\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9===\xf1\xf0\x01\x01(<<\xb4\x8c\x15(PdxPP\xc8<<<\xf1\xf0\x01\x01)==\xb5\x8d\x15(PeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(PdyPQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QdxPP\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9\u011a==\xf1\xf0\xf0\xf0\xf0\xf0\xf0\xdc\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\x01\x01)==\u0156\x8d\x15(QeyQQ\xc9===\xf1\xf0\x01\x01)==\xb5\x8d\x15(QeyQQ\xc9\u012e\u012e\u0142\xf1\xf0\x01\x01)==\xa1\x8d\x15(QeyQQ\xc9===\xf1\xf0\x00\x00(<<\xb4\x8c\x14(PdxPP\xc8<<<\xf0\xf0\x01\x01)==\xb5\x8d\x15)QeyQQ\xc9===\xf0\xf0??)\u0118=\xb5\x8c?)QeyQQ\xc9=\u0118\u0118?\xf0??)==\xb5\x8d?)QeyQQ\xc9\u012c\u012c\u0140?\xf0??)==\xb5\x8d?)QeyQQ\xc8\u0140\u0140\u0140?\xf0\xdc\xdc\xdc\xdc\xdc\u0168\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\xdc\x00\xa1\xa1\xa1\xa1\xa1\u0154\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\xa1\x00",e:"\x10\x10\b\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x10\x10\x10\x10\x10\x02\x02\x02\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x02\x02\x02\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x04\x10\x04\x04\x02\x10\x10\x10\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x02\x02\x02\x02\x06\x02\x06\x02\x02\x02\x02\x06\x06\x06\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x10\x10\x02\x02\x04\x04\x02\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x0e\x0e\x02\x0e\x10\x04\x04\x04\x04\x02\x10\x10\x10\x02\x10\x10\x10\x11\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x0e\x0e\x0e\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x10\x02\x10\x10\x04\x04\x10\x10\x02\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x10\x10\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x04\x10\x02\x02\x02\x02\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x11\x04\x04\x02\x10\x10\x10\x10\x10\x10\x10\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\r\r\r\r\r\r\r\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\x02\x02\x02\x02\x04\x10\x10\x10\x10\x02\x04\x04\x04\x02\x04\x04\x04\x11\b\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x01\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\x02\x02\x02\x04\x04\x10\x04\x04\x10\x04\x04\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x02\x0e\x0e\x02\x0e\x0e\x0e\x0e\x0e\x02\x02\x10\x02\x04\x04\x10\x10\x10\x10\x02\x02\x04\x04\x02\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x0e\x0e\x02\x0e\n\n\n\n\n\n\n\x02\x02\x02\x02\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\x10\x10\b\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x10\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x02\x02\x02\x10\x02\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\b\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x04\x04\x02\x10\x10\x02\x04\x04\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x04\x04\x04\x02\x04\x04\x02\x02\x10\x10\x10\x10\b\x04\b\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x02\x02\x10\x10\x04\x04\x04\x04\x10\x02\x02\x02\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x07\x01\x01\x00\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x04\x04\x10\x10\x04\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\b\x02\x10\x10\x10\x10\x02\x10\x10\x10\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x04\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x04\x10\x10\x02\x02\x02\x02\x02\x02\x10\x04\x10\x10\x04\x04\x04\x10\x04\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x03\x0f\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x01\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x10\x10\x10\x02\x02\x10\x10\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x02\x10\x02\x04\x04\x04\x04\x04\x04\x04\x10\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x04\x10\x10\x10\x10\x04\x04\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x02\b\b\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x10\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\b\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x10\x10\x02\x10\x04\x04\x02\x02\x02\x04\x04\x04\x02\x04\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x04\x04\x10\x10\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x10\x04\x10\x04\x04\x04\x04\x02\x02\x04\x04\x02\x02\x04\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x10\x10\x02\x10\x02\x02\x10\x02\x10\x10\x10\x04\x02\x04\x04\x10\x10\x10\b\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x10\x10\x02\x02\x02\x02\x10\x10\x02\x02\x10\x10\x10\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x10\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x04\x04\x10\x10\x04\x04\x04\x02\x02\x02\x02\x04\x04\x10\x04\x04\x04\x04\x04\x04\x10\x10\x10\x02\x02\x02\x02\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x0e\x10\x04\x10\x02\x04\x04\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x04\x04\x10\x10\x02\x02\b\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x10\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x02\x02\x04\x04\x04\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x10\x02\x02\x10\x10\x10\x10\x04\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x10\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x10\x10\x10\x10\x10\x10\x04\x10\x04\x04\x10\x04\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x04\x10\x10\x10\x04\x04\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x10\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\x05\b\b\b\b\b\b\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x01\x02\x02\x02\x10\x10\x02\x10\x10\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x02\x06\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x02\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\b\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\b\b\b\b\b\b\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\n\x02\x02\x02\n\n\n\n\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x02\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x06\x02\x06\x02\x06\x02\x02\x02\x02\x02\x02\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x06\x06\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x10\x02\x10\x02\x02\x02\x02\x04\x04\x04\x04\x04\x04\x04\x04\x10\x10\x10\x10\x10\x10\x10\x10\x04\x04\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x10\x02\x04\x10\x10\x10\x10\x10\x10\x10\x10\x10\x02\x02\x02\x04\x10\x10\x10\x10\x10\x02\x10\x10\x04\x02\x04\x04\x11\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x04\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x04\x10\x10\x04\x04\x02\x02\x02\x02\x02\x04\x10\x02\x02\x02\x02\x02\x02\x02\x02\x02",U:"\x15\x01)))\xb5\x8d\x01=Qeyey\xc9)))\xf1\xf0\x15\x01)))\xb5\x8d\x00=Qeyey\xc9)))\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc9(((\xf1\xf0\x15\x01(((\xb4\x8c\x01<Pdxdx\xc8(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Pdydx\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qdxey\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qexey\xc9(((\xf1\xf0\x15\x01)\x8c(\xb5\x8d\x01=Qeyey\xc9\xa0\x8c\x8c\xf1\xf0\x15\x01)((\xb5\x8c\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)(((\x8d\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc9\xc8\xc8\xdc\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\xc8\xdc\xdc\xdc\xf1\xf0\x14\x00(((\xb4\x8c\x00<Pdxdx\xc8(((\xf0\xf0\x15\x01)))\xb5\x8d\x01=Qeyey\xc9)))\xf0\xf0\x15\x01(\u01b8(\u01e0\x8d\x01<Pdxdx\xc8\u012c\u0140\u0154\xf0\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\u012e\u0190\u0190\u01a4\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\u012e\u0168\u0140\u0154\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\u0142\u017c\u0154\u0154\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\xc9\u0190\u0190\u01a4\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\u0142\u01a4\u01a4\u01a4\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\u012e\u0190\u0190\u01a4\xf1\xf0\x15\x01)((\xb5\x8d\x01=Qeyey\u0142\u01a4\u01a4\u01a4\xf1\xf0\x15\x01)\u01b8(\xb5\x8d\x01=Qeyey\xc9\u01cc\u01b8\u01b8\xf1\xf0\x15\x01)((\xb5\u011a\x01=Qeyey\xc9(((\xf1\xf0\x15\x01)((\u0156\x8d\x01=Qeyey\xc9(((\xf1\xf0",D:" must not be greater than the number of characters in the file, ",v:" or improve the response time of the server.",T:"% of the way to being a CircleBorder that is ",C:"-Contact form, where the USER must fill in the email, subject, and name fields.\n-Subscription form, with the USER filling in the necessary fields for subscription to the website with the fields of name, email, and phone number.\n-Sales form, with the USER filling in the necessary fields for the sale with the fields of name, email, address, phone number, and ID\n-Tracking cookies, according to the following rules\n-Navigation and IP Address: By browsing this website, the user automatically provides the web server with information regarding their IP address, date and time of access, the hyperlink that has referred them to these pages, their operating system, and the browser used.",M:"-From zero to 100, all the factors and tools necessary for your advertising strategy.\n\n-Comprehensive education in Instagram - Facebook - Tik Tok for running profitable advertising campaigns.\n\n-Strategy and results analysis for optimization decisions.",aX:"-My company name is: ON POINT PRODUCTIONS AGENCY LLC\n-My registered office is located at 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.\n-Email: hola@jpdirector.net\n-My business activity is: Advertising",b:"-Name, last name, and email in contact forms: for any direct contact with JPDIRECTOR, whether to ask questions, provide comments, suggestions, request a service or product, or any other information. Failure to provide the minimum necessary personal data will prevent JPDIRECTOR from responding to the request.\n-Name and email: to be able to leave comments on the website's blog.\n-Name, last name, address, phone number, email, tax identification number: this information will be requested at the time of payment for the service to process everything related to the customer.\n-Name, phone number, and email for newsletter: with the express and voluntary consent of the data subject, the minimum information necessary to send an automated commercial newsletter will be requested on the website, which will inform about advertising, promotions, and other information about the services and/or products offered by JPDIRECTOR.\n-Email: the email will be requested in order to access the client area, in accordance with the data provided when creating the account.\n",i:"-Sale of training and services on online businesses.\n-Managing the list of subscribers and users subscribed to the website.\n-Managing its network of affiliates and merchants, as well as processing their payments.",dO:"-The corporate name of the data controller for this website is: ON POINT PRODUCTIONS AGENCY LLC. For the purposes of this legal notice and terms of use, it will be referred to as JPDIRECTOR hereinafter.\n-Its registered office is located at: 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.\n-You can contact them by Email: hola@jpdirector.net\n-Its social activity is: training, blogging, and advertising consultancy for online businesses.\n",a:"-Total or partial reproduction of any of the services or contents of the website without the prior express authorization of ON POINT PRODUCTIONS AGENCY LLC is not allowed.\n-Deep links or image links, or frames with the ON POINT PRODUCTIONS AGENCY LLC website, shall not be established without its prior express authorization.\n-No false, inaccurate, or incorrect representation shall be made regarding the ON POINT PRODUCTIONS AGENCY LLC website or its services or contents. Except for signs forming part of the hyperlink, the web page on which it is established shall not contain any trademarks, trade names, establishment signs, names, logos, slogans, or other distinctive signs belonging to ON POINT PRODUCTIONS AGENCY LLC without its express authorization.\n-The establishment of the hyperlink shall not imply the existence of relationships between ON POINT PRODUCTIONS AGENCY LLC and the owner of the web page or portal from which it is created, nor the knowledge and acceptance by ON POINT PRODUCTIONS AGENCY LLC of the services and contents offered on that web page or portal.\n-ON POINT PRODUCTIONS AGENCY LLC shall not be responsible for the contents or services made available to the public on the web page or portal from which the hyperlink is created, nor for the information and statements included in them.\n-The ON POINT PRODUCTIONS AGENCY LLC website may provide connections and links to other websites managed and controlled by third parties. These links are provided solely to facilitate user searches for information, content, and services on the Internet, and at no time shall they be considered a suggestion, recommendation, or invitation to visit them.\n-ON POINT PRODUCTIONS AGENCY LLC does not commercialize, manage, or control in advance the contents, services, information, and statements available on these websites.\n-ON POINT PRODUCTIONS AGENCY LLC assumes no responsibility, not even indirectly or subsidiarily, for any damages or losses of any kind that may arise from access, maintenance, use, quality, legality, reliability, and usefulness of the contents, information, communications, opinions, statements, products, and services on websites not managed by ON POINT PRODUCTIONS AGENCY LLC and accessible through ON POINT PRODUCTIONS AGENCY LLC.",dz:"1. Do I need a high budget to invest in my campaigns?\nThis is very relative and depends on your product or service. What you do need to consider is having at least $3000 USD to conduct numerous tests and perform a thorough results analysis during this time.\n\n2. I understand a lot, but I want more details.\nSince this service is specialized, we will have a 20-minute video call to determine if your business is prepared and committed. During the call, I will explain in more detail all your doubts.\n\n3. What is the cost of intensive mentoring?\nThe price starts at $12,000 USD, depending on multiple factors that we will discuss in the video call.\n\n4. Not a question, I want you to be my mentor!\nCalm down, let's have a conversation first and see if you are prepared and meet the requirements. If you are reading this, you already have the first requirement: Willingness.",Y:"1. Each course has its comment section - you can leave us all your questions, and our team will answer them.",h:"1. The processing of their personal data within the framework of Wix in accordance with their privacy policies.\n2. ON POINT PRODUCTIONS AGENCY LLC's access to the data that, according to Wix's infrastructure, the user needs to provide for either subscribing to the website or any queries via the contact form.",dq:"1.2. PURPOSE OF THE WEBSITE\nThe services provided by the responsible party of the website are as follows:",dp:"1.4. USE OF THE WEBSITE AND INFORMATION CAPTURE:",ds:"2. You'll be able to download complementary materials for each module of the class you're learning.",g:"3. DISCLAIMER OF WARRANTIES AND LIABILITY",N:"3. Once you finish the course, you can download your completion certificate from the button that will appear at the top right",g0:"4. If you have any more specific questions, we have a ",ch:"8. MODIFICATION OF THESE TERMS AND DURATION",z:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",gl:"Access and/or use of this website grants the USER the status of USER, who accepts, from said access and/or use, these terms of use; however, by the mere use of the website, this does not imply the commencement of any labor/commercial relationship.",A:"An Administrator will answer your question",f2:"An email with instructions has been sent, please check your email",bI:"Are you sure you want to delete the comment?",I:"Are you sure you want to delete the course",d:"Are you sure you want to delete the module",L:"At what level of knowledge is your team regarding digital advertising?",bl:"Being alone in the process can be difficult, trying to understand the platform, how much daily budget to invest, making mistakes, getting disabled, not knowing if the strategy will work, and how to analyze the results can be a headache.\n\nThat's why this consultation will help you get a more accurate picture of what you need and accelerate the process your business should have.\n\nWith my experience in the world of digital advertising, I can provide you with a clearer vision of what you require to increase sales.\n\nIn 2021, I started offering these consultations and have perfected the methodology so you can use this time to clarify all your doubts, solve those common mistakes that hinder your progress, correct them, and hit the mark in positioning your business.\n\nUpon purchasing the service, you will receive an email with the information you need for that day, allowing us to make the most of the consultation.",aZ:"Business Plan\nI will analyze whether your proposal will be profitable with the services or products you want to market online.\n\nCampaigns\nWhether created or not, I will review their structure and strategy strategically.\n\nWebsite\nI will examine the entire structure and provide you with the means to sell more through your website.\n\nSales Method\nDepending on the methodology, we will improve how you close deals with your customers.",J:"By clicking SUBMIT, you confirm that you have read and accepted all the policies and conditions.",h8:"Cannot extract a file path from a URI with a fragment component",aM:"Cannot extract a file path from a URI with a query component",Q:"Cannot extract a non-Windows file path from a file URI with an authority",c:"Cannot fire new event. Controller is already firing an event",dl:"Clothing store, restaurant, gym, bar, or any business that needs foot traffic to consume its product or service.",b5:"Congratulations, your certificate is ready!",dh:"Data requested on the website and purpose of processing.\n",hd:"Despite the above, users may unsubscribe at any time from the services provided by ON POINT PRODUCTIONS AGENCY LLC or data provided by the USER in compliance with current Data Protection regulations. Likewise, both when subscribing to this website and when making a comment or making a purchase on any of its pages and/or entries, the user consents:",cN:"Dissolution implies the loss of your rights to the contracted service.",ey:"Do you need to hire a specialist to increase your customer flow, business visits, and SALES?",eQ:"Do you understand that this is a process in which you must be committed and have an established business model with different requirements?",aC:"Do you want the conference to be in-person or prefer online?",gh:"Does it matter if I know nothing about Facebook - Instagram or Tik Tok Ads?\nNo, think of it as private lessons just for you.\n\nIf I already know and run campaigns, is this for me?\nYes, I will give your business a general examination and show you how to improve in the areas where you are struggling with ads.\n\nCan I extend our call beyond 1 hour?\nCertainly, if you need more lessons, we can coordinate the time and day for additional sessions at the end of our meeting. Be prepared for this challenge; I will send you many tasks.\n\nWhere will the video call take place?\nIt will be conducted through the Zoom platform.\n\nWhat if I'm not satisfied with my mentoring?\nIf it's not what you expected, I will refund your entire payment.\n\nI encountered an issue, can I reschedule our meeting?\nYou have 24 hours at the latest to schedule another day and time. You must notify us at the following email address: hola@jpdirector.net.\n\nIf you fail to do so within that time, you will lose your investment and need to pay for a new consultation.",gg:"During the first month, I will teach you everything I know, and together we will create and launch your advertising plan where you will learn the right way to grow your business.\n\nIn the following month, we will have several results analysis sessions with the plan we developed, progressively optimizing your advertising.",x:"Effective optimization means analyzing the data and making decisions to improve results over time, ensuring continuous success.",cB:"Enter your data and receive my new GUIDE\nat no cost to you \u2764\ufe0f",P:"Error al obtener blogs relacionados adicionales: ",X:"Error de conexi\xf3n: no se pudo completar la solicitud",w:"Error handler must accept one Object or one Object and a StackTrace as arguments, and return a value of the returned future's type",dU:"Error: No se recibi\xf3 respuesta del servidor",gR:"Everything's ready, you can now download your gift by clicking the link we've sent to your email.",ci:"Falsehood, in whole or in part, of the data provided in the contracting process for any service.\nAltering, bypassing, reverse engineering, disassembling, or otherwise altering the security technology provided by ON POINT PRODUCTIONS AGENCY LLC.\nCases of abuse of support services by requiring more hours than those established in the contract.\nFalse and unfounded opinions with the intent to discredit the owner of the acquired products or services.\nAny non-compliance established throughout the conditions.",R:"Follow me on all social media channels to get ADS tips and updates.",cA:"For the past 6 years, I have been committed to empowering and educating with effective advertising strategies that hit the mark.\nWith a track record of more than $18,000,000 USD invested and a return of more than $180,000,000 USD in sales through advertising campaigns on Meta (Facebook, Instagram, WhatsApp), Google, and TikTok, I affirm that business success consists of:\n1. An excellent advertising strategy.\n2. Analyzing and optimizing data.\n3. Having an experienced professional by your side.\nMy mission is to be the one in charge or mentor, accompanying you to success throughout the advertising process.",gz:"For the past 6 years, I've been dedicated to boosting brands and businesses with effective ad strategies that hit the mark. Throughout the process, I've managed more than $18,000,000 USD in advertising campaigns, achieving more than $180,000,000 USD in online sales. After countless trials, analyses, and education, I decided to offer this group experience to teach entrepreneurs, business owners, or marketing teams to understand the engine that is running advertising campaigns.",q:"Get clients who want to buy your product or service\nusing the platform you arrived here with:\nInstagram - Facebook - TikTok",du:"Having a mentor drastically accelerates the success of your business. For 2 months, I will be with you, hands-on, creating your advertising plan and teaching you how to do it yourself.",el:"Hire me to showcase the importance of online advertising tailored to the industry you desire: Insurance, Lawyers, Real Estate, Doctors, Beauty Salons, Coaching, Restaurants, and all businesses or startups that need real-world examples for advertising.",cM:"How does the process work to schedule the date?\nWrite to me at hola@jpdirector.net to check if that date is available. If it is, you can make a two-part payment: 50% of the conference price upfront, and the remaining 50% must be paid five days before the event.\n\nCan you attend any state within the United States?\nOf course, we just need to coordinate flight tickets, accommodation, and expenses.",H:"How many years has your business been operational?",F:"I can guarantee that you are in a 100% secure space, for this you should know:\n\n1.1. IDENTIFICATION DATA OF THE RESPONSIBLE PARTY\nAs required by current regulations, I inform you that:",u:"I will develop clear and precise strategies with defined timelines, prioritizing your different ideal customers, supported by all the necessary research to persuasively impact them.",bW:"I will handle all the technical aspects within the platform to ensure that campaigns run smoothly according to the established strategy.",ck:"I'm sure an update of some tool or a new functionality came out while you were reading this. That's why on that day, we will discuss the latest trends of 2025.",eO:"If you are an entrepreneur, have a business or want training that truly trains your team to launch campaigns correctly",dk:"If you have any questions, contact me via ",y:"If you're studying or working in a company, this will be very valuable for developing it within the company or offering it as one of your services.",fB:"Imagine you're an insurance company and you want examples of how to advertise. Well then, let's get to work. I will present topics and cases that you can understand and apply in your daily operations.",b_:"In a 1-hour video call, we will discuss:\nCampaigns, Budgets, Strategies, Current Issues, Disabling Issues, and anything you want to clarify or learn.",e8:"In the case of personal data provided for billing and the purchase of products or services, they shall be retained for the legally applicable period.\nIn the case of personal data provided for electronic commercial newsletters and blog comments, they shall be retained for as long as the data subject wishes to remain on the subscription list, and they may unsubscribe at any time, automatically as indicated in each newsletter, or by writing to support@quieroads.com\n",O:"Individuals or entities wishing to create or have created a hyperlink from a web page of another Internet portal to ON POINT PRODUCTIONS AGENCY LLC's website must comply with the following conditions:",bX:"It must include international code + area code",gj:"It must only contain numbers. (12223334455)",h7:"It takes a lot of courage to run a business or meet daily goals. That's why I share my journey to inspire and set an example that it IS possible.",dA:"JPDIRECTOR complies with the California Consumer Privacy Act of 2018 (\u201cCCPA\u201d). Residents of California have the right to request that JPDIRECTOR disclose what personal information it has collected, used, disclosed, and sold during the 12 months prior to receiving such a request. To exercise this right, as well as the right to deletion or opposition to the processing of their data, the user should write to hola@jpdirector.net\n",aq:"JPDIRECTOR needs the support of third parties to properly offer its services and products, with which it enters into appropriate confidentiality agreements and verifies compliance with personal data protection regulations.\nThe data provided to these third parties may not be used for purposes not authorized by the data subject.\nIn compliance with the principles of information and transparency, it is hereby made known that these third parties are:\nMailchimp: Used for email marketing and client management. You can find more information about their privacy policy at https://mailchimp.com/about/security/\nHostgator: Hosting provider (web hosting). You can view their privacy policy at https://es.wix.com/manage/privacy-security-hub\nFacebook: Tool used as a social network and for the purpose of connecting with the data subject. The service is provided by Facebook Ireland Ltd., and their servers are in the United States. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. You can review their privacy policy at https://www.facebook.com/business/gdpr. This tool is also used for advertising on WhatsApp and/or Instagram, as well as data analysis and statistics for potential ad targeting.\nGoogle: Sponsored advertising system (ADS), web analytics service for viewing website usage statistics (Analytics), and tag management system (Tag Manager). These services are provided by Google LLC, located in Mountain View, California, United States of America. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://cloud.google.com/security/gdpr/resource-center. If you want more information about their privacy policy, you can visit: https://policies.google.com/privacy\nInstagram: Social network and app for sharing photos and videos owned by Facebook Inc., located at 1601 Willow Road Menlo Park, CA 94025, United States of America. If you are outside the United States or Canada, the data controller responsible for the information is Facebook Ireland Ltd., located at 4 Grand Canal Square Grand Canal Harbour, Dublin 2, Ireland. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. For more information about the privacy policy, visit: https://help.instagram.com/155833707900388\nLinkedIn: Business-oriented social network. You can contact them at https://www.linkedin.com/help/linkedin?lang=es, and their privacy policy can be viewed at https://www.linkedin.com/legal/privacy-policy\nPayPal (Europe) S.\xe0 r.l. et Cie, S.C.A.: Used to manage payments by debit and credit card on the website. Located at 22-24 Boulevard Royal L-2449, Luxembourg. For more information, visit https://www.paypal.com/es/webapps/mpp/ua/privacy-full?locale.x=es_ES\nFacebook Pixel: Analytics tool for advertising, used to track actions of data subjects on this website. This service is provided by Facebook, Inc., located at 1601 Willow Road Menlo Park, CA 94025, United States of America. If you are outside the United States or Canada, the data controller responsible for the information is Facebook Ireland Ltd., located at 4 Grand Canal Square Grand Canal Harbour, Dublin 2, Ireland. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://www.facebook.com/legal/terms/dataprocessing. For more information about the privacy policy, visit https://www.facebook.com/privacy/explanation\nStripe: Tool used to manage payments by debit and credit card on the website. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://es.wix.com/manage/privacy-security-hub\nTikTok: Social network and app for sharing videos owned by TikTok Technology Limited, located at 10 Earlsfort Terrace, Dublin, D02 T380, Ireland. For users in the UK: TikTok Information Technologies UK Limited, WeWork, 125 Kingsway, London, WC2B 6NH, United Kingdom. For more information about the privacy policy, visit https://www.tiktok.com/legal/privacy-policy?lang=es\nTwitter: Social network based in San Francisco, California, with subsidiaries in San Antonio and Boston in the United States, provided by Twitter, Inc. They have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://gdpr.twitter.com/. You can contact them at https://help.twitter.com/en/contact-us, and their privacy policy can be viewed at https://twitter.com/es/privacy\nVimeo: Video platform. This service is provided by Vimeo, Inc., located in the United States, and they have adopted standard data processing clauses approved by the European Commission. For more information about their privacy policy, visit https://vimeo.com/privacy\nWhatsApp: Tool used for communication with users, buyers, clients, and participants through WhatsApp Ireland Limited (for those located in Europe). You can contact them through the link https://www.whatsapp.com/contact/?subject=messenger, and their privacy policy can be viewed at https://www.whatsapp.com/legal?eea=1#privacy-policy.\nZoom: Tool used for video conferencing. This service is provided by Zoom Video Communications, Inc., located in the United States of America, and they have adopted standard data processing clauses approved by the European Commission, which can be consulted at: https://zoom.us/gdpr. For more information about their privacy policy, visit: https://zoom.us/privacy\nIn specific cases, JPDIRECTOR may use applications or tools that have not been included or named in this list, as this may be a better option to help with a particular task. If this happens, JPDIRECTOR will notify its users, clients, or participants as appropriate.\n",eL:"JPDIRECTOR will always ensure that the use of the website, its contents, and the processing of user's personal data are carried out correctly. For this purpose, the user can always exercise their rights of access, rectification, limitation, cancellation, portability, forgetfulness, or opposition, all in faithful compliance with the guidelines of the laws governing the matter, by writing to JPDIRECTOR. JPDIRECTOR does not sell or will sell users' personal data to other companies or third parties.\n",c6:"JPDIRECTOR will share with third parties the data it possesses only to fulfill services contracted by a user, send the newsletter, comply with legal requirements, or administer the website. To this end, the necessary confidentiality agreements will be provided between the parties.\n",E:"Legal Notice and Terms of Use of the Site",gJ:"Let's be honest, we're in the era of personalization.\n\nThat's why when you hire me for your conference, I will focus on the topics that DO interest them, educating and entertaining all event participants.",fa:"Likewise, we inform you that our user's information is protected in accordance with our PRIVACY POLICY.\nBy activating a subscription, contact form, or comment, the user understands and accepts that:\nFrom the moment you subscribe or access a paid service, ON POINT PRODUCTIONS AGENCY LLC has access.\nIn any case, ON POINT PRODUCTIONS AGENCY LLC reserves the right to modify, at any time and without prior notice, the presentation and configuration of the website https://quieroads.com/, as well as this legal notice.",_:"Looking to accelerate your business with advertising",c4:"Marketing and Communication Professionals",c3:"No, I do not know what the requirements are",fU:"No, if you have scheduled your session and we have resolved your issue, the consultation will be considered finished.",p:"ON POINT PRODUCTIONS AGENCY LLC informs that complaint forms are available to users and customers and can be sent by email to hola@jpdirector.net, indicating their name and surname, the service or product purchased, and stating the reasons for their complaint.\nYou can also send your complaint by postal mail to: ON POINT PRODUCTIONS AGENCY LLC, 4020 N MacArthur Blvd Suite 122, Irving, Texas 75038, United States of America.",gt:"ON POINT PRODUCTIONS AGENCY LLC is not responsible, in any case, for damages of any kind that may cause, by way of example: errors or omissions in the content, lack of availability of the website, - which will make periodic stops for technical maintenance - as well as the transmission of viruses or malicious or harmful programs in the content, despite having taken all necessary technological measures to avoid it.",ek:"ON POINT PRODUCTIONS AGENCY LLC itself or as a licensee, is the owner of all intellectual and industrial property rights on its website, as well as the elements contained therein (by way of example, images, sound, audio, video, software or texts; trademarks or logos, combinations of colors, structure and design, selection of materials used, computer programs necessary for its operation, access, and use, etc.), owned by ON POINT PRODUCTIONS AGENCY LLC or its licensors. All rights reserved.\nAny use not previously authorized by ON POINT PRODUCTIONS AGENCY LLC will be considered a serious breach of the author's intellectual or industrial property rights.\nReproduction, distribution, and public communication, including its method of making available, of all or part of the contents of this website, for commercial purposes, in any medium and by any technical means, without the authorization of ON POINT PRODUCTIONS AGENCY LLC, are expressly prohibited.\nThe USER undertakes to respect the intellectual and industrial property rights owned by ON POINT PRODUCTIONS AGENCY LLC. They may only view the elements of the website without the possibility of printing, copying, or storing them on the hard drive of their computer or on any other physical medium. The USER shall refrain from deleting, altering, evading, or manipulating any protection device or security system installed on the pages of ON POINT PRODUCTIONS AGENCY LLC.\nSharing the license for use with more people is strictly prohibited, each license is personal and non-transferable, reserving as many civil and criminal actions as may assist us in order to safeguard our rights, all under threat of incurring a crime against intellectual property.",a3:"ON POINT PRODUCTIONS AGENCY LLC may modify the conditions determined here at any time, and they will be duly published as they appear here. The validity of these conditions will depend on their exposure and will be in force until they are modified by others that are duly published.",ap:"ON POINT PRODUCTIONS AGENCY LLC reserves the right to deny or withdraw access to the portal and/or the services offered without prior notice, at its own request or that of a third party, to users who violate these General Terms of Use.",cl:"ON POINT PRODUCTIONS AGENCY LLC reserves the right to make changes it deems appropriate to its website, being able to change, delete, or add both the content and services provided through it, as well as the way in which they are presented or located on its website.",bp:"ON POINT PRODUCTIONS AGENCY LLC will pursue non-compliance with these conditions as well as any misuse of its website, exercising all civil and criminal actions that may correspond in law.",gd:"POL\xcdTICAS RELACIONADAS CON LA NEWSLETTER\n",dc:"Phone without special characters (12223334455)",eR:"Remember: First, we will have a conversation to create a checklist for your business and analyze what you need most at this moment.",cQ:"SELECTIVE AND SINCERE\nBeing in charge of your brand requires commitment and responsibility. That's why I will thoroughly analyze your business before we start to determine if you meet all the requirements for me to support you.\n\nIf it's a YES, we will create an effective action plan.\n\nIf it's a NO, I will provide honest feedback and refer you to the specialist or plan your business needs.\n\nPRICE BASED ON YOUR BUSINESS MODEL\nOne of my distinguishing features is that I thoroughly review your business before starting, and even by evaluating it together with you, I can determine if you are ready to take this step.\n\nMy promise is that when you purchase my service, it will be a great relief, and you will see results.\n\nEXPERIENCE AND RESULTS\nFrom strategy creation, copywriting, creative ads, segmentation, web conversion funnels, budget management, to results analysis, these are all within my capabilities for taking on this role.",o:"Se seleccionaron $selectedRowCount elementos",K:"Send us your comments; in less than 48 hours, we will provide you with a response.",V:"Stream has been disposed.\nAn ImageStream is considered disposed once at least one listener has been added and subsequently all listeners have been removed and no handles are outstanding from the keepAlive method.\nTo resolve this error, maintain at least one listener on the stream, or create an ImageStreamCompleterHandle from the keepAlive method, or create a new stream for the image.",ac:"SystemChrome.setApplicationSwitcherDescription",s:"TextInputClient.updateEditingStateWithDeltas",gP:"TextInputClient.updateEditingStateWithTag",aA:"Thank you for getting in touch; in less than 48 hours, we will provide you with a response via email.",G:"Thank you for providing us with your information!",dS:"Thank you for registering; please check your email to verify your account.",r:"The `handler` has already been called, make sure each handler gets called only once.",ar:"The dissolution of the service contract can occur at any time by either party.\nYou are not obligated to remain under any conditions with ON POINT PRODUCTIONS AGENCY LLC.\nON POINT PRODUCTIONS AGENCY LLC can terminate or suspend any and all contracted Services immediately, without prior notice or liability, if you fail to comply with the conditions stated here.\nUpon dissolution of the contract, your right to use the Services will cease immediately.\nCauses for dissolution of the contract include:",cO:"The importance of being present and ways to achieve success with real-world cases.",f:"The password must have more than 6 characters",bB:"The relationship between ON POINT PRODUCTIONS AGENCY LLC and the CUSTOMER will be governed by the laws of the United States, and any dispute will be subject to the courts and tribunals of the State of Florida, unless applicable law provides otherwise.",eq:"The user has the following rights related to their personal data:\nAccess: The user can contact JPDIRECTOR to find out what data has been collected about them.\nRectification: The user can rectify the data they have provided to JPDIRECTOR at any time.\nObjection: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request the cessation of the processing of their personal data.\nDeletion: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request the deletion of their personal data.\nProcessing Limitation: As long as it does not interrupt the provision of a service or a legal obligation that JPDIRECTOR has, the user may request that their personal data be processed as they limit it, for example, requesting that it not be modified, deleted, or suppressed.\nPortability: Whenever the user requests it and it can be done, they may request a copy of their personal data in a structured, commonly used, machine-readable, and interoperable format or request that it be transmitted to another data controller, provided that the processing is based on consent or within the framework of the execution of a contract.\nNot to be the subject of automated individual decisions: JPDIRECTOR does not make automated profiles that can significantly or negatively affect the user. Any decision made based on an automated profile is solely for the purpose of sending the user information they have requested in accordance with their browsing habits and material downloads on the website.\nInformation: The user has the right to know how their personal data is processed.\nTo exercise any of these rights, the user can write to the email address hola@jpdirector.net\n",aJ:"The website has 4 types of forms:\nContact form: Users, clients, or participants can find forms that facilitate communication with JPDIRECTOR to ask questions, provide comments, request a quote, book any of the services offered on the website, or assert any rights they may have. Failure to provide the minimum necessary personal data will prevent JPDIRECTOR from responding to the request. This processing will be considered legitimate as part of a pre-contractual diligence. The website server and JPDIRECTOR's email will be responsible for processing.\nAdvertising form: Users, buyers, or participants will be asked for their express and voluntary consent to provide JPDIRECTOR with the minimum necessary data to send advertising and commercial information related to the services and/or products offered by JPDIRECTOR, to be added to an automated email marketing file managed by the data processor indicated below. The processing of personal data in this section has been carried out with the consent of the data subject.\nComment forms on the blog: In order to prevent spam, inappropriate messages, and to provide proper tracking, users will be asked for their name, email, and website to identify them in the comments they wish to make on blog posts. This data will be visible to other website users. If you do not want your data to be visible to others, you should contact JPDIRECTOR at the email address hola@jpdirector.net. The website server will be responsible for processing, and this will be done with the consent of the data subject.\nService request form: Users, clients, or participants will be asked for their data so that JPDIRECTOR can process the services requested by the client. Legitimate processing of personal data due to the contractual relationship with the client or participant. The data will be stored on the website server.\n",fO:"The website https://quieroads.com/ hereinafter (THE WEBSITE) provides access to articles, information, services, and data (hereinafter, \u201cthe content\u201d) owned by ON POINT PRODUCTIONS AGENCY LLC. The USER assumes responsibility for the use of the website.\nThe USER agrees to make appropriate use of the content offered through the website and, by way of example but not limited to, not to use them for:\n(a) engage in illegal, unlawful, or contrary to good faith and public order activities;\n(b) disseminate content or propaganda of a racist, xenophobic, illegal-pornographic nature, terrorism apology, or that violates human rights;\n(c) cause damage to the physical and logical systems of the website, its suppliers, or third parties, introduce or spread computer viruses or any other physical or logical systems that are capable of causing the aforementioned damage;\n(d) try to access and, where appropriate, use the email accounts of other users and modify or manipulate their messages.\nON POINT PRODUCTIONS AGENCY LLC reserves the right to withdraw all comments and contributions that violate respect for the dignity of the person, that are discriminatory, xenophobic, racist, pornographic, that attack youth or childhood, public order, or security, or that, in its opinion, would not be suitable for publication.\nIn any case, ON POINT PRODUCTIONS AGENCY LLC will not be responsible for the opinions expressed by users through any participation tools that may be created, as provided in the applicable regulations.",a2:"There was a problem trying to load FontManifest.json",by:"These general conditions expressly regulate the conditions applicable to the contracting processes carried out by \"Customer\" users of online courses and services offered by ON POINT PRODUCTIONS AGENCY LLC through its website.\nThese conditions will remain in force and will be valid for as long as they are accessible through the website, without prejudice to ON POINT PRODUCTIONS AGENCY LLC reserving the right to modify, without prior notice, the general conditions as well as any of the legal texts found on the website. In any case, access to the Website after its modification, inclusion, and/or replacement implies the user's acceptance of them.\nThe customer is subject to the general conditions in force at the time of the corresponding contracting, and it is not possible to contract any service without prior acceptance of these general contracting conditions.\nOn this website, you can purchase products or services listed on each sales page.\nTo proceed with payment, the customer has the following payment methods available:\nVisa/Mastercard/American Express; the user must provide the cardholder's name, card number, expiration date, and CVV.\nAll information will be processed through a payment gateway external to ON POINT PRODUCTIONS AGENCY LLC located at Stripe.com, and more information can be obtained by visiting their website at https://stripe.com/privacy - https://www.paypal.com/us/home.\nTo proceed with payment, you will normally be redirected to a shopping cart where you will be asked for the necessary information through third-party platforms such as Stripe or Paypal.",h4:"These policies shall be understood at all times as a complementary part of the terms and conditions set forth on the website, both of which shall be equally applicable in the event of a dispute. The privacy and intellectual property policy applied shall be the same as that set forth in the terms and conditions of the website.\nThe term 'newsletter' shall refer to the digital newsletter periodically produced by JPDIRECTOR and sent to its subscribers through an external email service provider, to which the user has voluntarily subscribed.\nJPDIRECTOR is not obligated to send the newsletter at defined time intervals, and is therefore completely free to do so at its discretion. The user may at any time exercise their rights of access, rectification, cancellation, or opposition by following the instructions found in the footer of the newsletter.\nThe user shall not share its content with third parties, as this would violate JPDIRECTOR's copyright. The only possible distribution channel is one administered and/or authorized by JPDIRECTOR.\nJPDIRECTOR shall not be responsible for the content of third parties presented in the newsletter; any disputes that arise shall be addressed directly with the person or company mentioned.\nAll material presented in the newsletter is protected by copyright in favor of JPDIRECTOR, and in the case of third parties, it shall be understood that JPDIRECTOR has obtained the necessary authorization to use it as agreed with the author.\n",ga:"Third-party links that may be found on the website have privacy policies that are independent of JPDIRECTOR. Access to these sites shall be the responsibility of the user, and it is their responsibility to understand and decide whether to accept them or not.\n",fF:"This privacy policy, along with the legal notice, cookie policy, sales policy, terms and conditions, and any other referenced policy, identifies how personal data received on this website is collected and processed.\nThe information on this website is not intended for children. A child will be defined as provided by the law of the jurisdiction where it is so defined; in the case of the United States of America, it is someone under the age of 13. If the user believes that a child has provided their personal data on this website without parental consent, they should write to hola@jpdirector.net.\nIf the user is under 13 years old, they must have the authorization of their parents or legal guardians to provide their personal data. JPDIRECTOR has no way of effectively verifying the age of users, so it is exempt from any responsibility if the user does not comply with what is indicated here. At JPDIRECTOR, we comply with the Children's Online Privacy Protection Act of 1998 (\u201cCOPPA\u201d).\nData identifying the data controller\nAs required by current regulations, we inform you that:\n",bi:"This service is designed for you, who are looking for someone to take care of the strategy and management of your brand's advertising. I will focus on growth, acquiring quality leads, and increasing sales.",ab:"This site is not part of Meta website or Meta Inc.\nThis site is not part of the Tik Tok website or Tik Tok inc.\nThis site is NOT endorsed by Meta or Tik Tok in any way.\n\nMeta is a trademark of Meta and Tik Tok is a trademark of Tik Tok Inc",m:"Want to have a mentor who teaches you the right way",bq:"We'll explain everything you need to know \ud83d\udc47:",fk:"Welcome to the most comprehensive digital advertising programs. We thank you and send you a big hug for trusting our training; we are excited to see you grow on this new path to success.",W:"What Will We Cover During These 2 Months?",Z:"What is the average cost for you to take charge of advertising for my business?\nThe price starts at $6000 and goes up, depending on many factors and the goals you have as a business. That's why I take the time to analyze in advance and determine if I can take on the project.\n\nWill I see results immediately?\nThis is a common question, and it depends on how the strategy is implemented, your product, price, and perceived value to your audience.\n\nThe correct answer is that I will ensure you make a smart impact on your target audience.\n\nOnce I fill out the form, what will happen?\nWithin 2 to 3 days, I will contact you to provide all the details. We will have a 30-minute meeting to fully understand your needs and numbers.",a9:"What sector or city is your business from?",B:"What will I talk about during your event?",eC:"When launching new products or services, or special promotions for a specified period, the name and email address of website users will be collected through a form. This processing of personal data shall be based on JPDIRECTOR's legitimate interest in increasing its sales, promoting its products or services, and fulfilling the purpose of sending the promised information on the website.\nThis processing shall be carried out for as long as JPDIRECTOR's legitimate interest persists. To enhance privacy guarantees and respect for privacy, the option to opt out of this advertising is offered through an easy and immediate method located at the bottom of the emails received.\nTo determine whether this interest is provided and respectful of the rights of data subjects, a balancing test has been conducted, which can be requested at any time by writing to the email address hola@jpdirector.net\n",k:"Wish to stop feeling anguish over non-converting results",dL:"Within 2 to 3 days, I will be contacting you to explain the next steps.",hb:"Write down all your expectations and topics\nyou want me to cover for your company.",bz:"You must verify your account. Check your email.",gQ:"You see advertising on your phone all the time, and you know your business needs it to get noticed and sell more. This training will help you understand how to do it and its importance.",eI:"You will receive an email with instructions to reset your password.",cq:"You're a doctor, coach, realtor, lawyer, or nutritionist, and your services are highly sought after on social media. All that's left is to expose yourself in the right way through advertising.",n:"You're one step away from success and making a difference. Welcome to this mission!",cP:"Your password has been reset, and you can now log in with your new password.",d_:"by a synchronously-called image error listener",l:"https://wa.me/12142265941?text=Hola%20Jp%20-%20Necesito%20apoyo%20con%20mi%20publicidad",dF:"max must be in range 0 < max \u2264 2^32, was ",bT:"where we will provide you with a response within 48 hours.",aN:"\xbfIf I watch less than the established time, does it accumulate?",j:"\u1132\u166c\u166c\u206f\u11c0\u13fb\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u1bff\u1bff\u1c36\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1aee\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1fb5\u059c\u266d\u166c\u264e\u166c\u0a70\u175c\u166c\u166c\u1310\u033a\u1ebd\u0a6b\u2302\u166c\u166c\u22fc\u166c\u1ef8\u269d\u132f\u03b8\u166c\u1be8\u166c\u0a71\u0915\u1f5a\u1f6f\u04a2\u0202\u086b\u021a\u029a\u1427\u1518\u0147\u1eab\u13b9\u089f\u08b6\u2a91\u02d8\u086b\u0882\u08d5\u0789\u176a\u251c\u1d6c\u166c\u0365\u037c\u02ba\u22af\u07bf\u07c3\u0238\u024b\u1d39\u1d4e\u054a\u22af\u07bf\u166c\u1456\u2a9f\u166c\u07ce\u2a61\u166c\u166c\u2a71\u1ae9\u166c\u0466\u2a2e\u166c\u133e\u05b5\u0932\u1766\u166c\u166c\u0304\u1e94\u1ece\u1443\u166c\u166c\u166c\u07ee\u07ee\u07ee\u0506\u0506\u051e\u0526\u0526\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u196b\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1798\u1657\u046c\u046c\u166c\u0348\u146f\u166c\u0578\u166c\u166c\u166c\u22ac\u1763\u166c\u166c\u166c\u1f3a\u166c\u166c\u166c\u166c\u166c\u166c\u0482\u166c\u1364\u0322\u166c\u0a6b\u1fc6\u166c\u1359\u1f1f\u270e\u1ee3\u200e\u148e\u166c\u1394\u166c\u2a48\u166c\u166c\u166c\u166c\u0588\u137a\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u1bff\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u13a9\u13e8\u2574\u12b0\u166c\u166c\u0a6b\u1c35\u166c\u076b\u166c\u166c\u25a6\u2a23\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0747\u2575\u166c\u166c\u2575\u166c\u256e\u07a0\u166c\u166c\u166c\u166c\u166c\u166c\u257b\u166c\u166c\u166c\u166c\u166c\u166c\u0757\u255d\u0c6d\u0d76\u28f0\u28f0\u28f0\u29ea\u28f0\u28f0\u28f0\u2a04\u2a19\u027a\u2693\u2546\u0832\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u074d\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u084c\u166c\u081e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u165a\u166c\u166c\u166c\u174d\u166c\u166c\u166c\u1bff\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0261\u166c\u166c\u0465\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u2676\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u26a4\u196a\u166c\u166c\u046e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1f13\u12dd\u166c\u166c\u14de\u12ea\u1306\u02f2\u166c\u2a62\u0563\u07f1\u200d\u1d8e\u198c\u1767\u166c\u13d0\u1d80\u1750\u166c\u140b\u176b\u2ab4\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u080e\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04d2\u04d6\u04da\u04c2\u04c6\u04ca\u04ce\u04f6\u08f5\u052a\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u174e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1c36\u1c36\u166c\u166c\u166c\u166c\u166c\u206f\u166c\u166c\u166c\u166c\u196a\u166c\u166c\u12c0\u166c\u166f\u168c\u1912\u166c\u166c\u166c\u166c\u166c\u166c\u0399\u166c\u166c\u1786\u2206\u22bc\u1f8e\u1499\u245b\u1daa\u2387\u20b4\u1569\u2197\u19e6\u0b88\u26b7\u166c\u09e9\u0ab8\u1c46\x00\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u205e\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1868\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1898\u1ac1\u166c\u2754\u166c\u0114\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166cc\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1bff\u166c\u0661\u1627\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u0918\u166c\u166c\u166c\u166c\u166c\u05c6\u1ac1\u16be\u166c\u1af8\u21c3\u166c\u166c\u1a21\u1aad\u166c\u166c\u166c\u166c\u166c\u166c\u28f0\u254e\u0d89\u0f41\u28f0\u0efb\u0e39\u27e0\u0c7c\u28a9\u28f0\u166c\u28f0\u28f0\u28f0\u28f2\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u1140\u103c\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u11c0\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c\u166c"}
 var t=(function rtii(){var s=A.aM
 return{S6:s("@<a3P>"),cu:s("@<@>"),od:s("bW<bI>"),gj:s("o_<T>"),pC:s("j7"),c:s("tI"),R:s("tJ"),Cl:s("tK"),so:s("cA<c>"),ve:s("cA<Z>"),Bs:s("cA<D?>"),s1:s("E1"),J:s("o0"),qn:s("bob"),vp:s("tO"),S7:s("S8"),jo:s("ak8"),pR:s("pW"),d:s("tP"),M1:s("Sd"),Al:s("q_<T?>"),e:s("fK"),N7:s("tS"),m_:s("dz"),k:s("a5"),r:s("hr"),Xj:s("bos"),pI:s("mD"),V4:s("ea"),wY:s("dj<pR>"),nz:s("dj<q3>"),Nv:s("dj<jV>"),OY:s("dj<jj>"),vr:s("dj<aqS>"),_M:s("dj<n8>"),Dd:s("dj<nd>"),fN:s("dj<rf>"),Tx:s("dj<m0>"),fn:s("dj<fZ>"),j5:s("dj<rO>"),_n:s("dj<rP>"),ZQ:s("dj<lc>"),ZO:s("SI<ni>"),yu:s("Em<ni>"),Am:s("bow"),WG:s("Er<l>"),d0:s("hs<dw<@>?,dw<@>>"),ht:s("jc"),vg:s("aQ"),ES:s("boC"),Cq:s("Ew"),Lh:s("EB"),XY:s("u4"),PO:s("EE"),m6:s("EH"),wW:s("kB"),S3:s("EI"),nR:s("EL"),xG:s("yo"),O5:s("u8"),Hz:s("jd"),hP:s("ht"),n8:s("D"),IC:s("hQ"),T9:s("lz"),b8:s("d2<@>"),qO:s("ud<Kt,@>"),l:s("ar<l,l>"),eL:s("ar<l,x>"),fF:s("fL<l>"),Bx:s("yz<N>"),Nq:s("o8"),Sh:s("EX<r7>"),vn:s("EZ"),T:s("h5"),pU:s("ax<E,eP<E>>"),pz:s("Tm<u4,a7>"),eB:s("yA"),ho:s("av"),EY:s("yC<@>"),H5:s("Fl"),Zd:s("dL"),t3:s("uj"),HY:s("hR"),ip:s("Fq"),I7:s("yG"),E6:s("bpo"),Rf:s("bpy"),fs:s("yI"),CG:s("cE"),Hw:s("iu"),u5:s("un"),l4:s("bpF"),Uf:s("qg"),XP:s("bpI"),yS:s("uo"),re:s("bEx"),EX:s("f3"),jh:s("bpQ"),I:s("kH"),ra:s("bEE"),xm:s("jj"),ZY:s("VU<Y<dF>>"),Jj:s("bpY"),YH:s("VW<a7>"),uL:s("jW"),zk:s("yO"),ty:s("bqc"),U2:s("ux"),Tu:s("b7"),ML:s("fi"),A0:s("eb"),Zi:s("mO"),Rz:s("mP"),Ee:s("as<@>"),lU:s("dt"),C:s("aR"),dq:s("bqo"),GB:s("FZ"),lz:s("og"),Lt:s("dl"),I3:s("bk"),x:s("uC"),VI:s("cv"),IX:s("fP<mo,db>"),bh:s("uD"),oB:s("uE"),ii:s("yZ<o4>"),_w:s("oh"),HH:s("oi"),OO:s("jY"),cP:s("oj"),b5:s("uF"),P9:s("ok"),eI:s("uG"),Ie:s("Gc"),US:s("h7"),s4:s("arm"),OE:s("arn"),xF:s("arL"),mx:s("ed"),l5:s("on"),zq:s("z3"),ia:s("uN"),VW:s("uO"),FK:s("qs"),jT:s("Gp"),c4:s("mU"),gx:s("ix<@>"),uJ:s("uR"),bE:s("fR"),vE:s("hV"),Uy:s("asx"),_8:s("lK"),Z9:s("ap<rz>"),Ev:s("ap<Q>()"),L0:s("ap<@>"),T8:s("ap<ea?>"),Yf:s("ap<am<l,J<l>>?>"),uz:s("ap<~>"),Fp:s("d_<AT,bI>"),pl:s("d_<x,D>"),TM:s("d_<x,l>"),Lu:s("fS<nc>"),MA:s("fS<iL>"),Ih:s("fS<x>"),SP:s("z8"),cD:s("dD"),Uv:s("cJ<lD>"),C1:s("cJ<lJ>"),uA:s("cJ<k_>"),jn:s("cJ<lT>"),YC:s("cJ<k6>"),AT:s("cJ<lY>"),lG:s("cJ<jB>"),hg:s("cJ<nt>"),Qm:s("cJ<nu>"),jl:s("cJ<ia>"),ok:s("cJ<jJ>"),lh:s("cJ<t2>"),aJ:s("cJ<nI>"),vu:s("cJ<mq>"),Bk:s("cJ<nN>"),Pw:s("cJ<tm>"),xR:s("uV<dD>"),yi:s("lM<Y<W>>"),TX:s("uW<lV>"),bT:s("uW<Y<W>>"),Ks:s("c9"),gm:s("f4"),rQ:s("bEW"),GF:s("fT<n1(ju)>"),PD:s("fT<~()>"),op:s("fT<~(qr)>"),bq:s("jm"),G7:s("WZ<PH<@>>"),rA:s("v_"),mS:s("v0"),AL:s("jZ<aK>"),YX:s("lN"),zE:s("aK"),BI:s("bdM"),g5:s("GH"),Oh:s("v5"),n3:s("v6<k7>"),s0:s("v6<iC>"),lu:s("bdO"),OX:s("jp"),Di:s("hy"),dW:s("hz"),SG:s("qB"),Bc:s("qC<aR?>"),ri:s("GP"),IS:s("hX"),og:s("ee"),WB:s("bE"),U1:s("kP"),lA:s("bru"),R_:s("va"),JZ:s("auQ"),L5:s("auR"),pT:s("auS"),gD:s("qF"),vz:s("bI"),nQ:s("qG"),Ya:s("zk"),oF:s("eR<ji>"),FN:s("eR<kb>"),Pm:s("eR<jz<@>>"),OL:s("eR<@>"),JY:s("A<@>"),VG:s("A<T?>"),lY:s("P<o_<T>>"),QP:s("P<ls>"),gL:s("P<RY>"),NS:s("P<e8>"),jG:s("P<fK>"),V:s("P<c4>"),gb:s("P<mD>"),iW:s("P<kz>"),Vh:s("P<kA>"),H0:s("P<yk>"),qN:s("P<kB>"),Cu:s("P<EJ>"),s8:s("P<bcz>"),t_:s("P<D>"),KV:s("P<h5>"),ZD:s("P<eH>"),kX:s("P<dL>"),sa:s("P<mI>"),UR:s("P<yH>"),yy:s("P<mJ>"),UW:s("P<us>"),E:s("P<f3>"),vl:s("P<kH>"),Up:s("P<VY>"),FG:s("P<hT<l>>"),Ce:s("P<hT<Q>>"),SE:s("P<FQ>"),lX:s("P<aR>"),LE:s("P<W8>"),XS:s("P<Gc>"),bp:s("P<ed>"),z8:s("P<uO>"),uf:s("P<mU>"),gt:s("P<hV>"),no:s("P<qu>"),bW:s("P<ap<fK>>"),wQ:s("P<ap<uN>>"),SR:s("P<ap<cS>>"),Y_:s("P<ap<T?>>"),mo:s("P<ap<~>>"),iQ:s("P<dC>"),DU:s("P<jm>"),om:s("P<jZ<aK>>"),kt:s("P<jo>"),XZ:s("P<hz>"),Fa:s("P<hX>"),fJ:s("P<ee>"),VB:s("P<mX>"),VO:s("P<jr>"),O_:s("P<os>"),O:s("P<a7>"),K0:s("P<ju>"),CE:s("P<n1>"),k5:s("P<fU>"),s9:s("P<Hd>"),aF:s("P<hB>"),Y4:s("P<kS>"),_f:s("P<vj>"),ER:s("P<qO>"),X_:s("P<J<hE>>"),Vv:s("P<J<db>>"),fQ:s("P<J<eV>>"),zg:s("P<J<Z>>"),Zb:s("P<J<x>>"),Eo:s("P<aj>"),H8:s("P<Y0>"),u6:s("P<Y2>"),ss:s("P<kU>"),a9:s("P<eS<@>>"),IO:s("P<eS<T?>>"),en:s("P<m>"),cS:s("P<bo<l,zS>>"),Iq:s("P<bo<l,l>>"),H7:s("P<am<l,@>>"),n4:s("P<am<@,@>>"),Xr:s("P<bM>"),YE:s("P<kZ>"),tc:s("P<vG>"),Qg:s("P<oA>"),f:s("P<T>"),g:s("P<c>"),NF:s("P<vM>"),wi:s("P<r0>"),g8:s("P<beZ<@>>"),OM:s("P<r5<dG>>"),H9:s("P<ew>"),RR:s("P<oH>"),tZ:s("P<A6>"),M6:s("P<k8>"),D9:s("P<l_>"),Y2:s("P<c3>"),RW:s("P<Af>"),G1:s("P<l0>"),L7:s("P<+representation,targetSize(K0,N)>"),Co:s("P<+(l,Ld)>"),lN:s("P<+data,event,timeStamp(J<l_>,a7,b7)>"),Nt:s("P<+domSize,representation,targetSize(N,K0,N)>"),AO:s("P<O>"),Bw:s("P<bGp>"),Pc:s("P<w3>"),Ik:s("P<K>"),xT:s("P<rg>"),TT:s("P<E>"),Ry:s("P<dQ>"),RX:s("P<rk>"),xy:s("P<m1>"),QT:s("P<eT>"),py:s("P<AB>"),y8:s("P<AG>"),ZP:s("P<nk>"),D1:s("P<h_>"),u1:s("P<wn>"),JO:s("P<jC>"),q1:s("P<hE>"),QF:s("P<db>"),o4:s("P<a1X>"),Qo:s("P<wq>"),Ay:s("P<bfJ>"),kO:s("P<nl>"),N_:s("P<cW>"),Ds:s("P<nn>"),Gl:s("P<l8<~>>"),s:s("P<l>"),oU:s("P<buK>"),bt:s("P<B9>"),BG:s("P<Ky>"),Lx:s("P<ib>"),sD:s("P<rJ>"),VS:s("P<wE>"),fm:s("P<wG>"),Ne:s("P<rL>"),FO:s("P<nw<nw<@>>>"),q6:s("P<jI<N>>"),XE:s("P<cS>"),LX:s("P<Ld>"),RK:s("P<km>"),p:s("P<f>"),GA:s("P<eh>"),Na:s("P<rW>"),SW:s("P<a6h>"),TV:s("P<pj>"),r_:s("P<nD>"),Kj:s("P<C3>"),_Y:s("P<ih>"),mz:s("P<a9X>"),Kx:s("P<mm>"),zj:s("P<pt>"),IR:s("P<b9D>"),ka:s("P<xk>"),uZ:s("P<pu>"),m3:s("P<CG>"),jE:s("P<nK>"),qi:s("P<fo>"),z_:s("P<iX>"),uD:s("P<kr>"),M7:s("P<OR>"),s6:s("P<px>"),lb:s("P<nM>"),g9:s("P<eV>"),YK:s("P<mo>"),Pn:s("P<b0W>"),Z4:s("P<bx4>"),lD:s("P<jO>"),PP:s("P<D2>"),cR:s("P<D8>"),NM:s("P<pA>"),HZ:s("P<Q>"),n:s("P<Z>"),ee:s("P<@>"),t:s("P<x>"),L:s("P<m?>"),ef:s("P<T?>"),iG:s("P<K?>"),ny:s("P<dw<@>?>"),Fi:s("P<cW?>"),_m:s("P<l?>"),Z:s("P<x?>"),a0:s("P<d6>"),Zt:s("P<ap<Q>()>"),iL:s("P<cy<kS>()>"),xf:s("P<nD(l,f2)>"),sA:s("P<Q(ju)>"),qj:s("P<~()>"),SM:s("P<~(T,dS?)>"),ot:s("P<~(bW<bI>)>"),x8:s("P<~(kx)>"),LY:s("P<~(ls)>"),j1:s("P<~(b7)>"),s2:s("P<~(uU)>"),Jh:s("P<~(J<qu>)>"),hh:s("P<~(rw)>"),ha:s("co<@>"),bz:s("zq"),m:s("a7"),lT:s("hY"),dC:s("cw<@>"),Hf:s("ha<Kt,@>"),po:s("ha<l,J<l>>"),JN:s("lP"),D2:s("hZ"),XU:s("n1(ju)"),SQ:s("zs"),Dj:s("vg"),jk:s("bc<yP>"),NE:s("bc<ql>"),am:s("bc<Gv>"),ku:s("bc<A_>"),LZ:s("bc<Am>"),A:s("bc<Y<W>>"),Ts:s("bc<ko<@>>"),af:s("bc<CC>"),XO:s("fj"),gN:s("vh"),eW:s("hB"),rf:s("He"),mj:s("vi"),hz:s("kS"),JB:s("kT<@>"),y4:s("vl<t6>"),oM:s("vl<tb>"),NJ:s("vn"),Rk:s("J<pW>"),AJ:s("J<fK>"),pN:s("J<aR>"),Lc:s("J<a7>"),qC:s("J<kS>"),bG:s("J<J<db>>"),UX:s("J<T>"),FS:s("J<oH>"),d_:s("J<c3>"),jQ:s("J<Af>"),I1:s("J<eT>"),V1:s("J<db>"),yp:s("J<l>"),Xw:s("J<rW>"),rg:s("J<eV>"),j:s("J<@>"),Cm:s("J<x>"),Dn:s("J<T?>"),I_:s("aj"),f0:s("ou"),da:s("kU"),bd:s("m"),Xz:s("vq"),bS:s("ben"),tO:s("bo<c,aY>"),YB:s("bo<l,zS>"),mT:s("bo<l,l>"),UH:s("bo<aY,rt>"),DC:s("bo<x,c>"),q9:s("bo<x,l>"),sw:s("bo<T,nw<@>>"),Kc:s("bo<l,J<l>>"),qE:s("bo<l?,J<T>>"),Dx:s("vs<@,@>"),kY:s("am<AT,bI>"),nf:s("am<l,T>"),GU:s("am<l,l>"),a:s("am<l,@>"),_P:s("am<l,x>"),e3:s("am<id,@>"),G:s("am<@,@>"),xE:s("am<l,T?>"),pE:s("am<T?,T?>"),rr:s("am<~(c3),bM?>"),C9:s("eB<l,ma?>"),dB:s("eB<x,hT<x>>"),a4:s("a4<l,l>"),Gf:s("a4<l,@>"),rB:s("a4<pA,db>"),CX:s("a4<x,db>"),gn:s("a4<x,l>"),Tr:s("a4<iL,oD?>"),iB:s("bs6"),B:s("at"),i1:s("vu"),xV:s("bM"),w:s("lU"),bv:s("qW"),Px:s("kV"),xS:s("k1"),DQ:s("fu"),Pb:s("el"),ZA:s("zQ"),_h:s("kX"),Wz:s("kY"),Lb:s("fw"),Es:s("vC"),CW:s("kZ"),hA:s("vF"),A3:s("k3"),u9:s("oy"),uK:s("lV"),SK:s("zV"),I6:s("0&"),K3:s("dY<b7V>"),Jd:s("dY<ve>"),Tm:s("dY<jv>"),w3:s("dY<oz>"),xU:s("dY<fx>"),ji:s("dY<wg>"),WA:s("dY<iG>"),kj:s("dY<m6>"),Te:s("oA"),P:s("bH"),K:s("T"),xA:s("T(x)"),_a:s("T(x{params:T?})"),yw:s("bJ<b9D>"),fy:s("bJ<~()>"),wS:s("bJ<~(bW<bI>)>"),jc:s("bJ<~(kx)>"),Xx:s("bJ<~(rw)>"),pw:s("vK"),o:s("c"),gY:s("lW"),qt:s("dg"),o0:s("Ig"),gF:s("vM"),Ms:s("r0"),N1:s("A_"),B9:s("A1"),pv:s("vP"),Mf:s("A2"),sd:s("beW<T?>"),Q2:s("r2"),Fw:s("f5<lP>"),IL:s("f5<dG>"),ke:s("oG"),Ud:s("ew"),DK:s("vQ"),ja:s("bt_"),v3:s("M"),sT:s("oH"),sv:s("oI"),j0:s("oK"),hD:s("k8"),qa:s("bG7"),ze:s("r7"),ge:s("vU"),Ko:s("vV"),F:s("nc"),pY:s("oM"),qL:s("c3"),GG:s("bGj"),XA:s("oN"),n2:s("vW"),WQ:s("vX"),w5:s("oO"),DB:s("vY"),PB:s("vZ"),Mj:s("w_"),xb:s("w0"),ks:s("i3"),oN:s("oP"),f9:s("bti<T?>"),bb:s("Ac"),kz:s("l0"),_p:s("ne"),C0:s("btu"),yH:s("bj"),PN:s("rd"),jU:s("Ao"),pK:s("bGo"),Rp:s("+()"),Yr:s("+(xc,Z)"),iy:s("+(T?,T?)"),YT:s("O"),Gb:s("ka<@>"),Qz:s("a0v"),Ob:s("oU"),CZ:s("IQ"),NW:s("IR"),q:s("K"),vA:s("Ar"),DW:s("w5"),f1:s("J0"),I9:s("E"),F5:s("aL"),GM:s("b9<E>"),Wx:s("oV"),nl:s("dQ"),Ss:s("oW"),Jc:s("rj"),Cn:s("Av"),dw:s("Jc"),Ju:s("w7"),E1:s("Jd"),qJ:s("rk"),mg:s("fl"),UM:s("m0"),mu:s("kb"),ZJ:s("m1"),Wd:s("a18"),Ol:s("ni"),k8:s("jz<@>"),dZ:s("Jh<x>"),yb:s("eo<T?>"),z4:s("eT"),k2:s("Jj<O?>"),ew:s("cx<rk>"),MV:s("cx<pt>"),o_:s("cx<mo>"),ad:s("Jm"),oj:s("AA"),jI:s("AB"),kJ:s("a1j"),A5:s("dw<@>(C,T?)"),nY:s("Jr<bs5,bF7>"),BL:s("Jr<wu,m7>"),Np:s("AE"),JE:s("Jy<T>"),Cy:s("Jz"),ap:s("JC"),gu:s("nk"),Lm:s("wj"),sm:s("AK"),Nn:s("bua"),qd:s("bGv"),NU:s("bGw"),hI:s("bGx"),x9:s("h_"),mb:s("JI"),Wu:s("AN"),iN:s("ru"),_S:s("eg"),VP:s("hE"),bu:s("db"),UF:s("wq"),g3:s("fm"),HS:s("rz"),n5:s("AR<@>"),hi:s("bZ<Av>"),c8:s("bZ<l>"),Ro:s("bZ<@>"),uy:s("bfJ"),RY:s("cW"),jH:s("rA"),cZ:s("AS"),Vz:s("AT"),yE:s("bGE"),Q:s("wt"),Mp:s("bv"),k7:s("nm"),FW:s("N"),YA:s("br"),Ws:s("K1<l>"),u:s("p4"),h5:s("AY"),Xp:s("p6"),Gt:s("B_"),D:s("he"),M0:s("p7"),jB:s("rB"),y3:s("m8"),Bb:s("p9"),Qv:s("f8"),Km:s("dS"),MF:s("jE"),d1:s("W"),Iz:s("a8"),lZ:s("Kj<k7>"),NP:s("cy<cS>"),ZE:s("Km"),N:s("l"),Vc:s("buK"),NC:s("nr"),Oz:s("mb"),OJ:s("buP"),wL:s("mc"),WT:s("cB<mz>"),u4:s("cB<av>"),rh:s("cB<am<id,@>>"),az:s("cB<at>"),Ow:s("cB<cm>"),E8:s("cB<ay>"),d9:s("cB<Q>"),mI:s("cB<@>"),Zl:s("cB<am<l,J<l>>?>"),hr:s("cB<eT?>"),b6:s("cB<~>"),ZC:s("md"),ev:s("wy"),On:s("KA"),o3:s("ns"),PA:s("rF"),Wy:s("kf"),Py:s("kh"),if:s("KL"),mr:s("KQ"),mi:s("wF"),tq:s("l9"),tp:s("ki"),qY:s("mf"),bZ:s("bv6"),AS:s("rL"),em:s("F"),we:s("la"),ZM:s("wI"),ZF:s("nw<nw<@>>"),zo:s("nw<@>"),qe:s("Bn"),U:s("ic"),U4:s("bvp"),hb:s("nx"),zW:s("dU"),kS:s("jI<N>"),Ni:s("aV<c>"),qU:s("aV<N>"),Y:s("aV<Z>"),v:s("id"),ns:s("pe"),w7:s("aIP"),rd:s("Bv"),Po:s("aIQ"),H3:s("cS"),pm:s("Bw<dI>"),Pj:s("kl<a7>"),kk:s("ny"),lQ:s("wR"),G5:s("pg<l,l>"),N2:s("BC<@>"),gU:s("lc"),Xu:s("a3t"),Jr:s("wS"),IG:s("km"),tJ:s("e5<cE>"),xc:s("e5<T>"),A9:s("e5<Kh>"),kK:s("e5<l>"),f3:s("e5<x>"),Ak:s("e5<x?>"),j3:s("wT<Z>"),Tt:s("cH<a9>"),kr:s("cH<n4>"),uh:s("cH<Q>"),XR:s("cH<l?>"),ft:s("cH<CC?>"),Yv:s("cH<x?>"),GY:s("iT"),ya:s("ld"),VD:s("Lj"),JH:s("BD"),Dg:s("wW"),rS:s("iU"),X3:s("ph"),Ty:s("aC<l0>"),Hd:s("aC<l>"),V5:s("aC<x>"),uB:s("hj<l>"),FI:s("di<c3>"),Je:s("di<fl>"),t5:s("di<hE>"),Hx:s("di<bZ<fm>>"),ZK:s("di<ma>"),Ri:s("di<l>"),ow:s("di<t0>"),b7:s("di<iX>"),kE:s("di<~(T,dS?)>"),r7:s("di<~(qz)>"),Pi:s("nz<on>"),Zw:s("nz<iX>"),l7:s("f"),a7:s("BI"),W:s("d1"),JI:s("kn<Z>"),GC:s("kn<D?>"),ZX:s("kn<el?>"),y2:s("bi<b5>"),De:s("bi<D>"),mD:s("bi<eb>"),li:s("bi<en>"),W7:s("bi<N>"),uE:s("bi<F>"),Lk:s("bi<Z>"),rc:s("bi<D?>"),RP:s("bi<F?>"),Ag:s("a3P"),QN:s("f(C,bZ<d1>,f?)"),X5:s("eh"),Uh:s("ay"),aP:s("nA"),L1:s("LF"),JX:s("rW"),CL:s("wZ"),P6:s("le<k7>"),RA:s("le<iC>"),Tv:s("le<N?>"),h8:s("b6<mz>"),nj:s("b6<eR<@>>"),m4:s("b6<a7>"),Fe:s("b6<bH>"),JW:s("b6<ni>"),Iy:s("b6<AS>"),fO:s("b6<m7>"),gI:s("b6<cS>"),zh:s("b6<@>"),yB:s("b6<ea?>"),Eq:s("b6<J<k8>?>"),oe:s("b6<T?>"),EZ:s("b6<eT?>"),gR:s("b6<~>"),BY:s("bvU"),MS:s("pi<@,cS>"),ZW:s("BQ"),B6:s("M_"),EG:s("x0"),aQ:s("x1<@,@>"),bY:s("Mp"),TC:s("x2"),uC:s("hk"),dA:s("pn<up>"),Fb:s("pn<uq>"),Uz:s("pn<ur>"),Q8:s("Mx<Y<W>>"),UJ:s("a89"),rM:s("t_<a7>"),s5:s("x3<a7>"),l3:s("MP"),rE:s("a8A<bk>"),Pl:s("MR<a7>"),Sc:s("pq<a7>"),Eh:s("N3"),fk:s("Cc"),ni:s("N6"),Jp:s("N8"),h1:s("Cf"),Lv:s("ai<mz>"),wM:s("ai<eR<@>>"),XC:s("ai<a7>"),wC:s("ai<bH>"),Nj:s("ai<rd>"),pO:s("ai<ni>"),cN:s("ai<AS>"),dH:s("ai<m7>"),Qy:s("ai<cS>"),tr:s("ai<Q>"),LR:s("ai<@>"),wJ:s("ai<x>"),gg:s("ai<ea?>"),ma:s("ai<J<k8>?>"),Kw:s("ai<T?>"),X6:s("ai<eT?>"),h:s("ai<~>"),cK:s("Cg"),Qu:s("ps"),U3:s("Ck"),wk:s("ih"),R9:s("t1"),Fy:s("t3<T?,T?>"),rZ:s("Cn"),Nr:s("Nl"),cA:s("mn"),Sx:s("t6"),pt:s("Cs"),Gk:s("Ny"),PJ:s("Ct"),Ye:s("NM"),xg:s("aaP"),Tp:s("t8"),Fn:s("t9"),ai:s("ta"),pi:s("nJ"),Vl:s("tb"),KJ:s("pt"),eU:s("CD"),gQ:s("tc"),sZ:s("O6"),j4:s("abq"),Li:s("Oa"),oh:s("xl"),c_:s("Of"),bR:s("Og"),h7:s("nK"),zP:s("fo"),rj:s("Oo"),l0:s("xo"),Lj:s("pw"),zd:s("Ov"),SN:s("Oz"),ju:s("iX"),Eg:s("CO"),xL:s("CP"),im:s("xp"),An:s("xq"),Ez:s("kr"),Pu:s("OS"),yd:s("OY"),jF:s("P_"),vC:s("eV"),kT:s("adU<T?>"),S8:s("Pw"),j7:s("xv<cS>"),mm:s("ti<x>"),bm:s("ll<K>"),dQ:s("ll<pw>"),HE:s("D3"),S0:s("D4"),f2:s("PR"),i9:s("D7"),tH:s("bxa"),Wp:s("Q3<FC>"),_l:s("xy"),ps:s("Qa"),Sn:s("nO<Em<ni>>"),xs:s("nO<dw<@>>"),tl:s("nO<OP>"),nH:s("Qb<p1>"),GD:s("bm<b5>"),mN:s("bm<D>"),tR:s("bm<el>"),Dm:s("bm<Q>"),N5:s("bm<Z>"),jY:s("bm<b5?>"),b:s("bm<D?>"),B_:s("bm<el?>"),DH:s("ag4"),y:s("Q"),i:s("Z"),z:s("@"),C_:s("@(T)"),Hg:s("@(T,dS)"),S:s("x"),ZU:s("pT?"),tX:s("bc1?"),m2:s("E5?"),Vx:s("eF?"),sb:s("hp?"),eJ:s("tU?"),oI:s("b5?"),YY:s("tW?"),ls:s("q2?"),CD:s("ea?"),Aw:s("bcu?"),JG:s("yo?"),cW:s("bcv?"),eG:s("EN?"),o8:s("bcw?"),Bj:s("EO?"),e4:s("bcx?"),EM:s("u8?"),VA:s("u9?"),_:s("D?"),YJ:s("hQ?"),AI:s("mJ?"),Q0:s("cE?"),ms:s("oc?"),V2:s("kH?"),z2:s("b7?"),pc:s("eb?"),Om:s("of?"),Dv:s("aR?"),e8:s("yX?"),fW:s("qo?"),pk:s("ed?"),RC:s("Go?"),ZZ:s("ap<bH>?"),_I:s("v0?"),GK:s("k_?"),lF:s("ek?"),C6:s("bdP?"),Pr:s("qD?"),Ef:s("kP?"),NX:s("a7?"),LO:s("hZ?"),kc:s("J<@>?"),wh:s("J<T?>?"),y6:s("m?"),qA:s("lT?"),nA:s("am<l,@>?"),Xy:s("am<@,@>?"),wd:s("am<l,J<l>>?"),J1:s("am<T?,T?>?"),iD:s("bM?"),YV:s("vy?"),WV:s("el?"),X:s("T?"),Ff:s("beR?"),dJ:s("lW?"),Zr:s("beT?"),KX:s("en?"),uR:s("k6?"),xO:s("r5<lP>?"),aA:s("K?"),xP:s("K?(K)"),CA:s("w5?"),p2:s("bq?"),ym:s("oV?"),IT:s("dQ?"),_N:s("wj?"),LQ:s("db?"),iJ:s("bZ<fm>?"),Sy:s("cW?"),TZ:s("wr?"),pg:s("hF?"),tW:s("N?"),MR:s("he?"),lE:s("jE?"),Dt:s("cy<cS>?"),ob:s("l?"),zm:s("ia?"),p8:s("F?"),Dh:s("wH?"),qf:s("b9l?"),zV:s("nx?"),ir:s("aV<Z>?"),nc:s("cS?"),Wn:s("jJ?"),Xk:s("ih?"),Ej:s("ta?"),av:s("Od?"),Kp:s("pw?"),tC:s("PH<@>?"),X7:s("Q?"),PM:s("Z?"),bo:s("x?"),R7:s("d6?"),Nw:s("~()?"),Ci:s("d6"),H:s("~"),M:s("~()"),CF:s("~(T,dS?)"),Vu:s("~(b7)"),Su:s("~(qr)"),ph:s("~(J<qu>)"),mX:s("~(T)"),hK:s("~(T,dS)"),Ld:s("~(c3)"),iS:s("~(oS)"),HT:s("~(T?)")}})();(function constants(){var s=hunkHelpers.makeConstList
 B.uO=A.uh.prototype

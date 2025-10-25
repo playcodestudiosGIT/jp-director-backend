@@ -6,14 +6,14 @@
     "auditLog": "logs\\.9de2e045ca8ab3485bfa939a4b674e1ece432445-audit.json",
     "files": [
         {
-            "date": 1759688113691,
-            "name": "logs\\jp-director-2025-10-05.log",
-            "hash": "c81708e021e97317fc242c460bc5830ce90d22c53e316fbe7498ad18bdf9ca01"
-        },
-        {
             "date": 1760208757507,
             "name": "logs\\jp-director-2025-10-11.log",
             "hash": "a0af723997d807cb2c8dbf8e27dab44228f6b32d7c17f2e4d4f381e1e27537a0"
+        },
+        {
+            "date": 1761363214081,
+            "name": "logs\\jp-director-2025-10-24.log",
+            "hash": "a9f315c8835b343620dc76dea4fea62810959637316295cff895807fe685ed88"
         }
     ],
     "hashType": "sha256"
