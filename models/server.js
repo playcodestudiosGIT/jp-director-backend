@@ -45,11 +45,23 @@ class Server {
         this.app.use( cors() );
 
         // Lectura y parseo del body
-        this.app.use( express.json() );
+        this.app.use(express.json());
+
+        
+        
 
         // Logger de solicitudes HTTP
         const { requestLogger } = require('../middlewares/logger.middleware');
-        this.app.use( requestLogger );
+        this.app.use(requestLogger);
+        
+         // Redirects para robots.txt y sitemap.xml (prioritarios)
+        this.app.get('/robots.txt', (req, res) => {
+            res.redirect(301, 'https://blog.jpdirector.net/robots.txt');
+        });
+
+        this.app.get('/sitemap.xml', (req, res) => {
+            res.redirect(301, 'https://blog.jpdirector.net/wp-sitemap.xml');
+        });
 
         // Directorio Público
         this.app.use( express.static('public') );
